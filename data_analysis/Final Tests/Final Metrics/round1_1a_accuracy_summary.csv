@@ -1,7 +1,7 @@
 Variant,Attribute,Model,Accuracy
 EN,Epistemic_Stance,gpt-5.5,0.7059
 EN,Epistemic_Stance,gpt-5.4-mini,0.5829
-EN,Epistemic_Stance,claude-opus-4-7,0.2888
+EN,Epistemic_Stance,claude-sonnet-4-6,0.2888
 EN,Epistemic_Stance,claude-haiku-4-5,0.2406
 EN,Epistemic_Stance,gemini-3.1-pro-preview,0.7594
 EN,Epistemic_Stance,gemini-3.1-flash-lite,0.7594
@@ -11,7 +11,7 @@ EN,Epistemic_Stance,aisingapore/Llama-SEA-LION-v3.5-70B-R,0.262
 EN,Epistemic_Stance,aisingapore/Gemma-SEA-LION-v4-27B-IT,0.4599
 EN,Particle_Position,gpt-5.5,0.5829
 EN,Particle_Position,gpt-5.4-mini,0.4866
-EN,Particle_Position,claude-opus-4-7,0.246
+EN,Particle_Position,claude-sonnet-4-6,0.246
 EN,Particle_Position,claude-haiku-4-5,0.1979
 EN,Particle_Position,gemini-3.1-pro-preview,0.5294
 EN,Particle_Position,gemini-3.1-flash-lite,0.5294
@@ -21,7 +21,7 @@ EN,Particle_Position,aisingapore/Llama-SEA-LION-v3.5-70B-R,0.5508
 EN,Particle_Position,aisingapore/Gemma-SEA-LION-v4-27B-IT,0.262
 EN,Listener_Agreement,gpt-5.5,0.5936
 EN,Listener_Agreement,gpt-5.4-mini,0.631
-EN,Listener_Agreement,claude-opus-4-7,0.2246
+EN,Listener_Agreement,claude-sonnet-4-6,0.2246
 EN,Listener_Agreement,claude-haiku-4-5,0.1872
 EN,Listener_Agreement,gemini-3.1-pro-preview,0.4759
 EN,Listener_Agreement,gemini-3.1-flash-lite,0.4759
@@ -31,7 +31,7 @@ EN,Listener_Agreement,aisingapore/Llama-SEA-LION-v3.5-70B-R,0.2353
 EN,Listener_Agreement,aisingapore/Gemma-SEA-LION-v4-27B-IT,0.3636
 EN,Emotion,gpt-5.5,0.7968
 EN,Emotion,gpt-5.4-mini,0.7968
-EN,Emotion,claude-opus-4-7,0.3636
+EN,Emotion,claude-sonnet-4-6,0.3636
 EN,Emotion,claude-haiku-4-5,0.2995
 EN,Emotion,gemini-3.1-pro-preview,0.7433
 EN,Emotion,gemini-3.1-flash-lite,0.7433
@@ -41,7 +41,7 @@ EN,Emotion,aisingapore/Llama-SEA-LION-v3.5-70B-R,0.4599
 EN,Emotion,aisingapore/Gemma-SEA-LION-v4-27B-IT,0.4545
 EN,Question_Type,gpt-5.5,0.6952
 EN,Question_Type,gpt-5.4-mini,0.6043
-EN,Question_Type,claude-opus-4-7,0.2941
+EN,Question_Type,claude-sonnet-4-6,0.2941
 EN,Question_Type,claude-haiku-4-5,0.246
 EN,Question_Type,gemini-3.1-pro-preview,0.7112
 EN,Question_Type,gemini-3.1-flash-lite,0.7112
@@ -51,7 +51,7 @@ EN,Question_Type,aisingapore/Llama-SEA-LION-v3.5-70B-R,0.3529
 EN,Question_Type,aisingapore/Gemma-SEA-LION-v4-27B-IT,0.4118
 MS,Epistemic_Stance,gpt-5.5,0.7647
 MS,Epistemic_Stance,gpt-5.4-mini,0.4492
-MS,Epistemic_Stance,claude-opus-4-7,0.2941
+MS,Epistemic_Stance,claude-sonnet-4-6,0.2941
 MS,Epistemic_Stance,claude-haiku-4-5,0.2193
 MS,Epistemic_Stance,gemini-3.1-pro-preview,0.8021
 MS,Epistemic_Stance,gemini-3.1-flash-lite,0.8021
@@ -61,7 +61,7 @@ MS,Epistemic_Stance,aisingapore/Llama-SEA-LION-v3.5-70B-R,0.3262
 MS,Epistemic_Stance,aisingapore/Gemma-SEA-LION-v4-27B-IT,0.5027
 MS,Particle_Position,gpt-5.5,0.5722
 MS,Particle_Position,gpt-5.4-mini,0.5027
-MS,Particle_Position,claude-opus-4-7,0.2032
+MS,Particle_Position,claude-sonnet-4-6,0.2032
 MS,Particle_Position,claude-haiku-4-5,0.1765
 MS,Particle_Position,gemini-3.1-pro-preview,0.5348
 MS,Particle_Position,gemini-3.1-flash-lite,0.5455
@@ -71,7 +71,7 @@ MS,Particle_Position,aisingapore/Llama-SEA-LION-v3.5-70B-R,0.2781
 MS,Particle_Position,aisingapore/Gemma-SEA-LION-v4-27B-IT,0.3476
 MS,Listener_Agreement,gpt-5.5,0.5241
 MS,Listener_Agreement,gpt-5.4-mini,0.5187
-MS,Listener_Agreement,claude-opus-4-7,0.1711
+MS,Listener_Agreement,claude-sonnet-4-6,0.1711
 MS,Listener_Agreement,claude-haiku-4-5,0.1283
 MS,Listener_Agreement,gemini-3.1-pro-preview,0.4332
 MS,Listener_Agreement,gemini-3.1-flash-lite,0.4492
@@ -81,7 +81,7 @@ MS,Listener_Agreement,aisingapore/Llama-SEA-LION-v3.5-70B-R,0.0
 MS,Listener_Agreement,aisingapore/Gemma-SEA-LION-v4-27B-IT,0.3369
 MS,Emotion,gpt-5.5,0.738
 MS,Emotion,gpt-5.4-mini,0.7701
-MS,Emotion,claude-opus-4-7,0.2032
+MS,Emotion,claude-sonnet-4-6,0.2032
 MS,Emotion,claude-haiku-4-5,0.2727
 MS,Emotion,gemini-3.1-pro-preview,0.7273
 MS,Emotion,gemini-3.1-flash-lite,0.7273
@@ -91,7 +91,7 @@ MS,Emotion,aisingapore/Llama-SEA-LION-v3.5-70B-R,0.2781
 MS,Emotion,aisingapore/Gemma-SEA-LION-v4-27B-IT,0.4278
 MS,Question_Type,gpt-5.5,0.7112
 MS,Question_Type,gpt-5.4-mini,0.6257
-MS,Question_Type,claude-opus-4-7,0.107
+MS,Question_Type,claude-sonnet-4-6,0.107
 MS,Question_Type,claude-haiku-4-5,0.2513
 MS,Question_Type,gemini-3.1-pro-preview,0.6684
 MS,Question_Type,gemini-3.1-flash-lite,0.6845

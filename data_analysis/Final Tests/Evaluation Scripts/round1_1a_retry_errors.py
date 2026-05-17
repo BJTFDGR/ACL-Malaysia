@@ -3,7 +3,7 @@ round1_1a_retry_errors.py
 ─────────────────────────
 Re-runs only the cells in round1_1a_predictions.csv that contain an ERROR
 value for the four rate-limited models:
-  - claude_strong  (claude-opus-4-7,            ≤50 req/min)
+  - claude_strong  (claude-sonnet-4-6,            ≤50 req/min)
   - claude_weak    (claude-haiku-4-5,            ≤50 req/min)
   - sealion_strong (Llama-SEA-LION-v3.5-70B-R,  ≤10 req/min)
   - sealion_weak   (Gemma-SEA-LION-v4-27B-IT,   ≤10 req/min)

@@ -54,7 +54,7 @@
     "timestamp": "2026-05-14T03:20:53.432690+00:00",
     "model_alias": "claude_strong",
     "provider": "anthropic",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "output_try": 1,
     "transport_try": 1,
     "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",

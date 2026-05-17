@@ -51,7 +51,7 @@
     "timestamp": "2026-05-14T01:48:19.684176+00:00",
     "model_alias": "claude_strong",
     "provider": "anthropic",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "output_try": 1,
     "transport_try": 1,
     "input": "You are given a colloquial Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",

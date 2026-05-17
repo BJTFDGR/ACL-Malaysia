@@ -55,7 +55,8 @@ Using the sentence context and the attributes above, which single particle — "
 Return exactly one word from this set and nothing else: ke, kan, neutral
 ────────────────────────────────────────────────────────────
 Launching 10 tasks across 10 threads
-smoke_test_2a:   0%|          | 0/10 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+
+smoke_test_2a:   0%|          | 0/10 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2a_particle_generation.py:454: FutureWarning: 
 
@@ -66,7 +67,17 @@ See README for more details:
 https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
 
   import google.generativeai as genai_legacy
-smoke_test_2a:  10%|█         | 1/10 [00:01<00:10,  1.13s/it]smoke_test_2a:  20%|██        | 2/10 [00:01<00:04,  1.84it/s]smoke_test_2a:  40%|████      | 4/10 [00:02<00:02,  2.11it/s]smoke_test_2a:  50%|█████     | 5/10 [00:02<00:02,  2.48it/s]smoke_test_2a:  60%|██████    | 6/10 [00:02<00:01,  3.11it/s]smoke_test_2a:  70%|███████   | 7/10 [00:03<00:01,  2.56it/s]smoke_test_2a:  80%|████████  | 8/10 [00:12<00:06,  3.11s/it]smoke_test_2a:  90%|█████████ | 9/10 [00:32<00:08,  8.15s/it]smoke_test_2a: 100%|██████████| 10/10 [00:35<00:00,  6.71s/it]smoke_test_2a: 100%|██████████| 10/10 [00:35<00:00,  3.56s/it]
+
+smoke_test_2a:  10%|█         | 1/10 [00:01<00:10,  1.13s/it]
+smoke_test_2a:  20%|██        | 2/10 [00:01<00:04,  1.84it/s]
+smoke_test_2a:  40%|████      | 4/10 [00:02<00:02,  2.11it/s]
+smoke_test_2a:  50%|█████     | 5/10 [00:02<00:02,  2.48it/s]
+smoke_test_2a:  60%|██████    | 6/10 [00:02<00:01,  3.11it/s]
+smoke_test_2a:  70%|███████   | 7/10 [00:03<00:01,  2.56it/s]
+smoke_test_2a:  80%|████████  | 8/10 [00:12<00:06,  3.11s/it]
+smoke_test_2a:  90%|█████████ | 9/10 [00:32<00:08,  8.15s/it]
+smoke_test_2a: 100%|██████████| 10/10 [00:35<00:00,  6.71s/it]
+smoke_test_2a: 100%|██████████| 10/10 [00:35<00:00,  3.56s/it]
 
 Ground truth: ke
   gpt_strong          : kan  ✗
@@ -88,7 +99,37 @@ Smoke test complete. IO logs saved → ../Final Metrics/round1_2a_io_logs.json
   N samples : 5
 ────────────────────────────────────────────────────────────
 Launching 50 tasks across 50 threads
-particle_gen_2a:   0%|          | 0/50 [00:00<?, ?it/s]particle_gen_2a:   2%|▏         | 1/50 [00:01<01:06,  1.36s/it]particle_gen_2a:   4%|▍         | 2/50 [00:01<00:30,  1.55it/s]particle_gen_2a:   6%|▌         | 3/50 [00:01<00:21,  2.14it/s]particle_gen_2a:  16%|█▌        | 8/50 [00:01<00:05,  7.97it/s]particle_gen_2a:  22%|██▏       | 11/50 [00:02<00:05,  6.95it/s]particle_gen_2a:  28%|██▊       | 14/50 [00:02<00:04,  8.34it/s]particle_gen_2a:  32%|███▏      | 16/50 [00:02<00:03,  9.01it/s]particle_gen_2a:  36%|███▌      | 18/50 [00:02<00:03, 10.33it/s]particle_gen_2a:  44%|████▍     | 22/50 [00:02<00:01, 15.15it/s]particle_gen_2a:  50%|█████     | 25/50 [00:03<00:01, 15.23it/s]particle_gen_2a:  56%|█████▌    | 28/50 [00:03<00:02, 10.39it/s]particle_gen_2a:  60%|██████    | 30/50 [00:03<00:01, 10.91it/s]particle_gen_2a:  64%|██████▍   | 32/50 [00:05<00:04,  3.91it/s]particle_gen_2a:  68%|██████▊   | 34/50 [00:12<00:18,  1.15s/it]particle_gen_2a:  72%|███████▏  | 36/50 [00:13<00:12,  1.13it/s]particle_gen_2a:  74%|███████▍  | 37/50 [00:13<00:10,  1.24it/s]particle_gen_2a:  76%|███████▌  | 38/50 [00:15<00:11,  1.05it/s]particle_gen_2a:  80%|████████  | 40/50 [00:15<00:06,  1.48it/s]particle_gen_2a:  82%|████████▏ | 41/50 [00:19<00:12,  1.39s/it]particle_gen_2a:  84%|████████▍ | 42/50 [00:23<00:14,  1.84s/it]particle_gen_2a:  86%|████████▌ | 43/50 [00:23<00:10,  1.57s/it]particle_gen_2a:  88%|████████▊ | 44/50 [00:31<00:18,  3.07s/it]particle_gen_2a:  90%|█████████ | 45/50 [00:42<00:26,  5.30s/it]particle_gen_2a:  92%|█████████▏| 46/50 [00:55<00:29,  7.47s/it]particle_gen_2a:  94%|█████████▍| 47/50 [01:04<00:23,  7.78s/it]particle_gen_2a:  96%|█████████▌| 48/50 [01:05<00:11,  5.77s/it]particle_gen_2a:  98%|█████████▊| 49/50 [01:25<00:09,  9.97s/it]particle_gen_2a: 100%|██████████| 50/50 [02:55<00:00, 33.57s/it]particle_gen_2a: 100%|██████████| 50/50 [02:55<00:00,  3.51s/it]
+
+particle_gen_2a:   0%|          | 0/50 [00:00<?, ?it/s]
+particle_gen_2a:   2%|▏         | 1/50 [00:01<01:06,  1.36s/it]
+particle_gen_2a:   4%|▍         | 2/50 [00:01<00:30,  1.55it/s]
+particle_gen_2a:   6%|▌         | 3/50 [00:01<00:21,  2.14it/s]
+particle_gen_2a:  16%|█▌        | 8/50 [00:01<00:05,  7.97it/s]
+particle_gen_2a:  22%|██▏       | 11/50 [00:02<00:05,  6.95it/s]
+particle_gen_2a:  28%|██▊       | 14/50 [00:02<00:04,  8.34it/s]
+particle_gen_2a:  32%|███▏      | 16/50 [00:02<00:03,  9.01it/s]
+particle_gen_2a:  36%|███▌      | 18/50 [00:02<00:03, 10.33it/s]
+particle_gen_2a:  44%|███claude-sonnet-4-6[00:02<00:01, 15.15it/s]
+particle_gen_2a:  50%|█████     | 25/50 [00:03<00:01, 15.23it/s]
+particle_gen_2a:  56%|█████▌    | 28/50 [00:03<00:02, 10.39it/s]
+particle_gen_2a:  60%|██████    | 30/50 [00:03<00:01, 10.91it/s]
+particle_gen_2a:  64%|██████▍   | 32/50 [00:05<00:04,  3.91it/s]
+particle_gen_2a:  68%|██████▊   | 34/50 [00:12<00:18,  1.15s/it]
+particle_gen_2a:  72%|███████▏  | 36/50 [00:13<00:12,  1.13it/s]
+particle_gen_2a:  74%|███████▍  | 37/50 [00:13<00:10,  1.24it/s]
+particle_gen_2a:  76%|███████▌  | 38/50 [00:15<00:11,  1.05it/s]
+particle_gen_2a:  80%|████████  | 40/50 [00:15<00:06,  1.48it/s]
+particle_gen_2a:  82%|████████▏ | 41/50 [00:19<00:12,  1.39s/it]
+particle_gen_2a:  84%|████████▍ | 42/50 [00:23<00:14,  1.84s/it]
+particle_gen_2a:  86%|████████▌ | 43/50 [00:23<00:10,  1.57s/it]
+particle_gen_2a:  88%|████████▊ | 44/50 [00:31<00:18,  3.07s/it]
+particle_gen_2a:  90%|█████████ | 45/50 [00:42<00:26,  5.30s/it]
+particle_gen_2a:  92%|█████████▏| 46/50 [00:55<00:29,  7.47s/it]
+particle_gen_2a:  94%|█████████▍| 47/50 [01:04<00:23,  7.78s/it]
+particle_gen_2a:  96%|█████████▌| 48/50 [01:05<00:11,  5.77s/it]
+particle_gen_2a:  98%|█████████▊| 49/50 [01:25<00:09,  9.97s/it]
+particle_gen_2a: 100%|██████████| 50/50 [02:55<00:00, 33.57s/it]
+particle_gen_2a: 100%|██████████| 50/50 [02:55<00:00,  3.51s/it]
   GPT_STRONG done → sample: ['ke', 'kan', 'neutral']
   GPT_WEAK done → sample: ['neutral', 'kan', 'kan']
   CLAUDE_STRONG done → sample: ['ke', 'kan', 'kan']
@@ -105,7 +146,7 @@ Saved predictions → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final M
 =======================================================
   Test 2a — Particle Generation Accuracy
 =======================================================
-                                   Model  Accuracy  Errors
+                      claude-sonnet-4-6del  Accuracy  Errors
 6                        deepseek-v4-pro       0.8       0
 0                                gpt-5.5       0.8       0
 3                       claude-haiku-4-5       0.6       0

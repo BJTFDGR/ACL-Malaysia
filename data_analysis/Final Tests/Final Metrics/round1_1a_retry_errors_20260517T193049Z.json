@@ -1,210 +1,210 @@
 [
   {
     "timestamp": "2026-05-17T19:30:51.404388+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Confirmation Seeking",
     "parsed_output": "Confirmation Seeking",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:51.428994+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Neutral/Unclear",
     "parsed_output": "Neutral/Unclear",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:51.501656+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Middle/End",
     "parsed_output": "Middle/End",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:51.556649+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Middle/End",
     "parsed_output": "Middle/End",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:51.610194+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Assumed Agreement",
     "parsed_output": "Assumed Agreement",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:51.615092+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Middle/End",
     "parsed_output": "Middle/End",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:51.667416+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Assumed Agreement",
     "parsed_output": "Assumed Agreement",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:51.737115+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Assumed Agreement",
     "parsed_output": "Assumed Agreement",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:52.724123+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Confirmation Seeking",
     "parsed_output": "Confirmation Seeking",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:52.733299+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Confirmation Seeking",
     "parsed_output": "Confirmation Seeking",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:52.931483+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Assumed Agreement",
     "parsed_output": "Assumed Agreement",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:52.969999+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Negative",
     "parsed_output": "Negative",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:52.991714+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Confirmation Seeking",
     "parsed_output": "Confirmation Seeking",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:53.026898+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Negative",
     "parsed_output": "Negative",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:53.059351+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Confirmation Seeking",
     "parsed_output": "Confirmation Seeking",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:53.853332+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Confirmation Seeking",
     "parsed_output": "Confirmation Seeking",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:54.015763+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Negative",
     "parsed_output": "Negative",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:54.404831+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Neutral/Unclear",
     "parsed_output": "Neutral/Unclear",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:54.435168+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Positive",
     "parsed_output": "Positive",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:54.460820+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Positive",
     "parsed_output": "Positive",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:54.465888+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Neutral/Unclear",
     "parsed_output": "Neutral/Unclear",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:54.539799+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Positive",
     "parsed_output": "Positive",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:55.368998+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Neutral/Unclear",
     "parsed_output": "Neutral/Unclear",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:55.411796+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Neutral/Unclear",
     "parsed_output": "Neutral/Unclear",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:55.414379+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Negative",
     "parsed_output": "Negative",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:56.011172+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Positive",
     "parsed_output": "Positive",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:56.103794+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Declarative/Statement",
     "parsed_output": "Declarative/Statement",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:56.274319+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Negative",
     "parsed_output": "Negative",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:56.482506+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Yes/No Interrogative",
     "parsed_output": "Yes/No Interrogative",
     "status": "ok"
   },
   {
     "timestamp": "2026-05-17T19:30:58.076984+00:00",
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "raw_output": "Rhetorical Interrogative",
     "parsed_output": "Rhetorical Interrogative",
     "status": "ok"
