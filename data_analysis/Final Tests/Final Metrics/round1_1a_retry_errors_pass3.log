@@ -1,0 +1,135 @@
+Loaded 187 rows from ../Final Metrics/round1_1a_predictions.csv
+Written: /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_with_errors.md
+
+--- Pre-retry error counts ---
+  claude_strong_Particle_Position_ms: 3 errors
+  claude_strong_Listener_Agreement_ms: 11 errors
+  claude_strong_Emotion_ms: 13 errors
+  claude_strong_Question_Type_ms: 3 errors
+  claude_weak_Particle_Position_ms: 11 errors
+  claude_weak_Listener_Agreement_ms: 9 errors
+  claude_weak_Emotion_ms: 9 errors
+  claude_weak_Question_Type_ms: 7 errors
+
+============================================================
+  Model: claude_strong (claude-opus-4-7)  workers=8
+============================================================
+  [OK]   Epistemic_Stance: 0 errors
+  [RETRY] Particle_Position: 3 errors
+  [RETRY] Listener_Agreement: 11 errors
+  [RETRY] Emotion: 13 errors
+  [RETRY] Question_Type: 3 errors
+  Total tasks: 30
+Launching 30 tasks, 8 workers — claude_strong retry
+claude_strong retry:   0%|          | 0/30 [00:00<?, ?it/s]claude_strong retry:   3%|▎         | 1/30 [00:01<00:39,  1.37s/it]claude_strong retry:  13%|█▎        | 4/30 [00:01<00:07,  3.34it/s]claude_strong retry:  23%|██▎       | 7/30 [00:01<00:03,  6.30it/s]claude_strong retry:  30%|███       | 9/30 [00:02<00:05,  3.52it/s]claude_strong retry:  37%|███▋      | 11/30 [00:02<00:04,  4.44it/s]claude_strong retry:  50%|█████     | 15/30 [00:03<00:01,  7.58it/s]claude_strong retry:  57%|█████▋    | 17/30 [00:03<00:02,  4.53it/s]claude_strong retry:  63%|██████▎   | 19/30 [00:04<00:02,  4.59it/s]claude_strong retry:  73%|███████▎  | 22/30 [00:04<00:01,  6.62it/s]claude_strong retry:  80%|████████  | 24/30 [00:05<00:01,  4.45it/s]claude_strong retry:  87%|████████▋ | 26/30 [00:05<00:00,  4.09it/s]claude_strong retry:  93%|█████████▎| 28/30 [00:06<00:00,  4.69it/s]claude_strong retry:  97%|█████████▋| 29/30 [00:06<00:00,  4.71it/s]claude_strong retry: 100%|██████████| 30/30 [00:08<00:00,  2.10it/s]claude_strong retry: 100%|██████████| 30/30 [00:08<00:00,  3.73it/s]
+  Patched: 30  Still ERROR: 0
+  Saved updated predictions → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+
+============================================================
+  Model: claude_weak (claude-haiku-4-5)  workers=8
+============================================================
+  [OK]   Epistemic_Stance: 0 errors
+  [RETRY] Particle_Position: 11 errors
+  [RETRY] Listener_Agreement: 9 errors
+  [RETRY] Emotion: 9 errors
+  [RETRY] Question_Type: 7 errors
+  Total tasks: 36
+Launching 36 tasks, 8 workers — claude_weak retry
+claude_weak retry:   0%|          | 0/36 [00:00<?, ?it/s]claude_weak retry:   3%|▎         | 1/36 [00:00<00:24,  1.44it/s]claude_weak retry:   8%|▊         | 3/36 [00:00<00:07,  4.38it/s]claude_weak retry:  17%|█▋        | 6/36 [00:00<00:03,  8.44it/s]claude_weak retry:  25%|██▌       | 9/36 [00:01<00:03,  8.09it/s]claude_weak retry:  31%|███       | 11/36 [00:01<00:03,  8.09it/s]claude_weak retry:  39%|███▉      | 14/36 [00:01<00:02,  9.52it/s]claude_weak retry:  44%|████▍     | 16/36 [00:02<00:02,  9.68it/s]claude_weak retry:  50%|█████     | 18/36 [00:02<00:01, 10.51it/s]claude_weak retry:  56%|█████▌    | 20/36 [00:02<00:01,  8.18it/s]claude_weak retry:  58%|█████▊    | 21/36 [00:02<00:01,  7.65it/s]claude_weak retry:  61%|██████    | 22/36 [00:03<00:03,  3.94it/s]claude_weak retry:  64%|██████▍   | 23/36 [00:03<00:02,  4.49it/s]claude_weak retry:  67%|██████▋   | 24/36 [00:04<00:05,  2.12it/s]claude_weak retry:  69%|██████▉   | 25/36 [00:06<00:08,  1.37it/s]claude_weak retry:  72%|███████▏  | 26/36 [00:06<00:06,  1.48it/s]claude_weak retry:  75%|███████▌  | 27/36 [00:08<00:07,  1.23it/s]claude_weak retry:  78%|███████▊  | 28/36 [00:09<00:08,  1.12s/it]claude_weak retry:  81%|████████  | 29/36 [00:10<00:06,  1.06it/s]claude_weak retry:  83%|████████▎ | 30/36 [00:11<00:06,  1.06s/it]claude_weak retry:  86%|████████▌ | 31/36 [00:13<00:06,  1.29s/it]claude_weak retry:  89%|████████▉ | 32/36 [00:14<00:04,  1.07s/it]claude_weak retry:  92%|█████████▏| 33/36 [00:15<00:03,  1.19s/it]claude_weak retry:  94%|█████████▍| 34/36 [00:16<00:02,  1.08s/it]claude_weak retry:  97%|█████████▋| 35/36 [00:18<00:01,  1.30s/it]claude_weak retry: 100%|██████████| 36/36 [00:19<00:00,  1.22s/it]claude_weak retry: 100%|██████████| 36/36 [00:19<00:00,  1.86it/s]
+  Patched: 36  Still ERROR: 0
+  Saved updated predictions → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+
+============================================================
+  Model: sealion_strong (aisingapore/Llama-SEA-LION-v3.5-70B-R)  workers=4
+============================================================
+  [OK]   Epistemic_Stance: 0 errors
+  [OK]   Particle_Position: 0 errors
+  [OK]   Listener_Agreement: 0 errors
+  [OK]   Emotion: 0 errors
+  [OK]   Question_Type: 0 errors
+  No errors to retry for sealion_strong.
+
+============================================================
+  Model: sealion_weak (aisingapore/Gemma-SEA-LION-v4-27B-IT)  workers=4
+============================================================
+  [OK]   Epistemic_Stance: 0 errors
+  [OK]   Particle_Position: 0 errors
+  [OK]   Listener_Agreement: 0 errors
+  [OK]   Emotion: 0 errors
+  [OK]   Question_Type: 0 errors
+  No errors to retry for sealion_weak.
+
+IO logs saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_retry_errors_20260517T193049Z.json
+Written: /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_with_errors.md
+
+============================================================
+  Final MS Accuracy (post-retry)
+============================================================
+
+  Epistemic_Stance:
+  Model                                           Accuracy  Errors
+  gemini_strong                                     80.21%       0
+  gemini_weak                                       80.21%       0
+  gpt_strong                                        76.47%       0
+  claude-opus-4-7                                   73.26%       0
+  deepseek_weak                                     72.19%       0
+  aisingapore/Gemma-SEA-LION-v4-27B-IT              67.91%       0
+  deepseek_strong                                   66.84%       0
+  claude-haiku-4-5                                  63.64%       0
+  gpt_weak                                          44.92%       0
+  aisingapore/Llama-SEA-LION-v3.5-70B-R             43.32%       0
+
+  Particle_Position:
+  Model                                           Accuracy  Errors
+  deepseek_strong                                   60.43%       0
+  gpt_strong                                        57.22%       0
+  deepseek_weak                                     57.22%       0
+  claude-opus-4-7                                   56.68%       0
+  gemini_weak                                       54.55%       0
+  gemini_strong                                     53.48%       0
+  gpt_weak                                          50.27%       0
+  claude-haiku-4-5                                  48.66%       0
+  aisingapore/Gemma-SEA-LION-v4-27B-IT              44.39%       0
+  aisingapore/Llama-SEA-LION-v3.5-70B-R             33.16%       0
+
+  Listener_Agreement:
+  Model                                           Accuracy  Errors
+  aisingapore/Gemma-SEA-LION-v4-27B-IT              52.94%       0
+  gpt_strong                                        52.41%       0
+  gpt_weak                                          51.87%       0
+  deepseek_strong                                   47.59%       0
+  claude-opus-4-7                                   44.92%       0
+  claude-haiku-4-5                                  44.92%       0
+  gemini_weak                                       44.92%       0
+  deepseek_weak                                     43.85%       0
+  gemini_strong                                     43.32%       0
+  aisingapore/Llama-SEA-LION-v3.5-70B-R              5.35%       0
+
+  Emotion:
+  Model                                           Accuracy  Errors
+  gpt_weak                                          77.01%       0
+  deepseek_weak                                     75.40%       0
+  gpt_strong                                        73.80%       0
+  gemini_strong                                     72.73%       0
+  gemini_weak                                       72.73%       0
+  deepseek_strong                                   72.73%       0
+  aisingapore/Gemma-SEA-LION-v4-27B-IT              71.12%       0
+  claude-haiku-4-5                                  68.45%       0
+  claude-opus-4-7                                   63.10%       0
+  aisingapore/Llama-SEA-LION-v3.5-70B-R             35.29%       0
+
+  Question_Type:
+  Model                                           Accuracy  Errors
+  gpt_strong                                        71.12%       0
+  deepseek_weak                                     68.98%       0
+  gemini_weak                                       68.45%       0
+  claude-haiku-4-5                                  67.91%       0
+  deepseek_strong                                   67.38%       0
+  gemini_strong                                     66.84%       0
+  gpt_weak                                          62.57%       0
+  aisingapore/Gemma-SEA-LION-v4-27B-IT              59.89%       0
+  claude-opus-4-7                                   52.41%       0
+  aisingapore/Llama-SEA-LION-v3.5-70B-R             28.88%       0
+
+Total cells patched: 66
+Done.

@@ -1,0 +1,172 @@
+[
+  {
+    "timestamp": "2026-05-14T03:22:23.761745+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-6",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T03:22:24.411081+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T03:22:24.850153+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T03:22:26.094804+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T03:22:26.695364+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T03:22:26.976879+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T03:22:27.219175+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "Okay, let's tackle this problem. The user wants me to determine whether \"kan\" or \"ke\" fits in the given Malay sentence. The sentence is: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nFirst, I need to understand the context. The speaker is talking about how they spell something differently, and the other person uses \"bahasa wechat,\" which I think refers to informal or maybe broken language used on WeChat. The third sentence is where the particle is missing: \"Tu [___] nama aku diterbalikkan 😭😂\" which translates to \"That [___] my name is reversed 😭😂.\"\n\nThe particles' meanings are important here. \"Ke\" is used when the speaker is unsure and wants confirmation. \"Kan\" is used when the speaker assumes shared knowledge and is seeking light confirmation, like \"right?\" or \"isn't it?\".\n\nLooking at the sentence structure, the speaker is explaining a situation where their name was reversed, and they're using an emoji that shows they find it funny or maybe a bit sad. The particle here is likely seeking confirmation from the listener about the fact that their name was reversed. Since the speaker is probably recounting something that happened, and assuming the listener is aware or can agree that the name was indeed reversed, \"kan\" would fit better. \"Kan\" is used when the speaker expects the listener to confirm something they already believe. \n\nIf it were \"ke,\" the speaker would be expressing uncertainty, like \"Is that why my name was reversed?\" But here, the speaker is stating a fact (their name was reversed) and using the particle to seek agreement. The use of emojis also suggests a light-hearted tone, which aligns more with \"kan\" as it's a softer confirmation. \n\nSo, considering the context and the particle meanings, \"kan\" is the correct choice.\n</think>\n\nkan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T03:22:27.447040+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T03:22:32.264304+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T03:22:46.733780+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either \"ke\" or \"kan\", belongs in that slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\n\nSpeaker: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  }
+]

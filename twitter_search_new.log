@@ -1,0 +1,49 @@
+12:42:35 [INFO] Twitter search: 250 new records so far (target 750)
+12:42:36 [INFO] Warming up browser session...
+12:42:46 [INFO] Browser ready: (2) Home / X
+Search:  33%|███▎      | 250/750 [00:00<?, ?tweet/s]12:42:46 [INFO] Search: 'takkan lah'
+Search:  33%|███▎      | 251/750 [00:03<29:45,  3.58s/tweet]Search:  34%|███▎      | 252/750 [00:05<19:54,  2.40s/tweet]Search:  34%|███▍      | 258/750 [00:06<04:52,  1.68tweet/s]12:42:53 [INFO]   ckpt → 261 Twitter records saved
+Search:  35%|███▍      | 262/750 [00:07<03:51,  2.11tweet/s]Search:  35%|███▌      | 266/750 [00:09<03:17,  2.46tweet/s]Search:  36%|███▌      | 269/750 [00:10<03:17,  2.44tweet/s]Search:  36%|███▌      | 271/750 [00:11<03:27,  2.31tweet/s]12:42:58 [INFO]   ckpt → 276 Twitter records saved
+Search:  37%|███▋      | 277/750 [00:12<02:22,  3.32tweet/s]Search:  38%|███▊      | 282/750 [00:13<02:10,  3.58tweet/s]12:43:00 [INFO]   ckpt → 289 Twitter records saved
+12:45:11 [INFO]   search 'takkan lah': 11 pages, 39 Malay tweets
+12:45:14 [INFO] Search: 'lah kan'
+Search:  39%|███▊      | 290/750 [02:30<1:00:59,  7.96s/tweet]Search:  39%|███▉      | 292/750 [02:31<52:54,  6.93s/tweet]  Search:  40%|███▉      | 298/750 [02:32<33:07,  4.40s/tweet]12:45:19 [INFO]   ckpt → 304 Twitter records saved
+Search:  41%|████      | 305/750 [02:33<20:25,  2.75s/tweet]Search:  41%|████      | 309/750 [02:35<16:02,  2.18s/tweet]Search:  41%|████▏     | 311/750 [02:36<14:10,  1.94s/tweet]Search:  42%|████▏     | 314/750 [02:37<11:16,  1.55s/tweet]12:45:24 [INFO]   ckpt → 318 Twitter records saved
+Search:  43%|████▎     | 319/750 [02:38<07:54,  1.10s/tweet]Search:  43%|████▎     | 325/750 [02:40<05:23,  1.31tweet/s]12:45:26 [INFO]   ckpt → 329 Twitter records saved
+Search:  44%|████▍     | 330/750 [02:41<04:13,  1.66tweet/s]Search:  45%|████▍     | 334/750 [02:42<03:32,  1.96tweet/s]Search:  45%|████▍     | 336/750 [02:43<03:44,  1.85tweet/s]Search:  45%|████▌     | 338/750 [02:45<03:52,  1.77tweet/s]12:45:31 [INFO]   ckpt → 341 Twitter records saved
+Search:  46%|████▌     | 342/750 [02:46<03:16,  2.08tweet/s]Search:  47%|████▋     | 349/750 [02:47<02:17,  2.91tweet/s]12:45:34 [INFO]   ckpt → 352 Twitter records saved
+Search:  47%|████▋     | 353/750 [02:49<02:17,  2.88tweet/s]Search:  48%|████▊     | 361/750 [02:50<01:43,  3.77tweet/s]12:45:37 [INFO]   ckpt → 363 Twitter records saved
+Search:  49%|████▊     | 364/750 [02:51<01:53,  3.39tweet/s]Search:  49%|████▉     | 371/750 [02:52<01:35,  3.95tweet/s]12:45:39 [INFO]   ckpt → 376 Twitter records saved
+Search:  50%|█████     | 377/750 [02:54<01:28,  4.22tweet/s]Search:  51%|█████     | 381/750 [02:55<01:34,  3.90tweet/s]Search:  51%|█████▏    | 386/750 [02:56<01:33,  3.89tweet/s]12:45:43 [INFO]   ckpt → 387 Twitter records saved
+Search:  52%|█████▏    | 388/750 [02:57<01:51,  3.24tweet/s]Search:  53%|█████▎    | 396/750 [02:59<01:25,  4.16tweet/s]12:45:46 [INFO]   ckpt → 400 Twitter records saved
+Search:  53%|█████▎    | 401/750 [03:00<01:23,  4.17tweet/s]Search:  54%|█████▍    | 408/750 [03:01<01:15,  4.51tweet/s]12:45:48 [INFO]   ckpt → 412 Twitter records saved
+Search:  55%|█████▌    | 413/750 [03:02<01:16,  4.40tweet/s]Search:  56%|█████▌    | 420/750 [03:04<01:07,  4.91tweet/s]12:45:50 [INFO]   ckpt → 423 Twitter records saved
+Search:  57%|█████▋    | 424/750 [03:05<01:13,  4.44tweet/s]Search:  57%|█████▋    | 430/750 [03:06<01:09,  4.63tweet/s]12:45:53 [INFO]   ckpt → 437 Twitter records saved
+Search:  58%|█████▊    | 438/750 [03:08<01:06,  4.66tweet/s]Search:  59%|█████▉    | 446/750 [03:09<00:58,  5.17tweet/s]12:45:56 [INFO]   ckpt → 451 Twitter records saved
+Search:  60%|██████    | 452/750 [03:10<00:54,  5.48tweet/s]Search:  61%|██████    | 454/750 [03:11<01:12,  4.09tweet/s]Search:  61%|██████▏   | 460/750 [03:12<01:06,  4.36tweet/s]12:45:59 [INFO]   ckpt → 464 Twitter records saved
+Search:  62%|██████▏   | 465/750 [03:14<01:07,  4.24tweet/s]Search:  63%|██████▎   | 473/750 [03:15<00:57,  4.79tweet/s]12:46:02 [INFO]   ckpt → 481 Twitter records saved
+Search:  64%|██████▍   | 482/750 [03:16<00:51,  5.23tweet/s]Search:  65%|██████▍   | 487/750 [03:18<00:54,  4.84tweet/s]12:46:05 [INFO]   ckpt → 492 Twitter records saved
+12:46:05 [WARNING]   search scroll 38: 429 — sleeping 780s
+13:00:57 [INFO]   search 'lah kan': 39 pages, 203 Malay tweets
+13:01:00 [INFO] Search: 'betul kan'
+Search:  66%|██████▌   | 493/750 [18:17<3:04:55, 43.17s/tweet]Search:  67%|██████▋   | 501/750 [18:34<1:59:00, 28.68s/tweet]13:01:21 [INFO]   ckpt → 510 Twitter records saved
+Search:  68%|██████▊   | 511/750 [18:36<1:10:12, 17.62s/tweet]Search:  69%|██████▉   | 519/750 [18:37<47:15, 12.28s/tweet]  13:01:24 [INFO]   ckpt → 530 Twitter records saved
+Search:  71%|███████   | 531/750 [18:38<27:10,  7.45s/tweet]Search:  71%|███████▏  | 535/750 [18:39<22:36,  6.31s/tweet]13:01:26 [INFO]   ckpt → 541 Twitter records saved
+Search:  72%|███████▏  | 542/750 [18:40<15:49,  4.56s/tweet]13:01:27 [INFO]   ckpt → 551 Twitter records saved
+Search:  74%|███████▎  | 552/750 [18:42<09:41,  2.94s/tweet]13:01:29 [INFO]   ckpt → 561 Twitter records saved
+Search:  75%|███████▍  | 562/750 [18:43<06:10,  1.97s/tweet]Search:  76%|███████▌  | 570/750 [18:44<04:21,  1.45s/tweet]13:01:31 [INFO]   ckpt → 580 Twitter records saved
+Search:  77%|███████▋  | 581/750 [18:45<02:44,  1.03tweet/s]Search:  79%|███████▊  | 590/750 [18:47<01:56,  1.37tweet/s]13:01:34 [INFO]   ckpt → 601 Twitter records saved
+Search:  80%|████████  | 602/750 [18:48<01:14,  1.99tweet/s]13:01:35 [INFO]   ckpt → 611 Twitter records saved
+Search:  82%|████████▏ | 612/750 [18:49<00:53,  2.58tweet/s]13:01:36 [INFO]   ckpt → 624 Twitter records saved
+Search:  83%|████████▎ | 625/750 [18:50<00:35,  3.49tweet/s]Search:  84%|████████▍ | 633/750 [18:51<00:29,  3.97tweet/s]13:01:38 [INFO]   ckpt → 639 Twitter records saved
+Search:  85%|████████▌ | 640/750 [18:53<00:25,  4.34tweet/s]13:01:40 [INFO]   ckpt → 650 Twitter records saved
+Search:  87%|████████▋ | 651/750 [18:54<00:18,  5.33tweet/s]Search:  88%|████████▊ | 659/750 [18:55<00:16,  5.59tweet/s]13:01:42 [INFO]   ckpt → 665 Twitter records saved
+Search:  89%|████████▉ | 666/750 [18:56<00:15,  5.57tweet/s]13:01:43 [INFO]   ckpt → 677 Twitter records saved
+Search:  90%|█████████ | 678/750 [18:57<00:10,  6.80tweet/s]13:01:44 [INFO]   ckpt → 689 Twitter records saved
+Search:  92%|█████████▏| 690/750 [18:59<00:07,  7.73tweet/s]Search:  93%|█████████▎| 696/750 [19:00<00:07,  6.85tweet/s]13:01:47 [INFO]   ckpt → 703 Twitter records saved
+Search:  94%|█████████▍| 704/750 [19:01<00:07,  6.43tweet/s]Search:  95%|█████████▌| 713/750 [19:02<00:05,  6.79tweet/s]13:01:49 [INFO]   ckpt → 720 Twitter records saved
+Search:  96%|█████████▌| 721/750 [19:04<00:04,  6.62tweet/s]13:01:51 [INFO]   ckpt → 731 Twitter records saved
+Search:  98%|█████████▊| 732/750 [19:05<00:02,  7.11tweet/s]13:01:52 [INFO]   ckpt → 742 Twitter records saved
+Search:  99%|█████████▉| 743/750 [19:06<00:00,  7.80tweet/s]13:01:53 [INFO]   search 'betul kan': 28 pages, 258 Malay tweets
+Search: 100%|██████████| 750/750 [19:09<00:00,  2.30s/tweet]
+13:01:56 [INFO] Twitter search done: 750 total new records

@@ -1,0 +1,246 @@
+[
+  {
+    "timestamp": "2026-05-14T01:52:37.756224+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "Okay, let's tackle this Malay discourse particle problem. The sentence given is: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahawa bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nFirst, I need to understand the context. The speaker is talking about how their name was reversed (diterbalikkan) in a WeChat message. The sentence before the blank ends with \"Tu\" (which means \"that\" or \"so\"), followed by the blank and then the explanation of the name being reversed, along with laughing emojis.\n\nLooking at the two particles, \"kan\" and \"ke\". The key here is to determine the speaker's intention. \"Kan\" is used when the speaker assumes the listener already knows or agrees, often in a declarative or rhetorical question. \"Ke\" is used when seeking confirmation or expressing uncertainty.\n\nIn the sentence, the speaker is stating a fact about their name being reversed. The structure \"Tu [___] nama aku...\" translates to \"That [particle] my name was reversed.\" The emojis 😭😂 suggest that the situation is somewhat amusing or unexpected, but not necessarily uncertain. The speaker might be sharing an experience, perhaps expecting the listener to agree or understand the situation.\n\nSince \"kan\" is used to assert something with confidence and assume the listener's agreement, it fits here. The speaker is explaining the situation, and the particle would be used to affirm the fact, like \"That's obviously why my name was reversed,\" implying the listener should know or agree. \"Ke\" would be more for seeking confirmation, like \"Is that why my name was reversed?\" which doesn't fit the context here because the speaker is explaining the reason, not asking a question.\n\nAlso, the position is at the end of a clause (\"Tu [___] nama aku...\"), which aligns with \"kan\" being used at the end of a clause or mid-sentence before a pause. The emotion here is positive or neutral with the laughing emojis, which matches \"kan's\" typical emotion.\n\nTherefore, the correct particle should be \"kan\".\n</think>\n\nkan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:37.897465+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:38.249702+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:38.634014+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-opus-4-7",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:39.183657+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:41.919203+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:45.015594+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:40.450323+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:44.115229+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 2,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:47.810273+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 3,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:40.610727+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:44.419803+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 2,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:52:48.433324+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 3,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:53:08.382854+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle belongs in that slot.\n\nThe two candidate particles and their discourse properties are:\n\n\"kan\"\n- Epistemic Stance: The speaker treats the information as established or already known (Certain). They are not questioning the fact — they are asserting it with confidence.\n- Listener Agreement: Assumed Agreement — the speaker presupposes the listener already shares this knowledge. The underlying tone is \"right?\", \"you know this\", or \"obviously\".\n- Question Type: Typically Declarative/Statement or Rhetorical Interrogative — the speaker nudges the listener to agree rather than seeking a real answer.\n- Emotion: Often Positive or Neutral; carries warmth, camaraderie, or a light assertive tone.\n- Position: Appears at the end of a clause or sentence, or mid-sentence before a pause.\n\n\"ke\"\n- Epistemic Stance: The speaker is Uncertain or genuinely checking — they do not already know the answer.\n- Listener Agreement: Confirmation Seeking or Neutral/Unclear — the speaker is actively requesting validation or a genuine response.\n- Question Type: Typically Yes/No Interrogative or Rhetorical Interrogative — the sentence invites a response or expresses doubt/surprise.\n- Emotion: Neutral to Negative; can signal surprise, disbelief, or scepticism.\n- Position: Appears sentence-finally or mid-sentence, marking a question boundary.\n\nSentence: \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\nGiven the two candidate particles \"kan\" and \"ke\", the single most likely particle to fill [___] is:\n\nReturn exactly one word: kan  or  ke",
+    "constraint": "You must output exactly one word — either \"kan\" or \"ke\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "test_2c",
+      "desc": "1-sample"
+    }
+  }
+]

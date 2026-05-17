@@ -1,0 +1,2156 @@
+Llama/Ollama status: Ollama is not installed. Install it with: curl -fsSL https://ollama.com/install.sh | sh ; then run: ollama serve ; and pull models: ollama pull llama3.2:7b && ollama pull llama3.2:1b
+Llama skipped: Ollama is not installed. Install it with: curl -fsSL https://ollama.com/install.sh | sh ; then run: ollama serve ; and pull models: ollama pull llama3.2:7b && ollama pull llama3.2:1b
+Models to run: ['gpt_strong', 'gpt_weak', 'claude_strong', 'claude_weak', 'gemini_strong', 'gemini_weak', 'deepseek_strong', 'deepseek_weak', 'sealion_strong', 'sealion_weak']
+Loaded 187 total rows; evaluating 5 rows
+                                                                                                                      Text  ... Particle_Position
+0  Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 ut...  ...        Middle/End
+1                     Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu kan nama aku diterbalikkan 😭😂  ...        Middle/End
+2                   Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂  ...               NaN
+
+[3 rows x 9 columns]
+
+======================================================================
+Smoke test (1 sample) to validate model inference
+======================================================================
+Launching 10 tasks across 10 subprocesses
+parallel:   0%|          | 0/10 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+parallel:  10%|█         | 1/10 [00:01<00:10,  1.21s/it]parallel:  30%|███       | 3/10 [00:01<00:03,  2.18it/s]parallel:  40%|████      | 4/10 [00:02<00:04,  1.30it/s]parallel:  50%|█████     | 5/10 [00:03<00:03,  1.37it/s]parallel:  60%|██████    | 6/10 [00:05<00:03,  1.05it/s]parallel:  70%|███████   | 7/10 [00:09<00:06,  2.03s/it]parallel:  80%|████████  | 8/10 [00:10<00:03,  1.80s/it]parallel:  90%|█████████ | 9/10 [00:12<00:01,  1.75s/it]parallel: 100%|██████████| 10/10 [00:22<00:00,  4.30s/it]parallel: 100%|██████████| 10/10 [00:22<00:00,  2.25s/it]
+  gpt_strong: ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+  gpt_weak: ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+  claude_strong: Uncertain
+  claude_weak: Uncertain
+  gemini_strong: Uncertain
+  gemini_weak: Uncertain
+  deepseek_strong: Uncertain
+  deepseek_weak: Uncertain
+  sealion_strong: Uncertain
+  sealion_weak: Uncertain
+
+All models retained: ['gpt_strong', 'gpt_weak', 'claude_strong', 'claude_weak', 'gemini_strong', 'gemini_weak', 'deepseek_strong', 'deepseek_weak', 'sealion_strong', 'sealion_weak']
+Smoke-test failures (models still kept):
+  - gpt_strong: ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+  - gpt_weak: ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+────────────────────────────────────────────────────────────
+  Attribute : Epistemic_Stance
+  Labels    : ['Certain', 'Uncertain', 'Neutral/Unclear', 'Neutral / NA']
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Epistemic_Stance:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Epistemic_Stance:   2%|▎         | 1/40 [00:00<00:28,  1.39it/s]Epistemic_Stance:  10%|█         | 4/40 [00:00<00:05,  6.07it/s]Epistemic_Stance:  15%|█▌        | 6/40 [00:01<00:06,  5.66it/s]Epistemic_Stance:  20%|██        | 8/40 [00:01<00:04,  7.63it/s]Epistemic_Stance:  32%|███▎      | 13/40 [00:01<00:01, 14.06it/s]Epistemic_Stance:  40%|████      | 16/40 [00:01<00:02, 10.83it/s]Epistemic_Stance:  48%|████▊     | 19/40 [00:02<00:01, 13.00it/s]Epistemic_Stance:  52%|█████▎    | 21/40 [00:02<00:01, 10.44it/s]Epistemic_Stance:  60%|██████    | 24/40 [00:02<00:01, 10.80it/s]Epistemic_Stance:  65%|██████▌   | 26/40 [00:03<00:02,  6.88it/s]Epistemic_Stance:  70%|███████   | 28/40 [00:06<00:06,  2.00it/s]Epistemic_Stance:  72%|███████▎  | 29/40 [00:06<00:05,  2.03it/s]Epistemic_Stance:  75%|███████▌  | 30/40 [00:08<00:06,  1.50it/s]Epistemic_Stance:  78%|███████▊  | 31/40 [00:09<00:06,  1.29it/s]Epistemic_Stance:  80%|████████  | 32/40 [00:10<00:06,  1.15it/s]Epistemic_Stance:  82%|████████▎ | 33/40 [00:12<00:08,  1.23s/it]Epistemic_Stance:  85%|████████▌ | 34/40 [00:15<00:09,  1.50s/it]Epistemic_Stance:  88%|████████▊ | 35/40 [00:15<00:05,  1.19s/it]Epistemic_Stance:  90%|█████████ | 36/40 [00:17<00:06,  1.55s/it]Epistemic_Stance:  92%|█████████▎| 37/40 [00:19<00:04,  1.58s/it]Epistemic_Stance:  95%|█████████▌| 38/40 [00:38<00:12,  6.45s/it]Epistemic_Stance:  98%|█████████▊| 39/40 [01:01<00:11, 11.47s/it]Epistemic_Stance: 100%|██████████| 40/40 [01:10<00:00, 10.72s/it]Epistemic_Stance: 100%|██████████| 40/40 [01:10<00:00,  1.77s/it]
+  CLAUDE_STRONG done → sample: ['Uncertain', 'Certain', 'Certain']
+  CLAUDE_WEAK done → sample: ['Uncertain', 'Certain', 'Uncertain']
+  GEMINI_STRONG done → sample: ['Uncertain', 'Certain', 'Certain']
+  GEMINI_WEAK done → sample: ['Uncertain', 'Certain', 'Certain']
+  DEEPSEEK_STRONG done → sample: ['Uncertain', 'Uncertain', 'Certain']
+  DEEPSEEK_WEAK done → sample: ['Uncertain', 'Uncertain', 'Certain']
+  SEALION_STRONG done → sample: ['Uncertain', 'Uncertain', 'Uncertain']
+  SEALION_WEAK done → sample: ['Uncertain', 'Uncertain', 'Uncertain']
+[EN.Epistemic_Stance] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[EN.Epistemic_Stance] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[EN.Epistemic_Stance] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_EN.Epistemic_Stance.md
+[EN.Epistemic_Stance] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[EN.Epistemic_Stance] Attribute report for Epistemic_Stance
+                                   Model  Accuracy  Errors
+2                        claude-opus-4-7       0.6       0
+5                  gemini-3.1-flash-lite       0.6       0
+4                 gemini-3.1-pro-preview       0.6       0
+3                       claude-haiku-4-5       0.4       0
+7                      deepseek-v4-flash       0.4       0
+6                        deepseek-v4-pro       0.4       0
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.2       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.0       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[EN.Epistemic_Stance] Best accuracy so far: claude-opus-4-7 = 0.6000
+
+────────────────────────────────────────────────────────────
+  Attribute : Particle_Position
+  Labels    : ['Front', 'Middle/End', 'N/A']
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Particle_Position:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Particle_Position:   2%|▎         | 1/40 [00:00<00:25,  1.50it/s]Particle_Position:  12%|█▎        | 5/40 [00:00<00:04,  7.87it/s]Particle_Position:  18%|█▊        | 7/40 [00:01<00:05,  5.75it/s]Particle_Position:  22%|██▎       | 9/40 [00:01<00:04,  7.66it/s]Particle_Position:  40%|████      | 16/40 [00:01<00:01, 15.22it/s]Particle_Position:  48%|████▊     | 19/40 [00:02<00:01, 11.05it/s]Particle_Position:  52%|█████▎    | 21/40 [00:02<00:01, 11.85it/s]Particle_Position:  60%|██████    | 24/40 [00:02<00:01, 11.41it/s]Particle_Position:  65%|██████▌   | 26/40 [00:04<00:04,  3.08it/s]Particle_Position:  70%|███████   | 28/40 [00:05<00:03,  3.28it/s]Particle_Position:  72%|███████▎  | 29/40 [00:05<00:03,  3.62it/s]Particle_Position:  75%|███████▌  | 30/40 [00:06<00:04,  2.28it/s]Particle_Position:  78%|███████▊  | 31/40 [00:08<00:06,  1.50it/s]Particle_Position:  80%|████████  | 32/40 [00:09<00:06,  1.28it/s]Particle_Position:  82%|████████▎ | 33/40 [00:12<00:09,  1.30s/it]Particle_Position:  85%|████████▌ | 34/40 [00:12<00:06,  1.08s/it]Particle_Position:  88%|████████▊ | 35/40 [00:12<00:04,  1.18it/s]Particle_Position:  90%|█████████ | 36/40 [00:13<00:03,  1.16it/s]Particle_Position:  92%|█████████▎| 37/40 [00:18<00:06,  2.06s/it]Particle_Position:  95%|█████████▌| 38/40 [00:31<00:10,  5.25s/it]Particle_Position:  98%|█████████▊| 39/40 [01:13<00:15, 15.75s/it]Particle_Position: 100%|██████████| 40/40 [01:13<00:00,  1.83s/it]
+  CLAUDE_STRONG done → sample: ['Middle/End', 'Middle/End', 'N/A']
+  CLAUDE_WEAK done → sample: ['Middle/End', 'Middle/End', 'N/A']
+  GEMINI_STRONG done → sample: ['Middle/End', 'Middle/End', 'N/A']
+  GEMINI_WEAK done → sample: ['Middle/End', 'Middle/End', 'N/A']
+  DEEPSEEK_STRONG done → sample: ['Middle/End', 'Middle/End', 'N/A']
+  DEEPSEEK_WEAK done → sample: ['Middle/End', 'Middle/End', 'N/A']
+  SEALION_STRONG done → sample: ['Middle/End', 'Middle/End', 'Middle/End']
+  SEALION_WEAK done → sample: ['Middle/End', 'Middle/End', 'N/A']
+[EN.Particle_Position] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[EN.Particle_Position] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[EN.Particle_Position] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_EN.Particle_Position.md
+[EN.Particle_Position] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[EN.Particle_Position] Attribute report for Particle_Position
+                                   Model  Accuracy  Errors
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.6       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.6       0
+3                       claude-haiku-4-5       0.6       0
+2                        claude-opus-4-7       0.6       0
+7                      deepseek-v4-flash       0.6       0
+6                        deepseek-v4-pro       0.6       0
+5                  gemini-3.1-flash-lite       0.6       0
+4                 gemini-3.1-pro-preview       0.6       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[EN.Particle_Position] Best accuracy so far: aisingapore/Gemma-SEA-LION-v4-27B-IT = 0.6000
+
+────────────────────────────────────────────────────────────
+  Attribute : Listener_Agreement
+  Labels    : ['Assumed Agreement', 'Confirmation Seeking', 'Neutral/Unclear']
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Listener_Agreement:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Listener_Agreement:   2%|▎         | 1/40 [00:00<00:28,  1.38it/s]Listener_Agreement:  10%|█         | 4/40 [00:00<00:06,  5.61it/s]Listener_Agreement:  15%|█▌        | 6/40 [00:01<00:06,  5.12it/s]Listener_Agreement:  18%|█▊        | 7/40 [00:01<00:05,  5.61it/s]Listener_Agreement:  32%|███▎      | 13/40 [00:01<00:01, 13.92it/s]Listener_Agreement:  40%|████      | 16/40 [00:01<00:01, 13.00it/s]Listener_Agreement:  45%|████▌     | 18/40 [00:01<00:01, 14.00it/s]Listener_Agreement:  50%|█████     | 20/40 [00:02<00:01, 12.99it/s]Listener_Agreement:  57%|█████▊    | 23/40 [00:02<00:01, 13.84it/s]Listener_Agreement:  62%|██████▎   | 25/40 [00:03<00:02,  6.14it/s]Listener_Agreement:  68%|██████▊   | 27/40 [00:04<00:04,  3.13it/s]Listener_Agreement:  70%|███████   | 28/40 [00:05<00:04,  2.85it/s]Listener_Agreement:  72%|███████▎  | 29/40 [00:07<00:08,  1.37it/s]Listener_Agreement:  75%|███████▌  | 30/40 [00:09<00:10,  1.04s/it]Listener_Agreement:  78%|███████▊  | 31/40 [00:11<00:09,  1.09s/it]Listener_Agreement:  80%|████████  | 32/40 [00:12<00:09,  1.13s/it]Listener_Agreement:  82%|████████▎ | 33/40 [00:12<00:06,  1.02it/s]Listener_Agreement:  85%|████████▌ | 34/40 [00:16<00:09,  1.60s/it]Listener_Agreement:  88%|████████▊ | 35/40 [00:17<00:08,  1.61s/it]Listener_Agreement:  90%|█████████ | 36/40 [00:19<00:06,  1.62s/it]Listener_Agreement:  92%|█████████▎| 37/40 [00:23<00:07,  2.40s/it]Listener_Agreement:  95%|█████████▌| 38/40 [00:41<00:13,  6.98s/it]Listener_Agreement:  98%|█████████▊| 39/40 [01:01<00:10, 10.79s/it]Listener_Agreement: 100%|██████████| 40/40 [01:12<00:00, 10.87s/it]Listener_Agreement: 100%|██████████| 40/40 [01:12<00:00,  1.82s/it]
+  CLAUDE_STRONG done → sample: ['Confirmation Seeking', 'Assumed Agreement', 'Assumed Agreement']
+  CLAUDE_WEAK done → sample: ['Neutral/Unclear', 'Assumed Agreement', 'Assumed Agreement']
+  GEMINI_STRONG done → sample: ['Confirmation Seeking', 'Assumed Agreement', 'Confirmation Seeking']
+  GEMINI_WEAK done → sample: ['Confirmation Seeking', 'Assumed Agreement', 'Confirmation Seeking']
+  DEEPSEEK_STRONG done → sample: ['Confirmation Seeking', 'Confirmation Seeking', 'Confirmation Seeking']
+  DEEPSEEK_WEAK done → sample: ['Confirmation Seeking', 'Assumed Agreement', 'Assumed Agreement']
+  SEALION_STRONG done → sample: ['Confirmation Seeking', 'Confirmation Seeking', 'Confirmation Seeking']
+  SEALION_WEAK done → sample: ['Assumed Agreement', 'Confirmation Seeking', 'Confirmation Seeking']
+[EN.Listener_Agreement] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[EN.Listener_Agreement] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[EN.Listener_Agreement] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_EN.Listener_Agreement.md
+[EN.Listener_Agreement] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[EN.Listener_Agreement] Attribute report for Listener_Agreement
+                                   Model  Accuracy  Errors
+3                       claude-haiku-4-5       0.8       0
+2                        claude-opus-4-7       0.6       0
+7                      deepseek-v4-flash       0.6       0
+5                  gemini-3.1-flash-lite       0.6       0
+4                 gemini-3.1-pro-preview       0.6       0
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.4       0
+6                        deepseek-v4-pro       0.4       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.0       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[EN.Listener_Agreement] Best accuracy so far: claude-haiku-4-5 = 0.8000
+
+────────────────────────────────────────────────────────────
+  Attribute : Emotion
+  Labels    : ['Positive', 'Negative', 'Neutral/Unclear']
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Emotion:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Emotion:   2%|▎         | 1/40 [00:00<00:26,  1.47it/s]Emotion:   5%|▌         | 2/40 [00:00<00:12,  2.94it/s]Emotion:  12%|█▎        | 5/40 [00:00<00:04,  8.16it/s]Emotion:  18%|█▊        | 7/40 [00:01<00:04,  6.82it/s]Emotion:  25%|██▌       | 10/40 [00:01<00:03,  9.32it/s]Emotion:  30%|███       | 12/40 [00:01<00:02, 10.76it/s]Emotion:  38%|███▊      | 15/40 [00:02<00:04,  5.73it/s]Emotion:  42%|████▎     | 17/40 [00:03<00:04,  4.86it/s]Emotion:  45%|████▌     | 18/40 [00:03<00:05,  4.01it/s]Emotion:  48%|████▊     | 19/40 [00:04<00:06,  3.11it/s]Emotion:  52%|█████▎    | 21/40 [00:05<00:09,  2.04it/s]Emotion:  55%|█████▌    | 22/40 [00:06<00:08,  2.03it/s]Emotion:  57%|█████▊    | 23/40 [00:07<00:09,  1.75it/s]Emotion:  60%|██████    | 24/40 [00:07<00:08,  1.92it/s]Emotion:  62%|██████▎   | 25/40 [00:07<00:07,  1.93it/s]Emotion:  65%|██████▌   | 26/40 [00:08<00:05,  2.42it/s]Emotion:  68%|██████▊   | 27/40 [00:08<00:05,  2.20it/s]Emotion:  70%|███████   | 28/40 [00:10<00:09,  1.24it/s]Emotion:  78%|███████▊  | 31/40 [00:11<00:04,  1.96it/s]Emotion:  80%|████████  | 32/40 [00:13<00:06,  1.22it/s]Emotion:  82%|████████▎ | 33/40 [00:21<00:17,  2.46s/it]Emotion:  85%|████████▌ | 34/40 [00:21<00:11,  1.91s/it]Emotion:  88%|████████▊ | 35/40 [00:47<00:40,  8.12s/it]Emotion:  90%|█████████ | 36/40 [00:47<00:24,  6.03s/it]Emotion:  92%|█████████▎| 37/40 [01:01<00:24,  8.30s/it]Emotion:  95%|█████████▌| 38/40 [01:10<00:16,  8.42s/it]Emotion:  98%|█████████▊| 39/40 [01:10<00:06,  6.07s/it]Emotion: 100%|██████████| 40/40 [01:13<00:00,  5.03s/it]Emotion: 100%|██████████| 40/40 [01:13<00:00,  1.83s/it]
+  CLAUDE_STRONG done → sample: ['Negative', 'Positive', 'Positive']
+  CLAUDE_WEAK done → sample: ['Negative', 'Positive', 'Positive']
+  GEMINI_STRONG done → sample: ['Negative', 'Positive', 'Positive']
+  GEMINI_WEAK done → sample: ['Negative', 'Positive', 'Positive']
+  DEEPSEEK_STRONG done → sample: ['Negative', 'Positive', 'Positive']
+  DEEPSEEK_WEAK done → sample: ['Negative', 'Positive', 'Positive']
+  SEALION_STRONG done → sample: ['Neutral/Unclear', 'Neutral/Unclear', 'Positive']
+  SEALION_WEAK done → sample: ['Negative', 'Positive', 'Positive']
+[EN.Emotion] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[EN.Emotion] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[EN.Emotion] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_EN.Emotion.md
+[EN.Emotion] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[EN.Emotion] Attribute report for Emotion
+                                   Model  Accuracy  Errors
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.4       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.4       0
+3                       claude-haiku-4-5       0.4       0
+2                        claude-opus-4-7       0.4       0
+7                      deepseek-v4-flash       0.4       0
+6                        deepseek-v4-pro       0.4       0
+5                  gemini-3.1-flash-lite       0.4       0
+4                 gemini-3.1-pro-preview       0.4       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[EN.Emotion] Best accuracy so far: aisingapore/Gemma-SEA-LION-v4-27B-IT = 0.4000
+
+────────────────────────────────────────────────────────────
+  Attribute : Question_Type
+  Labels    : ['Declarative/Statement', 'Rhetorical Interrogative', 'Yes/No Interrogative']
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Question_Type:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Question_Type:   2%|▎         | 1/40 [00:00<00:29,  1.32it/s]Question_Type:  12%|█▎        | 5/40 [00:01<00:06,  5.16it/s]Question_Type:  15%|█▌        | 6/40 [00:01<00:06,  5.20it/s]Question_Type:  25%|██▌       | 10/40 [00:01<00:02, 10.25it/s]Question_Type:  35%|███▌      | 14/40 [00:01<00:02,  9.94it/s]Question_Type:  40%|████      | 16/40 [00:02<00:03,  7.24it/s]Question_Type:  45%|████▌     | 18/40 [00:02<00:03,  5.77it/s]Question_Type:  48%|████▊     | 19/40 [00:03<00:04,  5.20it/s]Question_Type:  52%|█████▎    | 21/40 [00:04<00:05,  3.50it/s]Question_Type:  55%|█████▌    | 22/40 [00:04<00:04,  3.90it/s]Question_Type:  57%|█████▊    | 23/40 [00:04<00:04,  3.44it/s]Question_Type:  62%|██████▎   | 25/40 [00:05<00:04,  3.37it/s]Question_Type:  65%|██████▌   | 26/40 [00:06<00:06,  2.04it/s]Question_Type:  68%|██████▊   | 27/40 [00:06<00:05,  2.21it/s]Question_Type:  70%|███████   | 28/40 [00:07<00:05,  2.13it/s]Question_Type:  72%|███████▎  | 29/40 [00:08<00:06,  1.60it/s]Question_Type:  75%|███████▌  | 30/40 [00:09<00:06,  1.45it/s]Question_Type:  78%|███████▊  | 31/40 [00:09<00:05,  1.76it/s]Question_Type:  80%|████████  | 32/40 [00:09<00:03,  2.25it/s]Question_Type:  82%|████████▎ | 33/40 [00:11<00:05,  1.34it/s]Question_Type:  85%|████████▌ | 34/40 [00:15<00:10,  1.75s/it]Question_Type:  88%|████████▊ | 35/40 [00:16<00:07,  1.52s/it]Question_Type:  90%|█████████ | 36/40 [00:26<00:15,  3.97s/it]Question_Type:  92%|█████████▎| 37/40 [00:32<00:13,  4.57s/it]Question_Type:  95%|█████████▌| 38/40 [00:40<00:11,  5.71s/it]Question_Type:  98%|█████████▊| 39/40 [01:11<00:13, 13.26s/it]Question_Type: 100%|██████████| 40/40 [01:13<00:00,  9.79s/it]Question_Type: 100%|██████████| 40/40 [01:13<00:00,  1.83s/it]
+  CLAUDE_STRONG done → sample: ['Declarative/Statement', 'Declarative/Statement', 'Declarative/Statement']
+  CLAUDE_WEAK done → sample: ['Declarative/Statement', 'Rhetorical Interrogative', 'Rhetorical Interrogative']
+  GEMINI_STRONG done → sample: ['Rhetorical Interrogative', 'Rhetorical Interrogative', 'Rhetorical Interrogative']
+  GEMINI_WEAK done → sample: ['Rhetorical Interrogative', 'Rhetorical Interrogative', 'Rhetorical Interrogative']
+  DEEPSEEK_STRONG done → sample: ['Declarative/Statement', 'Rhetorical Interrogative', 'Rhetorical Interrogative']
+  DEEPSEEK_WEAK done → sample: ['Rhetorical Interrogative', 'Rhetorical Interrogative', 'Rhetorical Interrogative']
+  SEALION_STRONG done → sample: ['Rhetorical Interrogative', 'Rhetorical Interrogative', 'Rhetorical Interrogative']
+  SEALION_WEAK done → sample: ['Declarative/Statement', 'Declarative/Statement', 'Declarative/Statement']
+[EN.Question_Type] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[EN.Question_Type] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[EN.Question_Type] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_EN.Question_Type.md
+[EN.Question_Type] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[EN.Question_Type] Attribute report for Question_Type
+                                   Model  Accuracy  Errors
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.8       0
+7                      deepseek-v4-flash       0.6       0
+3                       claude-haiku-4-5       0.4       0
+2                        claude-opus-4-7       0.4       0
+6                        deepseek-v4-pro       0.4       0
+5                  gemini-3.1-flash-lite       0.4       0
+4                 gemini-3.1-pro-preview       0.4       0
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.2       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[EN.Question_Type] Best accuracy so far: aisingapore/Llama-SEA-LION-v3.5-70B-R = 0.8000
+Saved 5 rows → ../Final Metrics/round1_1a_predictions.csv
+                                                                                                                      Text  ... sealion_weak_Question_Type
+0  Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 ut...  ...      Declarative/Statement
+1                     Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu kan nama aku diterbalikkan 😭😂  ...      Declarative/Statement
+2                   Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂  ...      Declarative/Statement
+3                                              @Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣  ...      Declarative/Statement
+4  @kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg dokt...  ...      Declarative/Statement
+
+[5 rows x 51 columns]
+=======================================================
+  Test 1a — Attribute Accuracy
+=======================================================
+
+[EN] Prompt Suite
+                   aisingapore/Gemma-SEA-LION-v4-27B-IT  ... gpt-5.5
+Attribute                                                ...        
+Emotion                                           40.0%  ...    0.0%
+Epistemic_Stance                                  20.0%  ...    0.0%
+Listener_Agreement                                40.0%  ...    0.0%
+Particle_Position                                 60.0%  ...    0.0%
+Question_Type                                     20.0%  ...    0.0%
+MACRO AVG                                         36.0%  ...    0.0%
+
+[6 rows x 10 columns]
+
+============================================================
+  Variant: EN
+============================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Epistemic_Stance
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ── GPT_STRONG ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+                                                                                                                                                                                                                                                                                                                            Certain       0.00      0.00      0.00       5.0
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── GPT_WEAK ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+                                                                                                                                                                                                                                                                                                                            Certain       0.00      0.00      0.00       5.0
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── CLAUDE_STRONG ──
+              precision    recall  f1-score   support
+
+     Certain       1.00      0.60      0.75         5
+   Uncertain       0.00      0.00      0.00         0
+
+    accuracy                           0.60         5
+   macro avg       0.50      0.30      0.38         5
+weighted avg       1.00      0.60      0.75         5
+
+
+  ── CLAUDE_WEAK ──
+              precision    recall  f1-score   support
+
+     Certain       1.00      0.40      0.57         5
+   Uncertain       0.00      0.00      0.00         0
+
+    accuracy                           0.40         5
+   macro avg       0.50      0.20      0.29         5
+weighted avg       1.00      0.40      0.57         5
+
+
+  ── GEMINI_STRONG ──
+              precision    recall  f1-score   support
+
+     Certain       1.00      0.60      0.75         5
+   Uncertain       0.00      0.00      0.00         0
+
+    accuracy                           0.60         5
+   macro avg       0.50      0.30      0.38         5
+weighted avg       1.00      0.60      0.75         5
+
+
+  ── GEMINI_WEAK ──
+              precision    recall  f1-score   support
+
+     Certain       1.00      0.60      0.75         5
+   Uncertain       0.00      0.00      0.00         0
+
+    accuracy                           0.60         5
+   macro avg       0.50      0.30      0.38         5
+weighted avg       1.00      0.60      0.75         5
+
+
+  ── DEEPSEEK_STRONG ──
+              precision    recall  f1-score   support
+
+     Certain       1.00      0.40      0.57         5
+   Uncertain       0.00      0.00      0.00         0
+
+    accuracy                           0.40         5
+   macro avg       0.50      0.20      0.29         5
+weighted avg       1.00      0.40      0.57         5
+
+
+  ── DEEPSEEK_WEAK ──
+              precision    recall  f1-score   support
+
+     Certain       1.00      0.40      0.57         5
+   Uncertain       0.00      0.00      0.00         0
+
+    accuracy                           0.40         5
+   macro avg       0.50      0.20      0.29         5
+weighted avg       1.00      0.40      0.57         5
+
+
+  ── SEALION_STRONG ──
+              precision    recall  f1-score   support
+
+     Certain       0.00      0.00      0.00       5.0
+   Uncertain       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       5.0
+   macro avg       0.00      0.00      0.00       5.0
+weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── SEALION_WEAK ──
+              precision    recall  f1-score   support
+
+     Certain       1.00      0.20      0.33         5
+   Uncertain       0.00      0.00      0.00         0
+
+    accuracy                           0.20         5
+   macro avg       0.50      0.10      0.17         5
+weighted avg       1.00      0.20      0.33         5
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Particle_Position
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ── GPT_STRONG ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+                                                                                                                                                                                                                                                                                                                         Middle/End       0.00      0.00      0.00       3.0
+                                                                                                                                                                                                                                                                                                                                N/A       0.00      0.00      0.00       2.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── GPT_WEAK ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+                                                                                                                                                                                                                                                                                                                         Middle/End       0.00      0.00      0.00       3.0
+                                                                                                                                                                                                                                                                                                                                N/A       0.00      0.00      0.00       2.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── CLAUDE_STRONG ──
+              precision    recall  f1-score   support
+
+  Middle/End       1.00      1.00      1.00         3
+         N/A       1.00      1.00      1.00         2
+
+    accuracy                           1.00         5
+   macro avg       1.00      1.00      1.00         5
+weighted avg       1.00      1.00      1.00         5
+
+
+  ── CLAUDE_WEAK ──
+              precision    recall  f1-score   support
+
+  Middle/End       1.00      1.00      1.00         3
+         N/A       1.00      1.00      1.00         2
+
+    accuracy                           1.00         5
+   macro avg       1.00      1.00      1.00         5
+weighted avg       1.00      1.00      1.00         5
+
+
+  ── GEMINI_STRONG ──
+              precision    recall  f1-score   support
+
+  Middle/End       1.00      1.00      1.00         3
+         N/A       1.00      1.00      1.00         2
+
+    accuracy                           1.00         5
+   macro avg       1.00      1.00      1.00         5
+weighted avg       1.00      1.00      1.00         5
+
+
+  ── GEMINI_WEAK ──
+              precision    recall  f1-score   support
+
+  Middle/End       1.00      1.00      1.00         3
+         N/A       1.00      1.00      1.00         2
+
+    accuracy                           1.00         5
+   macro avg       1.00      1.00      1.00         5
+weighted avg       1.00      1.00      1.00         5
+
+
+  ── DEEPSEEK_STRONG ──
+              precision    recall  f1-score   support
+
+  Middle/End       1.00      1.00      1.00         3
+         N/A       1.00      1.00      1.00         2
+
+    accuracy                           1.00         5
+   macro avg       1.00      1.00      1.00         5
+weighted avg       1.00      1.00      1.00         5
+
+
+  ── DEEPSEEK_WEAK ──
+              precision    recall  f1-score   support
+
+  Middle/End       1.00      1.00      1.00         3
+         N/A       1.00      1.00      1.00         2
+
+    accuracy                           1.00         5
+   macro avg       1.00      1.00      1.00         5
+weighted avg       1.00      1.00      1.00         5
+
+
+  ── SEALION_STRONG ──
+              precision    recall  f1-score   support
+
+  Middle/End       0.60      1.00      0.75         3
+         N/A       0.00      0.00      0.00         2
+
+    accuracy                           0.60         5
+   macro avg       0.30      0.50      0.38         5
+weighted avg       0.36      0.60      0.45         5
+
+
+  ── SEALION_WEAK ──
+              precision    recall  f1-score   support
+
+  Middle/End       1.00      1.00      1.00         3
+         N/A       1.00      1.00      1.00         2
+
+    accuracy                           1.00         5
+   macro avg       1.00      1.00      1.00         5
+weighted avg       1.00      1.00      1.00         5
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Listener_Agreement
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ── GPT_STRONG ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+                                                                                                                                                                                                                                                                                                                  Assumed Agreement       0.00      0.00      0.00       3.0
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+                                                                                                                                                                                                                                                                                                                    Neutral/Unclear       0.00      0.00      0.00       2.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── GPT_WEAK ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+                                                                                                                                                                                                                                                                                                                  Assumed Agreement       0.00      0.00      0.00       3.0
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+                                                                                                                                                                                                                                                                                                                    Neutral/Unclear       0.00      0.00      0.00       2.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── CLAUDE_STRONG ──
+                      precision    recall  f1-score   support
+
+   Assumed Agreement       0.75      1.00      0.86         3
+Confirmation Seeking       0.00      0.00      0.00         0
+     Neutral/Unclear       0.00      0.00      0.00         2
+
+            accuracy                           0.60         5
+           macro avg       0.25      0.33      0.29         5
+        weighted avg       0.45      0.60      0.51         5
+
+
+  ── CLAUDE_WEAK ──
+                   precision    recall  f1-score   support
+
+Assumed Agreement       0.75      1.00      0.86         3
+  Neutral/Unclear       1.00      0.50      0.67         2
+
+         accuracy                           0.80         5
+        macro avg       0.88      0.75      0.76         5
+     weighted avg       0.85      0.80      0.78         5
+
+
+  ── GEMINI_STRONG ──
+                      precision    recall  f1-score   support
+
+   Assumed Agreement       1.00      1.00      1.00         3
+Confirmation Seeking       0.00      0.00      0.00         0
+     Neutral/Unclear       0.00      0.00      0.00         2
+
+            accuracy                           0.60         5
+           macro avg       0.33      0.33      0.33         5
+        weighted avg       0.60      0.60      0.60         5
+
+
+  ── GEMINI_WEAK ──
+                      precision    recall  f1-score   support
+
+   Assumed Agreement       1.00      1.00      1.00         3
+Confirmation Seeking       0.00      0.00      0.00         0
+     Neutral/Unclear       0.00      0.00      0.00         2
+
+            accuracy                           0.60         5
+           macro avg       0.33      0.33      0.33         5
+        weighted avg       0.60      0.60      0.60         5
+
+
+  ── DEEPSEEK_STRONG ──
+                      precision    recall  f1-score   support
+
+   Assumed Agreement       1.00      0.67      0.80         3
+Confirmation Seeking       0.00      0.00      0.00         0
+     Neutral/Unclear       0.00      0.00      0.00         2
+
+            accuracy                           0.40         5
+           macro avg       0.33      0.22      0.27         5
+        weighted avg       0.60      0.40      0.48         5
+
+
+  ── DEEPSEEK_WEAK ──
+                      precision    recall  f1-score   support
+
+   Assumed Agreement       0.75      1.00      0.86         3
+Confirmation Seeking       0.00      0.00      0.00         0
+     Neutral/Unclear       0.00      0.00      0.00         2
+
+            accuracy                           0.60         5
+           macro avg       0.25      0.33      0.29         5
+        weighted avg       0.45      0.60      0.51         5
+
+
+  ── SEALION_STRONG ──
+                      precision    recall  f1-score   support
+
+   Assumed Agreement       0.00      0.00      0.00       3.0
+Confirmation Seeking       0.00      0.00      0.00       0.0
+     Neutral/Unclear       0.00      0.00      0.00       2.0
+
+            accuracy                           0.00       5.0
+           macro avg       0.00      0.00      0.00       5.0
+        weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── SEALION_WEAK ──
+                      precision    recall  f1-score   support
+
+   Assumed Agreement       0.67      0.67      0.67         3
+Confirmation Seeking       0.00      0.00      0.00         0
+     Neutral/Unclear       0.00      0.00      0.00         2
+
+            accuracy                           0.40         5
+           macro avg       0.22      0.22      0.22         5
+        weighted avg       0.40      0.40      0.40         5
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Emotion
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ── GPT_STRONG ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+                                                                                                                                                                                                                                                                                                                           Negative       0.00      0.00      0.00       3.0
+                                                                                                                                                                                                                                                                                                                    Neutral/Unclear       0.00      0.00      0.00       1.0
+                                                                                                                                                                                                                                                                                                                           Positive       0.00      0.00      0.00       1.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── GPT_WEAK ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+                                                                                                                                                                                                                                                                                                                           Negative       0.00      0.00      0.00       3.0
+                                                                                                                                                                                                                                                                                                                    Neutral/Unclear       0.00      0.00      0.00       1.0
+                                                                                                                                                                                                                                                                                                                           Positive       0.00      0.00      0.00       1.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── CLAUDE_STRONG ──
+                 precision    recall  f1-score   support
+
+       Negative       0.50      0.33      0.40         3
+Neutral/Unclear       0.00      0.00      0.00         1
+       Positive       0.33      1.00      0.50         1
+
+       accuracy                           0.40         5
+      macro avg       0.28      0.44      0.30         5
+   weighted avg       0.37      0.40      0.34         5
+
+
+  ── CLAUDE_WEAK ──
+                 precision    recall  f1-score   support
+
+       Negative       0.50      0.33      0.40         3
+Neutral/Unclear       0.00      0.00      0.00         1
+       Positive       0.33      1.00      0.50         1
+
+       accuracy                           0.40         5
+      macro avg       0.28      0.44      0.30         5
+   weighted avg       0.37      0.40      0.34         5
+
+
+  ── GEMINI_STRONG ──
+                 precision    recall  f1-score   support
+
+       Negative       0.50      0.33      0.40         3
+Neutral/Unclear       0.00      0.00      0.00         1
+       Positive       0.33      1.00      0.50         1
+
+       accuracy                           0.40         5
+      macro avg       0.28      0.44      0.30         5
+   weighted avg       0.37      0.40      0.34         5
+
+
+  ── GEMINI_WEAK ──
+                 precision    recall  f1-score   support
+
+       Negative       0.50      0.33      0.40         3
+Neutral/Unclear       0.00      0.00      0.00         1
+       Positive       0.33      1.00      0.50         1
+
+       accuracy                           0.40         5
+      macro avg       0.28      0.44      0.30         5
+   weighted avg       0.37      0.40      0.34         5
+
+
+  ── DEEPSEEK_STRONG ──
+                 precision    recall  f1-score   support
+
+       Negative       0.50      0.33      0.40         3
+Neutral/Unclear       0.00      0.00      0.00         1
+       Positive       0.33      1.00      0.50         1
+
+       accuracy                           0.40         5
+      macro avg       0.28      0.44      0.30         5
+   weighted avg       0.37      0.40      0.34         5
+
+
+  ── DEEPSEEK_WEAK ──
+                 precision    recall  f1-score   support
+
+       Negative       0.50      0.33      0.40         3
+Neutral/Unclear       0.00      0.00      0.00         1
+       Positive       0.33      1.00      0.50         1
+
+       accuracy                           0.40         5
+      macro avg       0.28      0.44      0.30         5
+   weighted avg       0.37      0.40      0.34         5
+
+
+  ── SEALION_STRONG ──
+                 precision    recall  f1-score   support
+
+       Negative       1.00      0.33      0.50         3
+Neutral/Unclear       0.33      1.00      0.50         1
+       Positive       0.00      0.00      0.00         1
+
+       accuracy                           0.40         5
+      macro avg       0.44      0.44      0.33         5
+   weighted avg       0.67      0.40      0.40         5
+
+
+  ── SEALION_WEAK ──
+                 precision    recall  f1-score   support
+
+       Negative       0.50      0.33      0.40         3
+Neutral/Unclear       0.00      0.00      0.00         1
+       Positive       0.33      1.00      0.50         1
+
+       accuracy                           0.40         5
+      macro avg       0.28      0.44      0.30         5
+   weighted avg       0.37      0.40      0.34         5
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Question_Type
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ── GPT_STRONG ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+                                                                                                                                                                                                                                                                                                              Declarative/Statement       0.00      0.00      0.00       1.0
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+                                                                                                                                                                                                                                                                                                           Rhetorical Interrogative       0.00      0.00      0.00       4.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── GPT_WEAK ──
+                                                                                                                                                                                                                                                                                                                                     precision    recall  f1-score   support
+
+                                                                                                                                                                                                                                                                                                              Declarative/Statement       0.00      0.00      0.00       1.0
+ERROR_FATAL: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}       0.00      0.00      0.00       0.0
+                                                                                                                                                                                                                                                                                                           Rhetorical Interrogative       0.00      0.00      0.00       4.0
+
+                                                                                                                                                                                                                                                                                                                           accuracy                           0.00       5.0
+                                                                                                                                                                                                                                                                                                                          macro avg       0.00      0.00      0.00       5.0
+                                                                                                                                                                                                                                                                                                                       weighted avg       0.00      0.00      0.00       5.0
+
+
+  ── CLAUDE_STRONG ──
+                          precision    recall  f1-score   support
+
+   Declarative/Statement       0.25      1.00      0.40         1
+Rhetorical Interrogative       1.00      0.25      0.40         4
+
+                accuracy                           0.40         5
+               macro avg       0.62      0.62      0.40         5
+            weighted avg       0.85      0.40      0.40         5
+
+
+  ── CLAUDE_WEAK ──
+                          precision    recall  f1-score   support
+
+   Declarative/Statement       0.00      0.00      0.00         1
+Rhetorical Interrogative       0.67      0.50      0.57         4
+
+                accuracy                           0.40         5
+               macro avg       0.33      0.25      0.29         5
+            weighted avg       0.53      0.40      0.46         5
+
+
+  ── GEMINI_STRONG ──
+                          precision    recall  f1-score   support
+
+   Declarative/Statement       0.00      0.00      0.00         1
+Rhetorical Interrogative       0.67      0.50      0.57         4
+
+                accuracy                           0.40         5
+               macro avg       0.33      0.25      0.29         5
+            weighted avg       0.53      0.40      0.46         5
+
+
+  ── GEMINI_WEAK ──
+                          precision    recall  f1-score   support
+
+   Declarative/Statement       0.00      0.00      0.00         1
+Rhetorical Interrogative       0.67      0.50      0.57         4
+
+                accuracy                           0.40         5
+               macro avg       0.33      0.25      0.29         5
+            weighted avg       0.53      0.40      0.46         5
+
+
+  ── DEEPSEEK_STRONG ──
+                          precision    recall  f1-score   support
+
+   Declarative/Statement       0.00      0.00      0.00         1
+Rhetorical Interrogative       0.67      0.50      0.57         4
+
+                accuracy                           0.40         5
+               macro avg       0.33      0.25      0.29         5
+            weighted avg       0.53      0.40      0.46         5
+
+
+  ── DEEPSEEK_WEAK ──
+                          precision    recall  f1-score   support
+
+   Declarative/Statement       0.00      0.00      0.00         1
+Rhetorical Interrogative       0.75      0.75      0.75         4
+
+                accuracy                           0.60         5
+               macro avg       0.38      0.38      0.38         5
+            weighted avg       0.60      0.60      0.60         5
+
+
+  ── SEALION_STRONG ──
+                          precision    recall  f1-score   support
+
+   Declarative/Statement       0.00      0.00      0.00         1
+Rhetorical Interrogative       0.80      1.00      0.89         4
+
+                accuracy                           0.80         5
+               macro avg       0.40      0.50      0.44         5
+            weighted avg       0.64      0.80      0.71         5
+
+
+  ── SEALION_WEAK ──
+                          precision    recall  f1-score   support
+
+   Declarative/Statement       0.20      1.00      0.33         1
+Rhetorical Interrogative       0.00      0.00      0.00         4
+
+                accuracy                           0.20         5
+               macro avg       0.10      0.50      0.17         5
+            weighted avg       0.04      0.20      0.07         5
+
+
+────────────────────────────────────────────────────────────
+  Attribute : Epistemic_Stance
+  Labels    : ['Pasti', 'Tidak Pasti', 'Neutral/NA']
+  Variant   : _ms
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Epistemic_Stance_ms:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Epistemic_Stance_ms:   2%|▎         | 1/40 [00:00<00:27,  1.44it/s]Epistemic_Stance_ms:   8%|▊         | 3/40 [00:00<00:08,  4.58it/s]Epistemic_Stance_ms:  12%|█▎        | 5/40 [00:00<00:05,  6.76it/s]Epistemic_Stance_ms:  18%|█▊        | 7/40 [00:01<00:03,  8.30it/s]Epistemic_Stance_ms:  28%|██▊       | 11/40 [00:01<00:02, 12.96it/s]Epistemic_Stance_ms:  35%|███▌      | 14/40 [00:01<00:01, 16.00it/s]Epistemic_Stance_ms:  42%|████▎     | 17/40 [00:01<00:01, 16.30it/s]Epistemic_Stance_ms:  48%|████▊     | 19/40 [00:01<00:01, 11.80it/s]Epistemic_Stance_ms:  52%|█████▎    | 21/40 [00:02<00:01,  9.72it/s]Epistemic_Stance_ms:  60%|██████    | 24/40 [00:02<00:01,  8.79it/s]Epistemic_Stance_ms:  65%|██████▌   | 26/40 [00:02<00:01, 10.08it/s]Epistemic_Stance_ms:  70%|███████   | 28/40 [00:04<00:03,  3.28it/s]Epistemic_Stance_ms:  72%|███████▎  | 29/40 [00:05<00:04,  2.73it/s]Epistemic_Stance_ms:  75%|███████▌  | 30/40 [00:06<00:05,  1.77it/s]Epistemic_Stance_ms:  78%|███████▊  | 31/40 [00:07<00:06,  1.44it/s]Epistemic_Stance_ms:  80%|████████  | 32/40 [00:09<00:06,  1.21it/s]Epistemic_Stance_ms:  82%|████████▎ | 33/40 [00:09<00:04,  1.50it/s]Epistemic_Stance_ms:  88%|████████▊ | 35/40 [00:10<00:02,  1.72it/s]Epistemic_Stance_ms:  90%|█████████ | 36/40 [00:10<00:02,  1.96it/s]Epistemic_Stance_ms:  92%|█████████▎| 37/40 [00:12<00:02,  1.14it/s]Epistemic_Stance_ms:  95%|█████████▌| 38/40 [00:14<00:02,  1.09s/it]Epistemic_Stance_ms:  98%|█████████▊| 39/40 [01:11<00:16, 16.34s/it]Epistemic_Stance_ms: 100%|██████████| 40/40 [01:12<00:00, 12.21s/it]Epistemic_Stance_ms: 100%|██████████| 40/40 [01:12<00:00,  1.82s/it]
+  CLAUDE_STRONG done → sample: ['Pasti', 'Pasti', 'Tidak Pasti']
+  CLAUDE_WEAK done → sample: ['Tidak Pasti', 'Pasti', 'Pasti']
+  GEMINI_STRONG done → sample: ['Tidak Pasti', 'Pasti', 'Pasti']
+  GEMINI_WEAK done → sample: ['Tidak Pasti', 'Pasti', 'Pasti']
+  DEEPSEEK_STRONG done → sample: ['Tidak Pasti', 'Tidak Pasti', 'Pasti']
+  DEEPSEEK_WEAK done → sample: ['Tidak Pasti', 'Pasti', 'Pasti']
+  SEALION_STRONG done → sample: ['Tidak Pasti', 'Tidak Pasti', 'Tidak Pasti']
+  SEALION_WEAK done → sample: ['Tidak Pasti', 'Tidak Pasti', 'Tidak Pasti']
+[MS.Epistemic_Stance] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[MS.Epistemic_Stance] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[MS.Epistemic_Stance] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_MS.Epistemic_Stance.md
+[MS.Epistemic_Stance] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[MS.Epistemic_Stance] Attribute report for Epistemic_Stance
+                                   Model  Accuracy  Errors
+7                      deepseek-v4-flash       0.8       0
+3                       claude-haiku-4-5       0.6       0
+2                        claude-opus-4-7       0.6       0
+5                  gemini-3.1-flash-lite       0.6       0
+4                 gemini-3.1-pro-preview       0.6       0
+6                        deepseek-v4-pro       0.4       0
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.2       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.0       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[MS.Epistemic_Stance] Best accuracy so far: deepseek-v4-flash = 0.8000
+
+────────────────────────────────────────────────────────────
+  Attribute : Particle_Position
+  Labels    : ['Hadapan', 'Tengah/Akhir', 'Tidak Ada']
+  Variant   : _ms
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Particle_Position_ms:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Particle_Position_ms:   2%|▎         | 1/40 [00:00<00:27,  1.43it/s]Particle_Position_ms:  12%|█▎        | 5/40 [00:00<00:04,  7.85it/s]Particle_Position_ms:  20%|██        | 8/40 [00:01<00:04,  7.31it/s]Particle_Position_ms:  25%|██▌       | 10/40 [00:01<00:04,  6.59it/s]Particle_Position_ms:  30%|███       | 12/40 [00:01<00:04,  6.93it/s]Particle_Position_ms:  35%|███▌      | 14/40 [00:02<00:03,  6.95it/s]Particle_Position_ms:  38%|███▊      | 15/40 [00:02<00:04,  5.75it/s]Particle_Position_ms:  45%|████▌     | 18/40 [00:02<00:02,  8.45it/s]Particle_Position_ms:  50%|█████     | 20/40 [00:03<00:03,  5.98it/s]Particle_Position_ms:  55%|█████▌    | 22/40 [00:03<00:02,  6.10it/s]Particle_Position_ms:  57%|█████▊    | 23/40 [00:03<00:03,  5.51it/s]Particle_Position_ms:  62%|██████▎   | 25/40 [00:04<00:02,  5.90it/s]Particle_Position_ms:  65%|██████▌   | 26/40 [00:04<00:04,  3.20it/s]Particle_Position_ms:  68%|██████▊   | 27/40 [00:05<00:05,  2.39it/s]Particle_Position_ms:  70%|███████   | 28/40 [00:07<00:07,  1.56it/s]Particle_Position_ms:  72%|███████▎  | 29/40 [00:11<00:18,  1.70s/it]Particle_Position_ms:  75%|███████▌  | 30/40 [00:12<00:13,  1.36s/it]Particle_Position_ms:  78%|███████▊  | 31/40 [00:12<00:09,  1.03s/it]Particle_Position_ms:  82%|████████▎ | 33/40 [00:12<00:04,  1.55it/s]Particle_Position_ms:  88%|████████▊ | 35/40 [00:17<00:05,  1.20s/it]Particle_Position_ms:  90%|█████████ | 36/40 [00:18<00:04,  1.21s/it]Particle_Position_ms:  92%|█████████▎| 37/40 [00:21<00:04,  1.65s/it]Particle_Position_ms:  95%|█████████▌| 38/40 [00:35<00:09,  4.73s/it]Particle_Position_ms:  98%|█████████▊| 39/40 [01:01<00:10, 10.45s/it]Particle_Position_ms: 100%|██████████| 40/40 [01:12<00:00, 10.72s/it]Particle_Position_ms: 100%|██████████| 40/40 [01:12<00:00,  1.82s/it]
+  CLAUDE_STRONG done → sample: ['Tengah/Akhir', 'Tengah/Akhir', 'Tidak Ada']
+  CLAUDE_WEAK done → sample: ['Tengah/Akhir', 'Hadapan', 'Tidak Ada']
+  GEMINI_STRONG done → sample: ['Tengah/Akhir', 'Tengah/Akhir', 'Tengah/Akhir']
+  GEMINI_WEAK done → sample: ['Tengah/Akhir', 'Tengah/Akhir', 'Tengah/Akhir']
+  DEEPSEEK_STRONG done → sample: ['Tengah/Akhir', 'Hadapan', 'Tidak Ada']
+  DEEPSEEK_WEAK done → sample: ['Tengah/Akhir', 'Tengah/Akhir', 'Hadapan']
+  SEALION_STRONG done → sample: ['Tengah/Akhir', 'Tengah/Akhir', 'Tengah/Akhir']
+  SEALION_WEAK done → sample: ['Tengah/Akhir', 'Tengah/Akhir', 'Tengah/Akhir']
+[MS.Particle_Position] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[MS.Particle_Position] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[MS.Particle_Position] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_MS.Particle_Position.md
+[MS.Particle_Position] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[MS.Particle_Position] Attribute report for Particle_Position
+                                   Model  Accuracy  Errors
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.6       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.6       0
+2                        claude-opus-4-7       0.6       0
+7                      deepseek-v4-flash       0.6       0
+3                       claude-haiku-4-5       0.4       0
+6                        deepseek-v4-pro       0.4       0
+5                  gemini-3.1-flash-lite       0.4       0
+4                 gemini-3.1-pro-preview       0.4       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[MS.Particle_Position] Best accuracy so far: aisingapore/Gemma-SEA-LION-v4-27B-IT = 0.6000
+
+────────────────────────────────────────────────────────────
+  Attribute : Listener_Agreement
+  Labels    : ['Anggapan Persetujuan', 'Mencari Pengesahan', 'Neutral/Tidak Jelas']
+  Variant   : _ms
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Listener_Agreement_ms:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Listener_Agreement_ms:   2%|▎         | 1/40 [00:00<00:27,  1.42it/s]Listener_Agreement_ms:  10%|█         | 4/40 [00:00<00:06,  5.53it/s]Listener_Agreement_ms:  15%|█▌        | 6/40 [00:01<00:05,  5.93it/s]Listener_Agreement_ms:  18%|█▊        | 7/40 [00:01<00:05,  6.42it/s]Listener_Agreement_ms:  28%|██▊       | 11/40 [00:01<00:02, 12.04it/s]Listener_Agreement_ms:  40%|████      | 16/40 [00:01<00:01, 19.26it/s]Listener_Agreement_ms:  48%|████▊     | 19/40 [00:02<00:02,  9.81it/s]Listener_Agreement_ms:  52%|█████▎    | 21/40 [00:02<00:01, 10.69it/s]Listener_Agreement_ms:  57%|█████▊    | 23/40 [00:02<00:02,  7.74it/s]Listener_Agreement_ms:  62%|██████▎   | 25/40 [00:03<00:02,  5.82it/s]Listener_Agreement_ms:  68%|██████▊   | 27/40 [00:04<00:03,  3.41it/s]Listener_Agreement_ms:  70%|███████   | 28/40 [00:04<00:03,  3.38it/s]Listener_Agreement_ms:  72%|███████▎  | 29/40 [00:06<00:05,  2.08it/s]Listener_Agreement_ms:  75%|███████▌  | 30/40 [00:06<00:04,  2.27it/s]Listener_Agreement_ms:  78%|███████▊  | 31/40 [00:06<00:03,  2.50it/s]Listener_Agreement_ms:  80%|████████  | 32/40 [00:11<00:11,  1.40s/it]Listener_Agreement_ms:  82%|████████▎ | 33/40 [00:11<00:08,  1.19s/it]Listener_Agreement_ms:  85%|████████▌ | 34/40 [00:12<00:06,  1.09s/it]Listener_Agreement_ms:  88%|████████▊ | 35/40 [00:12<00:04,  1.21it/s]Listener_Agreement_ms:  90%|█████████ | 36/40 [00:12<00:02,  1.56it/s]Listener_Agreement_ms:  92%|█████████▎| 37/40 [00:14<00:02,  1.20it/s]Listener_Agreement_ms:  95%|█████████▌| 38/40 [00:46<00:19,  9.92s/it]Listener_Agreement_ms:  98%|█████████▊| 39/40 [01:01<00:11, 11.57s/it]Listener_Agreement_ms: 100%|██████████| 40/40 [01:10<00:00, 10.73s/it]Listener_Agreement_ms: 100%|██████████| 40/40 [01:10<00:00,  1.76s/it]
+  CLAUDE_STRONG done → sample: ['Mencari Pengesahan', 'Mencari Pengesahan', 'Anggapan Persetujuan']
+  CLAUDE_WEAK done → sample: ['Mencari Pengesahan', 'Mencari Pengesahan', 'Mencari Pengesahan']
+  GEMINI_STRONG done → sample: ['Mencari Pengesahan', 'Anggapan Persetujuan', 'Mencari Pengesahan']
+  GEMINI_WEAK done → sample: ['Mencari Pengesahan', 'Anggapan Persetujuan', 'Mencari Pengesahan']
+  DEEPSEEK_STRONG done → sample: ['Mencari Pengesahan', 'Mencari Pengesahan', 'Mencari Pengesahan']
+  DEEPSEEK_WEAK done → sample: ['Mencari Pengesahan', 'Mencari Pengesahan', 'Mencari Pengesahan']
+  SEALION_STRONG done → sample: ['Anggapan Persetujuan', 'Anggapan Persetujuan', 'Anggapan Persetujuan']
+  SEALION_WEAK done → sample: ['Mencari Pengesahan', 'Mencari Pengesahan', 'Mencari Pengesahan']
+[MS.Listener_Agreement] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[MS.Listener_Agreement] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[MS.Listener_Agreement] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_MS.Listener_Agreement.md
+[MS.Listener_Agreement] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[MS.Listener_Agreement] Attribute report for Listener_Agreement
+                                   Model  Accuracy  Errors
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.6       0
+5                  gemini-3.1-flash-lite       0.6       0
+4                 gemini-3.1-pro-preview       0.6       0
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.4       0
+7                      deepseek-v4-flash       0.4       0
+2                        claude-opus-4-7       0.2       0
+6                        deepseek-v4-pro       0.2       0
+3                       claude-haiku-4-5       0.0       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[MS.Listener_Agreement] Best accuracy so far: aisingapore/Llama-SEA-LION-v3.5-70B-R = 0.6000
+
+────────────────────────────────────────────────────────────
+  Attribute : Emotion
+  Labels    : ['Positif', 'Negatif', 'Neutral/Tidak Jelas']
+  Variant   : _ms
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Emotion_ms:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Emotion_ms:   2%|▎         | 1/40 [00:00<00:27,  1.42it/s]Emotion_ms:  10%|█         | 4/40 [00:00<00:06,  5.42it/s]Emotion_ms:  12%|█▎        | 5/40 [00:01<00:06,  5.60it/s]Emotion_ms:  20%|██        | 8/40 [00:01<00:03,  9.94it/s]Emotion_ms:  25%|██▌       | 10/40 [00:01<00:03,  8.25it/s]Emotion_ms:  30%|███       | 12/40 [00:01<00:03,  8.96it/s]Emotion_ms:  35%|███▌      | 14/40 [00:01<00:02, 10.50it/s]Emotion_ms:  40%|████      | 16/40 [00:02<00:05,  4.33it/s]Emotion_ms:  42%|████▎     | 17/40 [00:03<00:05,  4.42it/s]Emotion_ms:  45%|████▌     | 18/40 [00:03<00:07,  2.79it/s]Emotion_ms:  52%|█████▎    | 21/40 [00:04<00:04,  4.48it/s]Emotion_ms:  55%|█████▌    | 22/40 [00:05<00:06,  2.64it/s]Emotion_ms:  57%|█████▊    | 23/40 [00:05<00:07,  2.32it/s]Emotion_ms:  60%|██████    | 24/40 [00:06<00:06,  2.56it/s]Emotion_ms:  62%|██████▎   | 25/40 [00:06<00:05,  2.50it/s]Emotion_ms:  68%|██████▊   | 27/40 [00:06<00:04,  3.24it/s]Emotion_ms:  72%|███████▎  | 29/40 [00:07<00:02,  4.07it/s]Emotion_ms:  75%|███████▌  | 30/40 [00:08<00:04,  2.44it/s]Emotion_ms:  78%|███████▊  | 31/40 [00:08<00:03,  2.57it/s]Emotion_ms:  80%|████████  | 32/40 [00:08<00:02,  3.05it/s]Emotion_ms:  82%|████████▎ | 33/40 [00:08<00:02,  3.27it/s]Emotion_ms:  85%|████████▌ | 34/40 [00:09<00:02,  2.38it/s]Emotion_ms:  88%|████████▊ | 35/40 [00:10<00:02,  1.68it/s]Emotion_ms:  90%|█████████ | 36/40 [00:10<00:01,  2.13it/s]Emotion_ms:  92%|█████████▎| 37/40 [00:12<00:02,  1.11it/s]Emotion_ms:  95%|█████████▌| 38/40 [00:14<00:02,  1.04s/it]Emotion_ms:  98%|█████████▊| 39/40 [01:01<00:14, 14.70s/it]Emotion_ms: 100%|██████████| 40/40 [01:09<00:00, 12.70s/it]Emotion_ms: 100%|██████████| 40/40 [01:09<00:00,  1.74s/it]
+  CLAUDE_STRONG done → sample: ['Negatif', 'Positif', 'Positif']
+  CLAUDE_WEAK done → sample: ['Negatif', 'Positif', 'Positif']
+  GEMINI_STRONG done → sample: ['Negatif', 'Positif', 'Positif']
+  GEMINI_WEAK done → sample: ['Negatif', 'Positif', 'Positif']
+  DEEPSEEK_STRONG done → sample: ['Negatif', 'Positif', 'Positif']
+  DEEPSEEK_WEAK done → sample: ['Negatif', 'Positif', 'Positif']
+  SEALION_STRONG done → sample: ['Neutral/Tidak Jelas', 'Neutral/Tidak Jelas', 'Positif']
+  SEALION_WEAK done → sample: ['Negatif', 'Positif', 'Negatif']
+[MS.Emotion] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[MS.Emotion] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[MS.Emotion] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_MS.Emotion.md
+[MS.Emotion] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[MS.Emotion] Attribute report for Emotion
+                                   Model  Accuracy  Errors
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.6       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.4       0
+3                       claude-haiku-4-5       0.4       0
+2                        claude-opus-4-7       0.4       0
+7                      deepseek-v4-flash       0.4       0
+6                        deepseek-v4-pro       0.4       0
+5                  gemini-3.1-flash-lite       0.4       0
+4                 gemini-3.1-pro-preview       0.4       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[MS.Emotion] Best accuracy so far: aisingapore/Gemma-SEA-LION-v4-27B-IT = 0.6000
+
+────────────────────────────────────────────────────────────
+  Attribute : Question_Type
+  Labels    : ['Deklaratif/Pernyataan', 'Tanya Jawab Retorik', 'Tanya Jawab Ya/Tidak']
+  Variant   : _ms
+────────────────────────────────────────────────────────────
+  GPT_STRONG skipped → cached fatal error from smoke test
+  GPT_WEAK skipped → cached fatal error from smoke test
+Launching 40 tasks across 40 subprocesses
+Question_Type_ms:   0%|          | 0/40 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:525: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+Question_Type_ms:   2%|▎         | 1/40 [00:00<00:29,  1.32it/s]Question_Type_ms:  15%|█▌        | 6/40 [00:01<00:06,  5.66it/s]Question_Type_ms:  32%|███▎      | 13/40 [00:01<00:02, 12.38it/s]Question_Type_ms:  40%|████      | 16/40 [00:01<00:01, 13.39it/s]Question_Type_ms:  45%|████▌     | 18/40 [00:01<00:01, 11.54it/s]Question_Type_ms:  50%|█████     | 20/40 [00:02<00:01, 10.62it/s]Question_Type_ms:  57%|█████▊    | 23/40 [00:02<00:01,  8.98it/s]Question_Type_ms:  62%|██████▎   | 25/40 [00:03<00:02,  6.99it/s]Question_Type_ms:  65%|██████▌   | 26/40 [00:03<00:03,  3.97it/s]Question_Type_ms:  68%|██████▊   | 27/40 [00:04<00:03,  3.88it/s]Question_Type_ms:  70%|███████   | 28/40 [00:05<00:05,  2.04it/s]Question_Type_ms:  72%|███████▎  | 29/40 [00:06<00:07,  1.50it/s]Question_Type_ms:  75%|███████▌  | 30/40 [00:08<00:08,  1.21it/s]Question_Type_ms:  78%|███████▊  | 31/40 [00:11<00:12,  1.34s/it]Question_Type_ms:  80%|████████  | 32/40 [00:11<00:08,  1.04s/it]Question_Type_ms:  82%|████████▎ | 33/40 [00:12<00:07,  1.02s/it]Question_Type_ms:  85%|████████▌ | 34/40 [00:12<00:05,  1.10it/s]Question_Type_ms:  90%|█████████ | 36/40 [00:12<00:02,  1.91it/s]Question_Type_ms:  92%|█████████▎| 37/40 [00:18<00:05,  1.80s/it]Question_Type_ms:  95%|█████████▌| 38/40 [00:34<00:10,  5.30s/it]Question_Type_ms:  98%|█████████▊| 39/40 [01:01<00:11, 11.24s/it]Question_Type_ms: 100%|██████████| 40/40 [01:01<00:00,  1.54s/it]
+  CLAUDE_STRONG done → sample: ['Tanya Jawab Retorik', 'Deklaratif/Pernyata', 'Deklaratif/Pernyata']
+  CLAUDE_WEAK done → sample: ['Deklaratif/Pernyataan', 'Deklaratif/Pernyataan', 'Deklaratif/Pernyataan']
+  GEMINI_STRONG done → sample: ['Tanya Jawab Retorik', 'Tanya Jawab Retorik', 'Tanya Jawab Retorik']
+  GEMINI_WEAK done → sample: ['Tanya Jawab Retorik', 'Tanya Jawab Retorik', 'Tanya Jawab Retorik']
+  DEEPSEEK_STRONG done → sample: ['Deklaratif/Pernyataan', 'Tanya Jawab Retorik', 'Tanya Jawab Retorik']
+  DEEPSEEK_WEAK done → sample: ['Tanya Jawab Retorik', 'Tanya Jawab Retorik', 'Tanya Jawab Retorik']
+  SEALION_STRONG done → sample: ['Deklaratif/Pernyataan', 'Deklaratif/Pernyataan', 'Okay, so I need to figure out the correct label for the given Malay sentence. The labels are Declarative/Statement, Rhetorical Question, or Yes/No Question. Let\'s start by understanding the sentence provided.\n\nThe sentence is: "Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂"\n\nFirst, breaking it down. The first part is "Like tak pelik ke nape aku eja lain macam." Translating that, "Like, isn\'t it strange why I spell differently?" The structure here is a question starting with "tak pelik ke" which is a common way to ask if something is strange. But the question mark is implied here, even though it ends with a period. Then the second part is "Dia cakap bahasa wechat." which means "He speaks WeChat language." Finally, "Tu [___] nama aku diterbalikkan 😭😂" translates to "That [___] my name is reversed, with crying and laughing emojis."\n\nLooking at the first part, the question "tak pelik ke..." is used here. The speaker is asking a question, but is it expecting an answer? The use of "like" at the beginning and the emojis at the end might indicate that the speaker is expressing surprise or finding it funny, rather than genuinely seeking a yes/no answer. \n\nIn Malay, "tak pelik ke" is often used in rhetorical questions to express that something is obviously strange, and the speaker isn\'t really expecting a response. The follow-up sentences explain the situation, which further suggests that the question is rhetorical. The emojis 😭😂 also indicate that the speaker is emotional, maybe laughing or crying about the situation, which aligns more with a rhetorical question to emphasize a point or emotion rather than a direct question.\n\nComparing the options: Yes/No Question would be if the speaker expects a simple "yes" or "no." Rhetorical Question is when the question is asked not to get an answer but to make a point. Declarative is a statement. Here, the first sentence is a question but doesn\'t seem to need an answer; instead, it\'s part of the narrative explaining the situation. So it\'s likely a rhetorical question. But wait, the entire utterance is a mix of a question and statements. However, the main function of the first sentence is']
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:868: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  results[col] = preds_by_model[model_name]
+  SEALION_WEAK done → sample: ['Deklaratif/Pernyataan', 'Deklaratif/Pernyataan', 'Deklaratif/Pernyataan']
+[MS.Question_Type] Saved predictions CSV → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_predictions.csv
+[MS.Question_Type] Saved markdown accuracy table (latest) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary.md
+[MS.Question_Type] Saved markdown accuracy table (snapshot) → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_1a_accuracy_summary_MS.Question_Type.md
+[MS.Question_Type] Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json
+[MS.Question_Type] Attribute report for Question_Type
+                                   Model  Accuracy  Errors
+7                      deepseek-v4-flash       0.6       0
+3                       claude-haiku-4-5       0.4       0
+2                        claude-opus-4-7       0.4       0
+6                        deepseek-v4-pro       0.4       0
+5                  gemini-3.1-flash-lite       0.4       0
+4                 gemini-3.1-pro-preview       0.4       0
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.2       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.0       0
+1                           gpt-5.4-mini       0.0       5
+0                                gpt-5.5       0.0       5
+[MS.Question_Type] Best accuracy so far: deepseek-v4-flash = 0.6000
+
+=======================================================
+  Final Report After EN + MS Runs
+=======================================================
+
+[EN] Prompt Suite
+                   aisingapore/Gemma-SEA-LION-v4-27B-IT  ... gpt-5.5
+Attribute                                                ...        
+Emotion                                           40.0%  ...    0.0%
+Epistemic_Stance                                  20.0%  ...    0.0%
+Listener_Agreement                                40.0%  ...    0.0%
+Particle_Position                                 60.0%  ...    0.0%
+Question_Type                                     20.0%  ...    0.0%
+MACRO AVG                                         36.0%  ...    0.0%
+
+[6 rows x 10 columns]
+
+[MS] Prompt Suite
+                   aisingapore/Gemma-SEA-LION-v4-27B-IT  ... gpt-5.5
+Attribute                                                ...        
+Emotion                                           60.0%  ...    0.0%
+Epistemic_Stance                                  20.0%  ...    0.0%
+Listener_Agreement                                40.0%  ...    0.0%
+Particle_Position                                 60.0%  ...    0.0%
+Question_Type                                     20.0%  ...    0.0%
+MACRO AVG                                         40.0%  ...    0.0%
+
+[6 rows x 10 columns]
+Saved final F1 summary CSV → ../Final Metrics/round1_1a_f1_summary.csv
+Saved final predictions CSV → ../Final Metrics/round1_1a_predictions.csv
+Saved final accuracy summary CSV → ../Final Metrics/round1_1a_accuracy_summary.csv
+Saved general accuracy CSV → ../Final Metrics/round1_1a_general_accuracy.csv
+Saved IO logs JSON → ../Final Metrics/round1_1a_io_logs_20260514T001458Z.json

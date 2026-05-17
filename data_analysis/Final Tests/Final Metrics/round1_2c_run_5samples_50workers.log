@@ -1,0 +1,42 @@
+Llama/Ollama status: Ollama not installed.
+Models to run: ['gpt_strong', 'gpt_weak', 'claude_strong', 'claude_weak', 'gemini_strong', 'gemini_weak', 'deepseek_strong', 'deepseek_weak', 'sealion_strong', 'sealion_weak']
+Total masked rows usable for Test 2c: 64
+GT distribution:
+GT_Particle
+kan    64
+                                                                                                                      Text  ... GT_Particle
+0                   Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂  ...         kan
+1                                              @Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣  ...         kan
+2  boleh la [___]... amik streaming spotify pulak nak rasa negara dia better 😂😂😂 kalau cakap pasal benda lain, tentu2 l...  ...         kan
+
+[3 rows x 3 columns]
+
+======================================================================
+PROMPT BEING USED (Test 2c):
+======================================================================
+You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either "ke" or "kan", belongs in that slot.
+
+Particle meanings:
+  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.
+  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes ("right?").
+
+
+Speaker: "{TEXT}"
+
+
+Given the two candidate particles "kan" and "ke", the single most likely particle to fill [___] is:
+  [+ STRICT_TAIL appended at runtime]
+======================================================================
+
+
+────────────────────────────────────────────────────────────
+STEP 2: Running 1-sample test
+────────────────────────────────────────────────────────────
+Sample sentence : Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂
+Ground truth    : kan
+
+Launching 10 tasks across 10 subprocesses
+1-sample:   0%|          | 0/10 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)

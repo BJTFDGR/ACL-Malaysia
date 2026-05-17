@@ -1,0 +1,122 @@
+[
+  {
+    "task": "implicit-hate#stereotypical_hate",
+    "category": "offensive",
+    "text": "It's no surprise the neighborhood went downhill after they moved in.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#stereotypical_hate",
+    "category": "offensive",
+    "text": "Of course he got the job — they always look out for their own kind.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#stereotypical_hate",
+    "category": "offensive",
+    "text": "You'd think they'd be better at math given where they come from.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#stereotypical_hate",
+    "category": "offensive",
+    "text": "Ever notice how crime rates change when certain people move into an area?",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#inferiority_hate",
+    "category": "offensive",
+    "text": "Some cultures just haven't evolved to handle democracy yet.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#inferiority_hate",
+    "category": "offensive",
+    "text": "It's not racism, it's just acknowledging that some groups are further behind developmentally.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#inferiority_hate",
+    "category": "offensive",
+    "text": "They've had every opportunity and still can't seem to get it together as a community.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#white_grievance_hate",
+    "category": "offensive",
+    "text": "It's becoming impossible for the real Americans to find jobs anymore.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#white_grievance_hate",
+    "category": "offensive",
+    "text": "They're replacing our history with their version and nobody is allowed to say anything.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#white_grievance_hate",
+    "category": "offensive",
+    "text": "Used to be a great country before they decided traditional values were offensive.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#incitement_hate",
+    "category": "offensive",
+    "text": "Someone needs to remind that community what happens when they overstay their welcome.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#incitement_hate",
+    "category": "offensive",
+    "text": "People are getting fed up and sooner or later there will be consequences for them.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#incitement_hate",
+    "category": "offensive",
+    "text": "Our ancestors knew how to deal with this kind of invasion. Maybe it's time we remembered.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#threatening_hate",
+    "category": "offensive",
+    "text": "Keep pushing and see what happens. History has a way of repeating itself.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#threatening_hate",
+    "category": "offensive",
+    "text": "There's only so much patience real patriots have before they take matters into their own hands.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#threatening_hate",
+    "category": "offensive",
+    "text": "They should be careful about how loud they get. Not everyone is as tolerant as I am.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#explicit_hate",
+    "category": "offensive",
+    "text": "I don't hate them, I just think the world would be better off without their influence.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#explicit_hate",
+    "category": "offensive",
+    "text": "It's not about race, it's just that certain groups consistently drag society down.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#stereotypical_hate",
+    "category": "offensive",
+    "text": "No wonder their kids are failing — look at the values that community promotes.",
+    "label": "implicit_hate"
+  },
+  {
+    "task": "implicit-hate#inferiority_hate",
+    "category": "offensive",
+    "text": "Western civilization wasn't built by everyone equally, and the data reflects that.",
+    "label": "implicit_hate"
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "timestamp": "2026-05-17T19:30:51.404388+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:51.428994+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:51.501656+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:51.556649+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:51.610194+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:51.615092+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:51.667416+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:51.737115+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:52.724123+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:52.733299+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:52.931483+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:52.969999+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:52.991714+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:53.026898+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:53.059351+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:53.853332+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:54.015763+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:54.404831+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:54.435168+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:54.460820+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:54.465888+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:54.539799+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:55.368998+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:55.411796+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:55.414379+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:56.011172+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:56.103794+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Declarative/Statement",
+    "parsed_output": "Declarative/Statement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:56.274319+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:56.482506+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Yes/No Interrogative",
+    "parsed_output": "Yes/No Interrogative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:58.076984+00:00",
+    "model": "claude-opus-4-7",
+    "raw_output": "Rhetorical Interrogative",
+    "parsed_output": "Rhetorical Interrogative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:58.874310+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:58.919324+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.006206+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "N/A",
+    "parsed_output": "N/A",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.017569+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.048516+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "N/A",
+    "parsed_output": "N/A",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.154231+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.155490+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.191345+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.542749+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.647932+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.789853+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.805763+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:30:59.818997+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:00.020213+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:00.195356+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:00.218094+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:00.267654+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "N/A",
+    "parsed_output": "N/A",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:00.366459+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:00.475773+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:00.745727+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:00.917609+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:01.678213+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:01.788874+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:03.062462+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:04.543372+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Rhetorical Interrogative",
+    "parsed_output": "Rhetorical Interrogative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:02.923301+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hN46YRnbDodMFmMtMG'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:05.075218+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:06.248586+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Rhetorical Interrogative",
+    "parsed_output": "Rhetorical Interrogative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:02.688983+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hN371rY67fryzfjdot'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:06.704235+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNLEeQdwJZ8L4CDxKW'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:08.154160+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:03.177470+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hN5CXEnNoMt31ZCudJ'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:07.190990+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNNQNZudc6UtXAXqSx'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:08.670574+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:07.822048+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNR19F2AzKEhik9x4M'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:10.019758+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Declarative/Statement",
+    "parsed_output": "Declarative/Statement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:06.355471+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNJH5ZmcanhEPS2GNA'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:10.369499+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNbvxjKVBFg2dS1K9S'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:11.838772+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Declarative/Statement",
+    "parsed_output": "Declarative/Statement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:02.819502+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hN3fkGmXheRr3fkLWS'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:06.777536+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNLZ15UGJUcVY3DFZx'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:10.059362+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNac6HbDVgLbkouJn4'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:12.384585+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:11.631373+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNhJfybssdEeteyxm7'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:13.863803+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Yes/No Interrogative",
+    "parsed_output": "Yes/No Interrogative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:04.275274+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hN9sZMxZmnq2bSXHVv'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:09.242807+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNXCxPrESejY89dv4N'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:12.551312+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNmGJBYAYXaQ3iyWyJ'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:14.698630+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Declarative/Statement",
+    "parsed_output": "Declarative/Statement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:08.950732+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNVs5vbCccDTxWfdZc'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:12.864520+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNncesjLwvLy3iquVP'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:16.490703+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Declarative/Statement",
+    "parsed_output": "Declarative/Statement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:02.718199+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hN3ETHLc1fu5Nx5A8q'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:06.694314+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNLKN4EfAg84Ey7JH7'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:10.193204+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNb7rBsbXUrE7nPGaZ'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:15.195923+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb8hNxZShZsfMGMLjKrSR'}"
+  },
+  {
+    "timestamp": "2026-05-17T19:31:17.525875+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  }
+]

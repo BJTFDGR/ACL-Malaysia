@@ -1,0 +1,138 @@
+18:22:55 [INFO] Twitter: 0 new records so far (target 1000)
+18:22:56 [INFO] Warming up browser session...
+18:23:06 [INFO] Browser ready: (2) Home / X
+Twitter:   0%|          | 0/1000 [00:00<?, ?tweet/s]18:23:06 [INFO] Twitter: @localrkyt
+18:23:09 [WARNING]   @localrkyt: 429 rate limited — sleeping 780s
+Twitter:   0%|          | 1/1000 [13:06<218:18:10, 786.68s/tweet]Twitter:   0%|          | 2/1000 [13:09<90:15:25, 325.58s/tweet] Twitter:   0%|          | 3/1000 [13:13<49:27:22, 178.58s/tweet]Twitter:   0%|          | 4/1000 [13:14<30:03:18, 108.63s/tweet]Twitter:   0%|          | 5/1000 [13:16<19:21:06, 70.02s/tweet] Twitter:   1%|          | 6/1000 [13:17<12:53:54, 46.72s/tweet]Twitter:   1%|          | 8/1000 [13:19<6:38:38, 24.11s/tweet] Twitter:   1%|          | 9/1000 [13:21<5:02:32, 18.32s/tweet]Twitter:   1%|          | 10/1000 [13:22<3:46:16, 13.71s/tweet]18:36:29 [INFO]   ckpt → 11 Twitter records saved
+Twitter:   1%|          | 12/1000 [13:27<2:24:23,  8.77s/tweet]Twitter:   1%|▏         | 14/1000 [13:28<1:32:59,  5.66s/tweet]Twitter:   2%|▏         | 16/1000 [13:31<1:07:10,  4.10s/tweet]Twitter:   2%|▏         | 17/1000 [13:32<57:23,  3.50s/tweet]  Twitter:   2%|▏         | 20/1000 [13:35<39:01,  2.39s/tweet]18:36:42 [INFO]   ckpt → 21 Twitter records saved
+Twitter:   2%|▏         | 22/1000 [13:36<29:57,  1.84s/tweet]Twitter:   2%|▏         | 23/1000 [13:38<29:00,  1.78s/tweet]Twitter:   2%|▏         | 24/1000 [13:40<29:40,  1.82s/tweet]Twitter:   3%|▎         | 26/1000 [14:16<2:06:30,  7.79s/tweet]Twitter:   3%|▎         | 28/1000 [14:18<1:29:38,  5.53s/tweet]Twitter:   3%|▎         | 29/1000 [14:22<1:23:40,  5.17s/tweet]Twitter:   3%|▎         | 30/1000 [14:23<1:10:01,  4.33s/tweet]Twitter:   3%|▎         | 31/1000 [14:25<58:14,  3.61s/tweet]  18:37:31 [INFO]   ckpt → 31 Twitter records saved
+Twitter:   3%|▎         | 32/1000 [14:28<58:35,  3.63s/tweet]18:39:15 [INFO]   @localrkyt: 44 pages, 33 Malay tweets
+18:39:17 [INFO] Twitter: @marchfoward
+18:39:43 [WARNING]   scroll 6: 429 rate limited — sleeping 780s
+18:54:03 [INFO]   @marchfoward: 6 pages, 0 Malay tweets
+18:54:05 [INFO] Twitter: @syedewa
+Twitter:   3%|▎         | 34/1000 [31:03<56:45:25, 211.52s/tweet]Twitter:   4%|▎         | 35/1000 [31:05<43:45:14, 163.23s/tweet]Twitter:   4%|▎         | 36/1000 [31:08<33:00:10, 123.25s/tweet]Twitter:   4%|▎         | 37/1000 [31:09<24:24:47, 91.26s/tweet] Twitter:   4%|▍         | 38/1000 [31:10<17:48:48, 66.66s/tweet]Twitter:   4%|▍         | 40/1000 [31:12<10:07:45, 37.98s/tweet]18:54:18 [INFO]   ckpt → 41 Twitter records saved
+Twitter:   4%|▍         | 42/1000 [31:14<6:18:55, 23.73s/tweet] Twitter:   4%|▍         | 45/1000 [31:35<4:18:28, 16.24s/tweet]Twitter:   5%|▍         | 48/1000 [31:36<2:39:03, 10.03s/tweet]Twitter:   5%|▍         | 49/1000 [31:40<2:23:10,  9.03s/tweet]Twitter:   5%|▌         | 50/1000 [31:41<1:59:59,  7.58s/tweet]Twitter:   5%|▌         | 51/1000 [31:42<1:38:29,  6.23s/tweet]18:54:49 [INFO]   ckpt → 51 Twitter records saved
+Twitter:   5%|▌         | 52/1000 [31:44<1:23:44,  5.30s/tweet]Twitter:   5%|▌         | 54/1000 [31:45<53:18,  3.38s/tweet]  Twitter:   6%|▌         | 56/1000 [31:46<37:06,  2.36s/tweet]Twitter:   6%|▌         | 57/1000 [31:47<32:38,  2.08s/tweet]Twitter:   6%|▌         | 58/1000 [31:48<29:00,  1.85s/tweet]Twitter:   6%|▌         | 59/1000 [31:54<43:12,  2.76s/tweet]Twitter:   6%|▌         | 60/1000 [31:56<41:44,  2.66s/tweet]Twitter:   6%|▌         | 61/1000 [31:58<37:24,  2.39s/tweet]18:55:05 [INFO]   ckpt → 61 Twitter records saved
+Twitter:   6%|▌         | 62/1000 [32:01<41:30,  2.65s/tweet]Twitter:   6%|▋         | 65/1000 [32:03<22:15,  1.43s/tweet]18:56:46 [INFO]   @syedewa: 42 pages, 32 Malay tweets
+18:56:48 [INFO] Twitter: @rasyidinneedyou
+Twitter:   7%|▋         | 66/1000 [33:48<5:55:55, 22.87s/tweet]Twitter:   7%|▋         | 67/1000 [33:50<4:39:32, 17.98s/tweet]Twitter:   7%|▋         | 68/1000 [33:53<3:43:54, 14.41s/tweet]18:57:01 [WARNING]   scroll 7: 429 rate limited — sleeping 780s
+19:11:21 [INFO]   @rasyidinneedyou: 8 pages, 3 Malay tweets
+19:11:23 [INFO] Twitter: @jatikhwan
+Twitter:   7%|▋         | 69/1000 [48:20<60:54:22, 235.51s/tweet]Twitter:   7%|▋         | 70/1000 [48:23<44:34:58, 172.58s/tweet]Twitter:   7%|▋         | 71/1000 [48:25<32:17:34, 125.14s/tweet]19:11:32 [INFO]   ckpt → 73 Twitter records saved
+Twitter:   7%|▋         | 74/1000 [48:30<14:53:16, 57.88s/tweet] Twitter:   8%|▊         | 76/1000 [48:31<9:50:18, 38.33s/tweet] Twitter:   8%|▊         | 77/1000 [48:32<7:58:24, 31.10s/tweet]Twitter:   8%|▊         | 78/1000 [48:35<6:22:55, 24.92s/tweet]Twitter:   8%|▊         | 80/1000 [48:37<3:59:04, 15.59s/tweet]Twitter:   8%|▊         | 82/1000 [48:40<2:44:13, 10.73s/tweet]Twitter:   8%|▊         | 83/1000 [48:48<2:35:36, 10.18s/tweet]19:11:55 [INFO]   ckpt → 85 Twitter records saved
+Twitter:   9%|▊         | 86/1000 [48:51<1:28:49,  5.83s/tweet]Twitter:   9%|▉         | 88/1000 [49:02<1:27:33,  5.76s/tweet]Twitter:   9%|▉         | 89/1000 [49:04<1:16:12,  5.02s/tweet]Twitter:   9%|▉         | 91/1000 [49:05<53:03,  3.50s/tweet]  Twitter:   9%|▉         | 93/1000 [49:06<38:48,  2.57s/tweet]Twitter:  10%|▉         | 95/1000 [49:09<33:03,  2.19s/tweet]19:12:15 [INFO]   ckpt → 95 Twitter records saved
+Twitter:  10%|▉         | 96/1000 [49:14<41:01,  2.72s/tweet]19:13:58 [INFO]   @jatikhwan: 44 pages, 29 Malay tweets
+19:14:00 [INFO] Twitter: @ketengahketepi
+Twitter:  10%|▉         | 98/1000 [51:14<5:40:06, 22.62s/tweet]Twitter:  10%|▉         | 99/1000 [51:16<4:36:21, 18.40s/tweet]Twitter:  10%|█         | 100/1000 [51:19<3:45:48, 15.05s/tweet]Twitter:  10%|█         | 103/1000 [51:20<1:59:26,  7.99s/tweet]19:14:27 [WARNING]   scroll 6: 429 rate limited — sleeping 780s
+19:28:48 [INFO]   @ketengahketepi: 6 pages, 7 Malay tweets
+19:28:50 [INFO] Twitter: @zhafvlog
+Twitter:  10%|█         | 105/1000 [1:06:03<36:04:57, 145.14s/tweet]19:29:10 [INFO]   ckpt → 105 Twitter records saved
+Twitter:  11%|█         | 106/1000 [1:06:07<29:33:59, 119.06s/tweet]Twitter:  11%|█         | 107/1000 [1:06:32<24:38:32, 99.34s/tweet] Twitter:  11%|█         | 108/1000 [1:06:34<19:05:31, 77.05s/tweet]Twitter:  11%|█         | 109/1000 [1:06:36<14:29:45, 58.57s/tweet]Twitter:  11%|█         | 110/1000 [1:06:43<11:10:37, 45.21s/tweet]Twitter:  11%|█         | 111/1000 [1:06:48<8:28:08, 34.30s/tweet] Twitter:  11%|█         | 112/1000 [1:06:51<6:16:20, 25.43s/tweet]Twitter:  11%|█▏        | 113/1000 [1:06:54<4:40:12, 18.95s/tweet]Twitter:  11%|█▏        | 114/1000 [1:06:55<3:24:53, 13.88s/tweet]Twitter:  12%|█▏        | 115/1000 [1:06:58<2:38:00, 10.71s/tweet]19:30:05 [INFO]   ckpt → 115 Twitter records saved
+Twitter:  12%|█▏        | 116/1000 [1:07:06<2:26:25,  9.94s/tweet]19:31:52 [INFO]   @zhafvlog: 44 pages, 13 Malay tweets
+19:31:54 [INFO] Twitter: @alif_haidar
+Twitter:  12%|█▏        | 118/1000 [1:08:51<7:11:18, 29.34s/tweet]Twitter:  12%|█▏        | 121/1000 [1:08:54<3:44:22, 15.32s/tweet]Twitter:  12%|█▏        | 123/1000 [1:08:58<2:42:12, 11.10s/tweet]19:32:05 [WARNING]   scroll 5: 429 rate limited — sleeping 780s
+Twitter:  12%|█▏        | 124/1000 [1:22:00<37:38:30, 154.69s/tweet]19:45:07 [INFO]   ckpt → 125 Twitter records saved
+Twitter:  13%|█▎        | 126/1000 [1:22:05<24:42:23, 101.77s/tweet]Twitter:  13%|█▎        | 128/1000 [1:22:08<16:35:35, 68.50s/tweet] Twitter:  13%|█▎        | 130/1000 [1:22:09<11:17:27, 46.72s/tweet]Twitter:  13%|█▎        | 131/1000 [1:22:11<9:14:36, 38.29s/tweet] Twitter:  13%|█▎        | 132/1000 [1:22:12<7:21:32, 30.52s/tweet]Twitter:  13%|█▎        | 133/1000 [1:22:14<5:44:24, 23.83s/tweet]Twitter:  13%|█▎        | 134/1000 [1:22:16<4:24:28, 18.32s/tweet]Twitter:  14%|█▎        | 135/1000 [1:22:19<3:26:19, 14.31s/tweet]19:45:25 [INFO]   ckpt → 135 Twitter records saved
+Twitter:  14%|█▎        | 136/1000 [1:22:20<2:36:02, 10.84s/tweet]Twitter:  14%|█▍        | 138/1000 [1:22:22<1:33:09,  6.48s/tweet]Twitter:  14%|█▍        | 140/1000 [1:22:25<1:05:02,  4.54s/tweet]Twitter:  14%|█▍        | 144/1000 [1:22:31<41:39,  2.92s/tweet]  19:45:37 [INFO]   ckpt → 145 Twitter records saved
+Twitter:  15%|█▍        | 146/1000 [1:22:32<32:57,  2.32s/tweet]Twitter:  15%|█▍        | 147/1000 [1:22:39<43:18,  3.05s/tweet]Twitter:  15%|█▍        | 148/1000 [1:22:40<39:12,  2.76s/tweet]Twitter:  15%|█▍        | 149/1000 [1:22:43<39:40,  2.80s/tweet]Twitter:  15%|█▌        | 150/1000 [1:22:45<35:26,  2.50s/tweet]Twitter:  15%|█▌        | 151/1000 [1:22:49<42:09,  2.98s/tweet]Twitter:  15%|█▌        | 153/1000 [1:22:54<39:54,  2.83s/tweet]19:47:38 [INFO]   @alif_haidar: 43 pages, 36 Malay tweets
+19:47:40 [INFO] Twitter: @azraeimuhamad
+Twitter:  15%|█▌        | 154/1000 [1:24:38<6:04:52, 25.88s/tweet]19:47:44 [INFO]   ckpt → 155 Twitter records saved
+Twitter:  16%|█▌        | 156/1000 [1:24:40<3:44:40, 15.97s/tweet]Twitter:  16%|█▌        | 157/1000 [1:24:43<3:04:56, 13.16s/tweet]Twitter:  16%|█▌        | 158/1000 [1:24:44<2:24:57, 10.33s/tweet]Twitter:  16%|█▌        | 159/1000 [1:24:47<1:57:50,  8.41s/tweet]Twitter:  16%|█▌        | 161/1000 [1:24:48<1:12:34,  5.19s/tweet]Twitter:  16%|█▋        | 163/1000 [1:24:50<49:11,  3.53s/tweet]  Twitter:  16%|█▋        | 164/1000 [1:24:52<44:34,  3.20s/tweet]Twitter:  16%|█▋        | 165/1000 [1:24:53<38:52,  2.79s/tweet]19:48:00 [INFO]   ckpt → 165 Twitter records saved
+Twitter:  17%|█▋        | 166/1000 [1:24:59<48:49,  3.51s/tweet]19:48:06 [WARNING]   scroll 12: 429 rate limited — sleeping 780s
+20:02:26 [INFO]   @azraeimuhamad: 13 pages, 13 Malay tweets
+20:02:28 [INFO] Twitter: @NajwaLatif
+Twitter:  17%|█▋        | 167/1000 [1:39:46<54:27:07, 235.33s/tweet]20:04:56 [INFO]   @NajwaLatif: 32 pages, 1 Malay tweets
+20:04:58 [INFO] Twitter: @aizatfared
+20:05:52 [WARNING]   scroll 19: 429 rate limited — sleeping 780s
+20:20:12 [INFO]   @aizatfared: 18 pages, 0 Malay tweets
+20:20:14 [INFO] Twitter: @zizan_razak
+20:21:54 [INFO]   @zizan_razak: 1 pages, 0 Malay tweets
+20:21:56 [INFO] Twitter: @AstroGempak
+20:23:35 [INFO]   @AstroGempak: 2 pages, 0 Malay tweets
+20:23:37 [INFO] Twitter: @AstroRia
+20:25:15 [INFO]   @AstroRia: 1 pages, 0 Malay tweets
+20:25:17 [INFO] Twitter: @era_com_my
+20:26:17 [WARNING]   @era_com_my: timeout waiting for UserTweets
+20:26:19 [INFO] Twitter: @ohbulandotcom
+20:29:07 [INFO]   @ohbulandotcom: 41 pages, 0 Malay tweets
+20:29:09 [INFO] Twitter: @CheMat_Official
+20:30:09 [WARNING]   @CheMat_Official: timeout waiting for UserTweets
+20:30:11 [INFO] Twitter: @izzue_islam
+20:31:50 [INFO]   @izzue_islam: 1 pages, 0 Malay tweets
+20:31:52 [INFO] Twitter: @mynewshub
+Twitter:  17%|█▋        | 168/1000 [2:08:48<149:20:48, 646.21s/tweet]Twitter:  17%|█▋        | 169/1000 [2:08:52<107:34:01, 465.99s/tweet]20:31:59 [WARNING]   scroll 3: 429 rate limited — sleeping 780s
+20:46:19 [INFO]   @mynewshub: 4 pages, 2 Malay tweets
+20:46:21 [INFO] Twitter: @AstroOOIB
+20:47:21 [WARNING]   @AstroOOIB: timeout waiting for UserTweets
+20:47:23 [INFO] Twitter: @astroradio
+20:49:38 [INFO]   @astroradio: 35 pages, 0 Malay tweets
+20:49:40 [INFO] Twitter: @nabilahmajid
+20:50:40 [WARNING]   @nabilahmajid: timeout waiting for UserTweets
+20:50:42 [INFO] Twitter: @harlizsofian
+20:51:42 [WARNING]   @harlizsofian: timeout waiting for UserTweets
+20:51:44 [INFO] Twitter: @faizalfazillah
+20:52:44 [WARNING]   @faizalfazillah: timeout waiting for UserTweets
+20:52:46 [INFO] Twitter: @wanyamia
+20:53:46 [WARNING]   @wanyamia: timeout waiting for UserTweets
+20:53:48 [INFO] Twitter: @nazrulzaman
+20:55:27 [INFO]   @nazrulzaman: 2 pages, 0 Malay tweets
+20:55:29 [INFO] Twitter: @syahrulsamad
+20:56:29 [WARNING]   @syahrulsamad: timeout waiting for UserTweets
+20:56:31 [INFO] Twitter: @didicazli
+20:56:45 [WARNING]   scroll 12: 429 rate limited — sleeping 780s
+21:11:05 [INFO]   @didicazli: 13 pages, 0 Malay tweets
+21:11:07 [INFO] Twitter: @bunkface_ariff
+21:12:07 [WARNING]   @bunkface_ariff: timeout waiting for UserTweets
+21:12:09 [INFO] Twitter: @mStar_Online
+21:13:10 [WARNING]   @mStar_Online: timeout waiting for UserTweets
+21:13:12 [INFO] Twitter: @BHarian_MY
+21:14:51 [INFO]   @BHarian_MY: 2 pages, 0 Malay tweets
+21:14:53 [INFO] Twitter: @anwaribrahim
+Twitter:  17%|█▋        | 170/1000 [2:52:04<247:37:48, 1074.06s/tweet]21:17:25 [INFO]   @anwaribrahim: 43 pages, 1 Malay tweets
+21:17:27 [INFO] Twitter: @DrWanAzizah
+21:17:35 [WARNING]   scroll 4: 429 rate limited — sleeping 780s
+21:32:53 [INFO]   @DrWanAzizah: 43 pages, 0 Malay tweets
+21:32:55 [INFO] Twitter: @budiey
+21:33:25 [WARNING]   scroll 12: 429 rate limited — sleeping 780s
+21:47:45 [INFO]   @budiey: 12 pages, 0 Malay tweets
+21:47:47 [INFO] Twitter: @KhaledNordin
+21:50:13 [INFO]   @KhaledNordin: 44 pages, 0 Malay tweets
+21:50:15 [INFO] Twitter: @AzminAli
+21:50:41 [WARNING]   scroll 6: 429 rate limited — sleeping 780s
+22:05:02 [INFO]   @AzminAli: 6 pages, 0 Malay tweets
+22:05:04 [INFO] Twitter: @DrMahathir
+22:06:04 [WARNING]   @DrMahathir: timeout waiting for UserTweets
+22:06:06 [INFO] Twitter: @AbdulHadiAwang
+22:07:47 [INFO]   @AbdulHadiAwang: 3 pages, 0 Malay tweets
+22:07:49 [INFO] Twitter: @Ahmad_Zahid
+22:09:27 [INFO]   @Ahmad_Zahid: 1 pages, 0 Malay tweets
+22:09:29 [INFO] Twitter: @astroawani
+22:10:29 [WARNING]   @astroawani: timeout waiting for UserTweets
+22:10:31 [INFO] Twitter: @BHarian
+22:11:31 [WARNING]   @BHarian: timeout waiting for UserTweets
+22:11:33 [INFO] Twitter: @hmetro_online
+22:12:33 [WARNING]   @hmetro_online: timeout waiting for UserTweets
+22:12:35 [INFO] Twitter: @utusan_online
+22:14:14 [INFO]   @utusan_online: 2 pages, 0 Malay tweets
+22:14:16 [INFO] Twitter: @rizalsulaiman
+22:17:07 [INFO]   @rizalsulaiman: 41 pages, 0 Malay tweets
+22:17:09 [INFO] Twitter: @farahmilaa
+22:17:30 [WARNING]   scroll 3: 429 rate limited — sleeping 780s
+22:31:50 [INFO]   @farahmilaa: 3 pages, 0 Malay tweets
+22:31:52 [INFO] Twitter: @shaheizy_sam
+Twitter:  17%|█▋        | 171/1000 [4:08:57<483:41:35, 2100.48s/tweet]Twitter:  17%|█▋        | 174/1000 [4:08:58<214:54:30, 936.65s/tweet] 22:32:05 [INFO]   ckpt → 175 Twitter records saved
+Twitter:  18%|█▊        | 176/1000 [4:08:59<140:22:01, 613.25s/tweet]Twitter:  18%|█▊        | 179/1000 [4:09:00<80:24:04, 352.55s/tweet] Twitter:  18%|█▊        | 182/1000 [4:09:04<49:56:03, 219.76s/tweet]Twitter:  18%|█▊        | 184/1000 [4:09:05<36:39:20, 161.72s/tweet]22:32:12 [INFO]   ckpt → 189 Twitter records saved
+Twitter:  19%|█▉        | 190/1000 [4:09:06<17:04:08, 75.86s/tweet] Twitter:  19%|█▉        | 192/1000 [4:09:07<13:37:10, 60.68s/tweet]Twitter:  20%|█▉        | 197/1000 [4:09:09<7:53:24, 35.37s/tweet] Twitter:  20%|█▉        | 199/1000 [4:09:10<6:22:46, 28.67s/tweet]22:32:17 [INFO]   ckpt → 200 Twitter records saved
+Twitter:  20%|██        | 201/1000 [4:09:11<5:00:51, 22.59s/tweet]Twitter:  20%|██        | 203/1000 [4:09:13<3:51:12, 17.41s/tweet]Twitter:  21%|██        | 207/1000 [4:09:14<2:18:37, 10.49s/tweet]Twitter:  21%|██        | 209/1000 [4:09:15<1:48:59,  8.27s/tweet]22:32:21 [INFO]   ckpt → 211 Twitter records saved
+Twitter:  21%|██        | 212/1000 [4:09:16<1:14:57,  5.71s/tweet]Twitter:  22%|██▏       | 216/1000 [4:09:17<47:31,  3.64s/tweet]  Twitter:  22%|██▏       | 220/1000 [4:09:18<31:56,  2.46s/tweet]22:32:25 [INFO]   ckpt → 225 Twitter records saved
+Twitter:  23%|██▎       | 226/1000 [4:09:19<19:05,  1.48s/tweet]Twitter:  23%|██▎       | 231/1000 [4:09:20<13:39,  1.07s/tweet]Twitter:  23%|██▎       | 233/1000 [4:09:22<12:33,  1.02tweet/s]Twitter:  24%|██▎       | 235/1000 [4:09:23<11:22,  1.12tweet/s]22:32:29 [INFO]   ckpt → 238 Twitter records saved
+Twitter:  24%|██▍       | 239/1000 [4:09:24<08:33,  1.48tweet/s]Twitter:  24%|██▍       | 240/1000 [4:09:25<08:57,  1.41tweet/s]Twitter:  24%|██▍       | 241/1000 [4:09:25<08:56,  1.42tweet/s]Twitter:  24%|██▍       | 242/1000 [4:09:26<09:50,  1.28tweet/s]Twitter:  24%|██▍       | 244/1000 [4:09:27<08:24,  1.50tweet/s]Twitter:  25%|██▍       | 246/1000 [4:09:28<07:20,  1.71tweet/s]Twitter:  25%|██▍       | 248/1000 [4:09:29<07:24,  1.69tweet/s]22:32:36 [INFO]   ckpt → 248 Twitter records saved
+Twitter:  25%|██▍       | 249/1000 [4:09:30<08:01,  1.56tweet/s]22:34:13 [INFO]   @shaheizy_sam: 41 pages, 80 Malay tweets
+22:34:15 [INFO] Twitter: @matluthfi90
+22:34:27 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+22:48:47 [INFO]   @matluthfi90: 9 pages, 0 Malay tweets
+22:48:49 [INFO] Twitter: @sinaronline
+22:52:10 [INFO]   @sinaronline: 44 pages, 0 Malay tweets
+Twitter:  25%|██▌       | 250/1000 [4:29:06<13:27:18, 64.59s/tweet]
+22:52:12 [INFO] Twitter done: 250/1000

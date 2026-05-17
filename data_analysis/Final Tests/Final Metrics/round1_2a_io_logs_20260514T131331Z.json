@@ -1,0 +1,162 @@
+[
+  {
+    "timestamp": "2026-05-14T13:13:33.430764+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T13:13:33.501058+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T13:13:33.824212+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-opus-4-7",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T13:13:34.662924+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T13:13:35.632731+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T13:13:35.655237+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T13:13:45.050951+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "Okay, let's tackle this problem. The user wants me to determine whether the particle \"ke\" or \"kan\" should fill the blank in the given Malay sentence. The sentence is: \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nFirst, I need to recall the meanings of the two particles. \"Ke\" signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about. \"Kan\" signals assumed shared knowledge and seeks light confirmation of something the speaker already believes, like \"right?\".\n\nLooking at the discourse-context attributes provided:\n- Epistemic Stance: Certain. The speaker treats the statement as true or established, no doubt.\n- Particle Position: Middle/End. The particle is in the middle or end of the sentence.\n- Listener Agreement: Neutral/Unclear. No clear orientation toward listener agreement.\n- Emotion: Neutral/Unclear. No detectable emotion.\n- Question Type: Rhetorical Interrogative. Phrased as a question but doesn't expect an answer.\n\nThe sentence structure: \"Ada [___] notis dari tadi sy check fb sesb tda notis.\" Translating roughly, \"There is [___] notice since earlier I checked Facebook, there was no notice.\" The part after the blank seems to be stating a fact that there was no notice, which the speaker is certain about (Epistemic Stance: Certain).\n\nSince the speaker is certain, they aren't expressing uncertainty. So \"ke\" might not be the right choice here because \"ke\" is for when the speaker is unsure. \"Kan\" is used when the speaker assumes shared knowledge and is seeking confirmation. However, the question type is rhetorical, which is phrased as a question but doesn't expect an answer. But the particle position is middle/end, so maybe \"kan\" is used here to emphasize the point, like \"right?\" even though it's not a direct question.\n\nWait, the sentence is \"Ada [___] notis...\" which translates to \"There is [___] notice...\" The speaker is certain there was no notice, so they might be using \"kan\" to assert that there was no notice, expecting the listener to agree, even though it's a statement. Since the epistemic stance is certain, \"kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T13:14:08.106462+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T13:14:29.801472+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T13:14:34.549835+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — either \"ke\" or \"kan\" — belongs in the [___] slot.\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n\nSentence:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nDiscourse-context attributes for this sentence:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  }
+]

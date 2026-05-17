@@ -1,0 +1,797 @@
+Llama/Ollama status: Ollama not installed.
+Models to run: ['gpt_strong', 'gpt_weak', 'claude_strong', 'claude_weak', 'gemini_strong', 'gemini_weak', 'deepseek_strong', 'deepseek_weak', 'sealion_strong', 'sealion_weak']
+Total masked rows usable for Test 2c: 64
+GT distribution:
+GT_Particle
+kan    64
+                                                                                                                      Text  ... GT_Particle
+0                   Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂  ...         kan
+1                                              @Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣  ...         kan
+2  boleh la [___]... amik streaming spotify pulak nak rasa negara dia better 😂😂😂 kalau cakap pasal benda lain, tentu2 l...  ...         kan
+
+[3 rows x 3 columns]
+
+======================================================================
+PROMPT BEING USED (Test 2c):
+======================================================================
+You are a linguist specialising in colloquial Malay discourse particles. A discourse particle has been removed from the Malay sentence below and replaced with [___]. Your task is to predict which particle, either "ke" or "kan", belongs in that slot.
+
+Particle meanings:
+  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.
+  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes ("right?").
+
+
+Speaker: "{TEXT}"
+
+
+Given the two candidate particles "kan" and "ke", the single most likely particle to fill [___] is:
+  [+ STRICT_TAIL appended at runtime]
+======================================================================
+
+
+────────────────────────────────────────────────────────────
+STEP 2: Running 1-sample test
+────────────────────────────────────────────────────────────
+Sample sentence : Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂
+Ground truth    : kan
+
+Launching 10 tasks across 10 subprocesses
+1-sample:   0%|          | 0/10 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+1-sample:  10%|█         | 1/10 [00:00<00:05,  1.57it/s]1-sample:  20%|██        | 2/10 [00:00<00:02,  2.85it/s]1-sample:  40%|████      | 4/10 [00:01<00:01,  3.29it/s]1-sample:  50%|█████     | 5/10 [00:01<00:01,  3.30it/s]1-sample:  60%|██████    | 6/10 [00:01<00:01,  3.89it/s]1-sample:  70%|███████   | 7/10 [00:01<00:00,  4.49it/s]1-sample:  80%|████████  | 8/10 [00:02<00:00,  5.18it/s]1-sample:  90%|█████████ | 9/10 [00:06<00:01,  1.51s/it]1-sample: 100%|██████████| 10/10 [00:15<00:00,  3.63s/it]1-sample: 100%|██████████| 10/10 [00:15<00:00,  1.52s/it]
+  GPT_STRONG → sample preds: ['kan']
+  GPT_WEAK → sample preds: ['kan']
+  CLAUDE_STRONG → sample preds: ['kan']
+  CLAUDE_WEAK → sample preds: ['kan']
+  GEMINI_STRONG → sample preds: ['kan']
+  GEMINI_WEAK → sample preds: ['kan']
+  DEEPSEEK_STRONG → sample preds: ['kan']
+  DEEPSEEK_WEAK → sample preds: ['kan']
+  SEALION_STRONG → sample preds: ['kan']
+  SEALION_WEAK → sample preds: ['kan']
+
+=======================================================
+  Test 2c — Unconstrained Baseline Particle Prediction
+=======================================================
+                                   Model            Alias  Accuracy  Errors
+2                      claude-sonnet-4-6    claude_strong       1.0       0
+3                       claude-haiku-4-5      claude_weak       1.0       0
+6                        deepseek-v4-pro  deepseek_strong       1.0       0
+7                      deepseek-v4-flash    deepseek_weak       1.0       0
+4                 gemini-3.1-pro-preview    gemini_strong       1.0       0
+5                  gemini-3.1-flash-lite      gemini_weak       1.0       0
+0                                  gpt-5       gpt_strong       1.0       0
+1                           gpt-5.4-mini         gpt_weak       1.0       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R   sealion_strong       1.0       0
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT     sealion_weak       1.0       0
+Saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2c_predictions_1sample.csv
+Saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2c_accuracy_summary_1sample.md
+Saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2c_accuracy_summary.md
+
+────────────────────────────────────────────────────────────
+STEP 3: Running 5-sample test
+────────────────────────────────────────────────────────────
+Ground truths: ['kan', 'kan', 'kan', 'kan', 'kan']
+
+Launching 50 tasks across 50 subprocesses
+5-samples:   0%|          | 0/50 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+5-samples:   2%|▏         | 1/50 [00:00<00:33,  1.46it/s]5-samples:  10%|█         | 5/50 [00:00<00:05,  7.59it/s]5-samples:  20%|██        | 10/50 [00:00<00:02, 15.17it/s]5-samples:  32%|███▏      | 16/50 [00:01<00:01, 17.47it/s]5-samples:  38%|███▊      | 19/50 [00:01<00:02, 15.07it/s]5-samples:  46%|████▌     | 23/50 [00:01<00:02, 12.29it/s]5-samples:  50%|█████     | 25/50 [00:02<00:02, 12.04it/s]5-samples:  64%|██████▍   | 32/50 [00:02<00:00, 19.30it/s]5-samples:  70%|███████   | 35/50 [00:02<00:01, 14.29it/s]5-samples:  76%|███████▌  | 38/50 [00:03<00:01,  6.32it/s]5-samples:  80%|████████  | 40/50 [00:04<00:01,  6.20it/s]5-samples:  84%|████████▍ | 42/50 [00:05<00:02,  3.46it/s]5-samples:  86%|████████▌ | 43/50 [00:07<00:02,  2.42it/s]5-samples:  88%|████████▊ | 44/50 [00:12<00:07,  1.18s/it]5-samples:  90%|█████████ | 45/50 [00:14<00:06,  1.36s/it]5-samples:  92%|█████████▏| 46/50 [00:20<00:09,  2.25s/it]5-samples:  94%|█████████▍| 47/50 [00:24<00:08,  2.81s/it]5-samples:  96%|█████████▌| 48/50 [00:25<00:04,  2.27s/it]5-samples:  98%|█████████▊| 49/50 [01:01<00:11, 11.22s/it]5-samples: 100%|██████████| 50/50 [01:01<00:00,  1.24s/it]
+  GPT_STRONG → sample preds: ['kan', 'kan', 'kan', 'ke', 'kan']
+  GPT_WEAK → sample preds: ['kan', 'kan', 'kan', 'kan', 'kan']
+  CLAUDE_STRONG → sample preds: ['kan', 'kan', 'kan', 'ke', 'kan']
+  CLAUDE_WEAK → sample preds: ['kan', 'kan', 'kan', 'ke', 'ke']
+  GEMINI_STRONG → sample preds: ['kan', 'kan', 'kan', 'kan', 'kan']
+  GEMINI_WEAK → sample preds: ['kan', 'kan', 'kan', 'kan', 'kan']
+  DEEPSEEK_STRONG → sample preds: ['kan', 'kan', 'kan', 'ke', 'kan']
+  DEEPSEEK_WEAK → sample preds: ['kan', 'kan', 'kan', 'ke', 'kan']
+  SEALION_STRONG → sample preds: ['kan', 'kan', 'kan', 'kan', 'kan']
+  SEALION_WEAK → sample preds: ['kan', 'kan', 'kan', 'kan', 'kan']
+
+=======================================================
+  Test 2c — Unconstrained Baseline Particle Prediction
+=======================================================
+                                   Model            Alias  Accuracy  Errors
+4                 gemini-3.1-pro-preview    gemini_strong       1.0       0
+5                  gemini-3.1-flash-lite      gemini_weak       1.0       0
+1                           gpt-5.4-mini         gpt_weak       1.0       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R   sealion_strong       1.0       0
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT     sealion_weak       1.0       0
+2                      claude-sonnet-4-6    claude_strong       0.8       0
+6                        deepseek-v4-pro  deepseek_strong       0.8       0
+7                      deepseek-v4-flash    deepseek_weak       0.8       0
+0                                  gpt-5       gpt_strong       0.8       0
+3                       claude-haiku-4-5      claude_weak       0.6       0
+Saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2c_predictions_5samples.csv
+Saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2c_accuracy_summary_5samples.md
+Saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2c_accuracy_summary.md
+
+────────────────────────────────────────────────────────────
+STEP 4: Running full dataset (64 rows)
+────────────────────────────────────────────────────────────
+Launching 640 tasks across 50 subprocesses
+full:   0%|          | 0/640 [00:00<?, ?it/s]full:   0%|          | 1/640 [00:01<20:30,  1.93s/it]full:   2%|▏         | 10/640 [00:02<01:35,  6.62it/s]full:   3%|▎         | 19/640 [00:02<00:45, 13.76it/s]full:   4%|▍         | 27/640 [00:02<00:29, 21.07it/s]full:   5%|▌         | 35/640 [00:02<00:20, 28.98it/s]full:   7%|▋         | 43/640 [00:02<00:20, 29.76it/s]full:   8%|▊         | 49/640 [00:03<00:25, 23.48it/s]full:   8%|▊         | 54/640 [00:03<00:22, 25.91it/s]full:  10%|▉         | 61/640 [00:03<00:17, 32.47it/s]full:  11%|█         | 69/640 [00:03<00:16, 35.27it/s]full:  12%|█▏        | 74/640 [00:03<00:15, 36.11it/s]full:  12%|█▏        | 79/640 [00:03<00:14, 38.26it/s]full:  13%|█▎        | 85/640 [00:03<00:13, 40.19it/s]full:  14%|█▍        | 90/640 [00:04<00:17, 31.66it/s]full:  15%|█▍        | 94/640 [00:04<00:17, 31.98it/s]full:  15%|█▌        | 98/640 [00:04<00:17, 30.39it/s]full:  16%|█▌        | 102/640 [00:04<00:17, 30.85it/s]full:  17%|█▋        | 110/640 [00:04<00:12, 41.61it/s]full:  18%|█▊        | 115/640 [00:04<00:13, 38.22it/s]full:  19%|█▉        | 120/640 [00:04<00:15, 33.37it/s]full:  20%|█▉        | 127/640 [00:05<00:15, 33.23it/s]full:  21%|██        | 132/640 [00:05<00:14, 35.23it/s]full:  21%|██▏       | 136/640 [00:05<00:15, 33.09it/s]full:  22%|██▏       | 140/640 [00:05<00:18, 27.39it/s]full:  22%|██▏       | 143/640 [00:05<00:24, 20.39it/s]full:  23%|██▎       | 146/640 [00:06<00:26, 18.47it/s]full:  23%|██▎       | 149/640 [00:06<00:32, 14.88it/s]full:  24%|██▍       | 152/640 [00:06<00:28, 16.96it/s]full:  24%|██▍       | 155/640 [00:06<00:31, 15.22it/s]full:  25%|██▍       | 157/640 [00:06<00:35, 13.76it/s]full:  25%|██▍       | 159/640 [00:07<00:32, 14.60it/s]full:  26%|██▌       | 164/640 [00:07<00:23, 20.04it/s]full:  26%|██▌       | 167/640 [00:07<00:30, 15.46it/s]full:  27%|██▋       | 170/640 [00:07<00:27, 17.16it/s]full:  27%|██▋       | 173/640 [00:07<00:25, 18.38it/s]full:  28%|██▊       | 176/640 [00:07<00:23, 19.41it/s]full:  28%|██▊       | 179/640 [00:08<00:24, 18.67it/s]full:  28%|██▊       | 182/640 [00:08<00:23, 19.90it/s]full:  29%|██▉       | 185/640 [00:08<00:22, 20.06it/s]full:  29%|██▉       | 188/640 [00:08<00:21, 21.27it/s]full:  30%|██▉       | 191/640 [00:08<00:25, 17.91it/s]full:  30%|███       | 193/640 [00:08<00:27, 16.36it/s]full:  31%|███       | 197/640 [00:09<00:20, 21.10it/s]full:  31%|███▏      | 200/640 [00:09<00:24, 17.80it/s]full:  32%|███▏      | 203/640 [00:09<00:27, 15.85it/s]full:  32%|███▏      | 205/640 [00:09<00:28, 15.36it/s]full:  32%|███▏      | 207/640 [00:10<01:30,  4.80it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  33%|███▎      | 209/640 [00:12<02:09,  3.33it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  33%|███▎      | 210/640 [00:12<02:30,  2.86it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  33%|███▎      | 212/640 [00:12<01:52,  3.81it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  33%|███▎      | 214/640 [00:12<01:24,  5.04it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  34%|███▍      | 216/640 [00:13<01:19,  5.31it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  34%|███▍      | 219/640 [00:13<00:54,  7.70it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  35%|███▍      | 221/640 [00:13<00:58,  7.21it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  35%|███▍      | 223/640 [00:14<01:05,  6.38it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  35%|███▌      | 225/640 [00:14<00:58,  7.13it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  35%|███▌      | 227/640 [00:14<00:47,  8.74it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  37%|███▋      | 236/640 [00:14<00:21, 18.81it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  37%|███▋      | 239/640 [00:14<00:24, 16.19it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  38%|███▊      | 242/640 [00:14<00:21, 18.18it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  38%|███▊      | 245/640 [00:15<00:27, 14.58it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  39%|███▉      | 248/640 [00:15<00:24, 16.11it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  39%|███▉      | 250/640 [00:15<00:24, 16.12it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  40%|███▉      | 253/640 [00:15<00:23, 16.15it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  40%|███▉      | 255/640 [00:15<00:28, 13.28it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  40%|████      | 257/640 [00:16<00:33, 11.49it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  41%|████      | 263/640 [00:16<00:19, 19.51it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  42%|████▏     | 268/640 [00:16<00:15, 24.07it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  42%|████▎     | 272/640 [00:16<00:13, 26.47it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  43%|████▎     | 276/640 [00:17<00:22, 16.26it/s]full:  44%|████▎     | 279/640 [00:17<00:20, 17.37it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  44%|████▍     | 282/640 [00:17<00:20, 17.67it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  45%|████▍     | 285/640 [00:17<00:19, 18.31it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  45%|████▌     | 290/640 [00:17<00:16, 21.80it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  46%|████▌     | 293/640 [00:17<00:18, 18.56it/s]full:  47%|████▋     | 300/640 [00:18<00:13, 26.15it/s]full:  48%|████▊     | 305/640 [00:18<00:11, 28.82it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  49%|████▊     | 311/640 [00:18<00:10, 32.37it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  49%|████▉     | 315/640 [00:18<00:09, 32.68it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  50%|████▉     | 319/640 [00:18<00:10, 31.32it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  51%|█████     | 327/640 [00:18<00:09, 34.63it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+full:  52%|█████▏    | 332/640 [00:18<00:08, 37.56it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  53%|█████▎    | 339/640 [00:19<00:08, 37.62it/s]/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2c_particle_prediction.py:333: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+full:  54%|█████▎    | 343/640 [00:19<00:08, 36.20it/s]full:  54%|█████▍    | 347/640 [00:19<00:09, 29.84it/s]full:  55%|█████▌    | 352/640 [00:19<00:10, 27.32it/s]full:  55%|█████▌    | 355/640 [00:19<00:11, 25.42it/s]full:  56%|█████▋    | 361/640 [00:19<00:09, 30.82it/s]full:  57%|█████▋    | 365/640 [00:20<00:10, 25.06it/s]full:  57%|█████▊    | 368/640 [00:20<00:11, 24.62it/s]full:  58%|█████▊    | 371/640 [00:20<00:11, 23.54it/s]full:  58%|█████▊    | 374/640 [00:20<00:13, 20.17it/s]full:  59%|█████▉    | 377/640 [00:21<00:20, 13.09it/s]full:  59%|█████▉    | 379/640 [00:21<00:18, 13.94it/s]full:  60%|█████▉    | 381/640 [00:22<00:44,  5.79it/s]full:  60%|█████▉    | 383/640 [00:24<01:49,  2.35it/s]full:  60%|██████    | 384/640 [00:26<02:38,  1.61it/s]full:  60%|██████    | 385/640 [00:26<02:34,  1.65it/s]full:  60%|██████    | 386/640 [00:27<02:28,  1.71it/s]full:  60%|██████    | 387/640 [00:28<02:33,  1.65it/s]full:  61%|██████    | 390/640 [00:28<01:36,  2.58it/s]full:  61%|██████    | 391/640 [00:28<01:25,  2.90it/s]full:  61%|██████▏   | 392/640 [00:28<01:12,  3.41it/s]full:  61%|██████▏   | 393/640 [00:29<01:07,  3.66it/s]full:  62%|██████▏   | 394/640 [00:29<01:22,  2.96it/s]full:  62%|██████▏   | 396/640 [00:29<00:56,  4.28it/s]full:  62%|██████▏   | 397/640 [00:30<00:57,  4.20it/s]full:  62%|██████▏   | 398/640 [00:30<00:52,  4.57it/s]full:  62%|██████▏   | 399/640 [00:30<00:52,  4.59it/s]full:  62%|██████▎   | 400/640 [00:30<01:10,  3.40it/s]full:  63%|██████▎   | 402/640 [00:31<00:51,  4.66it/s]full:  63%|██████▎   | 403/640 [00:31<00:48,  4.90it/s]full:  63%|██████▎   | 405/640 [00:31<00:55,  4.24it/s]full:  63%|██████▎   | 406/640 [00:31<00:48,  4.85it/s]full:  64%|██████▍   | 408/640 [00:32<00:50,  4.63it/s]full:  64%|██████▍   | 409/640 [00:32<00:49,  4.66it/s]full:  64%|██████▍   | 410/640 [00:33<01:50,  2.09it/s]full:  64%|██████▍   | 412/640 [00:34<01:26,  2.63it/s]full:  65%|██████▍   | 413/640 [00:34<01:13,  3.09it/s]full:  65%|██████▌   | 416/640 [00:34<00:41,  5.39it/s]full:  65%|██████▌   | 418/640 [00:34<00:37,  5.85it/s]full:  65%|██████▌   | 419/640 [00:35<00:40,  5.45it/s]full:  66%|██████▌   | 422/640 [00:35<00:38,  5.64it/s]full:  66%|██████▌   | 423/640 [00:36<00:43,  4.99it/s]full:  66%|██████▋   | 424/640 [00:36<00:49,  4.40it/s]full:  66%|██████▋   | 425/640 [00:36<00:45,  4.69it/s]full:  67%|██████▋   | 426/640 [00:36<00:41,  5.19it/s]full:  67%|██████▋   | 427/640 [00:37<01:03,  3.37it/s]full:  67%|██████▋   | 429/640 [00:37<00:44,  4.70it/s]full:  67%|██████▋   | 431/640 [00:37<00:40,  5.11it/s]full:  68%|██████▊   | 432/640 [00:37<00:38,  5.37it/s]full:  68%|██████▊   | 435/640 [00:38<00:29,  6.98it/s]full:  68%|██████▊   | 436/640 [00:38<00:29,  6.84it/s]full:  68%|██████▊   | 438/640 [00:38<00:27,  7.30it/s]full:  69%|██████▉   | 441/640 [00:38<00:19, 10.42it/s]full:  69%|██████▉   | 443/640 [00:38<00:16, 11.85it/s]full:  70%|██████▉   | 446/640 [00:39<00:15, 12.89it/s]full:  70%|███████   | 449/640 [00:39<00:12, 15.43it/s]full:  70%|███████   | 451/640 [00:39<00:19,  9.63it/s]full:  71%|███████   | 453/640 [00:40<00:27,  6.92it/s]full:  71%|███████   | 455/640 [00:40<00:25,  7.36it/s]full:  72%|███████▏  | 459/640 [00:40<00:17, 10.40it/s]full:  72%|███████▏  | 461/640 [00:40<00:19,  9.19it/s]full:  72%|███████▏  | 463/640 [00:41<00:27,  6.43it/s]full:  72%|███████▎  | 464/640 [00:41<00:29,  5.93it/s]full:  73%|███████▎  | 466/640 [00:41<00:27,  6.30it/s]full:  73%|███████▎  | 467/640 [00:42<00:28,  6.12it/s]full:  73%|███████▎  | 468/640 [00:42<00:29,  5.82it/s]full:  73%|███████▎  | 469/640 [00:42<00:30,  5.58it/s]full:  73%|███████▎  | 470/640 [00:42<00:33,  5.13it/s]full:  74%|███████▍  | 472/640 [00:42<00:26,  6.42it/s]full:  74%|███████▍  | 474/640 [00:43<00:20,  8.04it/s]full:  75%|███████▍  | 478/640 [00:43<00:12, 13.15it/s]full:  75%|███████▌  | 480/640 [00:43<00:18,  8.48it/s]full:  75%|███████▌  | 482/640 [00:43<00:19,  8.00it/s]full:  76%|███████▌  | 484/640 [00:44<00:21,  7.27it/s]full:  76%|███████▌  | 485/640 [00:44<00:24,  6.27it/s]full:  76%|███████▋  | 489/640 [00:44<00:15,  9.85it/s]full:  77%|███████▋  | 491/640 [00:44<00:13, 11.32it/s]full:  77%|███████▋  | 493/640 [00:45<00:15,  9.56it/s]full:  77%|███████▋  | 495/640 [00:45<00:23,  6.25it/s]full:  78%|███████▊  | 496/640 [00:45<00:22,  6.48it/s]full:  78%|███████▊  | 498/640 [00:46<00:18,  7.59it/s]full:  78%|███████▊  | 499/640 [00:46<00:18,  7.82it/s]full:  78%|███████▊  | 500/640 [00:46<00:30,  4.66it/s]full:  79%|███████▊  | 503/640 [00:49<01:08,  1.99it/s]full:  79%|███████▉  | 504/640 [00:49<01:10,  1.92it/s]full:  79%|███████▉  | 505/640 [00:49<00:59,  2.25it/s]full:  79%|███████▉  | 506/640 [00:52<01:57,  1.14it/s]full:  79%|███████▉  | 507/640 [00:54<02:37,  1.19s/it]full:  79%|███████▉  | 508/640 [00:55<02:48,  1.27s/it]full:  80%|███████▉  | 509/640 [00:57<03:02,  1.39s/it]full:  80%|███████▉  | 511/640 [01:04<04:58,  2.31s/it]full:  80%|████████  | 512/640 [01:16<09:47,  4.59s/it]full:  80%|████████  | 513/640 [03:14<1:10:30, 33.31s/it]full:  80%|████████  | 514/640 [06:45<2:49:01, 80.49s/it]full:  80%|████████  | 515/640 [06:45<2:01:38, 58.39s/it]full:  81%|████████  | 517/640 [06:45<1:07:09, 32.76s/it]full:  81%|████████  | 519/640 [06:45<40:40, 20.17s/it]  full:  81%|████████▏ | 520/640 [06:46<31:45, 15.88s/it]full:  81%|████████▏ | 521/640 [06:46<24:09, 12.18s/it]full:  82%|████████▏ | 523/640 [06:46<14:14,  7.31s/it]full:  82%|████████▏ | 524/640 [06:46<11:01,  5.70s/it]full:  83%|████████▎ | 529/640 [06:46<04:06,  2.22s/it]full:  83%|████████▎ | 531/640 [06:47<03:05,  1.70s/it]full:  83%|████████▎ | 533/640 [06:47<02:17,  1.28s/it]full:  84%|████████▎ | 535/640 [06:47<01:40,  1.04it/s]full:  84%|████████▍ | 536/640 [06:48<01:28,  1.17it/s]full:  84%|████████▍ | 540/640 [06:48<00:45,  2.22it/s]full:  85%|████████▍ | 542/640 [06:48<00:34,  2.82it/s]full:  85%|████████▌ | 544/640 [06:48<00:28,  3.35it/s]full:  85%|████████▌ | 546/640 [06:49<00:29,  3.24it/s]full:  86%|████████▌ | 549/640 [06:49<00:20,  4.52it/s]full:  86%|████████▌ | 551/640 [06:50<00:22,  4.03it/s]full:  87%|████████▋ | 554/640 [06:52<00:38,  2.23it/s]full:  87%|████████▋ | 555/640 [06:53<00:39,  2.13it/s]full:  87%|████████▋ | 556/640 [06:53<00:35,  2.35it/s]full:  87%|████████▋ | 557/640 [06:55<01:07,  1.23it/s]full:  87%|████████▋ | 558/640 [06:58<01:29,  1.09s/it]full:  87%|████████▋ | 559/640 [06:59<01:36,  1.19s/it]full:  88%|████████▊ | 560/640 [07:01<01:47,  1.34s/it]full:  88%|████████▊ | 562/640 [07:20<06:10,  4.76s/it]full:  88%|████████▊ | 563/640 [07:28<07:09,  5.58s/it]full:  88%|████████▊ | 564/640 [09:21<40:48, 32.21s/it]full:  88%|████████▊ | 565/640 [10:22<49:40, 39.75s/it]full:  88%|████████▊ | 566/640 [10:22<35:54, 29.12s/it]full:  89%|████████▊ | 567/640 [10:23<25:40, 21.10s/it]full:  89%|████████▉ | 568/640 [10:24<18:19, 15.27s/it]full:  89%|████████▉ | 569/640 [11:25<33:43, 28.50s/it]full:  89%|████████▉ | 570/640 [11:25<23:45, 20.36s/it]full:  89%|████████▉ | 571/640 [12:26<37:11, 32.34s/it]full:  89%|████████▉ | 572/640 [12:27<26:01, 22.97s/it]full:  90%|████████▉ | 573/640 [12:48<25:06, 22.48s/it]full:  90%|████████▉ | 574/640 [12:48<17:24, 15.82s/it]full:  90%|█████████ | 576/640 [12:49<09:12,  8.63s/it]full:  90%|█████████ | 578/640 [12:49<05:26,  5.26s/it]full:  90%|█████████ | 579/640 [12:50<04:15,  4.19s/it]full:  91%|█████████ | 580/640 [12:50<03:13,  3.22s/it]full:  91%|█████████ | 582/640 [12:50<01:52,  1.93s/it]full:  91%|█████████ | 583/640 [12:50<01:26,  1.52s/it]full:  92%|█████████▏| 586/640 [12:50<00:43,  1.25it/s]full:  92%|█████████▏| 589/640 [12:50<00:25,  2.02it/s]full:  92%|█████████▏| 591/640 [12:51<00:20,  2.41it/s]full:  93%|█████████▎| 593/640 [12:51<00:15,  3.01it/s]full:  93%|█████████▎| 594/640 [12:51<00:14,  3.17it/s]full:  93%|█████████▎| 595/640 [12:51<00:14,  3.16it/s]full:  94%|█████████▎| 599/640 [12:52<00:07,  5.65it/s]full:  94%|█████████▍| 602/640 [12:52<00:04,  7.74it/s]full:  94%|█████████▍| 604/640 [12:52<00:06,  5.57it/s]full:  95%|█████████▍| 606/640 [12:53<00:06,  5.58it/s]full:  95%|█████████▌| 608/640 [12:53<00:04,  6.80it/s]full:  95%|█████████▌| 610/640 [12:54<00:05,  5.09it/s]full:  96%|█████████▌| 613/640 [12:56<00:11,  2.37it/s]full:  96%|█████████▌| 614/640 [12:57<00:11,  2.20it/s]full:  96%|█████████▋| 616/640 [12:59<00:17,  1.41it/s]full:  96%|█████████▋| 617/640 [13:01<00:21,  1.06it/s]full:  97%|█████████▋| 618/640 [13:03<00:23,  1.05s/it]full:  97%|█████████▋| 619/640 [13:04<00:25,  1.22s/it]full:  97%|█████████▋| 620/640 [13:05<00:19,  1.05it/s]full:  97%|█████████▋| 621/640 [13:28<02:07,  6.71s/it]full:  97%|█████████▋| 622/640 [13:32<01:46,  5.93s/it]full:  97%|█████████▋| 623/640 [18:52<26:24, 93.20s/it]full:  98%|█████████▊| 624/640 [18:52<17:48, 66.77s/it]full:  98%|█████████▊| 626/640 [18:53<08:37, 36.97s/it]full:  98%|█████████▊| 628/640 [18:53<04:31, 22.59s/it]full:  98%|█████████▊| 629/640 [18:53<03:15, 17.76s/it]full:  99%|█████████▊| 631/640 [18:53<01:38, 10.98s/it]full:  99%|█████████▉| 633/640 [18:54<00:49,  7.12s/it]full:  99%|█████████▉| 636/640 [18:54<00:16,  4.07s/it]full: 100%|█████████▉| 639/640 [18:54<00:02,  2.54s/it]full: 100%|██████████| 640/640 [18:54<00:00,  1.77s/it]
+  GPT_STRONG → sample preds: ['kan', 'kan', 'kan', 'ke', 'kan']
+  GPT_WEAK → sample preds: ['kan', 'kan', 'kan', 'kan', 'kan']
+  CLAUDE_STRONG → sample preds: ['kan', 'kan', 'kan', 'ke', 'kan']
+  CLAUDE_WEAK → sample preds: ['kan', 'kan', 'kan', 'ke', 'ke']
+  GEMINI_STRONG → sample preds: ['kan', 'kan', 'kan', 'kan', 'kan']
+  GEMINI_WEAK → sample preds: ['kan', 'kan', 'kan', 'kan', 'kan']
+  DEEPSEEK_STRONG → sample preds: ['kan', 'kan', 'kan', 'ke', 'kan']
+  DEEPSEEK_WEAK → sample preds: ['kan', 'kan', 'kan', 'ke', 'kan']
+  SEALION_STRONG → sample preds: ["ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:33:30 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}", "ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:33:30 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}", "ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:33:31 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}", "ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:33:31 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}", "ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:33:31 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}"]
+  SEALION_WEAK → sample preds: ["ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:39:36 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}", "ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:39:36 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}", "ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:39:36 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}", "ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:39:36 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}", "ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded for team: 29c1d7e8d8a340d298b2a109087a0044b5f80063c0d661616c3769242419d6c24427cf75784ac50b973e16cc6b2c2630bb603963cadfe9ebafd084134f26433d. Limit type: requests. Current limit: 10, Remaining: 0. Limit resets at: 2026-05-14 03:39:36 UTC', 'type': 'None', 'param': 'None', 'code': '429'}}"]
+
+=======================================================
+  Test 2c — Unconstrained Baseline Particle Prediction
+=======================================================
+                                   Model            Alias  Accuracy  Errors
+1                           gpt-5.4-mini         gpt_weak    0.9844       0
+4                 gemini-3.1-pro-preview    gemini_strong    0.9531       0
+5                  gemini-3.1-flash-lite      gemini_weak    0.9531       0
+6                        deepseek-v4-pro  deepseek_strong    0.9219       0
+7                      deepseek-v4-flash    deepseek_weak    0.9062       0
+3                       claude-haiku-4-5      claude_weak    0.8281       6
+0                                  gpt-5       gpt_strong    0.8281       0
+2                      claude-sonnet-4-6    claude_strong    0.5156      28
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT     sealion_weak    0.1562      54
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R   sealion_strong    0.0312      62
+Saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2c_predictions_full.csv
+Saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2c_accuracy_summary_full.md
+Saved → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2c_accuracy_summary.md

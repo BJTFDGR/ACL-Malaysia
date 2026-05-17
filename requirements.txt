@@ -1,0 +1,7 @@
+praw>=7.7.0          # github.com/praw-dev/praw — Reddit API wrapper with rate-limit handling
+twscrape>=0.14.0     # github.com/vladkens/twscrape — Twitter scraper with account rotation
+python-dotenv>=1.0.0 # environment variable management
+tqdm>=4.66.0         # progress bars
+tenacity>=8.2.0      # retry + exponential backoff (anti-scrape resilience)
+fake-useragent>=1.4.0 # github.com/fake-useragent/fake-useragent — UA rotation
+kmodes>=0.12.2        # categorical clustering for discourse-context analysis

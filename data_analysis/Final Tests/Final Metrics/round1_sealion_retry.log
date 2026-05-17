@@ -1,0 +1,74 @@
+============================================================
+Test 2a: fixing </think> rows and retrying 8 error rows
+============================================================
+Fixing 0 </think>-wrapped rows in 2a...
+
+Retrying 0 ERROR rows in 2a: []
+
+Saved updated 2a CSV → ../Final Metrics/round1_2a_predictions.csv
+
+============================================================
+Test 2c: retrying 8 ERROR rows
+============================================================
+Retrying 8 ERROR rows in 2c: [7, 52, 53, 54, 55, 56, 57, 58]
+
+  Row 7 (GT=kan) — calling sealion_strong...
+  Raw: 'ĊĊ</think>ĊĊkeĊĊTheĠparticleĠ"ke"ĠisĠmoreĠappropriateĠhereĠbecauseĠtheĠsentenceĠ' → Extracted: 'kan'
+
+  Row 52 (GT=kan) — calling sealion_strong...
+  Raw: 'ĊĊ</think>ĊĊke' → Extracted: 'ke'
+
+  Row 53 (GT=kan) — calling sealion_strong...
+  Raw: 'ĊĊ</think>ĊĊkeĊĊ(TheĠparticleĠ"ke"ĠisĠmoreĠappropriateĠhereĠasĠitĠinvitesĠconfir' → Extracted: 'kan'
+
+  Row 54 (GT=kan) — calling sealion_strong...
+  Raw: 'ĊĊ</think>ĊĊke' → Extracted: 'ke'
+
+  Row 55 (GT=kan) — calling sealion_strong...
+  Raw: 'ĊĊ</think>ĊĊkanĊĊReasoning:ĠInĠcolloquialĠMalay,Ġ"kan"ĠisĠusedĠtoĠseekĠlightĠcon' → Extracted: 'kan'
+
+  Row 56 (GT=kan) — calling sealion_strong...
+  Raw: 'ĊĊ</think>ĊĊkanĊĊTheĠparticleĠ"kan"ĠisĠmoreĠappropriateĠhereĠbecauseĠtheĠspeaker' → Extracted: 'kan'
+
+  Row 57 (GT=kan) — calling sealion_strong...
+  Raw: 'ĊĊ</think>ĊĊkeĊĊReasoning:ĠTheĠspeakerĠisĠaĠ"newbie"ĠexpressingĠuncertaintyĠabou' → Extracted: 'ke'
+
+  Row 58 (GT=kan) — calling sealion_strong...
+  Raw: 'ĊĊ</think>ĊĊkeĊĊExplanation:ĠTheĠsentenceĠexpressesĠgenuineĠuncertaintyĠaboutĠwh' → Extracted: 'ke'
+
+Saved updated 2c CSV → ../Final Metrics/round1_2c_predictions_full.csv
+
+============================================================
+Recalculating accuracy tables
+============================================================
+
+  Test 2a:
+                                Model           Alias  Accuracy  Errors
+                      claude-opus-4-7   claude_strong  0.827869       0
+                                gpt-5      gpt_strong  0.778689       0
+                     claude-haiku-4-5     claude_weak  0.778689       0
+ aisingapore/Gemma-SEA-LION-v4-27B-IT    sealion_weak  0.770492       0
+               gemini-3.1-pro-preview   gemini_strong  0.770492       0
+                      deepseek-v4-pro deepseek_strong  0.770492       0
+                         gpt-5.4-mini        gpt_weak  0.762295       0
+                gemini-3.1-flash-lite     gemini_weak  0.762295       0
+                    deepseek-v4-flash   deepseek_weak  0.754098       0
+aisingapore/Llama-SEA-LION-v3.5-70B-R  sealion_strong  0.721311       0
+
+  Test 2c:
+                                Model           Alias  Accuracy  Errors
+                         gpt-5.4-mini        gpt_weak  1.000000       0
+ aisingapore/Gemma-SEA-LION-v4-27B-IT    sealion_weak  1.000000       0
+               gemini-3.1-pro-preview   gemini_strong  0.953125       1
+                gemini-3.1-flash-lite     gemini_weak  0.953125       0
+                    deepseek-v4-flash   deepseek_weak  0.937500       0
+                    claude-sonnet-4-6   claude_strong  0.937500       0
+                      deepseek-v4-pro deepseek_strong  0.906250       0
+                     claude-haiku-4-5     claude_weak  0.890625       0
+                                gpt-5      gpt_strong  0.796875       0
+aisingapore/Llama-SEA-LION-v3.5-70B-R  sealion_strong  0.562500       0
+
+Saved 2a markdown → ../Final Metrics/round1_2a_accuracy_summary.md
+Saved 2c markdown → ../Final Metrics/round1_2c_accuracy_summary_full.md
+
+Done.

@@ -1,0 +1,423 @@
+[
+  {
+    "comment_id": "gv7rrdz",
+    "conv_id": "mt1a7i~gv66ot0_mod",
+    "subreddit": "CoronavirusOregon",
+    "bool_derail": true,
+    "rule_texts": "Be civil",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "mt1a7i~gv66ot0_mod"
+      },
+      {
+        "id": "gv66ior~gv66ot0"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "gv66ot0~gv66ot0"
+    }
+  },
+  {
+    "comment_id": "djldyid",
+    "conv_id": "6k3cxt~djk3mj2_mod",
+    "subreddit": "AskAnthropology",
+    "bool_derail": true,
+    "rule_texts": "Be nice",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "6k3cxt~djk3mj2_mod"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "djk3mj2~djk3mj2"
+    }
+  },
+  {
+    "comment_id": "gw5hxo9",
+    "conv_id": "mz7iqq~gvz9ydj_mod",
+    "subreddit": "askspain",
+    "bool_derail": true,
+    "rule_texts": "Questions should be relevant to Spain",
+    "cats": "off-topic",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "mz7iqq~gvz9ydj_mod"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "gvz9ydj~gvz9ydj"
+    }
+  },
+  {
+    "comment_id": "fv2b5pd",
+    "conv_id": "h9zx0r~fv1sn4x_mod",
+    "subreddit": "joker",
+    "bool_derail": true,
+    "rule_texts": "Be Civil",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "h9zx0r~fv1sn4x_mod"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "fv1sn4x~fv1sn4x"
+    }
+  },
+  {
+    "comment_id": "g1hyf6j",
+    "conv_id": "i9ue4z~g1hidbv_mod",
+    "subreddit": "flightsim",
+    "bool_derail": true,
+    "rule_texts": "Piracy",
+    "cats": "spam",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "i9ue4z~g1hidbv_mod"
+      },
+      {
+        "id": "g1hi9sx~g1hidbv"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "g1hidbv~g1hidbv"
+    }
+  },
+  {
+    "comment_id": "fnw40mz",
+    "conv_id": "g3zj31~fnur0ph_mod",
+    "subreddit": "medicine",
+    "bool_derail": true,
+    "rule_texts": "Act professionally and decently.",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "g3zj31~fnur0ph_mod"
+      },
+      {
+        "id": "fnuqpgq~fnur0ph"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "fnur0ph~fnur0ph"
+    }
+  },
+  {
+    "comment_id": "fijcqr2",
+    "conv_id": "f84cq1~fij8r1l_mod",
+    "subreddit": "PokemonSwordAndShield",
+    "bool_derail": true,
+    "rule_texts": "No NSFW Content",
+    "cats": "content",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "f84cq1~fij8r1l_mod"
+      },
+      {
+        "id": "fij802s~fij8r1l"
+      },
+      {
+        "id": "fij81x2~fij8r1l"
+      },
+      {
+        "id": "fij8oax~fij8r1l"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "fij8r1l~fij8r1l"
+    }
+  },
+  {
+    "comment_id": "fl36tio",
+    "conv_id": "flxolc~fl2cuzd_mod",
+    "subreddit": "medicine",
+    "bool_derail": true,
+    "rule_texts": "No personal agendas, self-promotion, or surveys.",
+    "cats": "spam",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "flxolc~fl2cuzd_mod"
+      },
+      {
+        "id": "fl1o89i~fl2cuzd"
+      },
+      {
+        "id": "fl1uojn~fl2cuzd"
+      },
+      {
+        "id": "fl1w5eh~fl2cuzd"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "fl2cuzd~fl2cuzd"
+    }
+  },
+  {
+    "comment_id": "gsq7bzx",
+    "conv_id": "mfrcj0~gspxnrw_mod",
+    "subreddit": "conlangs",
+    "bool_derail": true,
+    "rule_texts": "Be Civil",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "mfrcj0~gspxnrw_mod"
+      },
+      {
+        "id": "gsp83fk~gspxnrw"
+      },
+      {
+        "id": "gspbr9v~gspxnrw"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "gspxnrw~gspxnrw"
+    }
+  },
+  {
+    "comment_id": "fr2n01c",
+    "conv_id": "glm3tv~fr0mckn_mod",
+    "subreddit": "FurryVore",
+    "bool_derail": true,
+    "rule_texts": "No Roleplay, Roleplay Requests, Vore Charts, s...",
+    "cats": "content",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "glm3tv~fr0mckn_mod"
+      },
+      {
+        "id": "fqysd57~fr0mckn"
+      },
+      {
+        "id": "fqyv828~fr0mckn"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "fr0mckn~fr0mckn"
+    }
+  },
+  {
+    "comment_id": "gg2rtjs",
+    "conv_id": "keeoz3~gg2fwc3_mod",
+    "subreddit": "Indiemakeupandmore",
+    "bool_derail": true,
+    "rule_texts": "Posts Must Be Directly Relevant to Indies",
+    "cats": "off-topic",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "keeoz3~gg2fwc3_mod"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "gg2fwc3~gg2fwc3"
+    }
+  },
+  {
+    "comment_id": "g3cp5sx",
+    "conv_id": "ijbx94~g3cm1hk_mod",
+    "subreddit": "torncity",
+    "bool_derail": true,
+    "rule_texts": "Advertising and begging",
+    "cats": "spam",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "ijbx94~g3cm1hk_mod"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "g3cm1hk~g3cm1hk"
+    }
+  },
+  {
+    "comment_id": "euh7cus",
+    "conv_id": "cgfz37~euh6xvq_mod",
+    "subreddit": "whywasthisrecommended",
+    "bool_derail": true,
+    "rule_texts": "** NEW RULE ** No self-promotion ** NEW RULE ** ||| Be Kind!",
+    "cats": "spam ||| incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "cgfz37~euh6xvq_mod"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "euh6xvq~euh6xvq"
+    }
+  },
+  {
+    "comment_id": "gv3eoks",
+    "conv_id": "mtz1jx~gv2wn76_mod",
+    "subreddit": "Fantasy",
+    "bool_derail": true,
+    "rule_texts": "Be Kind",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "mtz1jx~gv2wn76_mod"
+      },
+      {
+        "id": "gv2nddf~gv2wn76"
+      },
+      {
+        "id": "gv2pjli~gv2wn76"
+      },
+      {
+        "id": "gv2rkfw~gv2wn76"
+      },
+      {
+        "id": "gv2srco~gv2wn76"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "gv2wn76~gv2wn76"
+    }
+  },
+  {
+    "comment_id": "ffi60pk",
+    "conv_id": "eqw4ze~ffg6hg8_mod",
+    "subreddit": "Purebarre",
+    "bool_derail": true,
+    "rule_texts": "No disclosure of confidential information",
+    "cats": "doxxing",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "eqw4ze~ffg6hg8_mod"
+      },
+      {
+        "id": "fey6kc3~ffg6hg8"
+      },
+      {
+        "id": "feyl9ft~ffg6hg8"
+      },
+      {
+        "id": "feyre19~ffg6hg8"
+      },
+      {
+        "id": "fez0rsj~ffg6hg8"
+      },
+      {
+        "id": "fezqsug~ffg6hg8"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "ffg6hg8~ffg6hg8"
+    }
+  },
+  {
+    "comment_id": "guq2g1x",
+    "conv_id": "mreysn~gup6nl4_mod",
+    "subreddit": "BokuNoShipAcademia",
+    "bool_derail": true,
+    "rule_texts": "Be Respectful of All Ships and Shippers",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "mreysn~gup6nl4_mod"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "gup6nl4~gup6nl4"
+    }
+  },
+  {
+    "comment_id": "e2n6wh2",
+    "conv_id": "8zvzki~e2n0f9c_mod",
+    "subreddit": "CanadaPolitics",
+    "bool_derail": true,
+    "rule_texts": "Rule 2 - Not respectful",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "8zvzki~e2n0f9c_mod"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "e2n0f9c~e2n0f9c"
+    }
+  },
+  {
+    "comment_id": "dynfsc2",
+    "conv_id": "8hx7qr~dynbrpk_mod",
+    "subreddit": "forhonor",
+    "bool_derail": true,
+    "rule_texts": "Rule 1: Keep it Civil",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "8hx7qr~dynbrpk_mod"
+      },
+      {
+        "id": "dyna9eu~dynbrpk"
+      },
+      {
+        "id": "dynav80~dynbrpk"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "dynbrpk~dynbrpk"
+    }
+  },
+  {
+    "comment_id": "ero6zew",
+    "conv_id": "c2z7wz~erntt7b_mod",
+    "subreddit": "whowouldwin",
+    "bool_derail": true,
+    "rule_texts": "Being Rude, Condescending, or Insulting",
+    "cats": "incivility",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "c2z7wz~erntt7b_mod"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "erntt7b~erntt7b"
+    }
+  },
+  {
+    "comment_id": "gt61rej",
+    "conv_id": "mikygj~gt5xn2w_mod",
+    "subreddit": "harrypotter",
+    "bool_derail": true,
+    "rule_texts": "Rule #4: Posts must be Wizarding World related",
+    "cats": "off-topic",
+    "is_restored": 1.0,
+    "redacted_context": [
+      {
+        "id": "mikygj~gt5xn2w_mod"
+      },
+      {
+        "id": "gt5b0ei~gt5xn2w"
+      },
+      {
+        "id": "gt5nb2l~gt5xn2w"
+      },
+      {
+        "id": "gt5oev9~gt5xn2w"
+      }
+    ],
+    "redacted_final_comment": {
+      "id": "gt5xn2w~gt5xn2w"
+    }
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "timestamp": "2026-05-14T02:59:19.584081+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Uncertain\n\nThe speaker uses several hedging markers that indicate",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T02:59:19.931712+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Uncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T02:59:20.468971+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Uncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T02:59:20.644993+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-opus-4-7",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Uncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T02:59:21.936549+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Uncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T02:59:23.793995+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Uncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T02:59:24.514307+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Uncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T02:59:24.701838+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Uncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T02:59:29.533311+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Okay, let's tackle this problem. The user wants me to determine the certainty level of a Malay speaker based on their sentence. The options are Certain, Uncertain, or Neutral/NA.\n\nFirst, I need to understand the sentence. The speaker says, \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja.\" Let me break it down.\n\nThe first part states that there's no electricity in those areas since a specific time. That sounds factual, but then the second part says, \"Ada ke notis dari tadi sy check fb sesb tda notis.\" Translating this, \"Ada ke\" means \"Is there any\" or \"There is any?\" which is a question. The speaker is checking if there was any notice from earlier, but after checking Facebook, there's none. The use of \"ke\" here is a question particle, indicating uncertainty or seeking confirmation.\n\nThe third part, \"Tu karen kan cukup2 utk buka 1 lampu ja,\" translates to \"That's why it's enough to open one lamp.\" The word \"karen\" might be a typo for \"karena\" (because), and \"cukup2\" means \"just enough\" or \"sufficiently.\" The use of \"ja\" at the end is a particle that can soften the statement, making it more of a suggestion or a tentative conclusion.\n\nPutting it all together, the speaker is reporting a power outage, but then questions if there was a notice and checks social media, finding none. Then they conclude that it's enough to use one lamp. The presence of the question particle \"ke\" and the tentative conclusion with \"ja\" suggests that the speaker isn't entirely sure. They're making an estimation based on the absence of official notices and their own checking. Therefore, the speaker sounds uncertain, using words and particles that indicate doubt or estimation.\n</think>\n\nUncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T02:59:35.562702+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay. Your task is to read the Malay sentence below and decide how certain the speaker sounds about the information they are conveying.\nReferring to the following three labels and their definitions to make your decision:\nCertain: The speaker treats the statement as already true or established. There is no hedging, no doubt, and no checking. The speaker is asserting the information with full confidence.\nUncertain: The speaker sounds unsure, is making a guess, is estimating, or is checking whether something is the case. Words like \"agaknya\" (I think/probably), \"kot\" (maybe), or question particles that probe for confirmation are typical signals.\nNeutral/NA: The sentence does not carry any detectable certainty signal in either direction. This applies to neutral descriptions, commands, or sentences where certainty is simply not relevant.\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\nGiven the three labels \"Certain, Uncertain, Neutral/NA\", the most likely, single label of the speaker's utterance is:",
+    "constraint": "You must output exactly one label from the provided set and nothing else.",
+    "raw_output": "Uncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test",
+      "lang": "en"
+    }
+  }
+]

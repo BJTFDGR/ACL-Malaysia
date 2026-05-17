@@ -1,0 +1,50 @@
+Llama/Ollama status: Ollama is not installed. Install it with: curl -fsSL https://ollama.com/install.sh | sh ; then run: ollama serve ; and pull models: ollama pull llama3.2:7b && ollama pull llama3.2:1b
+Llama skipped: Ollama is not installed. Install it with: curl -fsSL https://ollama.com/install.sh | sh ; then run: ollama serve ; and pull models: ollama pull llama3.2:7b && ollama pull llama3.2:1b
+Models to run: ['gpt_strong', 'gpt_weak', 'claude_strong', 'claude_weak', 'gemini_strong', 'gemini_weak', 'deepseek_strong', 'deepseek_weak', 'sealion_strong', 'sealion_weak']
+Loaded 187 total rows; evaluating 1 rows
+                                                                                                                      Text  ... Particle_Position
+0  Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 ut...  ...        Middle/End
+
+[1 rows x 9 columns]
+
+======================================================================
+Smoke test (1 sample) to validate model inference
+======================================================================
+Launching 10 tasks across 10 subprocesses
+parallel:   0%|          | 0/10 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:531: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_demo_test.py:531: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+parallel:  10%|█         | 1/10 [00:00<00:06,  1.30it/s]parallel:  20%|██        | 2/10 [00:01<00:05,  1.43it/s]parallel:  40%|████      | 4/10 [00:01<00:01,  3.08it/s]parallel:  50%|█████     | 5/10 [00:02<00:01,  2.65it/s]parallel:  60%|██████    | 6/10 [00:09<00:10,  2.61s/it]parallel:  70%|███████   | 7/10 [00:11<00:07,  2.35s/it]parallel:  80%|████████  | 8/10 [00:22<00:09,  5.00s/it]parallel:  90%|█████████ | 9/10 [01:01<00:15, 15.19s/it]parallel: 100%|██████████| 10/10 [01:10<00:00, 13.23s/it]parallel: 100%|██████████| 10/10 [01:10<00:00,  7.00s/it]
+  gpt_strong: Uncertain
+  gpt_weak: Uncertain
+  claude_strong: Certain
+  claude_weak: Uncertain
+  gemini_strong: Uncertain
+  gemini_weak: Uncertain
+  deepseek_strong: Certain
+  deepseek_weak: Uncertain
+  sealion_strong: Uncertain
+  sealion_weak: Uncertain
+
+All models retained: ['gpt_strong', 'gpt_weak', 'claude_strong', 'claude_weak', 'gemini_strong', 'gemini_weak', 'deepseek_strong', 'deepseek_weak', 'sealion_strong', 'sealion_weak']
+Saved IO logs to ../Final Metrics/round1_1a_io_logs_20260514T031609Z.json
+STOP_AFTER_SMOKE=1 set; exiting after smoke test.

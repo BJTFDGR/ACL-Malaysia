@@ -1,0 +1,539 @@
+03:37:44 [INFO] Twitter: resuming from 1557 records (target 3000)
+03:37:46 [INFO] Warming up browser session...
+03:38:01 [INFO] Browser ready: (4) Home / X
+Twitter:  52%|█████▏    | 1557/3000 [00:00<?, ?tweet/s]03:38:01 [INFO] Twitter: @DrMahathir
+03:39:01 [WARNING]   @DrMahathir: timeout waiting for UserTweets
+03:39:03 [INFO] Twitter: @AbdulHadiAwang
+Twitter:  52%|█████▏    | 1558/3000 [01:08<27:35:35, 68.89s/tweet]Twitter:  52%|█████▏    | 1560/3000 [01:10<7:26:26, 18.60s/tweet] Twitter:  52%|█████▏    | 1561/3000 [01:13<5:14:10, 13.10s/tweet]Twitter:  52%|█████▏    | 1563/3000 [01:30<4:19:20, 10.83s/tweet]Twitter:  52%|█████▏    | 1566/3000 [01:32<2:11:20,  5.50s/tweet]Twitter:  52%|█████▏    | 1567/3000 [01:33<1:51:50,  4.68s/tweet]Twitter:  52%|█████▏    | 1571/3000 [01:36<1:01:34,  2.59s/tweet]Twitter:  52%|█████▏    | 1574/3000 [01:38<44:22,  1.87s/tweet]  Twitter:  53%|█████▎    | 1577/3000 [01:39<33:15,  1.40s/tweet]Twitter:  53%|█████▎    | 1579/3000 [01:41<30:16,  1.28s/tweet]Twitter:  53%|█████▎    | 1584/3000 [01:43<19:29,  1.21tweet/s]Twitter:  53%|█████▎    | 1587/3000 [01:44<16:49,  1.40tweet/s]Twitter:  53%|█████▎    | 1594/3000 [01:45<10:49,  2.16tweet/s]Twitter:  53%|█████▎    | 1596/3000 [01:46<11:18,  2.07tweet/s]Twitter:  53%|█████▎    | 1600/3000 [01:48<09:57,  2.34tweet/s]Twitter:  53%|█████▎    | 1601/3000 [02:01<39:58,  1.71s/tweet]Twitter:  53%|█████▎    | 1602/3000 [02:21<1:35:50,  4.11s/tweet]03:42:17 [INFO]   @AbdulHadiAwang: 42 pages, 45 Malay tweets
+03:42:19 [INFO] Twitter: @noorhishammy
+03:43:19 [WARNING]   @noorhishammy: timeout waiting for UserTweets
+03:43:21 [INFO] Twitter: @TengkuZafrul
+03:45:02 [INFO]   @TengkuZafrul: 1 pages, 0 Malay tweets
+03:45:04 [INFO] Twitter: @Bung_Moktar
+03:46:04 [WARNING]   @Bung_Moktar: timeout waiting for UserTweets
+03:46:06 [INFO] Twitter: @FadillahYusof
+03:47:53 [INFO]   @FadillahYusof: 5 pages, 0 Malay tweets
+03:47:55 [INFO] Twitter: @Ahmad_Zahid
+03:49:35 [INFO]   @Ahmad_Zahid: 1 pages, 0 Malay tweets
+03:49:37 [INFO] Twitter: @KementerianKom
+03:50:37 [WARNING]   @KementerianKom: timeout waiting for UserTweets
+03:50:39 [INFO] Twitter: @nabilahmajid
+03:51:39 [WARNING]   @nabilahmajid: timeout waiting for UserTweets
+03:51:41 [INFO] Twitter: @harlizsofian
+03:52:41 [WARNING]   @harlizsofian: timeout waiting for UserTweets
+03:52:43 [INFO] Twitter: @faizalfazillah
+03:53:43 [WARNING]   @faizalfazillah: timeout waiting for UserTweets
+03:53:45 [INFO] Twitter: @wanyamia
+03:54:45 [WARNING]   @wanyamia: timeout waiting for UserTweets
+03:54:47 [INFO] Twitter: @nazrulzaman
+03:56:30 [INFO]   @nazrulzaman: 2 pages, 0 Malay tweets
+03:56:32 [INFO] Twitter: @syahrulsamad
+03:57:32 [WARNING]   @syahrulsamad: timeout waiting for UserTweets
+03:57:34 [INFO] Twitter: @datukalamishah
+03:58:34 [WARNING]   @datukalamishah: timeout waiting for UserTweets
+03:58:36 [INFO] Twitter: @didicazli
+Twitter:  53%|█████▎    | 1603/3000 [20:41<67:30:13, 173.95s/tweet]Twitter:  54%|█████▎    | 1605/3000 [20:46<46:58:50, 121.24s/tweet]Twitter:  54%|█████▎    | 1607/3000 [20:47<32:42:29, 84.53s/tweet] 03:58:48 [INFO]   ckpt → 1607 Twitter records saved
+Twitter:  54%|█████▎    | 1608/3000 [20:56<27:26:55, 70.99s/tweet]Twitter:  54%|█████▎    | 1609/3000 [21:01<22:14:13, 57.55s/tweet]Twitter:  54%|█████▎    | 1610/3000 [21:10<17:58:36, 46.56s/tweet]Twitter:  54%|█████▎    | 1611/3000 [21:13<13:52:52, 35.98s/tweet]Twitter:  54%|█████▎    | 1612/3000 [21:20<11:03:02, 28.66s/tweet]Twitter:  54%|█████▍    | 1613/3000 [21:33<9:23:17, 24.37s/tweet] Twitter:  54%|█████▍    | 1614/3000 [21:37<7:14:47, 18.82s/tweet]04:01:21 [INFO]   @didicazli: 41 pages, 12 Malay tweets
+04:01:23 [INFO] Twitter: @HafizMetrojaya
+04:02:23 [WARNING]   @HafizMetrojaya: timeout waiting for UserTweets
+04:02:25 [INFO] Twitter: @bunkface_ariff
+04:03:25 [WARNING]   @bunkface_ariff: timeout waiting for UserTweets
+04:03:27 [INFO] Twitter: @mStar_Online
+04:04:27 [WARNING]   @mStar_Online: timeout waiting for UserTweets
+04:04:29 [INFO] Twitter: @BeritaMinggu
+Twitter:  54%|█████▍    | 1615/3000 [26:52<39:34:52, 102.88s/tweet]04:06:33 [INFO]   @BeritaMinggu: 6 pages, 1 Malay tweets
+04:06:35 [INFO] Twitter: @RTMKini
+04:07:35 [WARNING]   @RTMKini: timeout waiting for UserTweets
+04:07:37 [INFO] Twitter: @UtusanBerkala
+04:08:37 [WARNING]   @UtusanBerkala: timeout waiting for UserTweets
+04:08:39 [INFO] Twitter: @BHarian_MY
+04:08:44 [WARNING]   scroll 0: 429 rate limited — sleeping 780s
+04:23:05 [INFO]   @BHarian_MY: 1 pages, 0 Malay tweets
+04:23:07 [INFO] Twitter: @FreeMsiaToday
+04:24:07 [WARNING]   @FreeMsiaToday: timeout waiting for UserTweets
+04:24:09 [INFO] Twitter: @MysinchewNews
+04:25:09 [WARNING]   @MysinchewNews: timeout waiting for UserTweets
+04:25:11 [INFO] Twitter: @DBKL_Official
+04:26:11 [WARNING]   @DBKL_Official: timeout waiting for UserTweets
+04:26:13 [INFO] Twitter: @JPJMalaysia
+Twitter:  54%|█████▍    | 1616/3000 [48:18<170:50:20, 444.38s/tweet]04:27:57 [INFO]   @JPJMalaysia: 3 pages, 1 Malay tweets
+04:27:59 [INFO] Twitter: @SPAD_Malaysia
+04:28:59 [WARNING]   @SPAD_Malaysia: timeout waiting for UserTweets
+04:29:01 [INFO] Twitter: @KPTMalaysia
+04:30:01 [WARNING]   @KPTMalaysia: timeout waiting for UserTweets
+04:30:03 [INFO] Twitter: @MOEMalaysia
+04:31:03 [WARNING]   @MOEMalaysia: timeout waiting for UserTweets
+04:31:05 [INFO] Twitter: @MYAirports
+04:32:46 [INFO]   @MYAirports: 1 pages, 0 Malay tweets
+04:32:48 [INFO] Twitter: @caparsosial
+04:33:48 [WARNING]   @caparsosial: timeout waiting for UserTweets
+04:33:50 [INFO] Twitter: @MachaiMelayu
+04:34:50 [WARNING]   @MachaiMelayu: timeout waiting for UserTweets
+04:34:52 [INFO] Twitter: @PondokSasterawan
+04:35:52 [WARNING]   @PondokSasterawan: timeout waiting for UserTweets
+04:35:54 [INFO] Twitter: @PakSU_HAMID
+04:36:54 [WARNING]   @PakSU_HAMID: timeout waiting for UserTweets
+04:36:56 [INFO] Twitter: @syed_akbar_ali
+04:37:56 [WARNING]   @syed_akbar_ali: timeout waiting for UserTweets
+04:37:58 [INFO] Twitter: @NajibRazak
+04:41:10 [INFO]   @NajibRazak: 41 pages, 0 Malay tweets
+04:41:12 [INFO] Twitter: @HishammuddinH2O
+04:44:07 [INFO]   @HishammuddinH2O: 41 pages, 0 Malay tweets
+04:44:09 [INFO] Twitter: @anwaribrahim
+04:44:33 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+04:58:53 [INFO]   @anwaribrahim: 9 pages, 0 Malay tweets
+04:58:55 [INFO] Twitter: @DrWanAzizah
+05:01:43 [INFO]   @DrWanAzizah: 42 pages, 0 Malay tweets
+05:01:45 [INFO] Twitter: @budiey
+05:02:04 [WARNING]   scroll 7: 429 rate limited — sleeping 780s
+15:27:30 [INFO] Twitter: resuming from 1567 records (target 3000)
+15:27:31 [INFO] Warming up browser session...
+15:27:43 [INFO] Browser ready: (1) Home / X
+Twitter:  52%|█████▏    | 1567/3000 [00:00<?, ?tweet/s]15:27:43 [INFO] Twitter: @DrMahathir
+15:28:43 [WARNING]   @DrMahathir: timeout waiting for UserTweets
+15:28:45 [INFO] Twitter: @AbdulHadiAwang
+15:31:44 [INFO]   @AbdulHadiAwang: 42 pages, 0 Malay tweets
+15:31:46 [INFO] Twitter: @noorhishammy
+15:32:46 [WARNING]   @noorhishammy: timeout waiting for UserTweets
+15:32:48 [INFO] Twitter: @TengkuZafrul
+15:34:27 [INFO]   @TengkuZafrul: 1 pages, 0 Malay tweets
+15:34:29 [INFO] Twitter: @Bung_Moktar
+15:35:29 [WARNING]   @Bung_Moktar: timeout waiting for UserTweets
+15:35:31 [INFO] Twitter: @FadillahYusof
+15:37:16 [INFO]   @FadillahYusof: 5 pages, 0 Malay tweets
+15:37:18 [INFO] Twitter: @Ahmad_Zahid
+15:38:57 [INFO]   @Ahmad_Zahid: 1 pages, 0 Malay tweets
+15:38:59 [INFO] Twitter: @KementerianKom
+15:39:59 [WARNING]   @KementerianKom: timeout waiting for UserTweets
+15:40:01 [INFO] Twitter: @nabilahmajid
+15:41:01 [WARNING]   @nabilahmajid: timeout waiting for UserTweets
+15:41:03 [INFO] Twitter: @harlizsofian
+15:42:03 [WARNING]   @harlizsofian: timeout waiting for UserTweets
+15:42:05 [INFO] Twitter: @faizalfazillah
+15:43:05 [WARNING]   @faizalfazillah: timeout waiting for UserTweets
+15:43:07 [INFO] Twitter: @wanyamia
+15:44:07 [WARNING]   @wanyamia: timeout waiting for UserTweets
+15:44:09 [INFO] Twitter: @nazrulzaman
+15:45:49 [INFO]   @nazrulzaman: 2 pages, 0 Malay tweets
+15:45:51 [INFO] Twitter: @syahrulsamad
+15:46:51 [WARNING]   @syahrulsamad: timeout waiting for UserTweets
+15:46:53 [INFO] Twitter: @datukalamishah
+15:47:53 [WARNING]   @datukalamishah: timeout waiting for UserTweets
+15:47:55 [INFO] Twitter: @didicazli
+15:50:29 [INFO]   @didicazli: 41 pages, 0 Malay tweets
+15:50:31 [INFO] Twitter: @HafizMetrojaya
+15:51:31 [WARNING]   @HafizMetrojaya: timeout waiting for UserTweets
+15:51:33 [INFO] Twitter: @bunkface_ariff
+15:52:33 [WARNING]   @bunkface_ariff: timeout waiting for UserTweets
+15:52:35 [INFO] Twitter: @mStar_Online
+15:53:35 [WARNING]   @mStar_Online: timeout waiting for UserTweets
+15:53:37 [INFO] Twitter: @BeritaMinggu
+15:53:45 [WARNING]   scroll 4: 429 rate limited — sleeping 780s
+16:08:06 [INFO]   @BeritaMinggu: 5 pages, 0 Malay tweets
+16:08:08 [INFO] Twitter: @RTMKini
+16:09:08 [WARNING]   @RTMKini: timeout waiting for UserTweets
+16:09:10 [INFO] Twitter: @UtusanBerkala
+16:10:10 [WARNING]   @UtusanBerkala: timeout waiting for UserTweets
+16:10:12 [INFO] Twitter: @BHarian_MY
+16:11:51 [INFO]   @BHarian_MY: 2 pages, 0 Malay tweets
+16:11:53 [INFO] Twitter: @FreeMsiaToday
+16:12:54 [WARNING]   @FreeMsiaToday: timeout waiting for UserTweets
+16:12:56 [INFO] Twitter: @MysinchewNews
+16:13:56 [WARNING]   @MysinchewNews: timeout waiting for UserTweets
+16:13:58 [INFO] Twitter: @DBKL_Official
+16:14:58 [WARNING]   @DBKL_Official: timeout waiting for UserTweets
+16:15:00 [INFO] Twitter: @JPJMalaysia
+16:16:41 [INFO]   @JPJMalaysia: 3 pages, 0 Malay tweets
+16:16:43 [INFO] Twitter: @SPAD_Malaysia
+16:17:43 [WARNING]   @SPAD_Malaysia: timeout waiting for UserTweets
+16:17:45 [INFO] Twitter: @KPTMalaysia
+16:18:45 [WARNING]   @KPTMalaysia: timeout waiting for UserTweets
+16:18:47 [INFO] Twitter: @MOEMalaysia
+16:19:47 [WARNING]   @MOEMalaysia: timeout waiting for UserTweets
+16:19:49 [INFO] Twitter: @MYAirports
+16:21:28 [INFO]   @MYAirports: 1 pages, 0 Malay tweets
+16:21:30 [INFO] Twitter: @caparsosial
+16:22:30 [WARNING]   @caparsosial: timeout waiting for UserTweets
+16:22:32 [INFO] Twitter: @MachaiMelayu
+16:23:32 [WARNING]   @MachaiMelayu: timeout waiting for UserTweets
+16:23:34 [INFO] Twitter: @PondokSasterawan
+16:24:34 [WARNING]   @PondokSasterawan: timeout waiting for UserTweets
+16:24:36 [INFO] Twitter: @PakSU_HAMID
+16:25:36 [WARNING]   @PakSU_HAMID: timeout waiting for UserTweets
+16:25:38 [INFO] Twitter: @syed_akbar_ali
+16:26:38 [WARNING]   @syed_akbar_ali: timeout waiting for UserTweets
+16:26:40 [INFO] Twitter: @NajibRazak
+16:29:27 [INFO]   @NajibRazak: 41 pages, 0 Malay tweets
+16:29:29 [INFO] Twitter: @HishammuddinH2O
+16:30:00 [WARNING]   scroll 9: 429 rate limited — sleeping 780s
+16:44:20 [INFO]   @HishammuddinH2O: 9 pages, 0 Malay tweets
+16:44:22 [INFO] Twitter: @anwaribrahim
+Twitter:  52%|█████▏    | 1568/3000 [1:16:42<1830:56:49, 4602.94s/tweet]16:47:03 [INFO]   @anwaribrahim: 43 pages, 1 Malay tweets
+16:47:05 [INFO] Twitter: @DrWanAzizah
+16:47:18 [WARNING]   scroll 6: 429 rate limited — sleeping 780s
+17:01:39 [INFO]   @DrWanAzizah: 7 pages, 0 Malay tweets
+17:01:41 [INFO] Twitter: @budiey
+17:04:16 [INFO]   @budiey: 41 pages, 0 Malay tweets
+17:04:18 [INFO] Twitter: @KhaledNordin
+17:04:35 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+17:18:56 [INFO]   @KhaledNordin: 9 pages, 0 Malay tweets
+17:18:58 [INFO] Twitter: @AzminAli
+17:22:03 [INFO]   @AzminAli: 41 pages, 0 Malay tweets
+17:22:05 [INFO] Twitter: @RTM_Malaysia
+17:22:22 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+17:37:51 [INFO]   @RTM_Malaysia: 45 pages, 0 Malay tweets
+17:37:53 [INFO] Twitter: @astroawani
+17:38:53 [WARNING]   @astroawani: timeout waiting for UserTweets
+17:38:55 [INFO] Twitter: @BHarian
+17:39:55 [WARNING]   @BHarian: timeout waiting for UserTweets
+17:39:57 [INFO] Twitter: @hmetro_online
+17:40:57 [WARNING]   @hmetro_online: timeout waiting for UserTweets
+17:40:59 [INFO] Twitter: @utusan_online
+17:42:39 [INFO]   @utusan_online: 2 pages, 0 Malay tweets
+17:42:41 [INFO] Twitter: @TV9Malaysia
+Twitter:  52%|█████▏    | 1569/3000 [2:15:18<1575:28:54, 3963.48s/tweet]Twitter:  52%|█████▏    | 1571/3000 [2:15:20<587:06:53, 1479.09s/tweet] 17:43:04 [WARNING]   scroll 11: 429 rate limited — sleeping 780s
+17:57:24 [INFO]   @TV9Malaysia: 12 pages, 5 Malay tweets
+17:57:26 [INFO] Twitter: @kpwkm
+18:00:01 [INFO]   @kpwkm: 44 pages, 0 Malay tweets
+18:00:03 [INFO] Twitter: @rizalsulaiman
+18:00:15 [WARNING]   scroll 5: 429 rate limited — sleeping 780s
+18:14:35 [INFO]   @rizalsulaiman: 6 pages, 0 Malay tweets
+18:14:37 [INFO] Twitter: @farahmilaa
+18:17:12 [INFO]   @farahmilaa: 41 pages, 0 Malay tweets
+18:17:14 [INFO] Twitter: @shaheizy_sam
+Twitter:  52%|█████▏    | 1574/3000 [2:49:44<406:11:57, 1025.47s/tweet]Twitter:  53%|█████▎    | 1577/3000 [2:49:45<222:55:36, 563.98s/tweet] 18:17:29 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+18:31:49 [INFO]   @shaheizy_sam: 9 pages, 7 Malay tweets
+18:31:51 [INFO] Twitter: @matluthfi90
+18:34:21 [INFO]   @matluthfi90: 40 pages, 0 Malay tweets
+18:34:23 [INFO] Twitter: @tourismmalaysia
+18:34:39 [WARNING]   scroll 9: 429 rate limited — sleeping 780s
+18:49:56 [INFO]   @tourismmalaysia: 42 pages, 0 Malay tweets
+18:49:58 [INFO] Twitter: @sinaronline
+18:50:24 [WARNING]   scroll 17: 429 rate limited — sleeping 780s
+19:04:45 [INFO]   @sinaronline: 18 pages, 0 Malay tweets
+Twitter:  53%|█████▎    | 1580/3000 [3:37:03<395:09:29, 1001.81s/tweet]
+19:04:47 [INFO] Twitter done: 1580/3000
+12:39:06 [INFO] Twitter: resuming from 1580 records (target 3000)
+12:39:06 [INFO] Warming up browser session...
+12:39:20 [INFO] Browser ready: (1) Home / X
+Twitter:  53%|█████▎    | 1580/3000 [00:00<?, ?tweet/s]12:39:20 [INFO] Twitter: @NajwaLatif
+Twitter:  53%|█████▎    | 1581/3000 [00:04<1:53:22,  4.79s/tweet]Twitter:  53%|█████▎    | 1583/3000 [00:09<1:09:49,  2.96s/tweet]Twitter:  53%|█████▎    | 1584/3000 [00:21<2:22:10,  6.02s/tweet]Twitter:  53%|█████▎    | 1585/3000 [00:23<1:56:00,  4.92s/tweet]Twitter:  53%|█████▎    | 1586/3000 [00:26<1:39:44,  4.23s/tweet]Twitter:  53%|█████▎    | 1587/3000 [00:30<1:38:24,  4.18s/tweet]Twitter:  53%|█████▎    | 1588/3000 [00:39<2:09:46,  5.51s/tweet]Twitter:  53%|█████▎    | 1589/3000 [00:43<2:02:16,  5.20s/tweet]12:41:45 [INFO]   @NajwaLatif: 32 pages, 10 Malay tweets
+12:41:47 [INFO] Twitter: @aizatfared
+12:42:34 [WARNING]   scroll 18: 429 rate limited — sleeping 780s
+12:56:54 [INFO]   @aizatfared: 18 pages, 0 Malay tweets
+12:56:56 [INFO] Twitter: @zizan_razak
+12:58:37 [INFO]   @zizan_razak: 1 pages, 0 Malay tweets
+12:58:39 [INFO] Twitter: @AstroGempak
+13:00:19 [INFO]   @AstroGempak: 2 pages, 0 Malay tweets
+13:00:21 [INFO] Twitter: @AstroRia
+13:02:00 [INFO]   @AstroRia: 1 pages, 0 Malay tweets
+13:02:02 [INFO] Twitter: @era_com_my
+13:03:02 [WARNING]   @era_com_my: timeout waiting for UserTweets
+13:03:04 [INFO] Twitter: @ohbulandotcom
+Twitter:  53%|█████▎    | 1591/3000 [24:28<131:21:15, 335.61s/tweet]Twitter:  53%|█████▎    | 1592/3000 [24:35<99:04:39, 253.32s/tweet] 13:05:37 [INFO]   @ohbulandotcom: 41 pages, 2 Malay tweets
+13:05:39 [INFO] Twitter: @CheMat_Official
+13:06:39 [WARNING]   @CheMat_Official: timeout waiting for UserTweets
+13:06:41 [INFO] Twitter: @izzue_islam
+13:08:20 [INFO]   @izzue_islam: 1 pages, 0 Malay tweets
+13:08:22 [INFO] Twitter: @BernamaTV
+Twitter:  53%|█████▎    | 1593/3000 [29:09<101:05:38, 258.66s/tweet]13:08:30 [WARNING]   scroll 3: 429 rate limited — sleeping 780s
+13:22:50 [INFO]   @BernamaTV: 4 pages, 1 Malay tweets
+13:22:52 [INFO] Twitter: @mynewshub
+Twitter:  53%|█████▎    | 1594/3000 [43:36<165:59:32, 425.02s/tweet]Twitter:  53%|█████▎    | 1595/3000 [43:38<119:35:22, 306.42s/tweet]Twitter:  53%|█████▎    | 1597/3000 [43:44<66:41:38, 171.13s/tweet] Twitter:  53%|█████▎    | 1598/3000 [43:45<50:40:49, 130.14s/tweet]Twitter:  53%|█████▎    | 1599/3000 [43:51<38:18:21, 98.43s/tweet] Twitter:  53%|█████▎    | 1600/3000 [43:53<28:09:50, 72.42s/tweet]Twitter:  53%|█████▎    | 1601/3000 [43:57<20:51:15, 53.66s/tweet]Twitter:  53%|█████▎    | 1602/3000 [43:58<15:04:15, 38.81s/tweet]Twitter:  53%|█████▎    | 1603/3000 [44:00<10:51:26, 27.98s/tweet]Twitter:  53%|█████▎    | 1604/3000 [44:04<8:07:53, 20.97s/tweet] Twitter:  54%|█████▎    | 1606/3000 [44:05<4:33:22, 11.77s/tweet]Twitter:  54%|█████▎    | 1607/3000 [44:06<3:34:06,  9.22s/tweet]Twitter:  54%|█████▎    | 1609/3000 [44:08<2:11:15,  5.66s/tweet]Twitter:  54%|█████▎    | 1610/3000 [44:09<1:47:42,  4.65s/tweet]Twitter:  54%|█████▎    | 1611/3000 [44:10<1:28:18,  3.81s/tweet]Twitter:  54%|█████▍    | 1613/3000 [44:11<58:13,  2.52s/tweet]  Twitter:  54%|█████▍    | 1615/3000 [44:13<42:11,  1.83s/tweet]Twitter:  54%|█████▍    | 1616/3000 [44:14<39:05,  1.69s/tweet]Twitter:  54%|█████▍    | 1617/3000 [44:17<44:02,  1.91s/tweet]Twitter:  54%|█████▍    | 1618/3000 [44:18<40:12,  1.75s/tweet]Twitter:  54%|█████▍    | 1619/3000 [44:23<1:00:51,  2.64s/tweet]Twitter:  54%|█████▍    | 1620/3000 [44:28<1:16:21,  3.32s/tweet]Twitter:  54%|█████▍    | 1621/3000 [44:29<1:02:14,  2.71s/tweet]13:25:27 [INFO]   @mynewshub: 44 pages, 28 Malay tweets
+13:25:29 [INFO] Twitter: @AstroOOIB
+13:26:29 [WARNING]   @AstroOOIB: timeout waiting for UserTweets
+13:26:31 [INFO] Twitter: @astroradio
+13:26:42 [WARNING]   scroll 5: 429 rate limited — sleeping 780s
+13:41:02 [INFO]   @astroradio: 6 pages, 0 Malay tweets
+13:41:04 [INFO] Twitter: @KPMMalaysia
+13:42:04 [WARNING]   @KPMMalaysia: timeout waiting for UserTweets
+13:42:06 [INFO] Twitter: @DrMahathir
+13:43:06 [WARNING]   @DrMahathir: timeout waiting for UserTweets
+13:43:08 [INFO] Twitter: @AbdulHadiAwang
+13:46:06 [INFO]   @AbdulHadiAwang: 42 pages, 0 Malay tweets
+13:46:08 [INFO] Twitter: @noorhishammy
+13:47:08 [WARNING]   @noorhishammy: timeout waiting for UserTweets
+13:47:10 [INFO] Twitter: @TengkuZafrul
+13:48:49 [INFO]   @TengkuZafrul: 1 pages, 0 Malay tweets
+13:48:51 [INFO] Twitter: @Bung_Moktar
+13:49:51 [WARNING]   @Bung_Moktar: timeout waiting for UserTweets
+13:49:53 [INFO] Twitter: @FadillahYusof
+13:51:37 [INFO]   @FadillahYusof: 5 pages, 0 Malay tweets
+13:51:39 [INFO] Twitter: @Ahmad_Zahid
+13:53:19 [INFO]   @Ahmad_Zahid: 1 pages, 0 Malay tweets
+13:53:21 [INFO] Twitter: @KementerianKom
+13:54:21 [WARNING]   @KementerianKom: timeout waiting for UserTweets
+13:54:23 [INFO] Twitter: @nabilahmajid
+13:55:23 [WARNING]   @nabilahmajid: timeout waiting for UserTweets
+13:55:25 [INFO] Twitter: @harlizsofian
+13:56:25 [WARNING]   @harlizsofian: timeout waiting for UserTweets
+13:56:27 [INFO] Twitter: @faizalfazillah
+13:57:27 [WARNING]   @faizalfazillah: timeout waiting for UserTweets
+13:57:29 [INFO] Twitter: @wanyamia
+13:58:29 [WARNING]   @wanyamia: timeout waiting for UserTweets
+13:58:31 [INFO] Twitter: @nazrulzaman
+14:00:11 [INFO]   @nazrulzaman: 2 pages, 0 Malay tweets
+14:00:13 [INFO] Twitter: @syahrulsamad
+14:01:13 [WARNING]   @syahrulsamad: timeout waiting for UserTweets
+14:01:15 [INFO] Twitter: @datukalamishah
+14:02:15 [WARNING]   @datukalamishah: timeout waiting for UserTweets
+14:02:17 [INFO] Twitter: @didicazli
+14:04:49 [INFO]   @didicazli: 41 pages, 0 Malay tweets
+14:04:51 [INFO] Twitter: @HafizMetrojaya
+14:05:51 [WARNING]   @HafizMetrojaya: timeout waiting for UserTweets
+14:05:53 [INFO] Twitter: @bunkface_ariff
+14:06:53 [WARNING]   @bunkface_ariff: timeout waiting for UserTweets
+14:06:55 [INFO] Twitter: @mStar_Online
+14:07:55 [WARNING]   @mStar_Online: timeout waiting for UserTweets
+14:07:57 [INFO] Twitter: @BeritaMinggu
+14:09:42 [INFO]   @BeritaMinggu: 6 pages, 0 Malay tweets
+14:09:44 [INFO] Twitter: @RTMKini
+14:10:44 [WARNING]   @RTMKini: timeout waiting for UserTweets
+14:10:46 [INFO] Twitter: @UtusanBerkala
+14:11:46 [WARNING]   @UtusanBerkala: timeout waiting for UserTweets
+14:11:48 [INFO] Twitter: @BHarian_MY
+14:11:51 [WARNING]   scroll 0: 429 rate limited — sleeping 780s
+14:26:11 [INFO]   @BHarian_MY: 1 pages, 0 Malay tweets
+14:26:13 [INFO] Twitter: @FreeMsiaToday
+14:27:13 [WARNING]   @FreeMsiaToday: timeout waiting for UserTweets
+14:27:15 [INFO] Twitter: @MysinchewNews
+14:28:15 [WARNING]   @MysinchewNews: timeout waiting for UserTweets
+14:28:17 [INFO] Twitter: @DBKL_Official
+14:29:17 [WARNING]   @DBKL_Official: timeout waiting for UserTweets
+14:29:19 [INFO] Twitter: @JPJMalaysia
+14:31:01 [INFO]   @JPJMalaysia: 3 pages, 0 Malay tweets
+14:31:03 [INFO] Twitter: @SPAD_Malaysia
+14:32:03 [WARNING]   @SPAD_Malaysia: timeout waiting for UserTweets
+14:32:05 [INFO] Twitter: @KPTMalaysia
+14:33:05 [WARNING]   @KPTMalaysia: timeout waiting for UserTweets
+14:33:07 [INFO] Twitter: @MOEMalaysia
+14:34:07 [WARNING]   @MOEMalaysia: timeout waiting for UserTweets
+14:34:09 [INFO] Twitter: @MYAirports
+14:35:48 [INFO]   @MYAirports: 1 pages, 0 Malay tweets
+14:35:50 [INFO] Twitter: @caparsosial
+14:36:51 [WARNING]   @caparsosial: timeout waiting for UserTweets
+14:36:53 [INFO] Twitter: @MachaiMelayu
+14:37:53 [WARNING]   @MachaiMelayu: timeout waiting for UserTweets
+14:37:55 [INFO] Twitter: @PondokSasterawan
+14:38:55 [WARNING]   @PondokSasterawan: timeout waiting for UserTweets
+14:38:57 [INFO] Twitter: @PakSU_HAMID
+14:39:57 [WARNING]   @PakSU_HAMID: timeout waiting for UserTweets
+14:39:59 [INFO] Twitter: @syed_akbar_ali
+14:40:59 [WARNING]   @syed_akbar_ali: timeout waiting for UserTweets
+14:41:01 [INFO] Twitter: @NajibRazak
+14:44:37 [INFO]   @NajibRazak: 41 pages, 0 Malay tweets
+14:44:39 [INFO] Twitter: @HishammuddinH2O
+14:47:16 [INFO]   @HishammuddinH2O: 41 pages, 0 Malay tweets
+14:47:18 [INFO] Twitter: @anwaribrahim
+14:47:34 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+15:01:54 [INFO]   @anwaribrahim: 9 pages, 0 Malay tweets
+15:01:56 [INFO] Twitter: @DrWanAzizah
+15:04:30 [INFO]   @DrWanAzizah: 42 pages, 0 Malay tweets
+15:04:32 [INFO] Twitter: @budiey
+15:04:46 [WARNING]   scroll 7: 429 rate limited — sleeping 780s
+15:19:06 [INFO]   @budiey: 8 pages, 0 Malay tweets
+15:19:08 [INFO] Twitter: @KhaledNordin
+15:21:43 [INFO]   @KhaledNordin: 43 pages, 0 Malay tweets
+15:21:45 [INFO] Twitter: @AzminAli
+15:21:58 [WARNING]   scroll 6: 429 rate limited — sleeping 780s
+15:36:18 [INFO]   @AzminAli: 7 pages, 0 Malay tweets
+15:36:20 [INFO] Twitter: @RTM_Malaysia
+15:39:02 [INFO]   @RTM_Malaysia: 45 pages, 0 Malay tweets
+15:39:04 [INFO] Twitter: @astroawani
+15:40:04 [WARNING]   @astroawani: timeout waiting for UserTweets
+15:40:06 [INFO] Twitter: @BHarian
+15:41:06 [WARNING]   @BHarian: timeout waiting for UserTweets
+15:41:08 [INFO] Twitter: @hmetro_online
+15:42:08 [WARNING]   @hmetro_online: timeout waiting for UserTweets
+15:42:10 [INFO] Twitter: @utusan_online
+15:43:50 [INFO]   @utusan_online: 2 pages, 0 Malay tweets
+15:43:52 [INFO] Twitter: @TV9Malaysia
+15:43:59 [WARNING]   scroll 2: 429 rate limited — sleeping 780s
+15:58:19 [INFO]   @TV9Malaysia: 3 pages, 0 Malay tweets
+15:58:21 [INFO] Twitter: @kpwkm
+16:00:59 [INFO]   @kpwkm: 34 pages, 0 Malay tweets
+16:01:01 [INFO] Twitter: @rizalsulaiman
+16:01:28 [WARNING]   scroll 15: 429 rate limited — sleeping 780s
+16:15:48 [INFO]   @rizalsulaiman: 16 pages, 0 Malay tweets
+16:15:50 [INFO] Twitter: @farahmilaa
+16:18:24 [INFO]   @farahmilaa: 41 pages, 0 Malay tweets
+16:18:26 [INFO] Twitter: @shaheizy_sam
+16:18:40 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+16:33:01 [INFO]   @shaheizy_sam: 9 pages, 0 Malay tweets
+16:33:03 [INFO] Twitter: @matluthfi90
+16:35:32 [INFO]   @matluthfi90: 40 pages, 0 Malay tweets
+16:35:34 [INFO] Twitter: @tourismmalaysia
+16:35:45 [WARNING]   scroll 5: 429 rate limited — sleeping 780s
+16:51:07 [INFO]   @tourismmalaysia: 42 pages, 0 Malay tweets
+16:51:09 [INFO] Twitter: @sinaronline
+Twitter:  54%|█████▍    | 1622/3000 [4:11:55<1360:29:29, 3554.26s/tweet]16:51:30 [WARNING]   scroll 13: 429 rate limited — sleeping 780s
+17:05:50 [INFO]   @sinaronline: 14 pages, 1 Malay tweets
+Twitter:  54%|█████▍    | 1622/3000 [4:26:32<145:45:04, 380.77s/tweet]  
+17:05:52 [INFO] Twitter done: 1622/3000
+08:07:37 [INFO] Twitter: resuming from 1622 records (target 3000)
+08:07:38 [INFO] Warming up browser session...
+08:07:51 [INFO] Browser ready: (1) Home / X
+Twitter:  54%|█████▍    | 1622/3000 [00:00<?, ?tweet/s]08:07:51 [INFO] Twitter: @NajwaLatif
+08:10:18 [INFO]   @NajwaLatif: 32 pages, 0 Malay tweets
+08:10:20 [INFO] Twitter: @aizatfared
+08:11:25 [WARNING]   scroll 19: 429 rate limited — sleeping 780s
+08:14:44 [INFO] Twitter: resuming from 1622 records (target 3000)
+08:14:45 [INFO] Warming up browser session...
+08:14:55 [INFO] Browser ready: (1) Home / X
+Twitter:  54%|█████▍    | 1622/3000 [00:00<?, ?tweet/s]08:14:55 [INFO] Twitter: @NajwaLatif
+08:14:59 [WARNING]   @NajwaLatif: 429 rate limited — sleeping 780s
+08:30:25 [INFO]   @NajwaLatif: 32 pages, 0 Malay tweets
+08:30:27 [INFO] Twitter: @aizatfared
+08:31:34 [WARNING]   scroll 19: 429 rate limited — sleeping 780s
+08:45:54 [INFO]   @aizatfared: 18 pages, 0 Malay tweets
+08:45:56 [INFO] Twitter: @zizan_razak
+08:47:36 [INFO]   @zizan_razak: 1 pages, 0 Malay tweets
+08:47:38 [INFO] Twitter: @AstroGempak
+08:49:19 [INFO]   @AstroGempak: 2 pages, 0 Malay tweets
+08:49:21 [INFO] Twitter: @AstroRia
+08:51:00 [INFO]   @AstroRia: 1 pages, 0 Malay tweets
+08:51:02 [INFO] Twitter: @era_com_my
+08:52:02 [WARNING]   @era_com_my: timeout waiting for UserTweets
+08:52:04 [INFO] Twitter: @ohbulandotcom
+08:54:42 [INFO]   @ohbulandotcom: 41 pages, 0 Malay tweets
+08:54:44 [INFO] Twitter: @CheMat_Official
+08:55:44 [WARNING]   @CheMat_Official: timeout waiting for UserTweets
+08:55:46 [INFO] Twitter: @izzue_islam
+08:57:26 [INFO]   @izzue_islam: 1 pages, 0 Malay tweets
+08:57:28 [INFO] Twitter: @BernamaTV
+08:57:37 [WARNING]   scroll 3: 429 rate limited — sleeping 780s
+09:13:12 [INFO]   @BernamaTV: 44 pages, 0 Malay tweets
+09:13:14 [INFO] Twitter: @mynewshub
+09:13:47 [WARNING]   scroll 10: 429 rate limited — sleeping 780s
+09:28:08 [INFO]   @mynewshub: 10 pages, 0 Malay tweets
+09:28:10 [INFO] Twitter: @AstroOOIB
+09:29:10 [WARNING]   @AstroOOIB: timeout waiting for UserTweets
+09:29:12 [INFO] Twitter: @astroradio
+09:31:47 [INFO]   @astroradio: 35 pages, 0 Malay tweets
+09:31:49 [INFO] Twitter: @KPMMalaysia
+09:32:49 [WARNING]   @KPMMalaysia: timeout waiting for UserTweets
+09:32:51 [INFO] Twitter: @DrMahathir
+09:33:51 [WARNING]   @DrMahathir: timeout waiting for UserTweets
+09:33:53 [INFO] Twitter: @AbdulHadiAwang
+09:34:34 [WARNING]   scroll 15: 429 rate limited — sleeping 780s
+09:48:54 [INFO]   @AbdulHadiAwang: 15 pages, 0 Malay tweets
+09:48:56 [INFO] Twitter: @noorhishammy
+09:49:56 [WARNING]   @noorhishammy: timeout waiting for UserTweets
+09:49:58 [INFO] Twitter: @TengkuZafrul
+09:51:38 [INFO]   @TengkuZafrul: 1 pages, 0 Malay tweets
+09:51:40 [INFO] Twitter: @Bung_Moktar
+09:52:40 [WARNING]   @Bung_Moktar: timeout waiting for UserTweets
+09:52:42 [INFO] Twitter: @FadillahYusof
+09:54:27 [INFO]   @FadillahYusof: 5 pages, 0 Malay tweets
+09:54:29 [INFO] Twitter: @Ahmad_Zahid
+09:56:09 [INFO]   @Ahmad_Zahid: 1 pages, 0 Malay tweets
+09:56:11 [INFO] Twitter: @KementerianKom
+09:57:11 [WARNING]   @KementerianKom: timeout waiting for UserTweets
+09:57:13 [INFO] Twitter: @nabilahmajid
+09:58:13 [WARNING]   @nabilahmajid: timeout waiting for UserTweets
+09:58:15 [INFO] Twitter: @harlizsofian
+09:59:15 [WARNING]   @harlizsofian: timeout waiting for UserTweets
+09:59:17 [INFO] Twitter: @faizalfazillah
+10:00:17 [WARNING]   @faizalfazillah: timeout waiting for UserTweets
+10:00:19 [INFO] Twitter: @wanyamia
+10:01:19 [WARNING]   @wanyamia: timeout waiting for UserTweets
+10:01:21 [INFO] Twitter: @nazrulzaman
+10:03:02 [INFO]   @nazrulzaman: 2 pages, 0 Malay tweets
+10:03:04 [INFO] Twitter: @syahrulsamad
+10:04:04 [WARNING]   @syahrulsamad: timeout waiting for UserTweets
+10:04:06 [INFO] Twitter: @datukalamishah
+10:05:06 [WARNING]   @datukalamishah: timeout waiting for UserTweets
+10:05:08 [INFO] Twitter: @didicazli
+10:07:51 [INFO]   @didicazli: 41 pages, 0 Malay tweets
+10:07:53 [INFO] Twitter: @HafizMetrojaya
+10:08:53 [WARNING]   @HafizMetrojaya: timeout waiting for UserTweets
+10:08:55 [INFO] Twitter: @bunkface_ariff
+10:09:55 [WARNING]   @bunkface_ariff: timeout waiting for UserTweets
+10:09:57 [INFO] Twitter: @mStar_Online
+10:10:57 [WARNING]   @mStar_Online: timeout waiting for UserTweets
+10:10:59 [INFO] Twitter: @BeritaMinggu
+10:12:46 [INFO]   @BeritaMinggu: 6 pages, 0 Malay tweets
+10:12:48 [INFO] Twitter: @RTMKini
+10:13:48 [WARNING]   @RTMKini: timeout waiting for UserTweets
+10:13:50 [INFO] Twitter: @UtusanBerkala
+10:14:50 [WARNING]   @UtusanBerkala: timeout waiting for UserTweets
+10:14:52 [INFO] Twitter: @BHarian_MY
+10:16:32 [INFO]   @BHarian_MY: 2 pages, 0 Malay tweets
+10:16:34 [INFO] Twitter: @FreeMsiaToday
+10:17:34 [WARNING]   @FreeMsiaToday: timeout waiting for UserTweets
+10:17:36 [INFO] Twitter: @MysinchewNews
+10:18:36 [WARNING]   @MysinchewNews: timeout waiting for UserTweets
+10:18:38 [INFO] Twitter: @DBKL_Official
+10:19:38 [WARNING]   @DBKL_Official: timeout waiting for UserTweets
+10:19:40 [INFO] Twitter: @JPJMalaysia
+10:19:45 [WARNING]   scroll 0: 429 rate limited — sleeping 780s
+10:34:05 [INFO]   @JPJMalaysia: 1 pages, 0 Malay tweets
+10:34:07 [INFO] Twitter: @SPAD_Malaysia
+10:35:07 [WARNING]   @SPAD_Malaysia: timeout waiting for UserTweets
+10:35:09 [INFO] Twitter: @KPTMalaysia
+10:36:09 [WARNING]   @KPTMalaysia: timeout waiting for UserTweets
+10:36:11 [INFO] Twitter: @MOEMalaysia
+10:37:11 [WARNING]   @MOEMalaysia: timeout waiting for UserTweets
+10:37:13 [INFO] Twitter: @MYAirports
+10:38:53 [INFO]   @MYAirports: 1 pages, 0 Malay tweets
+10:38:55 [INFO] Twitter: @caparsosial
+10:39:55 [WARNING]   @caparsosial: timeout waiting for UserTweets
+10:39:57 [INFO] Twitter: @MachaiMelayu
+10:40:57 [WARNING]   @MachaiMelayu: timeout waiting for UserTweets
+10:40:59 [INFO] Twitter: @PondokSasterawan
+10:41:59 [WARNING]   @PondokSasterawan: timeout waiting for UserTweets
+10:42:01 [INFO] Twitter: @PakSU_HAMID
+10:43:01 [WARNING]   @PakSU_HAMID: timeout waiting for UserTweets
+10:43:03 [INFO] Twitter: @syed_akbar_ali
+10:44:03 [WARNING]   @syed_akbar_ali: timeout waiting for UserTweets
+10:44:05 [INFO] Twitter: @NajibRazak
+10:46:59 [INFO]   @NajibRazak: 41 pages, 0 Malay tweets
+10:47:01 [INFO] Twitter: @HishammuddinH2O
+10:47:18 [WARNING]   scroll 7: 429 rate limited — sleeping 780s
+11:01:38 [INFO]   @HishammuddinH2O: 8 pages, 0 Malay tweets
+11:01:40 [INFO] Twitter: @anwaribrahim
+11:04:27 [INFO]   @anwaribrahim: 37 pages, 0 Malay tweets
+11:04:29 [INFO] Twitter: @DrWanAzizah
+11:05:09 [WARNING]   scroll 13: 429 rate limited — sleeping 780s
+11:19:29 [INFO]   @DrWanAzizah: 13 pages, 0 Malay tweets
+11:19:31 [INFO] Twitter: @budiey
+11:22:12 [INFO]   @budiey: 41 pages, 0 Malay tweets
+11:22:14 [INFO] Twitter: @KhaledNordin
+11:22:30 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+11:36:50 [INFO]   @KhaledNordin: 9 pages, 0 Malay tweets
+11:36:53 [INFO] Twitter: @AzminAli
+11:40:02 [INFO]   @AzminAli: 41 pages, 0 Malay tweets
+11:40:04 [INFO] Twitter: @RTM_Malaysia
+11:40:23 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+11:55:57 [INFO]   @RTM_Malaysia: 45 pages, 0 Malay tweets
+11:55:59 [INFO] Twitter: @astroawani
+11:56:59 [WARNING]   @astroawani: timeout waiting for UserTweets
+11:57:01 [INFO] Twitter: @BHarian
+11:58:01 [WARNING]   @BHarian: timeout waiting for UserTweets
+11:58:03 [INFO] Twitter: @hmetro_online
+11:59:03 [WARNING]   @hmetro_online: timeout waiting for UserTweets
+11:59:05 [INFO] Twitter: @utusan_online
+12:00:45 [INFO]   @utusan_online: 2 pages, 0 Malay tweets
+12:00:47 [INFO] Twitter: @TV9Malaysia
+12:01:12 [WARNING]   scroll 11: 429 rate limited — sleeping 780s
+12:15:32 [INFO]   @TV9Malaysia: 12 pages, 0 Malay tweets
+12:15:34 [INFO] Twitter: @kpwkm
+12:18:14 [INFO]   @kpwkm: 44 pages, 0 Malay tweets
+12:18:16 [INFO] Twitter: @rizalsulaiman
+12:18:45 [WARNING]   scroll 6: 429 rate limited — sleeping 780s
+12:33:05 [INFO]   @rizalsulaiman: 6 pages, 0 Malay tweets
+12:33:07 [INFO] Twitter: @farahmilaa
+12:35:49 [INFO]   @farahmilaa: 41 pages, 0 Malay tweets
+12:35:51 [INFO] Twitter: @shaheizy_sam
+12:36:08 [WARNING]   scroll 8: 429 rate limited — sleeping 780s
+12:50:28 [INFO]   @shaheizy_sam: 9 pages, 0 Malay tweets
+12:50:30 [INFO] Twitter: @matluthfi90
+12:53:05 [INFO]   @matluthfi90: 40 pages, 0 Malay tweets
+12:53:07 [INFO] Twitter: @tourismmalaysia
+12:53:25 [WARNING]   scroll 9: 429 rate limited — sleeping 780s
+13:08:46 [INFO]   @tourismmalaysia: 42 pages, 0 Malay tweets
+13:08:48 [INFO] Twitter: @sinaronline
+13:09:18 [WARNING]   scroll 17: 429 rate limited — sleeping 780s
+13:23:38 [INFO]   @sinaronline: 18 pages, 0 Malay tweets
+Twitter:  54%|█████▍    | 1622/3000 [5:08:44<?, ?tweet/s]
+13:23:40 [INFO] Twitter done: 1622/3000

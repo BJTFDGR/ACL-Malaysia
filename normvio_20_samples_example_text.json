@@ -1,0 +1,470 @@
+[
+  {
+    "comment_id": "gv7rrdz",
+    "conversation_id": "mt1a7i~gv66ot0_mod",
+    "subreddit": "CoronavirusOregon",
+    "rule_violated": "Be civil",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "mt1a7i~gv66ot0_mod",
+        "text": "[Context comment] User discussing: I think you're being unreasonable here"
+      },
+      {
+        "id": "gv66ior~gv66ot0",
+        "text": "[Context comment] User discussing: I think you're being unreasonable here"
+      }
+    ],
+    "violating_comment": {
+      "id": "gv66ot0~gv66ot0",
+      "text": "[VIOLATING COMMENT] Well that's a stupid opinion and you're an idiot for thinking that"
+    }
+  },
+  {
+    "comment_id": "djldyid",
+    "conversation_id": "6k3cxt~djk3mj2_mod",
+    "subreddit": "AskAnthropology",
+    "rule_violated": "Be nice",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "6k3cxt~djk3mj2_mod",
+        "text": "[Context comment] User discussing: Can you explain your reasoning?"
+      }
+    ],
+    "violating_comment": {
+      "id": "djk3mj2~djk3mj2",
+      "text": "[VIOLATING COMMENT] You're clearly too dumb to understand this anyway"
+    }
+  },
+  {
+    "comment_id": "gw5hxo9",
+    "conversation_id": "mz7iqq~gvz9ydj_mod",
+    "subreddit": "askspain",
+    "rule_violated": "Questions should be relevant to Spain",
+    "violation_category": "off-topic",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "mz7iqq~gvz9ydj_mod",
+        "text": "[Context comment] User discussing: I respectfully disagree"
+      }
+    ],
+    "violating_comment": {
+      "id": "gvz9ydj~gvz9ydj",
+      "text": "[VIOLATING COMMENT] Go kill yourself"
+    }
+  },
+  {
+    "comment_id": "fv2b5pd",
+    "conversation_id": "h9zx0r~fv1sn4x_mod",
+    "subreddit": "joker",
+    "rule_violated": "Be Civil",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "h9zx0r~fv1sn4x_mod",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      }
+    ],
+    "violating_comment": {
+      "id": "fv1sn4x~fv1sn4x",
+      "text": "[VIOLATING COMMENT] This community is full of idiots like you"
+    }
+  },
+  {
+    "comment_id": "g1hyf6j",
+    "conversation_id": "i9ue4z~g1hidbv_mod",
+    "subreddit": "flightsim",
+    "rule_violated": "Piracy",
+    "violation_category": "spam",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "i9ue4z~g1hidbv_mod",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "g1hi9sx~g1hidbv",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      }
+    ],
+    "violating_comment": {
+      "id": "g1hidbv~g1hidbv",
+      "text": "[VIOLATING COMMENT] Fuck off, nobody cares what you think"
+    }
+  },
+  {
+    "comment_id": "fnw40mz",
+    "conversation_id": "g3zj31~fnur0ph_mod",
+    "subreddit": "medicine",
+    "rule_violated": "Act professionally and decently.",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "g3zj31~fnur0ph_mod",
+        "text": "[Context comment] User discussing: I think you're being unreasonable here"
+      },
+      {
+        "id": "fnuqpgq~fnur0ph",
+        "text": "[Context comment] User discussing: I think you're being unreasonable here"
+      }
+    ],
+    "violating_comment": {
+      "id": "fnur0ph~fnur0ph",
+      "text": "[VIOLATING COMMENT] Well that's a stupid opinion and you're an idiot for thinking that"
+    }
+  },
+  {
+    "comment_id": "fijcqr2",
+    "conversation_id": "f84cq1~fij8r1l_mod",
+    "subreddit": "PokemonSwordAndShield",
+    "rule_violated": "No NSFW Content",
+    "violation_category": "content",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "f84cq1~fij8r1l_mod",
+        "text": "[Context comment] User discussing: Can you explain your reasoning?"
+      },
+      {
+        "id": "fij802s~fij8r1l",
+        "text": "[Context comment] User discussing: Can you explain your reasoning?"
+      },
+      {
+        "id": "fij81x2~fij8r1l",
+        "text": "[Context comment] User discussing: Can you explain your reasoning?"
+      },
+      {
+        "id": "fij8oax~fij8r1l",
+        "text": "[Context comment] User discussing: Can you explain your reasoning?"
+      }
+    ],
+    "violating_comment": {
+      "id": "fij8r1l~fij8r1l",
+      "text": "[VIOLATING COMMENT] You're clearly too dumb to understand this anyway"
+    }
+  },
+  {
+    "comment_id": "fl36tio",
+    "conversation_id": "flxolc~fl2cuzd_mod",
+    "subreddit": "medicine",
+    "rule_violated": "No personal agendas, self-promotion, or surveys.",
+    "violation_category": "spam",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "flxolc~fl2cuzd_mod",
+        "text": "[Context comment] User discussing: I respectfully disagree"
+      },
+      {
+        "id": "fl1o89i~fl2cuzd",
+        "text": "[Context comment] User discussing: I respectfully disagree"
+      },
+      {
+        "id": "fl1uojn~fl2cuzd",
+        "text": "[Context comment] User discussing: I respectfully disagree"
+      },
+      {
+        "id": "fl1w5eh~fl2cuzd",
+        "text": "[Context comment] User discussing: I respectfully disagree"
+      }
+    ],
+    "violating_comment": {
+      "id": "fl2cuzd~fl2cuzd",
+      "text": "[VIOLATING COMMENT] Go kill yourself"
+    }
+  },
+  {
+    "comment_id": "gsq7bzx",
+    "conversation_id": "mfrcj0~gspxnrw_mod",
+    "subreddit": "conlangs",
+    "rule_violated": "Be Civil",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "mfrcj0~gspxnrw_mod",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      },
+      {
+        "id": "gsp83fk~gspxnrw",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      },
+      {
+        "id": "gspbr9v~gspxnrw",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      }
+    ],
+    "violating_comment": {
+      "id": "gspxnrw~gspxnrw",
+      "text": "[VIOLATING COMMENT] This community is full of idiots like you"
+    }
+  },
+  {
+    "comment_id": "fr2n01c",
+    "conversation_id": "glm3tv~fr0mckn_mod",
+    "subreddit": "FurryVore",
+    "rule_violated": "No Roleplay, Roleplay Requests, Vore Charts, s...",
+    "violation_category": "content",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "glm3tv~fr0mckn_mod",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "fqysd57~fr0mckn",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "fqyv828~fr0mckn",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      }
+    ],
+    "violating_comment": {
+      "id": "fr0mckn~fr0mckn",
+      "text": "[VIOLATING COMMENT] Fuck off, nobody cares what you think"
+    }
+  },
+  {
+    "comment_id": "gg2rtjs",
+    "conversation_id": "keeoz3~gg2fwc3_mod",
+    "subreddit": "Indiemakeupandmore",
+    "rule_violated": "Posts Must Be Directly Relevant to Indies",
+    "violation_category": "off-topic",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "keeoz3~gg2fwc3_mod",
+        "text": "[Context comment] User discussing: I think you're being unreasonable here"
+      }
+    ],
+    "violating_comment": {
+      "id": "gg2fwc3~gg2fwc3",
+      "text": "[VIOLATING COMMENT] Well that's a stupid opinion and you're an idiot for thinking that"
+    }
+  },
+  {
+    "comment_id": "g3cp5sx",
+    "conversation_id": "ijbx94~g3cm1hk_mod",
+    "subreddit": "torncity",
+    "rule_violated": "Advertising and begging",
+    "violation_category": "spam",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "ijbx94~g3cm1hk_mod",
+        "text": "[Context comment] User discussing: Can you explain your reasoning?"
+      }
+    ],
+    "violating_comment": {
+      "id": "g3cm1hk~g3cm1hk",
+      "text": "[VIOLATING COMMENT] You're clearly too dumb to understand this anyway"
+    }
+  },
+  {
+    "comment_id": "euh7cus",
+    "conversation_id": "cgfz37~euh6xvq_mod",
+    "subreddit": "whywasthisrecommended",
+    "rule_violated": "** NEW RULE ** No self-promotion ** NEW RULE ** ||| Be Kind!",
+    "violation_category": "spam ||| incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "cgfz37~euh6xvq_mod",
+        "text": "[Context comment] User discussing: I respectfully disagree"
+      }
+    ],
+    "violating_comment": {
+      "id": "euh6xvq~euh6xvq",
+      "text": "[VIOLATING COMMENT] Go kill yourself"
+    }
+  },
+  {
+    "comment_id": "gv3eoks",
+    "conversation_id": "mtz1jx~gv2wn76_mod",
+    "subreddit": "Fantasy",
+    "rule_violated": "Be Kind",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "mtz1jx~gv2wn76_mod",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      },
+      {
+        "id": "gv2nddf~gv2wn76",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      },
+      {
+        "id": "gv2pjli~gv2wn76",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      },
+      {
+        "id": "gv2rkfw~gv2wn76",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      },
+      {
+        "id": "gv2srco~gv2wn76",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      }
+    ],
+    "violating_comment": {
+      "id": "gv2wn76~gv2wn76",
+      "text": "[VIOLATING COMMENT] This community is full of idiots like you"
+    }
+  },
+  {
+    "comment_id": "ffi60pk",
+    "conversation_id": "eqw4ze~ffg6hg8_mod",
+    "subreddit": "Purebarre",
+    "rule_violated": "No disclosure of confidential information",
+    "violation_category": "doxxing",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "eqw4ze~ffg6hg8_mod",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "fey6kc3~ffg6hg8",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "feyl9ft~ffg6hg8",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "feyre19~ffg6hg8",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "fez0rsj~ffg6hg8",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "fezqsug~ffg6hg8",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      }
+    ],
+    "violating_comment": {
+      "id": "ffg6hg8~ffg6hg8",
+      "text": "[VIOLATING COMMENT] Fuck off, nobody cares what you think"
+    }
+  },
+  {
+    "comment_id": "guq2g1x",
+    "conversation_id": "mreysn~gup6nl4_mod",
+    "subreddit": "BokuNoShipAcademia",
+    "rule_violated": "Be Respectful of All Ships and Shippers",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "mreysn~gup6nl4_mod",
+        "text": "[Context comment] User discussing: I think you're being unreasonable here"
+      }
+    ],
+    "violating_comment": {
+      "id": "gup6nl4~gup6nl4",
+      "text": "[VIOLATING COMMENT] Well that's a stupid opinion and you're an idiot for thinking that"
+    }
+  },
+  {
+    "comment_id": "e2n6wh2",
+    "conversation_id": "8zvzki~e2n0f9c_mod",
+    "subreddit": "CanadaPolitics",
+    "rule_violated": "Rule 2 - Not respectful",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "8zvzki~e2n0f9c_mod",
+        "text": "[Context comment] User discussing: Can you explain your reasoning?"
+      }
+    ],
+    "violating_comment": {
+      "id": "e2n0f9c~e2n0f9c",
+      "text": "[VIOLATING COMMENT] You're clearly too dumb to understand this anyway"
+    }
+  },
+  {
+    "comment_id": "dynfsc2",
+    "conversation_id": "8hx7qr~dynbrpk_mod",
+    "subreddit": "forhonor",
+    "rule_violated": "Rule 1: Keep it Civil",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "8hx7qr~dynbrpk_mod",
+        "text": "[Context comment] User discussing: I respectfully disagree"
+      },
+      {
+        "id": "dyna9eu~dynbrpk",
+        "text": "[Context comment] User discussing: I respectfully disagree"
+      },
+      {
+        "id": "dynav80~dynbrpk",
+        "text": "[Context comment] User discussing: I respectfully disagree"
+      }
+    ],
+    "violating_comment": {
+      "id": "dynbrpk~dynbrpk",
+      "text": "[VIOLATING COMMENT] Go kill yourself"
+    }
+  },
+  {
+    "comment_id": "ero6zew",
+    "conversation_id": "c2z7wz~erntt7b_mod",
+    "subreddit": "whowouldwin",
+    "rule_violated": "Being Rude, Condescending, or Insulting",
+    "violation_category": "incivility",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "c2z7wz~erntt7b_mod",
+        "text": "[Context comment] User discussing: That's an interesting perspective"
+      }
+    ],
+    "violating_comment": {
+      "id": "erntt7b~erntt7b",
+      "text": "[VIOLATING COMMENT] This community is full of idiots like you"
+    }
+  },
+  {
+    "comment_id": "gt61rej",
+    "conversation_id": "mikygj~gt5xn2w_mod",
+    "subreddit": "harrypotter",
+    "rule_violated": "Rule #4: Posts must be Wizarding World related",
+    "violation_category": "off-topic",
+    "is_derailment": true,
+    "context": [
+      {
+        "id": "mikygj~gt5xn2w_mod",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "gt5b0ei~gt5xn2w",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "gt5nb2l~gt5xn2w",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      },
+      {
+        "id": "gt5oev9~gt5xn2w",
+        "text": "[Context comment] User discussing: What do you mean by that?"
+      }
+    ],
+    "violating_comment": {
+      "id": "gt5xn2w~gt5xn2w",
+      "text": "[VIOLATING COMMENT] Fuck off, nobody cares what you think"
+    }
+  }
+]

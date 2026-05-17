@@ -1,0 +1,1012 @@
+[
+  {
+    "timestamp": "2026-05-14T18:09:33.101358+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:09:33.233490+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:09:33.239346+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ĊĊ</think>ĊĊneutral",
+    "parsed_output": "ċċċċneutral",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:09:34.103979+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-opus-4-7",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:09:34.342554+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:09:34.485590+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:09:35.035801+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:09:44.383605+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:04.182517+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:07.543773+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_test_2a"
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:08.998373+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:09.143929+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ĊĊ</think>ĊĊneutral",
+    "parsed_output": "ċċċċneutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:09.399595+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:09.412300+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:09.475411+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:09.477786+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:09.491753+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:09.504179+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:09.547116+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:09.757640+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.019731+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ĊĊ</think>ĊĊkan",
+    "parsed_output": "ċċċċkan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.081323+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.108851+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-opus-4-7",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.252307+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.276332+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.422286+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-opus-4-7",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.456199+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.537609+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.540728+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.587800+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-opus-4-7",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.594893+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.641672+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-opus-4-7",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.769135+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.778154+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-opus-4-7",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:10.836238+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ĊĊ</think>ĊĊneutral",
+    "parsed_output": "ċċċċneutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:11.262476+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:11.288605+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:11.327405+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:11.353893+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:11.479859+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5.5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:12.024062+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:12.996342+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:13.953236+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:20.368020+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:20.454986+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:20.723672+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:21.111012+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:22.706899+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:22.743891+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:23.023177+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:27.273826+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nThe sentence makes an assertion or conveys information — not structured as a question..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:30.679217+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:31.396246+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:38.849660+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:10:50.221536+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:11:03.367857+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:11:11.930577+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ĊĊ</think>ĊĊkan",
+    "parsed_output": "ċċċċkan",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:11:12.742517+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses frustration, annoyance, disappointment, sadness, anger, or bitterness.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ĊĊ</think>ĊĊneutral",
+    "parsed_output": "ċċċċneutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:11:32.920361+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n\nThe speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\nThe speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-14T18:13:03.145572+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\nThe particle appears anywhere other than the front — mid-sentence or at the end.\nNo clear orientation toward listener agreement; a plain statement or ambiguous stance.\nNo detectable emotional charge, or the emotion is genuinely ambiguous.\nPhrased as a question but does not expect a genuine answer; used to make a point or emphasise something..\n\nParticle meanings:\n  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\n\n\nUsing the sentence context and the attributes above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "particle_gen_2a",
+      "row_idx": 0
+    }
+  }
+]

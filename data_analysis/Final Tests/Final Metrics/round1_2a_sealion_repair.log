@@ -1,0 +1,152 @@
+Loaded 187 rows
+Before fix: sealion_strong_particle_gen
+kan                    63
+ċċ</think>ċċkan        49
+ċċ</think>ċċneutral    46
+ċċ</think>ċċke         18
+ke                      6
+
+Re-extracted 117 rows from stored raw output
+ERROR rows to retry: 1
+Llama/Ollama status: Ollama is not installed.
+Llama skipped: Ollama is not installed.
+Models to run: ['gpt_strong', 'gpt_weak', 'claude_strong', 'claude_weak', 'gemini_strong', 'gemini_weak', 'deepseek_strong', 'deepseek_weak', 'sealion_strong', 'sealion_weak']
+Total rows for Test 2a: 187
+GT distribution:
+GT_Particle
+neutral    64
+kan        63
+ke         60
+
+Evaluating 5 rows (SAMPLE_N=5)
+                                                                                                               Text_Masked Particle
+0  Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2...       ke
+1                   Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂      kan
+2                   Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂  neutral
+
+======================================================================
+TEST 2a — Smoke test: 1 sample
+======================================================================
+
+Sample text (masked): Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu 
+Ground truth particle: ke
+
+Prompt sent to models:
+────────────────────────────────────────────────────────────
+You are given a Malay sentence in which one discourse particle has been replaced with [___].
+Your task is to predict which particle, either “ke,” “kan,” or “neutral,” belongs in the [___] slot, such that the discourse-context attributes for this sentence are The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.
+The particle appears anywhere other than the front — mid-sentence or at the end.
+No clear orientation toward listener agreement; a plain statement or ambiguous stance.
+No detectable emotional charge, or the emotion is genuinely ambiguous.
+Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something..
+
+Particle meanings:
+  ke  : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.
+  kan : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes ("right?").
+  neutral : indicates no particle.
+
+Speaker:
+  "Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja"
+
+
+
+Using the sentence context and the attributes above, which single particle — "ke" or "kan" or "neutral" — best fills [___]?
+
+Return exactly one word from this set and nothing else: ke, kan, neutral
+────────────────────────────────────────────────────────────
+Launching 10 tasks across 10 threads
+smoke_test_2a:   0%|          | 0/10 [00:00<?, ?it/s]/home/xitongzhang/Maylie/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/xitongzhang/Maylie/data_analysis/Final Tests/Evaluation Scripts/round1_2a_particle_generation.py:454: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai_legacy
+smoke_test_2a:  10%|█         | 1/10 [00:01<00:10,  1.13s/it]smoke_test_2a:  20%|██        | 2/10 [00:01<00:04,  1.84it/s]smoke_test_2a:  40%|████      | 4/10 [00:02<00:02,  2.11it/s]smoke_test_2a:  50%|█████     | 5/10 [00:02<00:02,  2.48it/s]smoke_test_2a:  60%|██████    | 6/10 [00:02<00:01,  3.11it/s]smoke_test_2a:  70%|███████   | 7/10 [00:03<00:01,  2.56it/s]smoke_test_2a:  80%|████████  | 8/10 [00:12<00:06,  3.11s/it]smoke_test_2a:  90%|█████████ | 9/10 [00:32<00:08,  8.15s/it]smoke_test_2a: 100%|██████████| 10/10 [00:35<00:00,  6.71s/it]smoke_test_2a: 100%|██████████| 10/10 [00:35<00:00,  3.56s/it]
+
+Ground truth: ke
+  gpt_strong          : kan  ✗
+  gpt_weak            : neutral  ✗
+  claude_strong       : ke  ✓
+  claude_weak         : kan  ✗
+  gemini_strong       : neutral  ✗
+  gemini_weak         : neutral  ✗
+  deepseek_strong     : ke  ✓
+  deepseek_weak       : ke  ✓
+  sealion_strong      : ċċċċneutral  ✗
+  sealion_weak        : kan  ✗
+
+Smoke test complete. IO logs saved → ../Final Metrics/round1_2a_io_logs.json
+
+────────────────────────────────────────────────────────────
+  Task      : Particle Generation (Test 2a)
+  Labels    : ['ke', 'kan', 'neutral']
+  N samples : 5
+────────────────────────────────────────────────────────────
+Launching 50 tasks across 50 threads
+particle_gen_2a:   0%|          | 0/50 [00:00<?, ?it/s]particle_gen_2a:   2%|▏         | 1/50 [00:01<01:06,  1.36s/it]particle_gen_2a:   4%|▍         | 2/50 [00:01<00:30,  1.55it/s]particle_gen_2a:   6%|▌         | 3/50 [00:01<00:21,  2.14it/s]particle_gen_2a:  16%|█▌        | 8/50 [00:01<00:05,  7.97it/s]particle_gen_2a:  22%|██▏       | 11/50 [00:02<00:05,  6.95it/s]particle_gen_2a:  28%|██▊       | 14/50 [00:02<00:04,  8.34it/s]particle_gen_2a:  32%|███▏      | 16/50 [00:02<00:03,  9.01it/s]particle_gen_2a:  36%|███▌      | 18/50 [00:02<00:03, 10.33it/s]particle_gen_2a:  44%|████▍     | 22/50 [00:02<00:01, 15.15it/s]particle_gen_2a:  50%|█████     | 25/50 [00:03<00:01, 15.23it/s]particle_gen_2a:  56%|█████▌    | 28/50 [00:03<00:02, 10.39it/s]particle_gen_2a:  60%|██████    | 30/50 [00:03<00:01, 10.91it/s]particle_gen_2a:  64%|██████▍   | 32/50 [00:05<00:04,  3.91it/s]particle_gen_2a:  68%|██████▊   | 34/50 [00:12<00:18,  1.15s/it]particle_gen_2a:  72%|███████▏  | 36/50 [00:13<00:12,  1.13it/s]particle_gen_2a:  74%|███████▍  | 37/50 [00:13<00:10,  1.24it/s]particle_gen_2a:  76%|███████▌  | 38/50 [00:15<00:11,  1.05it/s]particle_gen_2a:  80%|████████  | 40/50 [00:15<00:06,  1.48it/s]particle_gen_2a:  82%|████████▏ | 41/50 [00:19<00:12,  1.39s/it]particle_gen_2a:  84%|████████▍ | 42/50 [00:23<00:14,  1.84s/it]particle_gen_2a:  86%|████████▌ | 43/50 [00:23<00:10,  1.57s/it]particle_gen_2a:  88%|████████▊ | 44/50 [00:31<00:18,  3.07s/it]particle_gen_2a:  90%|█████████ | 45/50 [00:42<00:26,  5.30s/it]particle_gen_2a:  92%|█████████▏| 46/50 [00:55<00:29,  7.47s/it]particle_gen_2a:  94%|█████████▍| 47/50 [01:04<00:23,  7.78s/it]particle_gen_2a:  96%|█████████▌| 48/50 [01:05<00:11,  5.77s/it]particle_gen_2a:  98%|█████████▊| 49/50 [01:25<00:09,  9.97s/it]particle_gen_2a: 100%|██████████| 50/50 [02:55<00:00, 33.57s/it]particle_gen_2a: 100%|██████████| 50/50 [02:55<00:00,  3.51s/it]
+  GPT_STRONG done → sample: ['ke', 'kan', 'neutral']
+  GPT_WEAK done → sample: ['neutral', 'kan', 'kan']
+  CLAUDE_STRONG done → sample: ['ke', 'kan', 'kan']
+  CLAUDE_WEAK done → sample: ['kan', 'kan', 'neutral']
+  GEMINI_STRONG done → sample: ['neutral', 'kan', 'kan']
+  GEMINI_WEAK done → sample: ['neutral', 'kan', 'kan']
+  DEEPSEEK_STRONG done → sample: ['ke', 'kan', 'neutral']
+  DEEPSEEK_WEAK done → sample: ['neutral', 'kan', 'neutral']
+  SEALION_STRONG done → sample: ['ċċċċneutral', 'ċċċċkan', 'ċċċċneutral']
+  SEALION_WEAK done → sample: ['kan', 'kan', 'kan']
+
+Saved predictions → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2a_predictions.csv
+
+=======================================================
+  Test 2a — Particle Generation Accuracy
+=======================================================
+                                   Model  Accuracy  Errors
+6                        deepseek-v4-pro       0.8       0
+0                                gpt-5.5       0.8       0
+3                       claude-haiku-4-5       0.6       0
+2                        claude-opus-4-7       0.6       0
+7                      deepseek-v4-flash       0.6       0
+9   aisingapore/Gemma-SEA-LION-v4-27B-IT       0.4       0
+5                  gemini-3.1-flash-lite       0.4       0
+4                 gemini-3.1-pro-preview       0.4       0
+1                           gpt-5.4-mini       0.4       0
+8  aisingapore/Llama-SEA-LION-v3.5-70B-R       0.0       0
+Saved markdown summary → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2a_accuracy_summary.md
+                                                                                                               Text_Masked  ... sealion_weak_particle_gen
+0  Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2...  ...                       kan
+1                   Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂  ...                       kan
+2                   Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂  ...                       kan
+3                                              @Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣  ...                       kan
+4  @kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg dokt...  ...                       kan
+
+[5 rows x 12 columns]
+
+Retrying row 72 (GT=neutral)...
+  → neutral
+
+Saved updated predictions → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2a_predictions.csv
+After fix: sealion_strong_particle_gen
+kan        112
+neutral     51
+ke          24
+
+=======================================================
+  Test 2a — Particle Generation Accuracy (updated)
+=======================================================
+                                Model  Accuracy  Errors
+                              gpt-5.5    0.6898       0
+                     claude-haiku-4-5    0.6845       0
+                      deepseek-v4-pro    0.6845       0
+                    deepseek-v4-flash    0.6684       0
+                gemini-3.1-flash-lite    0.6310       0
+               gemini-3.1-pro-preview    0.6310       0
+                         gpt-5.4-mini    0.6043       0
+                      claude-opus-4-7    0.5775       0
+ aisingapore/Gemma-SEA-LION-v4-27B-IT    0.5027       0
+aisingapore/Llama-SEA-LION-v3.5-70B-R    0.4706       0
+Saved updated summary → /home/xitongzhang/Maylie/data_analysis/Final Tests/Final Metrics/round1_2a_accuracy_summary.md

@@ -1,0 +1,9 @@
+Text,Source,Particle,Sentence_Type,Epistemic_Stance,Listener_Agreement,Emotion,Question_Type,Particle_Position,GT_Particle,gpt_strong_Particle,gpt_weak_Particle,claude_strong_Particle,claude_weak_Particle,gemini_strong_Particle,gemini_weak_Particle,deepseek_strong_Particle,deepseek_weak_Particle,sealion_strong_Particle,sealion_weak_Particle
+Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂,Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,kan,kan,kan,kan,kan,kan,kan,kan,kan,kan,kan
+"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣",Reddit,neutral,Synthesised (removed kan),Certain,Assumed Agreement,Positive,Rhetorical Interrogative,,kan,kan,kan,kan,kan,kan,kan,kan,kan,kan,kan
+"boleh la [___]... amik streaming spotify pulak nak rasa negara dia better 😂😂😂 kalau cakap pasal benda lain, tentu2 lah kalah😩😩😭🤣🤣🤣",Reddit,neutral,Synthesised (removed kan),Neutral/Unclear,Neutral/Unclear,Positive,Declarative/Statement,,kan,kan,kan,kan,kan,kan,kan,kan,kan,kan,kan
+"Selepas tonton video abang ajar Semalam, sebelum tidur dan selepas tonton video ajar (yang dunia kita berapa fps).. 
+Tiba-tiba otak saya bertanya, jadi dunia kita berapa resolusi?? 
+Korang tau [___] resolusi?? Yang 1080p, 480p, 360p e.t.c.
+Rasanya sama je lah macam video ajar tu..",Twitter,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,kan,ke,kan,ke,ke,kan,kan,kan,ke,kan,kan
+"OMG!! SO CUTE!! 😍Kalau cabut cap lagi cute, [___]? 🙈 https://t.co/pPFiorU0bc",Twitter,neutral,Synthesised (removed kan),Uncertain,Assumed Agreement,Positive,Yes/No Interrogative,,kan,kan,kan,kan,ke,kan,kan,kan,kan,kan,kan

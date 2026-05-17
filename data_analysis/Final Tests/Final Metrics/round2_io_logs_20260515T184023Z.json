@@ -1,0 +1,731 @@
+[
+  {
+    "timestamp": "2026-05-15T18:40:24.799072+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "ĊĊ</think>ĊĊNeutralĠDeclarative",
+    "parsed_output": "Neutral Declarative",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:24.806547+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:24.864270+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:25.548490+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:25.651222+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-6",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:26.741886+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation\n\nThe speaker is using rhetorical questioning (\"Ada ke notis dari tadi...\") to challenge and criticize the lack of notice from authorities about the power outage. Rather than genuinely seeking information about whether a notice exists, the speaker is expressing frustration and negative evaluation—implying that there should have been a notice but there wasn't one, despite checking Facebook repeatedly. The follow-up comment about the inadequacy of one light further emphasizes the speaker's critical stance toward the situation and the apparent negligence of providing proper notification.",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:27.648763+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:29.550545+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:29.550595+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty model response",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:33.584445+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 2,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:33.584485+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 2,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty model response",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:38.796170+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 3,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:38.796208+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 3,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty model response",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:40:56.628739+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:27.620201+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:28.242122+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:28.271222+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Assumed-Agreement Rhetorical Stance",
+    "parsed_output": "Assumed-Agreement Rhetorical Stance",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:28.290127+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "ĊĊ</think>ĊĊAssumed-AgreementĠRhetoricalĠStance",
+    "parsed_output": "Assumed-Agreement Rhetorical Stance",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:29.013773+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:29.445857+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-6",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:31.540111+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "**Assumed-Agreement Rhetorical Stance**\n\n**Justification:**\n\nThe speaker presents a series of observations about a power outage (no electricity since 8:50pm, no official notice despite checking Facebook, insufficient power for even one light) as established facts requiring listener alignment rather than verification. The rhetorical questions (\"Ada ke notis...?\" / \"Is there a notice...?\") are not genuine information-seeking moves—the speaker has already checked and knows the answer. The final statement (\"Tu karen kan cukup2 utk buka 1 lampu ja\" / \"That's why it's only enough to turn on 1 light\") reinforces a logical conclusion the speaker presents as self-evident.\n\nThe particle **kan** at the end functions to assert shared understanding and invite alignment with this obvious state of affairs, rather than to seek genuine confirmation or express affect. The overall communicative function is to establish a shared factual frame about an inconvenient situation, positioning the listener to accept these facts as mutually understood reality.",
+    "parsed_output": "Assumed-Agreement Rhetorical Stance",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:35.807855+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Assumed-Agreement Rhetorical Stance",
+    "parsed_output": "Assumed-Agreement Rhetorical Stance",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:32.079548+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:32.079575+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty model response",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:36.809787+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 2,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:36.809827+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 2,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty model response",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:41.791662+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 3,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:41.791702+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 3,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty model response",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:42:45.882982+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:29.438918+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are a linguist specialising in colloquial Malay discourse pragmatics. Your task is to read the Malay sentence below and identify the primary communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nYou are provided with the following human-annotated attribute labels for this sentence as additional context:\n  Epistemic Stance: Certain\n    → The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n  Particle Position: Middle/End\n    → The particle appears anywhere other than the front — mid-sentence or at the end.\n  Listener Agreement: Neutral/Unclear\n    → No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n  Emotion: Neutral/Unclear\n    → No detectable emotional charge, or the emotion is genuinely ambiguous.\n  Question Type: Rhetorical Interrogative\n    → Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nUse these attributes to inform your decision, but base your final label on the overall communicative function of the utterance.\n\nReferring to the following seven labels and their definitions to make your decision:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.)\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nConsidering what the speaker is communicatively doing with this utterance, their stance, their orientation toward the listener, and the function the sentence serves in interaction, which of the seven labels best captures its primary discourse role?\nThe most likely, single label is:",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. You must output exactly one label from the provided list and nothing else.",
+    "raw_output": "Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_1c"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:30.431109+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:30.556168+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:30.863452+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:31.208502+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:32.924684+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:34.041835+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-6",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:34.401309+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "ĊĊ</think>ĊĊkanĊĊTheĠsentenceĠcontextĠinvolvesĠaĠspeakerĠreportingĠaĠpowerĠoutageĠandĠtheĠresultingĠactionsĠtakenĠ(\"tukarĠenkĠkancukupĠ2ĠutkĠbukaĠ1Ġlampu\").ĠTheĠparticleĠ[___]ĠfollowsĠ\"ada\"ĠandĠprecedesĠ\"notisĠdaritĠaĠdiĠsyĠcheckĠfbĠsesbtĠdanotis\".ĠInĠcolloquialĠMalay,Ġ\"kan\"ĠisĠoftenĠusedĠtoĠseekĠconfirmationĠofĠsharedĠknowledgeĠorĠtoĠalignĠwithĠtheĠlistener'sĠexpectedĠunderstanding.ĠHere,ĠtheĠspeakerĠisĠlikelyĠassumingĠtheĠlistenerĠisĠawareĠofĠtheĠnoticesĠfromĠFBĠandĠotherĠsources,ĠandĠ\"kan\"ĠservesĠtoĠgentlyĠpromptĠagreementĠratherĠthanĠrequestĠnewĠinformation.ĠThisĠalignsĠwithĠtheĠAssumed-AgreementĠRhetoricalĠStance,ĠwhereĠtheĠspeakerĠpresentsĠinformationĠasĠalreadyĠknownĠandĠseeksĠalignmentĠratherĠthanĠaĠgenuineĠanswer.ĠTheĠuseĠofĠ\"kan\"ĠhereĠisĠmoreĠappropriateĠthanĠ\"ke\"Ġ(whichĠwouldĠindicateĠuncertainty)ĠorĠ\"neutral\"Ġ(whichĠwouldĠomitĠtheĠalignment-seekingĠfunction).",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:33.728108+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:33.728135+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty model response",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:38.153059+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 2,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:38.153094+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 2,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty model response",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:43.215971+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 3,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:43.216011+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 3,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty model response",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:44:47.211286+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "neutral",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  },
+  {
+    "timestamp": "2026-05-15T18:45:39.252143+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "transport_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\nYour task is to predict which particle — \"ke\", \"kan\", or \"neutral\" — belongs in the [___] slot, such that the sentence is consistent with the primary communicative role the utterance plays in interaction, beyond its literal propositional content:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing the sentence context and the macro-function above, which single particle — \"ke\" or \"kan\" or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\" or \"kan\" or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b"
+    }
+  }
+]

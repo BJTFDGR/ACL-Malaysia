@@ -1,0 +1,478 @@
+[
+  {
+    "timestamp": "2026-05-17T21:47:11.071731+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:11.194937+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:11.472224+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "N/A",
+    "parsed_output": "N/A",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:11.636879+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:11.700122+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:11.775790+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:11.792758+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:12.311663+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:12.361342+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:12.630878+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:12.716330+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:12.992559+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:12.997557+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:13.012220+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:13.087659+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "N/A",
+    "parsed_output": "N/A",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:13.584095+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:13.748519+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:13.773068+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:13.828643+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:13.916482+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:13.997379+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:14.212640+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:14.634486+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:14.645513+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:15.005655+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Rhetorical Interrogative",
+    "parsed_output": "Rhetorical Interrogative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:15.014527+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Rhetorical Interrogative",
+    "parsed_output": "Rhetorical Interrogative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:15.156258+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:15.184717+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:15.233517+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Declarative/Statement",
+    "parsed_output": "Declarative/Statement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:15.337114+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:15.999768+00:00",
+    "model": "claude-sonnet-4-6",
+    "raw_output": "Declarative/Statement",
+    "parsed_output": "Declarative/Statement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:16.747935+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:16.792978+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:16.870439+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:16.878336+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "N/A",
+    "parsed_output": "N/A",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:16.897626+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:16.911632+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:16.956926+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:17.235395+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Uncertain",
+    "parsed_output": "Uncertain",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:17.445780+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:17.545325+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "N/A",
+    "parsed_output": "N/A",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:17.580080+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:17.609188+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "N/A",
+    "parsed_output": "N/A",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:17.628212+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:17.698822+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Middle/End",
+    "parsed_output": "Middle/End",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:17.900635+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "N/A",
+    "parsed_output": "N/A",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:17.988253+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.048118+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.307495+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.340325+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.404345+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.404415+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.623254+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Assumed Agreement",
+    "parsed_output": "Assumed Agreement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.717795+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Confirmation Seeking",
+    "parsed_output": "Confirmation Seeking",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.851560+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.976572+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:18.978333+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:19.146101+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:19.361942+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:19.383455+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:19.405974+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:19.675552+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Neutral/Unclear",
+    "parsed_output": "Neutral/Unclear",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:19.893953+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Rhetorical Interrogative",
+    "parsed_output": "Rhetorical Interrogative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:20.074099+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Negative",
+    "parsed_output": "Negative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:20.081605+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Declarative/Statement",
+    "parsed_output": "Declarative/Statement",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:20.145762+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Positive",
+    "parsed_output": "Positive",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:20.289617+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Rhetorical Interrogative",
+    "parsed_output": "Rhetorical Interrogative",
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-17T21:47:21.033877+00:00",
+    "model": "claude-haiku-4-5",
+    "raw_output": "Yes/No Interrogative",
+    "parsed_output": "Yes/No Interrogative",
+    "status": "ok"
+  }
+]
