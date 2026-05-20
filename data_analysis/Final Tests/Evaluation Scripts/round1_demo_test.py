@@ -40,15 +40,12 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import anthropic
-from dotenv import load_dotenv, find_dotenv
 from google import genai
 from google.genai import types as genai_types
 import pandas as pd
 import requests
 from openai import OpenAI
 from tqdm import tqdm
-
-load_dotenv(find_dotenv())
 
 try:
     from IPython.display import display
