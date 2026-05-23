@@ -1,0 +1,154 @@
+[
+  {
+    "timestamp": "2026-05-23T18:25:05.530253+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "Okay, let's break down the problem step by step. The user wants me to determine whether the Malay discourse particle in the given sentence should be \"ke,\" \"kan,\" or \"neutral.\" The sentence is: \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja.\"\n\nFirst, I need to consider the context attributes provided. The Epistemic Stance is Certain, meaning the speaker is confident about the statement. The particle is in the middle/end position, which could affect its function. Listener Agreement is Neutral/Unclear, so the speaker isn't explicitly seeking agreement. Emotion is also Neutral/Unclear. The question type is a Rhetorical Interrogative, which is used to make a point rather than expect an answer. The macro-pragmatic function is Assumed-Agreement Rhetorical Stance, where the speaker presents the proposition as obvious, expecting alignment rather than a real answer.\n\nNow, looking at the particle meanings: \"ke\" indicates uncertainty or invites confirmation, \"kan\" signals assumed shared knowledge and seeks light confirmation, and \"neutral\" means no particle. The sentence structure here is \"Ada [___] notis...\" which translates to \"There is [___] notice...\" The speaker is stating that there was no notice since checking Facebook, so they're asserting a fact they believe to be true. The use of \"kan\" later in the sentence (\"Tu karen kan cukup2...\") suggests that the speaker is using \"kan\" to reinforce their point, expecting the listener to agree. \n\nGiven the attributes, especially the Certain Epistemic Stance and the Assumed-Agreement stance, \"kan\" fits here because it's used to confirm shared knowledge. The speaker is certain there's no notice and uses \"kan\" to align the listener. \"Ke\" would imply uncertainty, which doesn't match the confident tone. \"Neutral\" would mean no particle, but the context suggests a particle is needed to convey the assumed agreement. Therefore, the correct particle should be \"kan.\"\n</think>\n\nkan",
+    "parsed_output": "neutral",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:05.535764+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:05.814389+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:05.839888+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:05.852883+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:05.950601+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:06.018281+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:06.021952+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:06.149615+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:06.393146+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-6",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2d"
+    }
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "timestamp": "2026-05-23T18:25:34.046088+00:00",
+    "model_alias": "deepseek_weak",
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:34.263704+00:00",
+    "model_alias": "deepseek_strong",
+    "provider": "openai",
+    "model": "deepseek-v4-pro",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:34.430931+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "Reasoning: The speaker is expressing frustration about a power outage and notes that they have checked the official Facebook page for notices but found none. By asking \"Ada [___] notis\", the speaker is rhetorically highlighting the absence of information, implying that there *should* have been a notice if the utility company were doing their job properly. This aligns with the \"kan\" function, as the speaker is seeking confirmation of their expectation that a notice ought to have been provided.\n\nFinal answer: kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:34.736336+00:00",
+    "model_alias": "gpt_weak",
+    "provider": "openai_responses",
+    "model": "gpt-5.4-mini",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "Reasoning: The speaker is not genuinely asking whether there is a notice; they are stating that, as far as they can tell, there has been no notice from earlier and expecting the listener to accept that as shared/common-ground information. This matches an assumed-agreement stance rather than uncertainty. So the particle that best fits the sentence flow and pragmatics is the confirmation-seeking kan.  \nFinal answer: kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:34.786364+00:00",
+    "model_alias": "gpt_strong",
+    "provider": "openai_responses",
+    "model": "gpt-5",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "Reasoning: The speaker asserts a shared situation (power outage) and implies the listener should already know if there was any notice, expecting alignment rather than real inquiry. The slot after \"Ada\" functions like \"right?\" to seek light confirmation of an assumed known fact. This matches assumed shared knowledge rather than genuine uncertainty.\nFinal answer: kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:34.885449+00:00",
+    "model_alias": "gemini_weak",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "Reasoning: The speaker is expressing frustration about a power outage and notes that they have checked the official Facebook page for notices but found none. By asking \"Ada [___] notis\", the speaker is rhetorically highlighting the absence of information, implying that there *should* have been a notice if the utility company were doing their job properly. This aligns with the \"kan\" function, as the speaker is seeking confirmation of their expectation that a notice ought to have been provided.\n\nFinal answer: kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:35.431211+00:00",
+    "model_alias": "claude_weak",
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "Reasoning: The speaker is presenting a situation (power outage) and then making an observation about not finding a notice on Facebook. Given the macro-pragmatic function of \"Assumed-Agreement Rhetorical Stance,\" the speaker is presenting this as shared, obvious knowledge rather than asking genuine questions. The slot \"Ada [___] notis\" fits the pattern of the speaker confirming something they already believe (there is no notice) and expects the listener to align with this observation. The particle \"kan\" signals this assumed shared knowledge and light confirmation, matching the rhetorical stance of presenting an obvious fact the listener should already know or readily agree with.\n\nFinal answer: kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:35.872174+00:00",
+    "model_alias": "sealion_weak",
+    "provider": "openai",
+    "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "Reasoning: The speaker is stating a situation (no electricity) and then commenting on the lack of official notification. The macro-function of Assumed-Agreement Rhetorical Stance suggests the speaker *expects* the listener to already know or agree that SESB *should* have issued a notice. The phrase \"Tu karen kan cukup2 utk buka 1 lampu ja\" further reinforces this expectation of shared understanding. Thus, the missing particle likely functions to seek light confirmation of this assumed shared knowledge.\n\nFinal answer: kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:36.917626+00:00",
+    "model_alias": "claude_strong",
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-6",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "Reasoning: The speaker is expressing frustration about a power outage and commenting that the battery/karen stored has just barely enough power to turn on one light. The phrase \"cukup2 utk buka 1 lampu ja\" with \"kan\" at the end presents this as an obvious, shared understanding — essentially saying \"that's only barely enough to power one light, right?\" This aligns with the Assumed-Agreement Rhetorical Stance, where the speaker asserts something they already believe and expects the listener to simply agree. The particle \"kan\" fits perfectly here as it signals assumed shared knowledge and seeks light confirmation.\n\nFinal answer: kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:25:45.030240+00:00",
+    "model_alias": "sealion_strong",
+    "provider": "openai",
+    "model": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "Okay, let's tackle this problem. The speaker is talking about a power outage in Menggatal/Tuaran since 8:50 pm and mentions checking Facebook but not finding any notices. The sentence structure is in Malay, and there's a blank where a discourse particle should be.\n\nFirst, I need to understand the macro-pragmatic function here, which is Assumed-Agreement Rhetorical Stance. That means the speaker is presenting something as already obvious or shared knowledge, expecting the listener to agree without needing a real answer. So the particle should reflect that.\n\nLooking at the sentence: \"Ada [___] notis dari tadi sy check fb sesb tda notis.\" The speaker is saying there are no notices, and they checked Facebook but didn't find any. The blank is after \"Ada,\" which is \"there is/are.\" Now, in Malay, \"ada\" can be followed by particles like \"ke\" or \"kan.\"\n\nThe particle \"kan\" is used when the speaker assumes the listener shares the same knowledge and seeks confirmation, like \"right?\" For example, \"Ada kan notis?\" would mean \"There is a notice, right?\" But here, the speaker is stating there are no notices, so maybe \"kan\" is still appropriate because they're presenting it as obvious that there are none. \n\n\"Ke\" is used for uncertainty, inviting confirmation. But the speaker seems certain there's no notice, so \"ke\" might not fit. \"Neutral\" would mean no particle, but in this context, the speaker is emphasizing the lack of notices, so a particle might be needed to convey that assumed agreement.\n\nPutting it together, the speaker is presenting the absence of notices as something the listener should already know, hence \"kan\" makes sense here. The flow of the sentence also supports \"kan\" because it's a common way to structure such statements in colloquial Malay.\n</think>\n\nReasoning: The speaker presents the absence of notices as shared knowledge, expecting the listener to align with this fact. The use of \"kan\" aligns with the Assumed-Agreement stance by signaling the speaker's belief that the listener already knows there are no notices, inviting light confirmation. The sentence structure \"Ada [___] notis\" fits \"kan\" as it matches the pragmatic function of seeking alignment rather than genuine uncertainty. Final answer: kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "smoke_2b_cot"
+    }
+  }
+]

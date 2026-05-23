@@ -1,0 +1,44 @@
+=== ROW METADATA ===
+Text: Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja
+Text_Masked: Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja
+GT_Particle: ke
+Macro_Function: Assumed-Agreement Rhetorical Stance
+Epistemic_Stance: Certain
+Particle_Position: Middle/End
+Listener_Agreement: Neutral/Unclear
+Emotion: Neutral/Unclear
+Question_Type: Rhetorical Interrogative
+
+[SYSTEM]
+You are a linguist specialising in colloquial Malay discourse pragmatics. Reason step-by-step about the speaker's communicative intent, then output exactly one macro-function label from the provided list.
+
+[USER]
+You are given a Malay sentence. Your task is to classify its primary macro-pragmatic function — the communicative role the utterance plays in interaction, beyond its literal propositional content.
+
+Referring to the following seven labels and their definitions:
+
+Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.
+
+Neutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.
+
+Information-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.
+
+Affective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.).
+
+Emphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.
+
+Null Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.
+
+Negative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.
+
+Speaker: "Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja"
+
+Think step-by-step:
+  1. What is the speaker doing in this utterance (asserting, asking, hedging, emphasising, challenging)?
+  2. What is the speaker's stance toward the listener (shared knowledge, seeking confirmation, neutral information, etc.)?
+  3. Which of the seven labels best captures this combination?
+
+Format your response EXACTLY as follows, with no extra text before or after:
+
+Reasoning: <2–4 sentences of step-by-step analysis>
+Final answer: <one label from the list above>

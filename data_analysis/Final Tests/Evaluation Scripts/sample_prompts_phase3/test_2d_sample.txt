@@ -1,0 +1,38 @@
+=== ROW METADATA ===
+Text: Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja
+Text_Masked: Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja
+GT_Particle: ke
+Macro_Function: Assumed-Agreement Rhetorical Stance
+Epistemic_Stance: Certain
+Particle_Position: Middle/End
+Listener_Agreement: Neutral/Unclear
+Emotion: Neutral/Unclear
+Question_Type: Rhetorical Interrogative
+
+[SYSTEM]
+You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either "ke", "kan", or "neutral" — and nothing else.
+
+[USER]
+You are given a Malay sentence in which one discourse particle has been replaced with [___].
+
+Discourse-context attributes for this sentence:
+- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.
+- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.
+- Listener Agreement: Neutral/Unclear — No clear orientation toward listener agreement; a plain statement or ambiguous stance.
+- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.
+- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.
+
+Macro-pragmatic function of this utterance:
+Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.
+
+Particle meanings:
+  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.
+  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes ("right?").
+  neutral : indicates no particle.
+
+Speaker:
+  "Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja"
+
+Using both the attribute breakdown and the macro-function above, which single particle — "ke", "kan", or "neutral" — best fills [___]?
+
+Return exactly one word from this set and nothing else: ke, kan, neutral
