@@ -234,7 +234,11 @@ def build_model_runs():
     fallback = _extract_keys_from_notebook(Path("04_round1_1a_attribute_accuracy.ipynb"))
     OPENAI_API_KEY    = os.getenv("OPENAI_API_KEY")    or fallback["openai"]
     ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY") or fallback["anthropic"]
-    GEMINI_API_KEYS   = [k for k in [os.getenv("GEMINI_API_KEY")] + fallback["gemini"] if k]
+    GEMINI_API_KEYS   = [k for k in [os.getenv("GEMINI_API_KEY"),
+                                      os.getenv("GEMINI_API_KEY_2"),
+                                      os.getenv("GEMINI_API_KEY_3")] + fallback["gemini"] if k]
+    # dedupe preserving order
+    GEMINI_API_KEYS   = list(dict.fromkeys(GEMINI_API_KEYS))
     DEEPSEEK_API_KEY  = os.getenv("DEEPSEEK_API_KEY")  or fallback["deepseek"]
     SEA_LION_API_KEY  = os.getenv("SEA_LION_API_KEY")  or fallback["sealion"]
 
@@ -274,9 +278,11 @@ def build_model_runs():
     if GEMINI_API_KEYS:
         runs.append({"name": "gemini_strong", "provider": "gemini",
                      "api_keys": GEMINI_API_KEYS, "model": GEMINI_STRONG,
-                     "fallback_models": GEMINI_STRONG_FB, "sleep": 0.5})
+                     "fallback_models": GEMINI_STRONG_FB,
+                     "max_tokens": 8192, "sleep": 0.5})
         runs.append({"name": "gemini_weak", "provider": "gemini",
-                     "api_keys": GEMINI_API_KEYS, "model": GEMINI_WEAK, "sleep": 0.5})
+                     "api_keys": GEMINI_API_KEYS, "model": GEMINI_WEAK,
+                     "max_tokens": 8192, "sleep": 0.5})
     if DEEPSEEK_API_KEY:
         runs.append({"name": "deepseek_strong", "provider": "openai",
                      "api_key": DEEPSEEK_API_KEY, "base_url": "https://api.deepseek.com",
@@ -456,7 +462,11 @@ def predict_with_retry(run_cfg, prompt_text, constraint_text, parse_fn,
             if _is_fatal_error(e):
                 return f"ERROR_FATAL: {e}", ""
             txt = str(e).lower()
-            if "429" in txt or "rate_limit" in txt:
+            if "429" in txt or "rate_limit" in txt or "resource_exhausted" in txt:
+                # Bound backoff: minute-rate caps recover quickly; daily quotas don't.
+                if output_try >= 3:
+                    print(f"  [persistent 429 — giving up on {run_cfg['name']}]", flush=True)
+                    return f"ERROR: {e}", ""
                 wait = 65 + random.uniform(0, 15)
                 print(f"  [rate-limit backoff {wait:.0f}s — {run_cfg['name']}]", flush=True)
                 time.sleep(wait)

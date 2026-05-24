@@ -1,0 +1,538 @@
+Text,Source,Particle,Sentence_Type,Epistemic_Stance,Listener_Agreement,Emotion,Question_Type,Particle_Position,cluster,Macro_Function,Text_Masked,GT_Particle,gpt_strong_particle_gen_2d,gpt_weak_particle_gen_2d,claude_strong_particle_gen_2d,claude_weak_particle_gen_2d,gemini_strong_particle_gen_2d,gemini_weak_particle_gen_2d,sealion_strong_particle_gen_2d,sealion_weak_particle_gen_2d
+Menggatal/Tuaran no electric since 8:50pm. Ada ke notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja,Reddit,ke,Natural,Certain,Neutral/Unclear,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja,ke,ke,kan,kan,kan,kan,kan,neutral,kan
+Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu kan nama aku diterbalikkan 😭😂,Reddit,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂,kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂,Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,Like tak pelik ke nape aku eja lain macam. Dia cakap bahasa wechat. Tu [___] nama aku diterbalikkan 😭😂,neutral,neutral,neutral,kan,neutral,kan,kan,neutral,ke
+"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣",Reddit,neutral,Synthesised (removed kan),Certain,Assumed Agreement,Positive,Rhetorical Interrogative,,5,Null Form Retaining Particle-Like Pragmatic Meaning,"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣",neutral,kan,kan,kan,kan,kan,kan,neutral,kan
+@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata kan tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.,Twitter,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.,kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Kan best betul2 https://t.co/X3mhcJzjZl,Twitter,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Front,0,Assumed-Agreement Rhetorical Stance,[___] best betul2 https://t.co/X3mhcJzjZl,kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Yang dah follow aku lama mesti tau pasal crush Central Asia aku tu kan, so harini aku dgn dia dah last day sbb nak pergi kerja tempat baru.. First time dia cakap nak peluk (sebagai kawan).. Then, aku pun peluk dia kuat2.. Sedap sial!! Tapi dlm hati dah doa nak dapat crush baru🤣",Twitter,kan,Natural,Certain,Neutral/Unclear,Positive,Rhetorical Interrogative,Middle/End,3,Emphatic / Discourse-Marking,"Yang dah follow aku lama mesti tau pasal crush Central Asia aku tu [___], so harini aku dgn dia dah last day sbb nak pergi kerja tempat baru.. First time dia cakap nak peluk (sebagai kawan).. Then, aku pun peluk dia kuat2.. Sedap sial!! Tapi dlm hati dah doa nak dapat crush baru🤣",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Betul ke?,Reddit,ke,Synthesised (kan to ke),Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,10,Information-Seeking Verification,Betul [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"Micro analyzing, over analyzing bullsh*t betul korang ni support jelah dedua kan boleh",Reddit,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Micro analyzing, over analyzing bullsh*t betul korang ni support jelah dedua [___] boleh",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+This person says Tim’s is too pricey for broke/poor people in our country. Ye ke?,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,This person says Tim’s is too pricey for broke/poor people in our country. Ye [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"boleh la [___]... amik streaming spotify pulak nak rasa negara dia better 😂😂😂 kalau cakap pasal benda lain, tentu2 lah kalah😩😩😭🤣🤣🤣",Reddit,neutral,Synthesised (removed kan),Neutral/Unclear,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"boleh la [___]... amik streaming spotify pulak nak rasa negara dia better 😂😂😂 kalau cakap pasal benda lain, tentu2 lah kalah😩😩😭🤣🤣🤣",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"Selepas tonton video abang ajar Semalam, sebelum tidur dan selepas tonton video ajar (yang dunia kita berapa fps).. 
+Tiba-tiba otak saya bertanya, jadi dunia kita berapa resolusi?? 
+Korang tau [___] resolusi?? Yang 1080p, 480p, 360p e.t.c.
+Rasanya sama je lah macam video ajar tu..",Twitter,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,4,Information-Seeking Verification,"Selepas tonton video abang ajar Semalam, sebelum tidur dan selepas tonton video ajar (yang dunia kita berapa fps).. 
+Tiba-tiba otak saya bertanya, jadi dunia kita berapa resolusi?? 
+Korang tau [___] resolusi?? Yang 1080p, 480p, 360p e.t.c.
+Rasanya sama je lah macam video ajar tu..",neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+"OMG!! SO CUTE!! 😍Kalau cabut cap lagi cute, [___]? 🙈 https://t.co/pPFiorU0bc",Twitter,neutral,Synthesised (removed kan),Uncertain,Assumed Agreement,Positive,Yes/No Interrogative,,5,Null Form Retaining Particle-Like Pragmatic Meaning,"OMG!! SO CUTE!! 😍Kalau cabut cap lagi cute, [___]? 🙈 https://t.co/pPFiorU0bc",neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+Perlu ke?,Twitter,ke,Natural,Uncertain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Perlu [___]?,ke,kan,kan,ke,ke,kan,kan,neutral,kan
+MERDE.... ke? Annnnnddddd it's gone 🇲🇾. Just 3 days,Reddit,ke,Natural,Certain,Neutral/Unclear,Negative,Rhetorical Interrogative,,11,Negative Rhetorical Challenge / Evaluation,MERDE.... [___]? Annnnnddddd it's gone 🇲🇾. Just 3 days,ke,kan,neutral,ke,neutral,ke,ke,neutral,kan
+"[SIARAN LANGSUNG]
+
+Bila Hael menyanyi jarang la kita semua tak ‘sing along’ kan? 😍 
+#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy",Reddit,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"[SIARAN LANGSUNG]
+
+Bila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 
+#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Still the same ke?,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Still the same [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+Satu cadangan yang bagus...kan? https://t.co/GbrIqNi6o4,Twitter,kan,Natural,Uncertain,Assumed Agreement,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Satu cadangan yang bagus...[___]? https://t.co/GbrIqNi6o4,kan,ke,ke,ke,ke,ke,ke,neutral,ke
+"Wah! Cha Eunwoo bakal lancarkan album lah! 💛 Lepasni mesti AROHA akan merindui Cha Eunwoo kan!
+
+#majalahremaja #remaja #remajamalaysia
+
+https://t.co/Yfnee9QAYW",Reddit,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Wah! Cha Eunwoo bakal lancarkan album lah! 💛 Lepasni mesti AROHA akan merindui Cha Eunwoo [___]!
+
+#majalahremaja #remaja #remajamalaysia
+
+https://t.co/Yfnee9QAYW",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Soalan Pelik Assalamulaikum
+
+Abg nak tanya air kencing yang di suling berapa ph yg kita boleh dpt?? Dan ianya selamat utk diminum ke??",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Soalan Pelik Assalamulaikum
+
+Abg nak tanya air kencing yang di suling berapa ph yg kita boleh dpt?? Dan ianya selamat utk diminum [___]??",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"Nak kurus, kan? Cuba laa. Kita ikhtiar di hari jumaat yg barakah ni. 
+Kalau dah nasi kerabu berkuah minyak sebakul, ada hati 😒. Hehek 🤣 https://t.co/cfxybbyQ42",Twitter,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Nak kurus, [___]? Cuba laa. Kita ikhtiar di hari jumaat yg barakah ni. 
+Kalau dah nasi kerabu berkuah minyak sebakul, ada hati 😒. Hehek 🤣 https://t.co/cfxybbyQ42",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Laundry Day (Original Character, bukan Encik Kuat Harimau. Kain pelikat forever!! 🤘)
+
+Malasnya nak basuh baju kat dobi. Orang tak pernah sikit, tunggu nak siap satu cucian dah sekian. Kalaulah hostel yang saya tinggal ni boleh letak satu mesin basuh sendiri [___] bagus 😒",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,"Laundry Day (Original Character, bukan Encik Kuat Harimau. Kain pelikat forever!! 🤘)
+
+Malasnya nak basuh baju kat dobi. Orang tak pernah sikit, tunggu nak siap satu cucian dah sekian. Kalaulah hostel yang saya tinggal ni boleh letak satu mesin basuh sendiri [___] bagus 😒",neutral,neutral,neutral,kan,neutral,neutral,neutral,neutral,kan
+"Yang dah follow aku lama mesti tau pasal crush Central Asia aku tu [___], so harini aku dgn dia dah last day sbb nak pergi kerja tempat baru.. First time dia cakap nak peluk (sebagai kawan).. Then, aku pun peluk dia kuat2.. Sedap sial!! Tapi dlm hati dah doa nak dapat crush baru🤣",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"Yang dah follow aku lama mesti tau pasal crush Central Asia aku tu [___], so harini aku dgn dia dah last day sbb nak pergi kerja tempat baru.. First time dia cakap nak peluk (sebagai kawan).. Then, aku pun peluk dia kuat2.. Sedap sial!! Tapi dlm hati dah doa nak dapat crush baru🤣",neutral,neutral,kan,kan,neutral,kan,kan,neutral,kan
+@crown_clown0609 Kan?? Babi betul,Reddit,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Front,6,Assumed-Agreement Rhetorical Stance,@crown_clown0609 [___]?? Babi betul,kan,kan,kan,kan,kan,kan,kan,neutral,kan
+@CNNIndonesia Segera [___] lah,Reddit,neutral,Synthesised (removed kan),Neutral/Unclear,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,@CNNIndonesia Segera [___] lah,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Harga minyak takleh turun lagi ke?,Reddit,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Harga minyak takleh turun lagi [___]?,ke,kan,kan,kan,kan,kan,kan,neutral,kan
+"Kau pakai lencana dekat dada, ada nama Allah, nama Muhammad. Kau tak malu ke?
+
+#MethKiller https://t.co/m3Qk6cBD3R",Twitter,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Kau pakai lencana dekat dada, ada nama Allah, nama Muhammad. Kau tak malu [___]?
+
+#MethKiller https://t.co/m3Qk6cBD3R",ke,kan,kan,ke,kan,kan,kan,neutral,kan
+@md_zuwairi @FaizalR98528 Ok lah setuju pasal 10 juta tu kena pikir 10kali nak keluar. Tapi yg korang bum...bang..bum..bang.. dah keluar ke dari jadi ahli pkr or korang memang bukan ahli pkr? Takkan tunggu RR keluar baru korang nak keluar?,Reddit,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,@md_zuwairi @FaizalR98528 Ok lah setuju pasal 10 juta tu kena pikir 10kali nak keluar. Tapi yg korang bum...bang..bum..bang.. dah keluar [___] dari jadi ahli pkr or korang memang bukan ahli pkr? Takkan tunggu RR keluar baru korang nak keluar?,ke,kan,kan,kan,kan,kan,kan,neutral,kan
+"Wah! Cha Eunwoo bakal lancarkan album lah! 💛 Lepasni mesti AROHA akan merindui Cha Eunwoo [___]!
+
+#majalahremaja #remaja #remajamalaysia
+
+https://t.co/Yfnee9QAYW",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"Wah! Cha Eunwoo bakal lancarkan album lah! 💛 Lepasni mesti AROHA akan merindui Cha Eunwoo [___]!
+
+#majalahremaja #remaja #remajamalaysia
+
+https://t.co/Yfnee9QAYW",neutral,neutral,neutral,kan,kan,neutral,neutral,neutral,kan
+"Laundry Day (Original Character, bukan Encik Kuat Harimau. Kain pelikat forever!! 🤘)
+
+Malasnya nak basuh baju kat dobi. Orang tak pernah sikit, tunggu nak siap satu cucian dah sekian. Kalaulah hostel yang saya tinggal ni boleh letak satu mesin basuh sendiri kan bagus 😒",Twitter,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Laundry Day (Original Character, bukan Encik Kuat Harimau. Kain pelikat forever!! 🤘)
+
+Malasnya nak basuh baju kat dobi. Orang tak pernah sikit, tunggu nak siap satu cucian dah sekian. Kalaulah hostel yang saya tinggal ni boleh letak satu mesin basuh sendiri [___] bagus 😒",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Selepas tonton video abang ajar Semalam, sebelum tidur dan selepas tonton video ajar (yang dunia kita berapa fps).. 
+Tiba-tiba otak saya bertanya, jadi dunia kita berapa resolusi?? 
+Korang tau kan resolusi?? Yang 1080p, 480p, 360p e.t.c.
+Rasanya sama je lah macam video ajar tu..",Twitter,kan,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Selepas tonton video abang ajar Semalam, sebelum tidur dan selepas tonton video ajar (yang dunia kita berapa fps).. 
+Tiba-tiba otak saya bertanya, jadi dunia kita berapa resolusi?? 
+Korang tau [___] resolusi?? Yang 1080p, 480p, 360p e.t.c.
+Rasanya sama je lah macam video ajar tu..",kan,ke,ke,ke,ke,ke,ke,neutral,ke
+@eatsimple_x Kentang lah cok [___] paling mahal dri yg laen di foto itu,Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,@eatsimple_x Kentang lah cok [___] paling mahal dri yg laen di foto itu,neutral,neutral,neutral,neutral,neutral,kan,kan,neutral,kan
+Dah takde news sampai aku pun jadi bahan ke?,Twitter,ke,Natural,Uncertain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,7,Negative Rhetorical Challenge / Evaluation,Dah takde news sampai aku pun jadi bahan [___]?,ke,kan,kan,ke,kan,ke,ke,neutral,ke
+"Skarang [___] Paras air Laura Dari ousat bumi sedanv meningkat akibat pemanasa global, tapi kalau kita korek tanah di dasar Laut bawak Naik Kat darat adakah Paras dye turun bang? Mohon penjelasan",Twitter,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,4,Information-Seeking Verification,"Skarang [___] Paras air Laura Dari ousat bumi sedanv meningkat akibat pemanasa global, tapi kalau kita korek tanah di dasar Laut bawak Naik Kat darat adakah Paras dye turun bang? Mohon penjelasan",neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+"boleh la kan... amik streaming spotify pulak nak rasa negara dia better 😂😂😂 kalau cakap pasal benda lain, tentu2 lah kalah😩😩😭🤣🤣🤣",Reddit,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"boleh la [___]... amik streaming spotify pulak nak rasa negara dia better 😂😂😂 kalau cakap pasal benda lain, tentu2 lah kalah😩😩😭🤣🤣🤣",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+@fitzx_ nak pergi ke?,Twitter,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,@fitzx_ nak pergi [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"So...memang betul la kita serah lebih 5,000 hektar kepada Indonesia......[___]?
+
+Atas sebab apa pun...ini sungguh menyedihkan....
+
+Sejak 1977 rundingan ini dikatakan diadakan...tidak ada kerajaan lain yang bertindak seperti ini...
+
+Dan kalau no man's land....maka bukan tanah https://t.co/aDIw8eWvTP",Reddit,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Negative,Yes/No Interrogative,,2,Affective Confirmation-Seeking Question,"So...memang betul la kita serah lebih 5,000 hektar kepada Indonesia......[___]?
+
+Atas sebab apa pun...ini sungguh menyedihkan....
+
+Sejak 1977 rundingan ini dikatakan diadakan...tidak ada kerajaan lain yang bertindak seperti ini...
+
+Dan kalau no man's land....maka bukan tanah https://t.co/aDIw8eWvTP",neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+RT @AsyikinMusa: @MrNiceG36859427 Lah. Geng Dr Sam ke? Hahahahahahaha apa benda la achievement dia tu yang melayakkan dia nak jadi PM?,Twitter,ke,Natural,Uncertain,Confirmation Seeking,Negative,Rhetorical Interrogative,Middle/End,7,Negative Rhetorical Challenge / Evaluation,RT @AsyikinMusa: @MrNiceG36859427 Lah. Geng Dr Sam [___]? Hahahahahahaha apa benda la achievement dia tu yang melayakkan dia nak jadi PM?,ke,ke,kan,ke,kan,ke,ke,neutral,ke
+@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.,Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,@kikinininirur Kau tak rasis??hahaha penipuan terbesar nak kata diri tak rasis pada orang melayu padahal apa yg doktor kata [___] tu memang betul pun kes kaum dari zaman 80an 90an lagi masih melonjak naik.,neutral,neutral,kan,kan,kan,kan,kan,neutral,kan
+"Penjaga kucing, tolong bayar za(cat) ya. Pesan bro ni kepada kucingnya “Kalau gadoh dengan member luar rumah, memula yang adik kena pesan jangan main kepala. Dari leher kebawah takpa attack. Mahal tau bapak bayar za(cat), kibbles sekilo pulak berapa [___]?” 😆 .",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Rhetorical Interrogative,Middle/End,11,Negative Rhetorical Challenge / Evaluation,"Penjaga kucing, tolong bayar za(cat) ya. Pesan bro ni kepada kucingnya “Kalau gadoh dengan member luar rumah, memula yang adik kena pesan jangan main kepala. Dari leher kebawah takpa attack. Mahal tau bapak bayar za(cat), kibbles sekilo pulak berapa [___]?” 😆 .",neutral,kan,kan,kan,kan,kan,kan,neutral,kan
+"OMG!! SO CUTE!! 😍Kalau cabut cap lagi cute, kan? 🙈 https://t.co/pPFiorU0bc",Twitter,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"OMG!! SO CUTE!! 😍Kalau cabut cap lagi cute, [___]? 🙈 https://t.co/pPFiorU0bc",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Aku [___] bengang betul dengan burung2 ni ehhh panas laa memang burung suka berak kat kereta aku. Aku kalau ada kuasa aku sunatkan aje burung2 berak merata ni. Erghhhhh🤬,Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,Aku [___] bengang betul dengan burung2 ni ehhh panas laa memang burung suka berak kat kereta aku. Aku kalau ada kuasa aku sunatkan aje burung2 berak merata ni. Erghhhhh🤬,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+Tak sedar diri ke?,Reddit,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Tak sedar diri [___]?,ke,kan,kan,kan,kan,kan,kan,neutral,kan
+"Macam gambar Raya keluarga lah [___]. Different categories, satu cart je, semua riang bersama masuk frame. 😌
+
+Treat yourself with the Lazada Riang Bersama Sale!",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"Macam gambar Raya keluarga lah [___]. Different categories, satu cart je, semua riang bersama masuk frame. 😌
+
+Treat yourself with the Lazada Riang Bersama Sale!",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"RT @InsideMontigo: actually ada orang penang dekat sini ke?
+
+min pun curious nak tahu 🧐
+kalau you are from penang or duduk kat penang let u…",Twitter,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"RT @InsideMontigo: actually ada orang penang dekat sini [___]?
+
+min pun curious nak tahu 🧐
+kalau you are from penang or duduk kat penang let u…",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+Nampak macam salji kan? https://t.co/npwqAJo4r6,Twitter,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Yes/No Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Nampak macam salji [___]? https://t.co/npwqAJo4r6,kan,kan,kan,kan,kan,kan,kan,neutral,ke
+"@Kyo_Cleo Pelik kan,puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣",Reddit,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Front,6,Assumed-Agreement Rhetorical Stance,"@Kyo_Cleo Pelik [___],puasa ni setan kena ikat,tapi mcm ada yg terlepas je🤣",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Micro analyzing, over analyzing bullsh*t betul korang ni support jelah dedua [___] boleh",Reddit,neutral,Synthesised (removed kan),Certain,Assumed Agreement,Negative,Declarative/Statement,,1,Neutral Declarative,"Micro analyzing, over analyzing bullsh*t betul korang ni support jelah dedua [___] boleh",neutral,kan,kan,kan,kan,kan,kan,neutral,kan
+"@kompascom Pertanyaannya kan ""Apakah anggaran Mbg diambil dari anggaran pendidikan?"" Jawabannya ya atau tidak. Bukan menjawab program yang berjalan atau tidak Pak seskab 🤭. Baca lagi lah perpresnya, masa si lupaa???
+cc: kepada @setkabgoid",Reddit,kan,Natural,Certain,Neutral/Unclear,Negative,Declarative/Statement,Middle/End,3,Emphatic / Discourse-Marking,"@kompascom Pertanyaannya [___] ""Apakah anggaran Mbg diambil dari anggaran pendidikan?"" Jawabannya ya atau tidak. Bukan menjawab program yang berjalan atau tidak Pak seskab 🤭. Baca lagi lah perpresnya, masa si lupaa???
+cc: kepada @setkabgoid",kan,neutral,kan,kan,kan,kan,kan,neutral,kan
+@republikaonline Lah [___] Memeng Allah SWT itu tak hentinya sepanjang sejarah manusia untuk memanggil MANUSIA yang berAKAL kembali ke fitrahnya dan segara menyambut Hidayah untuk Memeluk agama tauhid (Al Islam) sebagai agama Fitrah dan yang sesuai dengan Fitrahnya itu sendiri.!👍,Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,@republikaonline Lah [___] Memeng Allah SWT itu tak hentinya sepanjang sejarah manusia untuk memanggil MANUSIA yang berAKAL kembali ke fitrahnya dan segara menyambut Hidayah untuk Memeluk agama tauhid (Al Islam) sebagai agama Fitrah dan yang sesuai dengan Fitrahnya itu sendiri.!👍,neutral,neutral,neutral,neutral,kan,neutral,neutral,neutral,kan
+[RUMORS] iPhone 15 Pro dikhabarkan akan ada banyak perubahan pada reka bentuk. Tak sabar kan nak beli? https://t.co/ONT1NIJROo,Reddit,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,[RUMORS] iPhone 15 Pro dikhabarkan akan ada banyak perubahan pada reka bentuk. Tak sabar [___] nak beli? https://t.co/ONT1NIJROo,kan,kan,kan,ke,kan,kan,kan,neutral,kan
+"Korang ingat tak warna2 saluran astro yang lama Saya ingat saluran cina guna warna oren  
+lepastu oasis biru sikit [___]?
+
+dah x berapa ingat",Twitter,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,4,Information-Seeking Verification,"Korang ingat tak warna2 saluran astro yang lama Saya ingat saluran cina guna warna oren  
+lepastu oasis biru sikit [___]?
+
+dah x berapa ingat",neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+"Skarang kan Paras air Laura Dari ousat bumi sedanv meningkat akibat pemanasa global, tapi kalau kita korek tanah di dasar Laut bawak Naik Kat darat adakah Paras dye turun bang? Mohon penjelasan",Twitter,kan,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Skarang [___] Paras air Laura Dari ousat bumi sedanv meningkat akibat pemanasa global, tapi kalau kita korek tanah di dasar Laut bawak Naik Kat darat adakah Paras dye turun bang? Mohon penjelasan",kan,ke,ke,ke,ke,ke,ke,neutral,ke
+"Ajar apa asal usul meme ? Perkataan meme pun,kenapa kena sebut ""mem ” bukan ""meme"" perkataan ni datang dari Amerika ke?",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Ajar apa asal usul meme ? Perkataan meme pun,kenapa kena sebut ""mem ” bukan ""meme"" perkataan ni datang dari Amerika [___]?",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"RT @QS09_51: Lawatan rasmi ada prior notice ke? Atau ampa main serbu pastu claim lawatan rasmi?
+
+Mangkaq ubi.
+
+Dah kantoi, pi report polis…",Twitter,ke,Natural,Uncertain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,7,Negative Rhetorical Challenge / Evaluation,"RT @QS09_51: Lawatan rasmi ada prior notice [___]? Atau ampa main serbu pastu claim lawatan rasmi?
+
+Mangkaq ubi.
+
+Dah kantoi, pi report polis…",ke,kan,kan,ke,kan,ke,ke,neutral,ke
+Abes kena panggil keling ke?,Twitter,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Abes kena panggil keling [___]?,ke,kan,kan,kan,kan,kan,kan,neutral,kan
+"Quick (slightly serious) question Kepada artis2 Bolehland, korang tak nak ke buat subreddit baru khas utk send art? Art lawa, promote komik mahupun shit posting punya art.
+
+
+Cadangan saja.",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Positive,Yes/No Interrogative,Middle/End,14,Affective Confirmation-Seeking Question,"Quick (slightly serious) question Kepada artis2 Bolehland, korang tak nak [___] buat subreddit baru khas utk send art? Art lawa, promote komik mahupun shit posting punya art.
+
+
+Cadangan saja.",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"Tak beragak pun bulan puasa ni nak melingkup bisnes orang. Dia condemn video je, yg ramai ramai serupa takde akal pergi buat macam ni korang tak puasa ke?",Twitter,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Tak beragak pun bulan puasa ni nak melingkup bisnes orang. Dia condemn video je, yg ramai ramai serupa takde akal pergi buat macam ni korang tak puasa [___]?",ke,kan,kan,ke,kan,kan,kan,neutral,kan
+@republikaonline Lah kan Memeng Allah SWT itu tak hentinya sepanjang sejarah manusia untuk memanggil MANUSIA yang berAKAL kembali ke fitrahnya dan segara menyambut Hidayah untuk Memeluk agama tauhid (Al Islam) sebagai agama Fitrah dan yang sesuai dengan Fitrahnya itu sendiri.!👍,Twitter,kan,Natural,Certain,Neutral/Unclear,Positive,Declarative/Statement,Front,3,Emphatic / Discourse-Marking,@republikaonline Lah [___] Memeng Allah SWT itu tak hentinya sepanjang sejarah manusia untuk memanggil MANUSIA yang berAKAL kembali ke fitrahnya dan segara menyambut Hidayah untuk Memeluk agama tauhid (Al Islam) sebagai agama Fitrah dan yang sesuai dengan Fitrahnya itu sendiri.!👍,kan,neutral,neutral,kan,kan,kan,kan,neutral,kan
+"Ini tweet paling racist setakat ni
+
+""Kalau tadak Cina, tadak Matluthfi""
+
+Ingat aku perlukan Cina ke untuk wujud? I'm flom Kolea",Reddit,ke,Natural,Certain,Neutral/Unclear,Negative,Rhetorical Interrogative,Middle/End,11,Negative Rhetorical Challenge / Evaluation,"Ini tweet paling racist setakat ni
+
+""Kalau tadak Cina, tadak Matluthfi""
+
+Ingat aku perlukan Cina [___] untuk wujud? I'm flom Kolea",ke,ke,ke,ke,kan,kan,kan,neutral,neutral
+Pusing2 utaqa.. Ada ke orang Sg petani nak belanja makan? Saha buat qempang https://t.co/FA3CeSkIkT,Twitter,ke,Natural,Uncertain,Confirmation Seeking,Positive,Yes/No Interrogative,Middle/End,14,Affective Confirmation-Seeking Question,Pusing2 utaqa.. Ada [___] orang Sg petani nak belanja makan? Saha buat qempang https://t.co/FA3CeSkIkT,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+[RUMORS] iPhone 15 Pro dikhabarkan akan ada banyak perubahan pada reka bentuk. Tak sabar [___] nak beli? https://t.co/ONT1NIJROo,Reddit,neutral,Synthesised (removed kan),Uncertain,Assumed Agreement,Positive,Yes/No Interrogative,,5,Null Form Retaining Particle-Like Pragmatic Meaning,[RUMORS] iPhone 15 Pro dikhabarkan akan ada banyak perubahan pada reka bentuk. Tak sabar [___] nak beli? https://t.co/ONT1NIJROo,neutral,ke,ke,ke,ke,neutral,ke,kan,ke
+RT @hattadolmatHDC: Thank you abang @Budiey 2 jam berbicara nanti [___] di youtube Budiey dan spotify 🧚🏼,Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,RT @hattadolmatHDC: Thank you abang @Budiey 2 jam berbicara nanti [___] di youtube Budiey dan spotify 🧚🏼,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+"@timmbunanlemak Mengacau ekonomi dunia lah, sekarang negara kita harus manut sama negara preman pembuat keributan. Gokil kan",Reddit,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@timmbunanlemak Mengacau ekonomi dunia lah, sekarang negara kita harus manut sama negara preman pembuat keributan. Gokil [___]",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Kadang-kadang aku terfikir orang jahat ni ada rumah ke dak pasai ""home is where the heart is""",Reddit,ke,Natural,Certain,Neutral/Unclear,Negative,Rhetorical Interrogative,Middle/End,11,Negative Rhetorical Challenge / Evaluation,"Kadang-kadang aku terfikir orang jahat ni ada rumah [___] dak pasai ""home is where the heart is""",ke,kan,neutral,ke,kan,ke,ke,neutral,ke
+"@timmbunanlemak Mengacau ekonomi dunia lah, sekarang negara kita harus manut sama negara preman pembuat keributan. Gokil [___]",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,"@timmbunanlemak Mengacau ekonomi dunia lah, sekarang negara kita harus manut sama negara preman pembuat keributan. Gokil [___]",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"Wah! Memang best betul hadiah Ammar Ahyan kan! Tak sia-sia segala usahanya membantu Mama Papa berniaga!😉
+
+#MajalahRemaja #Remaja #RemajaMalaysia
+
+https://t.co/o701lpSLhp",Twitter,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Wah! Memang best betul hadiah Ammar Ahyan [___]! Tak sia-sia segala usahanya membantu Mama Papa berniaga!😉
+
+#MajalahRemaja #Remaja #RemajaMalaysia
+
+https://t.co/o701lpSLhp",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Nampak macam salji [___]? https://t.co/npwqAJo4r6,Twitter,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,4,Information-Seeking Verification,Nampak macam salji [___]? https://t.co/npwqAJo4r6,neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+My colleague was talking abt resuming her diving lessons in Terengganu in a few months then another colleague said ‘buat apa kat ganu…. Baik pergi Kelantan banyak kilang budu’ si bodoh ni nak suruh dia menyelam dalam tempayan budu ke😭,Twitter,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,My colleague was talking abt resuming her diving lessons in Terengganu in a few months then another colleague said ‘buat apa kat ganu…. Baik pergi Kelantan banyak kilang budu’ si bodoh ni nak suruh dia menyelam dalam tempayan budu [___]😭,ke,kan,kan,kan,kan,kan,kan,neutral,kan
+Ape ni 💀 Betul ke,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Ape ni 💀 Betul [___],ke,ke,ke,ke,ke,ke,ke,neutral,ke
+@eatsimple_x Kentang lah cok kan paling mahal dri yg laen di foto itu,Reddit,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,@eatsimple_x Kentang lah cok [___] paling mahal dri yg laen di foto itu,kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"[SIARAN LANGSUNG]
+
+Bila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 
+#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy",Reddit,neutral,Synthesised (removed kan),Certain,Assumed Agreement,Positive,Rhetorical Interrogative,,5,Null Form Retaining Particle-Like Pragmatic Meaning,"[SIARAN LANGSUNG]
+
+Bila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 
+#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy",neutral,kan,kan,kan,kan,kan,kan,neutral,kan
+[___] best betul2 https://t.co/X3mhcJzjZl,Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,[___] best betul2 https://t.co/X3mhcJzjZl,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"Penjaga kucing, tolong bayar za(cat) ya. Pesan bro ni kepada kucingnya “Kalau gadoh dengan member luar rumah, memula yang adik kena pesan jangan main kepala. Dari leher kebawah takpa attack. Mahal tau bapak bayar za(cat), kibbles sekilo pulak berapa kan?” 😆 .",Twitter,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Penjaga kucing, tolong bayar za(cat) ya. Pesan bro ni kepada kucingnya “Kalau gadoh dengan member luar rumah, memula yang adik kena pesan jangan main kepala. Dari leher kebawah takpa attack. Mahal tau bapak bayar za(cat), kibbles sekilo pulak berapa [___]?” 😆 .",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+comfort pernah ke lagi kamu jumpa ni softener? i think my fav tu tapi macam lama tiada jumpa 😰,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,comfort pernah [___] lagi kamu jumpa ni softener? i think my fav tu tapi macam lama tiada jumpa 😰,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+@crown_clown0609 [___]?? Babi betul,Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,@crown_clown0609 [___]?? Babi betul,neutral,neutral,neutral,ke,neutral,neutral,neutral,neutral,kan
+"Nak kurus, [___]? Cuba laa. Kita ikhtiar di hari jumaat yg barakah ni. 
+Kalau dah nasi kerabu berkuah minyak sebakul, ada hati 😒. Hehek 🤣 https://t.co/cfxybbyQ42",Twitter,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Positive,Yes/No Interrogative,,14,Affective Confirmation-Seeking Question,"Nak kurus, [___]? Cuba laa. Kita ikhtiar di hari jumaat yg barakah ni. 
+Kalau dah nasi kerabu berkuah minyak sebakul, ada hati 😒. Hehek 🤣 https://t.co/cfxybbyQ42",neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+"Wah! Memang best betul hadiah Ammar Ahyan [___]! Tak sia-sia segala usahanya membantu Mama Papa berniaga!😉
+
+#MajalahRemaja #Remaja #RemajaMalaysia
+
+https://t.co/o701lpSLhp",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"Wah! Memang best betul hadiah Ammar Ahyan [___]! Tak sia-sia segala usahanya membantu Mama Papa berniaga!😉
+
+#MajalahRemaja #Remaja #RemajaMalaysia
+
+https://t.co/o701lpSLhp",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+Hello @CIMBMalaysia . Nak tutup saving acc perlu pergi any branch ke?,Twitter,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Hello @CIMBMalaysia . Nak tutup saving acc perlu pergi any branch [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+Satu cadangan yang bagus...[___]? https://t.co/GbrIqNi6o4,Twitter,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Positive,Yes/No Interrogative,,14,Affective Confirmation-Seeking Question,Satu cadangan yang bagus...[___]? https://t.co/GbrIqNi6o4,neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+"@briang0mez Kalau ada budaya makan budak/bayi kau support tak
+
+Sbb lgbt dah nk 20 tahun, budaya makan bayi baru terbongkar, so kau support ke?",Twitter,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@briang0mez Kalau ada budaya makan budak/bayi kau support tak
+
+Sbb lgbt dah nk 20 tahun, budaya makan bayi baru terbongkar, so kau support [___]?",ke,kan,kan,kan,kan,kan,kan,neutral,kan
+"Korang ingat tak warna2 saluran astro yang lama Saya ingat saluran cina guna warna oren  
+lepastu oasis biru sikit kan?
+
+dah x berapa ingat",Twitter,kan,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Korang ingat tak warna2 saluran astro yang lama Saya ingat saluran cina guna warna oren  
+lepastu oasis biru sikit [___]?
+
+dah x berapa ingat",kan,ke,ke,ke,ke,ke,ke,neutral,ke
+"RT @StratCommX: Dah 12 jam lebih dah, punahsihat belum forward naratif nak backup lagi ke?",Twitter,ke,Natural,Uncertain,Confirmation Seeking,Negative,Yes/No Interrogative,Middle/End,2,Affective Confirmation-Seeking Question,"RT @StratCommX: Dah 12 jam lebih dah, punahsihat belum forward naratif nak backup lagi [___]?",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"Macam gambar Raya keluarga lah kan. Different categories, satu cart je, semua riang bersama masuk frame. 😌
+
+Treat yourself with the Lazada Riang Bersama Sale!",Twitter,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Macam gambar Raya keluarga lah [___]. Different categories, satu cart je, semua riang bersama masuk frame. 😌
+
+Treat yourself with the Lazada Riang Bersama Sale!",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Kau tak pernah tengok keluarga 69 ke?,Twitter,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Kau tak pernah tengok keluarga 69 [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"@kompascom Pertanyaannya [___] ""Apakah anggaran Mbg diambil dari anggaran pendidikan?"" Jawabannya ya atau tidak. Bukan menjawab program yang berjalan atau tidak Pak seskab 🤭. Baca lagi lah perpresnya, masa si lupaa???
+cc: kepada @setkabgoid",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"@kompascom Pertanyaannya [___] ""Apakah anggaran Mbg diambil dari anggaran pendidikan?"" Jawabannya ya atau tidak. Bukan menjawab program yang berjalan atau tidak Pak seskab 🤭. Baca lagi lah perpresnya, masa si lupaa???
+cc: kepada @setkabgoid",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+@CNNIndonesia Segera kan lah,Reddit,kan,Natural,Neutral / NA,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,Middle/End,3,Emphatic / Discourse-Marking,@CNNIndonesia Segera [___] lah,kan,kan,neutral,kan,kan,kan,kan,neutral,kan
+"RT @vviggleXvvaggle: Adik si Faiz Roslan pon pondan jugak ke 😭😭😭
+
+siap ada bf lagi https://t.co/5if92uw4Jn",Twitter,ke,Natural,Uncertain,Confirmation Seeking,Positive,Yes/No Interrogative,Middle/End,14,Affective Confirmation-Seeking Question,"RT @vviggleXvvaggle: Adik si Faiz Roslan pon pondan jugak [___] 😭😭😭
+
+siap ada bf lagi https://t.co/5if92uw4Jn",ke,ke,kan,ke,ke,ke,ke,neutral,ke
+"@simplyjoyaa betul betul betul, kita [___] harus baik",Reddit,neutral,Synthesised (removed kan),Certain,Assumed Agreement,Positive,Declarative/Statement,,5,Null Form Retaining Particle-Like Pragmatic Meaning,"@simplyjoyaa betul betul betul, kita [___] harus baik",neutral,kan,neutral,kan,kan,kan,kan,neutral,kan
+"So...memang betul la kita serah lebih 5,000 hektar kepada Indonesia......kan?
+
+Atas sebab apa pun...ini sungguh menyedihkan....
+
+Sejak 1977 rundingan ini dikatakan diadakan...tidak ada kerajaan lain yang bertindak seperti ini...
+
+Dan kalau no man's land....maka bukan tanah https://t.co/aDIw8eWvTP",Reddit,kan,Natural,Uncertain,Confirmation Seeking,Negative,Yes/No Interrogative,Middle/End,2,Affective Confirmation-Seeking Question,"So...memang betul la kita serah lebih 5,000 hektar kepada Indonesia......[___]?
+
+Atas sebab apa pun...ini sungguh menyedihkan....
+
+Sejak 1977 rundingan ini dikatakan diadakan...tidak ada kerajaan lain yang bertindak seperti ini...
+
+Dan kalau no man's land....maka bukan tanah https://t.co/aDIw8eWvTP",kan,ke,ke,ke,ke,ke,ke,neutral,ke
+"Boleh ke post kerja kosong di sini? Perlukan rider area segambut. Kalau tak boleh, downvote kerja kosong untuk sesiapa, cover area segambut ya",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Boleh [___] post kerja kosong di sini? Perlukan rider area segambut. Kalau tak boleh, downvote kerja kosong untuk sesiapa, cover area segambut ya",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"@simplyjoyaa betul betul betul, kita kan harus baik",Reddit,kan,Natural,Certain,Assumed Agreement,Positive,Declarative/Statement,Middle/End,3,Emphatic / Discourse-Marking,"@simplyjoyaa betul betul betul, kita [___] harus baik",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Aku kan bengang betul dengan burung2 ni ehhh panas laa memang burung suka berak kat kereta aku. Aku kalau ada kuasa aku sunatkan aje burung2 berak merata ni. Erghhhhh🤬,Reddit,kan,Natural,Certain,Neutral/Unclear,Negative,Declarative/Statement,Middle/End,3,Emphatic / Discourse-Marking,Aku [___] bengang betul dengan burung2 ni ehhh panas laa memang burung suka berak kat kereta aku. Aku kalau ada kuasa aku sunatkan aje burung2 berak merata ni. Erghhhhh🤬,kan,neutral,neutral,kan,kan,kan,kan,neutral,kan
+@trader_mba @KroniRakyat Dah bagi fakta tapi cakap “info salah” pulak. Betul totok pekat “buat buat bodoh” kau ni demi duit kan?,Twitter,kan,Natural,Uncertain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,7,Negative Rhetorical Challenge / Evaluation,@trader_mba @KroniRakyat Dah bagi fakta tapi cakap “info salah” pulak. Betul totok pekat “buat buat bodoh” kau ni demi duit [___]?,kan,kan,kan,ke,kan,kan,kan,neutral,kan
+"Trs yaudahlah kan dah slesai smua dah plg lah kita.
+Trs tinggalah aku dan mood ku ni yg lg bertarung siapakah yg menang",Twitter,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Trs yaudahlah [___] dah slesai smua dah plg lah kita.
+Trs tinggalah aku dan mood ku ni yg lg bertarung siapakah yg menang",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+@info_preloved @tanyakanrl Betul. Tindakan medis kan pasti butuh persetujuan pasangan dan keluarga,Reddit,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,@info_preloved @tanyakanrl Betul. Tindakan medis [___] pasti butuh persetujuan pasangan dan keluarga,kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Islam Anime akhirnya?! Jaadugar: A Witch in Mongolia Akan tetapi perempuan MC tu dari Iran terpaksa dijaga isteri Royalti Mongolia pula. So boleh Tanya erm..... Haram or Halal ini, ada macam unsur Witch/Magician pula. Hanya studio Jepun je yang berani buat anime camni ke?",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Islam Anime akhirnya?! Jaadugar: A Witch in Mongolia Akan tetapi perempuan MC tu dari Iran terpaksa dijaga isteri Royalti Mongolia pula. So boleh Tanya erm..... Haram or Halal ini, ada macam unsur Witch/Magician pula. Hanya studio Jepun je yang berani buat anime camni [___]?",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+tau kan entak kapak yang salah atau wanita yg salah😅,Reddit,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,tau [___] entak kapak yang salah atau wanita yg salah😅,kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"@flitz_please Ye lah you [___] ADHD. Budak ADHD sebenarnya bijak kalau kita guide bebetul. Tengok hasilnya, language you power, science you boleh buat, art and craft you power. Berbakat betul.",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"@flitz_please Ye lah you [___] ADHD. Budak ADHD sebenarnya bijak kalau kita guide bebetul. Tengok hasilnya, language you power, science you boleh buat, art and craft you power. Berbakat betul.",neutral,neutral,neutral,kan,neutral,kan,kan,neutral,kan
+"Trs yaudahlah [___] dah slesai smua dah plg lah kita.
+Trs tinggalah aku dan mood ku ni yg lg bertarung siapakah yg menang",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,"Trs yaudahlah [___] dah slesai smua dah plg lah kita.
+Trs tinggalah aku dan mood ku ni yg lg bertarung siapakah yg menang",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+@info_preloved @tanyakanrl Betul. Tindakan medis [___] pasti butuh persetujuan pasangan dan keluarga,Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,@info_preloved @tanyakanrl Betul. Tindakan medis [___] pasti butuh persetujuan pasangan dan keluarga,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+Rasa nk pergi mkn buffet la puasa ni tpi kalau gi sorg rasa pelik pulak kan,Reddit,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Rasa nk pergi mkn buffet la puasa ni tpi kalau gi sorg rasa pelik pulak [___],kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Wah! Sayang betul nenek ni dekat cucunya kan!🥰 Moga cucu nenek ni meraih kejayaan dunia akhirat✨
+#majalahremaja #remajamalaysia #remaja 
+
+https://t.co/YPdaB6jgkl",Reddit,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Wah! Sayang betul nenek ni dekat cucunya [___]!🥰 Moga cucu nenek ni meraih kejayaan dunia akhirat✨
+#majalahremaja #remajamalaysia #remaja 
+
+https://t.co/YPdaB6jgkl",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+[Spoilers] Korang mcm mana tgk cerita Shin Ultraman? Best ke?,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,[Spoilers] Korang mcm mana tgk cerita Shin Ultraman? Best [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"@tanyarlfes Pede lah [___] bayar, punya duit",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"@tanyarlfes Pede lah [___] bayar, punya duit",neutral,kan,neutral,neutral,neutral,kan,kan,neutral,kan
+"@dolphino7k Lah dari awal viral kan juga pakai alasan 
+Kalau mereka tidak pacaran hanya ketemu pas KKN.",Reddit,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@dolphino7k Lah dari awal viral [___] juga pakai alasan 
+Kalau mereka tidak pacaran hanya ketemu pas KKN.",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"@Fncr11 persepsi terhadap kerajaan sngt teruk. anak muda susah untuk menyokong kerajaan ini berbanding perikatan. rakyat ada trust deficit terhadap kerajaan. 
+
+patutnya abg yg lebih tahu dari saya. abg lebih dalam dan lagi memahami. tp kalau masih rasa kita ni okay terus [___] sahaja lah",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,"@Fncr11 persepsi terhadap kerajaan sngt teruk. anak muda susah untuk menyokong kerajaan ini berbanding perikatan. rakyat ada trust deficit terhadap kerajaan. 
+
+patutnya abg yg lebih tahu dari saya. abg lebih dalam dan lagi memahami. tp kalau masih rasa kita ni okay terus [___] sahaja lah",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"Ada org guna Apple Pay ke di Sabah ni? Selama satu minggu ni, macam saya ja guna Apple Pay ni terutama satu kedai cashier tu tau saya dah sebab itu 😂",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Positive,Rhetorical Interrogative,Middle/End,7,Negative Rhetorical Challenge / Evaluation,"Ada org guna Apple Pay [___] di Sabah ni? Selama satu minggu ni, macam saya ja guna Apple Pay ni terutama satu kedai cashier tu tau saya dah sebab itu 😂",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"Tiada musik moden yang asli? Nirvana pun ciplak lagu orang lain?
+
+Musik zaman moden ni tak ada yang asli ke?
+ 
+Adakah setiap lagu yang ku tahu mungkin berinspirasikan atau diciplak daripada pemusik lain?
+
+Punah...",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Negative,Yes/No Interrogative,Middle/End,2,Affective Confirmation-Seeking Question,"Tiada musik moden yang asli? Nirvana pun ciplak lagu orang lain?
+
+Musik zaman moden ni tak ada yang asli [___]?
+ 
+Adakah setiap lagu yang ku tahu mungkin berinspirasikan atau diciplak daripada pemusik lain?
+
+Punah...",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+@bwlueside lah [___] janjian,Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,@bwlueside lah [___] janjian,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"Yang buat ni, nak masuk melaka ke?",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Yang buat ni, nak masuk melaka [___]?",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"Mesti ada rindu ibu bapa di kampung [___] sekarang? Tak apa, ini min belanja dulu Program Rewang Bubur Lambuk Himalaya &amp; Masjid  Al-Bakri ❤️
+
+#JelajahRamadan2026
+#JelajahRamadanBersamaBabas
+#PuasaTetapPuasaRayaTetapRaya
+#babasrencahhidupku https://t.co/yHHuxviWac",Reddit,neutral,Synthesised (removed kan),Certain,Assumed Agreement,Positive,Rhetorical Interrogative,,5,Null Form Retaining Particle-Like Pragmatic Meaning,"Mesti ada rindu ibu bapa di kampung [___] sekarang? Tak apa, ini min belanja dulu Program Rewang Bubur Lambuk Himalaya &amp; Masjid  Al-Bakri ❤️
+
+#JelajahRamadan2026
+#JelajahRamadanBersamaBabas
+#PuasaTetapPuasaRayaTetapRaya
+#babasrencahhidupku https://t.co/yHHuxviWac",neutral,kan,kan,kan,kan,kan,kan,neutral,kan
+"@yaya_shinla94 Kan adlib dia perfecttt,😭😭☝🏻 pastu boleh pulak nyanyi live sedap jugak haishh sukerre hahahaha",Reddit,kan,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Front,0,Assumed-Agreement Rhetorical Stance,"@yaya_shinla94 [___] adlib dia perfecttt,😭😭☝🏻 pastu boleh pulak nyanyi live sedap jugak haishh sukerre hahahaha",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Bayar bil guna auto-pay [___] lebih senang. Tonton video ini untuk cara-cara mendaftar auto-pay menggunakan aplikasi MyUnifi
+
+Lepas ini dah tak risau terlupa bayar bil lagi. Cepat! Muat turun aplikasi MyUnifi sekarang! https://t.co/wpvgxlIJfv 
+
+#unifi #unifitips https://t.co/qp5hEq5zal",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"Bayar bil guna auto-pay [___] lebih senang. Tonton video ini untuk cara-cara mendaftar auto-pay menggunakan aplikasi MyUnifi
+
+Lepas ini dah tak risau terlupa bayar bil lagi. Cepat! Muat turun aplikasi MyUnifi sekarang! https://t.co/wpvgxlIJfv 
+
+#unifi #unifitips https://t.co/qp5hEq5zal",neutral,neutral,neutral,kan,neutral,neutral,neutral,neutral,neutral
+"Ada ajarian yang dah boleh pergi solat Jumaat hari ini? Yang terpilih tu mesti seronok [___], dapat mengubat rindu pada masjid. 
+
+Kita sudah pernah rasa nikmat ke rumah Allah ditarik, sama-sama syukuri :)",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"Ada ajarian yang dah boleh pergi solat Jumaat hari ini? Yang terpilih tu mesti seronok [___], dapat mengubat rindu pada masjid. 
+
+Kita sudah pernah rasa nikmat ke rumah Allah ditarik, sama-sama syukuri :)",neutral,kan,neutral,neutral,neutral,kan,kan,neutral,kan
+Malaysia nak Jadi CCP ke?,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,4,Information-Seeking Verification,Malaysia nak Jadi CCP [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"@scimet @mhmmdhsm Jawab soalan aku. Kalau binaan haram tu dah 7 tahun sekalipun, kalau dah sampai masa pemilik nak check tu tetiba dia jumpa binaan haram tu, lepas tu dia pergi report/ambik backhoe runtuhkan binaan yang tak patut ada dekat tempat dia tu, dia dikira bodoh jugak ke?",Twitter,ke,Natural,Certain,Confirmation Seeking,Negative,Rhetorical Interrogative,Middle/End,7,Negative Rhetorical Challenge / Evaluation,"@scimet @mhmmdhsm Jawab soalan aku. Kalau binaan haram tu dah 7 tahun sekalipun, kalau dah sampai masa pemilik nak check tu tetiba dia jumpa binaan haram tu, lepas tu dia pergi report/ambik backhoe runtuhkan binaan yang tak patut ada dekat tempat dia tu, dia dikira bodoh jugak [___]?",ke,kan,kan,ke,ke,kan,kan,neutral,kan
+Aku ja ke yang makan cucur peneram macam ni? Serious sedap bila asingkan. Mula-mula makan isi dia lepastu biar cair dalam mulut. Lepastu makan kulit yang crunchy.,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Positive,Yes/No Interrogative,Middle/End,14,Affective Confirmation-Seeking Question,Aku ja [___] yang makan cucur peneram macam ni? Serious sedap bila asingkan. Mula-mula makan isi dia lepastu biar cair dalam mulut. Lepastu makan kulit yang crunchy.,ke,ke,ke,ke,ke,ke,ke,kan,ke
+Apa boleh buat kalau nampak orang abuse kucing macam ni? Boleh report kat mana2 authorities ke?,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Apa boleh buat kalau nampak orang abuse kucing macam ni? Boleh report kat mana2 authorities [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+Baru lepas pergi pajak gadai nak tebus barang arwah mama. Tapi surat xde. Dah bawak sijil mati ngan surat beranak pun dorang xnk bg… habis nak mak aku dari kubur bangun ke?,Twitter,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Baru lepas pergi pajak gadai nak tebus barang arwah mama. Tapi surat xde. Dah bawak sijil mati ngan surat beranak pun dorang xnk bg… habis nak mak aku dari kubur bangun [___]?,ke,kan,kan,ke,kan,ke,ke,neutral,kan
+"@NenkMonica @NataliusPigai2 Pigai lah, kan dia sdh paham HAM sejak umur 5 tahun ,,,,,",Twitter,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@NenkMonica @NataliusPigai2 Pigai lah, [___] dia sdh paham HAM sejak umur 5 tahun ,,,,,",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"ASAL USUL BANGSA MELAYU ASSALAMUALAIKUM ABANG AJAR,BOLEH ABANG AJAR TERANGKAN APAKAH ASAL USUL BANGSA MELAYU.SAYA DENGAR DI IKIM FM MEREKA KATA ASAL USUL MELAYU NI DARI ISTERI NABI IBRAHIM YANG KETIGA IAITU KETURAH.BETUL KE?",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"ASAL USUL BANGSA MELAYU ASSALAMUALAIKUM ABANG AJAR,BOLEH ABANG AJAR TERANGKAN APAKAH ASAL USUL BANGSA MELAYU.SAYA DENGAR DI IKIM FM MEREKA KATA ASAL USUL MELAYU NI DARI ISTERI NABI IBRAHIM YANG KETIGA IAITU KETURAH.BETUL [___]?",ke,ke,ke,ke,ke,kan,kan,neutral,ke
+"Actually [___], perut aku masih rasa tak selesa sikit. Sahur tadi pun, hmm, boleh boleh lah. Sikit je pun, over lah badan aku ni💁‍♀️🙂.....💪💪💪",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,"Actually [___], perut aku masih rasa tak selesa sikit. Sahur tadi pun, hmm, boleh boleh lah. Sikit je pun, over lah badan aku ni💁‍♀️🙂.....💪💪💪",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+tau [___] entak kapak yang salah atau wanita yg salah😅,Reddit,neutral,Synthesised (removed kan),Neutral/Unclear,Neutral/Unclear,Negative,Rhetorical Interrogative,,1,Neutral Declarative,tau [___] entak kapak yang salah atau wanita yg salah😅,neutral,ke,neutral,ke,ke,ke,ke,neutral,ke
+"Love yourself? Imagine that multiverse is real. ATP, kita jumpa diri kita berbeza jantina. Then fall in love, saving hex, and have a child. But the question is, what will happen to that child?🤔 Like not even related... Bukannya sumbang mahram pun [___]?",Twitter,neutral,Synthesised (removed kan),Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,,5,Null Form Retaining Particle-Like Pragmatic Meaning,"Love yourself? Imagine that multiverse is real. ATP, kita jumpa diri kita berbeza jantina. Then fall in love, saving hex, and have a child. But the question is, what will happen to that child?🤔 Like not even related... Bukannya sumbang mahram pun [___]?",neutral,kan,kan,kan,kan,kan,kan,neutral,kan
+@curetsyi kan dah prnah,Twitter,kan,Natural,Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,Front,3,Emphatic / Discourse-Marking,@curetsyi [___] dah prnah,kan,neutral,neutral,kan,kan,kan,kan,neutral,kan
+"Esok peperiksaan UPSR ke?
+
+Selamat maju jaya kepada murid-murid semua.
+
+Semoga dipermudahkan.",Twitter,ke,Natural,Certain,Assumed Agreement,Positive,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Esok peperiksaan UPSR [___]?
+
+Selamat maju jaya kepada murid-murid semua.
+
+Semoga dipermudahkan.",ke,kan,kan,kan,kan,kan,kan,neutral,kan
+Ahhh i nak cream AHHHH Btw nak signboard kedai ada regulations ketat ke?,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Ahhh i nak cream AHHHH Btw nak signboard kedai ada regulations ketat [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"[___] dah kata, Malaysia lubuk Scammer.
+
+Scammer agama, reformasi, bola sepak, macam2 ada 😁",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,"[___] dah kata, Malaysia lubuk Scammer.
+
+Scammer agama, reformasi, bola sepak, macam2 ada 😁",neutral,kan,kan,kan,kan,kan,kan,neutral,kan
+"Rupanya saya punca utama kerajaan PH tumbang.
+
+Saya sendiri pun tak tahu. Sekarang saya tahu.
+
+Saya main FB pun boleh jatuhkan satu kerajaan ke?
+
+Bahaya juga.
+
+Saya tunggu PS5 keluar. Bila saya main PS5, nanti UN tumbang. https://t.co/cxJWun8K8p",Twitter,ke,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Rupanya saya punca utama kerajaan PH tumbang.
+
+Saya sendiri pun tak tahu. Sekarang saya tahu.
+
+Saya main FB pun boleh jatuhkan satu kerajaan [___]?
+
+Bahaya juga.
+
+Saya tunggu PS5 keluar. Bila saya main PS5, nanti UN tumbang. https://t.co/cxJWun8K8p",ke,kan,kan,ke,kan,kan,kan,neutral,kan
+Perlu ke buat foundation full cover and light cover? Saya confuse.,Twitter,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Perlu [___] buat foundation full cover and light cover? Saya confuse.,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+@MIHSTLETOE lah itu [___] aku maksudnya si dew 😏,Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,@MIHSTLETOE lah itu [___] aku maksudnya si dew 😏,neutral,neutral,neutral,kan,neutral,kan,kan,neutral,kan
+"@33hyeonie aman lah, cuma bagian cover nya agak ngelupas dikit. bahan nya [___] kertas yh",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"@33hyeonie aman lah, cuma bagian cover nya agak ngelupas dikit. bahan nya [___] kertas yh",neutral,neutral,neutral,kan,neutral,neutral,neutral,neutral,kan
+"@dolphino7k Lah dari awal viral [___] juga pakai alasan 
+Kalau mereka tidak pacaran hanya ketemu pas KKN.",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,"@dolphino7k Lah dari awal viral [___] juga pakai alasan 
+Kalau mereka tidak pacaran hanya ketemu pas KKN.",neutral,neutral,neutral,kan,neutral,kan,kan,neutral,kan
+"@drnotak @mynewshub kan kalau kat korea pun macam tu siap ada roblock check alkohol,,diorang takut betul kalau member dorang mabuk nak bagi drive..",Twitter,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Front,0,Assumed-Agreement Rhetorical Stance,"@drnotak @mynewshub [___] kalau kat korea pun macam tu siap ada roblock check alkohol,,diorang takut betul kalau member dorang mabuk nak bagi drive..",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"@yaya_shinla94 [___] adlib dia perfecttt,😭😭☝🏻 pastu boleh pulak nyanyi live sedap jugak haishh sukerre hahahaha",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"@yaya_shinla94 [___] adlib dia perfecttt,😭😭☝🏻 pastu boleh pulak nyanyi live sedap jugak haishh sukerre hahahaha",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"Mata kita berapa resolution? Selalu bila nak tengok video kat YouTube mesti letak resolution 1080p
+Sometimes Ada yang 4K
+Lagi tinggi resolution,lagi cantik screenview dia 
+Tapi [___],Dunia yang kita lihat guna mata kita sekarang,berapa resolution untuk mata kita melihat semua benda kat dunia ni?
+16k?
+32k?",Twitter,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,4,Information-Seeking Verification,"Mata kita berapa resolution? Selalu bila nak tengok video kat YouTube mesti letak resolution 1080p
+Sometimes Ada yang 4K
+Lagi tinggi resolution,lagi cantik screenview dia 
+Tapi [___],Dunia yang kita lihat guna mata kita sekarang,berapa resolution untuk mata kita melihat semua benda kat dunia ni?
+16k?
+32k?",neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+RT @helmyyelmo: Kita punya hidup ni sebenarnya happy dan cukup je sampai la kita mula membanding banding [___] antara satu sama lain.,Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,RT @helmyyelmo: Kita punya hidup ni sebenarnya happy dan cukup je sampai la kita mula membanding banding [___] antara satu sama lain.,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+Betul jugak [___]? (Lawak santai lantai?),Twitter,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,4,Information-Seeking Verification,Betul jugak [___]? (Lawak santai lantai?),neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+"@tanyarlfes Pede lah kan bayar, punya duit",Reddit,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Declarative/Statement,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@tanyarlfes Pede lah [___] bayar, punya duit",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"@Akuns_091 @ammardathinker @Akuns_092 But still, some racist govs mesti akan manipulate benda ni kalau betul kan?
+
+Even kajian rasis konon blacks ada pain tolerance tinggi masih affect orang black Amerika.
+
+Kalau aku jadi dictator, memang aku akan gunakan benda ni untuk perangkap mana2 musuh politik yg ada DNA ni.",Reddit,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@Akuns_091 @ammardathinker @Akuns_092 But still, some racist govs mesti akan manipulate benda ni kalau betul [___]?
+
+Even kajian rasis konon blacks ada pain tolerance tinggi masih affect orang black Amerika.
+
+Kalau aku jadi dictator, memang aku akan gunakan benda ni untuk perangkap mana2 musuh politik yg ada DNA ni.",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Bayar bil guna auto-pay kan lebih senang. Tonton video ini untuk cara-cara mendaftar auto-pay menggunakan aplikasi MyUnifi
+
+Lepas ini dah tak risau terlupa bayar bil lagi. Cepat! Muat turun aplikasi MyUnifi sekarang! https://t.co/wpvgxlIJfv 
+
+#unifi #unifitips https://t.co/qp5hEq5zal",Twitter,kan,Natural,Certain,Neutral/Unclear,Positive,Rhetorical Interrogative,Middle/End,3,Emphatic / Discourse-Marking,"Bayar bil guna auto-pay [___] lebih senang. Tonton video ini untuk cara-cara mendaftar auto-pay menggunakan aplikasi MyUnifi
+
+Lepas ini dah tak risau terlupa bayar bil lagi. Cepat! Muat turun aplikasi MyUnifi sekarang! https://t.co/wpvgxlIJfv 
+
+#unifi #unifitips https://t.co/qp5hEq5zal",kan,neutral,kan,kan,kan,kan,kan,neutral,kan
+"RT @tzafrul_aziz: Ekonomi dah tenat ke?
+
+#TZA #EkonomiRakyat #pelaburan https://t.co/LTfrOoRlqV",Twitter,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"RT @tzafrul_aziz: Ekonomi dah tenat [___]?
+
+#TZA #EkonomiRakyat #pelaburan https://t.co/LTfrOoRlqV",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"[___] bagus kalau boleh mencarut dalam office without any consequences. Penat tau keje dengan orang bangang ni
+
+Sial betul",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Negative,Declarative/Statement,,1,Neutral Declarative,"[___] bagus kalau boleh mencarut dalam office without any consequences. Penat tau keje dengan orang bangang ni
+
+Sial betul",neutral,neutral,neutral,kan,neutral,neutral,neutral,neutral,neutral
+"@gibaok25 @amer7211 @youngsyefura Betul lah [___] apa dia cakap,ni benda yg umno buat berpuluh tahun..dap jd kerajaan masih follow style umno,baik takyah undi ph atau dap lagi..undi pun dapat umno jer balık..",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"@gibaok25 @amer7211 @youngsyefura Betul lah [___] apa dia cakap,ni benda yg umno buat berpuluh tahun..dap jd kerajaan masih follow style umno,baik takyah undi ph atau dap lagi..undi pun dapat umno jer balık..",neutral,kan,neutral,neutral,kan,neutral,kan,neutral,kan
+"Kan dah kata, Malaysia lubuk Scammer.
+
+Scammer agama, reformasi, bola sepak, macam2 ada 😁",Twitter,kan,Natural,Certain,Assumed Agreement,Negative,Declarative/Statement,Front,6,Assumed-Agreement Rhetorical Stance,"[___] dah kata, Malaysia lubuk Scammer.
+
+Scammer agama, reformasi, bola sepak, macam2 ada 😁",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"@Itaari_ pastinya, [___] ketahuan pas panggang,
+aromanya pasti sedap...🤤",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"@Itaari_ pastinya, [___] ketahuan pas panggang,
+aromanya pasti sedap...🤤",neutral,neutral,neutral,neutral,neutral,kan,kan,neutral,kan
+@curetsyi [___] dah prnah,Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,@curetsyi [___] dah prnah,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+"Actually kan, perut aku masih rasa tak selesa sikit. Sahur tadi pun, hmm, boleh boleh lah. Sikit je pun, over lah badan aku ni💁‍♀️🙂.....💪💪💪",Twitter,kan,Natural,Certain,Neutral/Unclear,Negative,Declarative/Statement,Middle/End,3,Emphatic / Discourse-Marking,"Actually [___], perut aku masih rasa tak selesa sikit. Sahur tadi pun, hmm, boleh boleh lah. Sikit je pun, over lah badan aku ni💁‍♀️🙂.....💪💪💪",kan,kan,neutral,kan,kan,kan,kan,neutral,kan
+"@WanAdli_ Boleh...
+Kena laa ikut saluran yg betul.
+Kamu kan sekolah, boleh tanya kawan kawan, boleh tanya tok wan.",Twitter,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Declarative/Statement,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@WanAdli_ Boleh...
+Kena laa ikut saluran yg betul.
+Kamu [___] sekolah, boleh tanya kawan kawan, boleh tanya tok wan.",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+ya ke,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,ya [___],ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"Mesti ada rindu ibu bapa di kampung kan sekarang? Tak apa, ini min belanja dulu Program Rewang Bubur Lambuk Himalaya &amp; Masjid  Al-Bakri ❤️
+
+#JelajahRamadan2026
+#JelajahRamadanBersamaBabas
+#PuasaTetapPuasaRayaTetapRaya
+#babasrencahhidupku https://t.co/yHHuxviWac",Reddit,kan,Natural,Certain,Neutral/Unclear,Positive,Rhetorical Interrogative,Middle/End,3,Emphatic / Discourse-Marking,"Mesti ada rindu ibu bapa di kampung [___] sekarang? Tak apa, ini min belanja dulu Program Rewang Bubur Lambuk Himalaya &amp; Masjid  Al-Bakri ❤️
+
+#JelajahRamadan2026
+#JelajahRamadanBersamaBabas
+#PuasaTetapPuasaRayaTetapRaya
+#babasrencahhidupku https://t.co/yHHuxviWac",kan,kan,kan,ke,kan,kan,kan,neutral,kan
+"apa nk buat if dah accident guys tadi aq ada accident..aq naik motor langgar kereta yg reckless driving...
+so just nk tanya..apa patut aq buat..
+boleh settle tepi mcm mana?..perlu buat report polis jgak ke?..",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"apa nk buat if dah accident guys tadi aq ada accident..aq naik motor langgar kereta yg reckless driving...
+so just nk tanya..apa patut aq buat..
+boleh settle tepi mcm mana?..perlu buat report polis jgak [___]?..",ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"Kan u dah banyak bang, kasih yg lain lah🙏",Twitter,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Front,0,Assumed-Agreement Rhetorical Stance,"[___] u dah banyak bang, kasih yg lain lah🙏",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Rasa nk pergi mkn buffet la puasa ni tpi kalau gi sorg rasa pelik pulak [___],Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,Rasa nk pergi mkn buffet la puasa ni tpi kalau gi sorg rasa pelik pulak [___],neutral,neutral,kan,neutral,neutral,neutral,neutral,neutral,neutral
+"Wah! Sayang betul nenek ni dekat cucunya [___]!🥰 Moga cucu nenek ni meraih kejayaan dunia akhirat✨
+#majalahremaja #remajamalaysia #remaja 
+
+https://t.co/YPdaB6jgkl",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Positive,Declarative/Statement,,1,Neutral Declarative,"Wah! Sayang betul nenek ni dekat cucunya [___]!🥰 Moga cucu nenek ni meraih kejayaan dunia akhirat✨
+#majalahremaja #remajamalaysia #remaja 
+
+https://t.co/YPdaB6jgkl",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"@NakesPuskesmas Betul, ini cuma masalah kemungkinan dan kebetulan. Hamil kan 9 bulan, dalam 1 tahun ada kemungkinan 1-3 kali gerhana bulan.",Reddit,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@NakesPuskesmas Betul, ini cuma masalah kemungkinan dan kebetulan. Hamil [___] 9 bulan, dalam 1 tahun ada kemungkinan 1-3 kali gerhana bulan.",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Love yourself? Imagine that multiverse is real. ATP, kita jumpa diri kita berbeza jantina. Then fall in love, saving hex, and have a child. But the question is, what will happen to that child?🤔 Like not even related... Bukannya sumbang mahram pun kan?",Twitter,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Love yourself? Imagine that multiverse is real. ATP, kita jumpa diri kita berbeza jantina. Then fall in love, saving hex, and have a child. But the question is, what will happen to that child?🤔 Like not even related... Bukannya sumbang mahram pun [___]?",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"@flitz_please Ye lah you kan ADHD. Budak ADHD sebenarnya bijak kalau kita guide bebetul. Tengok hasilnya, language you power, science you boleh buat, art and craft you power. Berbakat betul.",Reddit,kan,Natural,Certain,Assumed Agreement,Positive,Declarative/Statement,Middle/End,3,Emphatic / Discourse-Marking,"@flitz_please Ye lah you [___] ADHD. Budak ADHD sebenarnya bijak kalau kita guide bebetul. Tengok hasilnya, language you power, science you boleh buat, art and craft you power. Berbakat betul.",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Subang accident 11-12-2025 Kancil tu belum bangun ke?,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Subang accident 11-12-2025 Kancil tu belum bangun [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"@Pelabur_Bijak Newbie here. Kalau beli dekat Miga, lepastu jual saja dekat Miga. Takde issue [___]? Tak perlu jadikan fizikal. Betul tak?",Reddit,neutral,Synthesised (removed kan),Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,4,Information-Seeking Verification,"@Pelabur_Bijak Newbie here. Kalau beli dekat Miga, lepastu jual saja dekat Miga. Takde issue [___]? Tak perlu jadikan fizikal. Betul tak?",neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+"Kan bagus kalau boleh mencarut dalam office without any consequences. Penat tau keje dengan orang bangang ni
+
+Sial betul",Reddit,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Front,6,Assumed-Agreement Rhetorical Stance,"[___] bagus kalau boleh mencarut dalam office without any consequences. Penat tau keje dengan orang bangang ni
+
+Sial betul",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+RT @helmyyelmo: Kita punya hidup ni sebenarnya happy dan cukup je sampai la kita mula membanding banding kan antara satu sama lain.,Twitter,kan,Natural,Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,Middle/End,3,Emphatic / Discourse-Marking,RT @helmyyelmo: Kita punya hidup ni sebenarnya happy dan cukup je sampai la kita mula membanding banding [___] antara satu sama lain.,kan,neutral,kan,kan,kan,kan,kan,neutral,kan
+"@Pelabur_Bijak Newbie here. Kalau beli dekat Miga, lepastu jual saja dekat Miga. Takde issue kan? Tak perlu jadikan fizikal. Betul tak?",Reddit,kan,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,,4,Information-Seeking Verification,"@Pelabur_Bijak Newbie here. Kalau beli dekat Miga, lepastu jual saja dekat Miga. Takde issue [___]? Tak perlu jadikan fizikal. Betul tak?",kan,ke,ke,ke,ke,ke,ke,neutral,ke
+@bwlueside lah kan janjian,Twitter,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,@bwlueside lah [___] janjian,kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Nigeria best midfielder ke?
+Be calming down o Praise.",Twitter,ke,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Nigeria best midfielder [___]?
+Be calming down o Praise.",ke,kan,kan,kan,kan,kan,kan,neutral,kan
+"@33hyeonie aman lah, cuma bagian cover nya agak ngelupas dikit. bahan nya kan kertas yh",Reddit,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Declarative/Statement,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@33hyeonie aman lah, cuma bagian cover nya agak ngelupas dikit. bahan nya [___] kertas yh",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Apa macam? Ok ke ni reddit alien saya buat?,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Apa macam? Ok [___] ni reddit alien saya buat?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"@SyedJymalZahiid Siapa sebut pasal pesanan dik? SPRM kata dah hubungi chai tapi kena block. Pasal apa chai kata tak dpt call pulak? Beriya sangat backup chai pasal apa dik? Kenapa tak berani persoal chai? Kawan baik ke? 
+
+Kelakar betul tengok wartawan merapu tak tentu arah tanpa fakta. 😂😂😂",Twitter,ke,Natural,Certain,Neutral/Unclear,Negative,Rhetorical Interrogative,Middle/End,11,Negative Rhetorical Challenge / Evaluation,"@SyedJymalZahiid Siapa sebut pasal pesanan dik? SPRM kata dah hubungi chai tapi kena block. Pasal apa chai kata tak dpt call pulak? Beriya sangat backup chai pasal apa dik? Kenapa tak berani persoal chai? Kawan baik [___]? 
+
+Kelakar betul tengok wartawan merapu tak tentu arah tanpa fakta. 😂😂😂",ke,kan,kan,ke,kan,kan,kan,neutral,kan
+"RT @brgsjks: Networking - kau ada skills, pathway kau sesuai dengan effort kau dan sometimes kau kena compete with others but disebabkan ke…",Twitter,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"RT @brgsjks: Networking - kau ada skills, pathway kau sesuai dengan effort kau dan sometimes kau kena compete with others but disebabkan [___]…",ke,ke,ke,kan,ke,ke,ke,neutral,ke
+Solat sunat aidilfitri atas bot ke,Twitter,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Solat sunat aidilfitri atas bot [___],ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"@Akuns_091 @ammardathinker @Akuns_092 But still, some racist govs mesti akan manipulate benda ni kalau betul [___]?
+
+Even kajian rasis konon blacks ada pain tolerance tinggi masih affect orang black Amerika.
+
+Kalau aku jadi dictator, memang aku akan gunakan benda ni untuk perangkap mana2 musuh politik yg ada DNA ni.",Reddit,neutral,Synthesised (removed kan),Certain,Confirmation Seeking,Negative,Yes/No Interrogative,,1,Neutral Declarative,"@Akuns_091 @ammardathinker @Akuns_092 But still, some racist govs mesti akan manipulate benda ni kalau betul [___]?
+
+Even kajian rasis konon blacks ada pain tolerance tinggi masih affect orang black Amerika.
+
+Kalau aku jadi dictator, memang aku akan gunakan benda ni untuk perangkap mana2 musuh politik yg ada DNA ni.",neutral,ke,ke,ke,ke,ke,ke,neutral,ke
+"@NakesPuskesmas Betul, ini cuma masalah kemungkinan dan kebetulan. Hamil [___] 9 bulan, dalam 1 tahun ada kemungkinan 1-3 kali gerhana bulan.",Reddit,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"@NakesPuskesmas Betul, ini cuma masalah kemungkinan dan kebetulan. Hamil [___] 9 bulan, dalam 1 tahun ada kemungkinan 1-3 kali gerhana bulan.",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+@MIHSTLETOE lah itu kan aku maksudnya si dew 😏,Twitter,kan,Natural,Certain,Assumed Agreement,Positive,Declarative/Statement,Middle/End,3,Emphatic / Discourse-Marking,@MIHSTLETOE lah itu [___] aku maksudnya si dew 😏,kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"Mata kita berapa resolution? Selalu bila nak tengok video kat YouTube mesti letak resolution 1080p
+Sometimes Ada yang 4K
+Lagi tinggi resolution,lagi cantik screenview dia 
+Tapi kan,Dunia yang kita lihat guna mata kita sekarang,berapa resolution untuk mata kita melihat semua benda kat dunia ni?
+16k?
+32k?",Twitter,kan,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Mata kita berapa resolution? Selalu bila nak tengok video kat YouTube mesti letak resolution 1080p
+Sometimes Ada yang 4K
+Lagi tinggi resolution,lagi cantik screenview dia 
+Tapi [___],Dunia yang kita lihat guna mata kita sekarang,berapa resolution untuk mata kita melihat semua benda kat dunia ni?
+16k?
+32k?",kan,ke,ke,ke,ke,ke,ke,neutral,ke
+Soalannya berbunyi begini..Kenapa kita boleh bangun dari tidur? Bukan masa tu kita tidur ke?,Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,Soalannya berbunyi begini..Kenapa kita boleh bangun dari tidur? Bukan masa tu kita tidur [___]?,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"Orang Sabah&Sarawak : Soalan Babi Hutan i dengar cerita, hampir semua babi hutan dah lesap dari hutan sabah dan sarawak? 
+
+betul ke?",Reddit,ke,Natural,Uncertain,Confirmation Seeking,Neutral/Unclear,Yes/No Interrogative,Middle/End,4,Information-Seeking Verification,"Orang Sabah&Sarawak : Soalan Babi Hutan i dengar cerita, hampir semua babi hutan dah lesap dari hutan sabah dan sarawak? 
+
+betul [___]?",ke,ke,ke,ke,ke,ke,ke,kan,ke
+"@Itaari_ pastinya, kan ketahuan pas panggang,
+aromanya pasti sedap...🤤",Twitter,kan,Natural,Certain,Assumed Agreement,Positive,Declarative/Statement,Middle/End,3,Emphatic / Discourse-Marking,"@Itaari_ pastinya, [___] ketahuan pas panggang,
+aromanya pasti sedap...🤤",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+Betul jugak kan? (Lawak santai lantai?),Twitter,kan,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,Betul jugak [___]? (Lawak santai lantai?),kan,kan,kan,kan,kan,kan,kan,neutral,kan
+@EPatience49057 Best ke?😂😂,Twitter,ke,Natural,Uncertain,Confirmation Seeking,Positive,Yes/No Interrogative,Middle/End,14,Affective Confirmation-Seeking Question,@EPatience49057 Best [___]?😂😂,ke,ke,ke,ke,ke,ke,ke,neutral,ke
+"[___] u dah banyak bang, kasih yg lain lah🙏",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"[___] u dah banyak bang, kasih yg lain lah🙏",neutral,neutral,neutral,neutral,neutral,kan,kan,neutral,kan
+"@drnotak @mynewshub [___] kalau kat korea pun macam tu siap ada roblock check alkohol,,diorang takut betul kalau member dorang mabuk nak bagi drive..",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"@drnotak @mynewshub [___] kalau kat korea pun macam tu siap ada roblock check alkohol,,diorang takut betul kalau member dorang mabuk nak bagi drive..",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"Hutang 1MDB membebankan tapi wang RM33.4 bilion dan baki aset 1MDB yang masih bernilai ratusan bilion Ringgit tak ringankan beban ke?
+
+Lanjut: https://t.co/3HgrFGCYZo https://t.co/CNr9VeIabf",Twitter,ke,Natural,Certain,Assumed Agreement,Neutral/Unclear,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"Hutang 1MDB membebankan tapi wang RM33.4 bilion dan baki aset 1MDB yang masih bernilai ratusan bilion Ringgit tak ringankan beban [___]?
+
+Lanjut: https://t.co/3HgrFGCYZo https://t.co/CNr9VeIabf",ke,kan,kan,ke,kan,kan,kan,neutral,kan
+"@NenkMonica @NataliusPigai2 Pigai lah, [___] dia sdh paham HAM sejak umur 5 tahun ,,,,,",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"@NenkMonica @NataliusPigai2 Pigai lah, [___] dia sdh paham HAM sejak umur 5 tahun ,,,,,",neutral,neutral,neutral,kan,neutral,kan,kan,neutral,kan
+"Ada ajarian yang dah boleh pergi solat Jumaat hari ini? Yang terpilih tu mesti seronok kan, dapat mengubat rindu pada masjid. 
+
+Kita sudah pernah rasa nikmat ke rumah Allah ditarik, sama-sama syukuri :)",Twitter,kan,Natural,Certain,Neutral/Unclear,Positive,Rhetorical Interrogative,Middle/End,3,Emphatic / Discourse-Marking,"Ada ajarian yang dah boleh pergi solat Jumaat hari ini? Yang terpilih tu mesti seronok [___], dapat mengubat rindu pada masjid. 
+
+Kita sudah pernah rasa nikmat ke rumah Allah ditarik, sama-sama syukuri :)",kan,kan,kan,kan,kan,kan,kan,neutral,kan
+"@WanAdli_ Boleh...
+Kena laa ikut saluran yg betul.
+Kamu [___] sekolah, boleh tanya kawan kawan, boleh tanya tok wan.",Twitter,neutral,Synthesised (removed kan),Certain,Neutral/Unclear,Neutral/Unclear,Declarative/Statement,,1,Neutral Declarative,"@WanAdli_ Boleh...
+Kena laa ikut saluran yg betul.
+Kamu [___] sekolah, boleh tanya kawan kawan, boleh tanya tok wan.",neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,kan
+"@gibaok25 @amer7211 @youngsyefura Betul lah kan apa dia cakap,ni benda yg umno buat berpuluh tahun..dap jd kerajaan masih follow style umno,baik takyah undi ph atau dap lagi..undi pun dapat umno jer balık..",Reddit,kan,Natural,Certain,Assumed Agreement,Negative,Rhetorical Interrogative,Middle/End,0,Assumed-Agreement Rhetorical Stance,"@gibaok25 @amer7211 @youngsyefura Betul lah [___] apa dia cakap,ni benda yg umno buat berpuluh tahun..dap jd kerajaan masih follow style umno,baik takyah undi ph atau dap lagi..undi pun dapat umno jer balık..",kan,kan,kan,kan,kan,kan,kan,neutral,kan

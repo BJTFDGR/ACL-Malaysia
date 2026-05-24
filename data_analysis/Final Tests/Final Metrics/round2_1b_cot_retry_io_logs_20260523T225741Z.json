@@ -1,0 +1,70 @@
+[
+  {
+    "timestamp": "2026-05-23T22:57:14.170218+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence. Your task is to classify its primary macro-pragmatic function — the communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.).\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Wah! Sayang betul nenek ni dekat cucunya kan!🥰 Moga cucu nenek ni meraih kejayaan dunia akhirat✨\n#majalahremaja #remajamalaysia #remaja \n\nhttps://t.co/YPdaB6jgkl\"\n\nThink step-by-step:\n  1. What is the speaker doing in this utterance (asserting, asking, hedging, emphasising, challenging)?\n  2. What is the speaker's stance toward the listener (shared knowledge, seeking confirmation, neutral information, etc.)?\n  3. Which of the seven labels best captures this combination?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <one label from the list above>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. Reason step-by-step about the speaker's communicative intent, then output exactly one macro-function label from the provided list.",
+    "raw_output": "Reasoning: The speaker uses the particle \"kan\" to frame an observation about a grandmother's affection as a shared, obvious truth rather than a genuine inquiry. By combining this with an exclamation (\"Wah!\") and an emoji, the speaker is inviting the audience to align with their positive sentiment and emotional evaluation of the scene. This aligns with the presentation of a proposition as already established knowledge to foster social rapport.\n\nFinal answer: Assumed-Agreement Rhetorical Stance",
+    "parsed_output": "Assumed-Agreement Rhetorical Stance",
+    "status": "ok",
+    "meta": {
+      "phase": "retry_round2_1b_cot",
+      "row_idx": 102,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:57:21.825936+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence. Your task is to classify its primary macro-pragmatic function — the communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.).\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"@SyedJymalZahiid Siapa sebut pasal pesanan dik? SPRM kata dah hubungi chai tapi kena block. Pasal apa chai kata tak dpt call pulak? Beriya sangat backup chai pasal apa dik? Kenapa tak berani persoal chai? Kawan baik ke? \n\nKelakar betul tengok wartawan merapu tak tentu arah tanpa fakta. 😂😂😂\"\n\nThink step-by-step:\n  1. What is the speaker doing in this utterance (asserting, asking, hedging, emphasising, challenging)?\n  2. What is the speaker's stance toward the listener (shared knowledge, seeking confirmation, neutral information, etc.)?\n  3. Which of the seven labels best captures this combination?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <one label from the list above>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. Reason step-by-step about the speaker's communicative intent, then output exactly one macro-function label from the provided list.",
+    "raw_output": "Reasoning: The speaker uses a series of pointed, rhetorical questions to challenge the journalist's credibility and motives, implying bias and lack of factual basis. The tone is confrontational and mocking, clearly intended to criticize the listener's stance rather than elicit genuine information.\n\nFinal answer: Negative Rhetorical Challenge / Evaluation",
+    "parsed_output": "Negative Rhetorical Challenge / Evaluation",
+    "status": "ok",
+    "meta": {
+      "phase": "retry_round2_1b_cot",
+      "row_idx": 168,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:57:30.500939+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence. Your task is to classify its primary macro-pragmatic function — the communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.).\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"RT @brgsjks: Networking - kau ada skills, pathway kau sesuai dengan effort kau dan sometimes kau kena compete with others but disebabkan ke…\"\n\nThink step-by-step:\n  1. What is the speaker doing in this utterance (asserting, asking, hedging, emphasising, challenging)?\n  2. What is the speaker's stance toward the listener (shared knowledge, seeking confirmation, neutral information, etc.)?\n  3. Which of the seven labels best captures this combination?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <one label from the list above>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. Reason step-by-step about the speaker's communicative intent, then output exactly one macro-function label from the provided list.",
+    "raw_output": "Reasoning: The speaker is providing a descriptive explanation of how networking and career progression function, presenting these observations as general truths or common experiences. The utterance serves to inform the audience about the realities of professional competition without soliciting a response or expressing a specific emotional stance. Therefore, it functions as a straightforward informational statement.\n\nFinal answer: Neutral Declarative",
+    "parsed_output": "Neutral Declarative",
+    "status": "ok",
+    "meta": {
+      "phase": "retry_round2_1b_cot",
+      "row_idx": 169,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:57:41.651447+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence. Your task is to classify its primary macro-pragmatic function — the communicative role the utterance plays in interaction, beyond its literal propositional content.\n\nReferring to the following seven labels and their definitions:\n\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nNeutral Declarative: Plain informational statements with minimal discourse pressure or stance marking.\n\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nAffective Confirmation-Seeking Question: Speaker seeks confirmation while simultaneously expressing affect (surprise, irritation, humour, excitement, disbelief, etc.).\n\nEmphatic / Discourse-Marking: Particle functions less as a literal confirmation marker and more as a discourse-management or emphasis device.\n\nNull Form Retaining Particle-Like Pragmatic Meaning: Pragmatic meaning associated with particles remains inferable even after overt particle removal.\n\nNegative Rhetorical Challenge / Evaluation: Speaker uses rhetorical questioning to criticise, challenge, mock, or negatively evaluate a proposition rather than genuinely seek information.\n\nSpeaker: \"Solat sunat aidilfitri atas bot ke\"\n\nThink step-by-step:\n  1. What is the speaker doing in this utterance (asserting, asking, hedging, emphasising, challenging)?\n  2. What is the speaker's stance toward the listener (shared knowledge, seeking confirmation, neutral information, etc.)?\n  3. Which of the seven labels best captures this combination?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <one label from the list above>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse pragmatics. Reason step-by-step about the speaker's communicative intent, then output exactly one macro-function label from the provided list.",
+    "raw_output": "Reasoning: The speaker is questioning the feasibility or occurrence of performing Eid al-Fitr prayers on a boat, which implies a sense of disbelief or surprise regarding the situation. The utterance functions as a query that seeks confirmation while simultaneously conveying the speaker's affective reaction to the unusual scenario. Therefore, it aligns with the expression of surprise or disbelief through a question.\n\nFinal answer: Affective Confirmation-Seeking Question",
+    "parsed_output": "Affective Confirmation-Seeking Question",
+    "status": "ok",
+    "meta": {
+      "phase": "retry_round2_1b_cot",
+      "row_idx": 170,
+      "model": "gemini_strong"
+    }
+  }
+]

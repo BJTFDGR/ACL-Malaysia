@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2026-05-23T22:56:35.696229+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nThe macro-pragmatic function of this utterance is:\n  Assumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Menggatal/Tuaran no electric since 8:50pm. Ada [___] notis dari tadi sy check fb sesb tda notis. Tu karen kan cukup2 utk buka 1 lampu ja\"\n\nThink step-by-step:\n  1. What is the speaker communicatively doing, given the macro-function above?\n  2. Does the masked slot call for genuine uncertainty (ke), assumed shared knowledge (kan), or no particle (neutral)?\n  3. Which choice best fits both the sentence flow and the macro-function?\n\nFormat your response EXACTLY as follows, with no extra text before or after:\n\nReasoning: <2–4 sentences of step-by-step analysis>\nFinal answer: <ke | kan | neutral>",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. Reason step-by-step, then output exactly one particle — \"ke\", \"kan\", or \"neutral\".",
+    "raw_output": "Reasoning: The speaker is expressing frustration about a power outage and notes that they have checked the official Facebook page for notices but found none. By asking \"Ada [___] notis\", the speaker is rhetorically highlighting the absence of information, implying that there *should* have been a notice if the utility company were doing their job properly. This aligns with the \"kan\" function, as the speaker is seeking confirmation of their expectation that a notice ought to have been provided.\n\nFinal answer: kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "retry_round2_2b_cot",
+      "row_idx": 0,
+      "model": "gemini_strong"
+    }
+  }
+]

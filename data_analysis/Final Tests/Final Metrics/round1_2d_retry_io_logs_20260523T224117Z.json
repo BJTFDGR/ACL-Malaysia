@@ -1,0 +1,141 @@
+[
+  {
+    "timestamp": "2026-05-23T22:40:49.833551+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Assumed Agreement — The speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\n- Emotion: Positive — The speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"[SIARAN LANGSUNG]\n\nBila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 \n#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "**",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "retry_round1_2d",
+      "row_idx": 15,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:40:49.833571+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Assumed Agreement — The speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\n- Emotion: Positive — The speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"[SIARAN LANGSUNG]\n\nBila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 \n#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty parsed output",
+    "meta": {
+      "phase": "retry_round1_2d",
+      "row_idx": 15,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:40:52.054705+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 2,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Assumed Agreement — The speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\n- Emotion: Positive — The speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"[SIARAN LANGSUNG]\n\nBila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 \n#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "**",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "retry_round1_2d",
+      "row_idx": 15,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:40:52.054736+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 2,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Assumed Agreement — The speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\n- Emotion: Positive — The speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"[SIARAN LANGSUNG]\n\nBila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 \n#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty parsed output",
+    "meta": {
+      "phase": "retry_round1_2d",
+      "row_idx": 15,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:40:55.499489+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 3,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Assumed Agreement — The speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\n- Emotion: Positive — The speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"[SIARAN LANGSUNG]\n\nBila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 \n#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "**",
+    "parsed_output": "",
+    "status": "empty",
+    "meta": {
+      "phase": "retry_round1_2d",
+      "row_idx": 15,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:40:55.499510+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 3,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Assumed Agreement — The speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\n- Emotion: Positive — The speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"[SIARAN LANGSUNG]\n\nBila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 \n#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "",
+    "parsed_output": "",
+    "status": "error",
+    "error": "Empty parsed output",
+    "meta": {
+      "phase": "retry_round1_2d",
+      "row_idx": 15,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:41:16.487384+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 4,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Certain — The speaker treats the statement as already true or established — no hedging, no doubt, full confidence.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Assumed Agreement — The speaker treats the information as shared or obvious — the underlying tone is 'you already know this'.\n- Emotion: Positive — The speaker expresses happiness, excitement, enthusiasm, satisfaction, humour, affection, or relief.\n- Question Type: Rhetorical Interrogative — Phrased as a question but does not expect a genuine answer; used to make a point or emphasise something.\n\nMacro-pragmatic function of this utterance:\nAssumed-Agreement Rhetorical Stance: Speaker presents proposition as already obvious/shared knowledge; listener is expected to align rather than genuinely answer.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"[SIARAN LANGSUNG]\n\nBila Hael menyanyi jarang la kita semua tak ‘sing along’ [___]? 😍 \n#ASEANFriendshipConcert2025 #ASEAN #ASEANMalaysia #MalaysiaMADANI https://t.co/KNC5ui7jsy\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "kan",
+    "parsed_output": "kan",
+    "status": "ok",
+    "meta": {
+      "phase": "retry_round1_2d",
+      "row_idx": 15,
+      "model": "gemini_strong"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T22:41:17.806009+00:00",
+    "model_alias": "gemini_strong",
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "output_try": 1,
+    "input": "You are given a Malay sentence in which one discourse particle has been replaced with [___].\n\nDiscourse-context attributes for this sentence:\n- Epistemic Stance: Uncertain — The speaker sounds unsure, is making a guess, estimating, or checking whether something is the case.\n- Particle Position: Middle/End — The particle appears anywhere other than the front — mid-sentence or at the end.\n- Listener Agreement: Confirmation Seeking — The speaker is actively checking whether the listener agrees or can confirm something.\n- Emotion: Neutral/Unclear — No detectable emotional charge, or the emotion is genuinely ambiguous.\n- Question Type: Yes/No Interrogative — A genuine question inviting the listener to confirm or deny; the speaker does not already know the answer.\n\nMacro-pragmatic function of this utterance:\nInformation-Seeking Verification: Genuine request for verification or clarification; speaker leaves room for disagreement.\n\nParticle meanings:\n  ke      : signals genuine uncertainty or invites the listener to confirm something the speaker is unsure about.\n  kan     : signals assumed shared knowledge and seeks light confirmation of something the speaker already believes (\"right?\").\n  neutral : indicates no particle.\n\nSpeaker:\n  \"Hello @CIMBMalaysia . Nak tutup saving acc perlu pergi any branch [___]?\"\n\nUsing both the attribute breakdown and the macro-function above, which single particle — \"ke\", \"kan\", or \"neutral\" — best fills [___]?\n\nReturn exactly one word from this set and nothing else: ke, kan, neutral",
+    "constraint": "You are a linguist specialising in colloquial Malay discourse particles. You must output exactly one word — either \"ke\", \"kan\", or \"neutral\" — and nothing else.",
+    "raw_output": "ke",
+    "parsed_output": "ke",
+    "status": "ok",
+    "meta": {
+      "phase": "retry_round1_2d",
+      "row_idx": 78,
+      "model": "gemini_strong"
+    }
+  }
+]
