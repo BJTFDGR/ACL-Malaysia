@@ -1,0 +1,188 @@
+GT,stored_claude_strong,xcheck_sonnet_4_6,agree
+ke,kan,kan,True
+kan,kan,kan,True
+neutral,kan,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjESYiSz9tGoScuebWq'}",False
+neutral,kan,kan,True
+kan,kan,kan,True
+kan,kan,kan,True
+kan,kan,kan,True
+ke,ke,ke,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,neutral,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjEE3e4qcWQZxhfqVM6'}",False
+neutral,ke,ke,True
+neutral,ke,ke,True
+ke,ke,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjDY5KaZ2H4WMABbv6Y'}",False
+ke,ke,ke,True
+kan,kan,kan,True
+ke,ke,ke,True
+kan,ke,ke,True
+kan,kan,kan,True
+ke,ke,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjDaWB7L61o9LxhYNKs'}",False
+kan,kan,kan,True
+neutral,kan,kan,True
+neutral,kan,kan,True
+kan,kan,kan,True
+neutral,neutral,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjEPcMnzu9eiZBgCzwG'}",False
+ke,kan,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjEQ1vJQeGR3nFJ5A9U'}",False
+ke,ke,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjEWg1dTYsPGCvTpeWx'}",False
+ke,kan,kan,True
+neutral,kan,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjEQTxXxfhtiHA9xBwN'}",False
+kan,kan,kan,True
+kan,ke,ke,True
+neutral,neutral,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjESieAHvyGNv5aUbkx'}",False
+ke,ke,ke,True
+neutral,ke,ke,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,ke,ke,True
+ke,ke,ke,True
+neutral,kan,kan,True
+neutral,kan,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjEppAx99RUtnuyyCf9'}",False
+kan,kan,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjEVR7BPDxayR2fmdF4'}",False
+neutral,neutral,neutral,True
+ke,kan,kan,True
+neutral,neutral,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjDTr5ME6vGA8g9JmLz'}",False
+ke,ke,ke,True
+kan,kan,kan,True
+kan,kan,kan,True
+neutral,kan,kan,True
+kan,kan,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjEkH4yxxoZahXGnp1z'}",False
+neutral,neutral,neutral,True
+kan,ke,ke,True
+neutral,ke,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjEXnExAVAb9tMBxKQ5'}",False
+kan,ke,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjE6P2NgvLktp4suiJf'}",False
+ke,ke,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjECe4KC3fdSeZJ7z4A'}",False
+ke,ke,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjDsNRtztGkX5UkwjKF'}",False
+ke,kan,kan,True
+ke,ke,ke,True
+ke,ke,ke,True
+kan,kan,kan,True
+ke,ke,ke,True
+ke,ke,ke,True
+neutral,ke,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjES1E1iz9wtyiH6H5u'}",False
+neutral,neutral,"ERROR: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': ""This request would exceed your organization's rate limit of 50 requests per minute (org: 9d5644b7-5eef-4e2e-8170-7c2c0329a4a3, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.""}, 'request_id': 'req_011CbMjFDXueuT4PFDsAUTM2'}",False
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,neutral,neutral,True
+kan,kan,kan,True
+neutral,ke,ke,True
+ke,kan,kan,True
+ke,ke,ke,True
+kan,kan,kan,True
+neutral,kan,kan,True
+neutral,neutral,neutral,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,ke,kan,False
+neutral,ke,ke,True
+neutral,neutral,kan,False
+ke,ke,ke,True
+neutral,ke,ke,True
+ke,kan,kan,True
+kan,ke,ke,True
+ke,ke,ke,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,neutral,neutral,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,kan,kan,True
+kan,ke,ke,True
+ke,ke,ke,True
+kan,kan,kan,True
+kan,kan,kan,True
+kan,ke,ke,True
+kan,kan,kan,True
+kan,kan,kan,True
+ke,ke,ke,True
+kan,kan,kan,True
+neutral,kan,kan,True
+neutral,neutral,neutral,True
+neutral,neutral,neutral,True
+kan,kan,kan,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,neutral,neutral,True
+kan,kan,kan,True
+neutral,neutral,kan,False
+ke,ke,ke,True
+ke,ke,ke,True
+neutral,neutral,neutral,True
+ke,ke,ke,True
+neutral,kan,kan,True
+kan,kan,kan,True
+neutral,kan,kan,True
+neutral,neutral,kan,False
+ke,ke,ke,True
+ke,ke,ke,True
+ke,ke,ke,True
+ke,ke,ke,True
+ke,ke,ke,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,neutral,neutral,True
+neutral,ke,ke,True
+neutral,kan,kan,True
+kan,kan,kan,True
+ke,kan,kan,True
+ke,ke,ke,True
+neutral,kan,kan,True
+ke,ke,ke,True
+ke,ke,ke,True
+neutral,kan,kan,True
+neutral,kan,kan,True
+neutral,kan,kan,True
+kan,kan,kan,True
+neutral,neutral,neutral,True
+neutral,ke,ke,True
+neutral,neutral,neutral,True
+neutral,ke,ke,True
+kan,kan,kan,True
+kan,kan,kan,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,kan,kan,True
+neutral,neutral,neutral,True
+kan,kan,kan,True
+neutral,neutral,neutral,True
+neutral,neutral,neutral,True
+kan,kan,kan,True
+kan,kan,kan,True
+ke,ke,ke,True
+kan,ke,ke,True
+ke,ke,ke,True
+kan,kan,kan,True
+neutral,neutral,neutral,True
+neutral,neutral,neutral,True
+kan,kan,kan,True
+kan,kan,kan,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,ke,ke,True
+kan,kan,kan,True
+kan,kan,kan,True
+kan,ke,ke,True
+kan,kan,kan,True
+ke,kan,kan,True
+kan,kan,kan,True
+ke,ke,ke,True
+ke,ke,ke,True
+ke,kan,kan,True
+ke,ke,ke,True
+neutral,ke,ke,True
+neutral,neutral,kan,False
+kan,kan,kan,True
+kan,ke,ke,True
+ke,ke,ke,True
+ke,ke,ke,True
+kan,kan,kan,True
+kan,kan,kan,True
+ke,ke,ke,True
+neutral,neutral,neutral,True
+neutral,neutral,neutral,True
+ke,ke,ke,True
+neutral,kan,kan,True
+kan,kan,kan,True
+neutral,neutral,neutral,True
+kan,kan,kan,True

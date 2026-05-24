@@ -300,7 +300,7 @@ def build_model_runs():
     if SEA_LION_API_KEY:
         runs.append({"name": "sealion_strong", "provider": "openai",
                      "api_key": SEA_LION_API_KEY, "base_url": SEA_LION_BASE_URL,
-                     "model": SEA_LION_STRONG, "max_tokens": 1024, "sleep": 0.3})
+                     "model": SEA_LION_STRONG, "max_tokens": 16384, "sleep": 0.3})
         runs.append({"name": "sealion_weak", "provider": "openai",
                      "api_key": SEA_LION_API_KEY, "base_url": SEA_LION_BASE_URL,
                      "model": SEA_LION_WEAK, "sleep": 0.3})
@@ -405,6 +405,7 @@ def call_llm_raw(run_cfg, prompt_text, constraint_text, max_tokens=8):
     if provider == "anthropic":
         response = client.messages.create(
             model=model, system=constraint_text, max_tokens=max_tokens,
+            temperature=0,
             messages=[{"role": "user", "content": prompt_text}],
         )
         return response.content[0].text.strip()
@@ -521,9 +522,20 @@ def parse_particle_plain(raw):
     text = re.sub(r"^[\W_]+", "", text).strip()
     if text in {"ke", "kan", "neutral"}:
         return text
-    for p in ["neutral", "kan", "ke"]:
-        if re.search(rf"\b{p}\b", text):
-            return p
+    # Prefer text after a "Final answer:" marker (reasoning-model traces)
+    m = re.search(r"final\s*answer\s*:\s*(.+?)(?:\n|$)", text, re.IGNORECASE | re.DOTALL)
+    if m:
+        tail = m.group(1).strip()
+        if tail in {"ke", "kan", "neutral"}:
+            return tail
+        last = re.findall(r"\b(ke|kan|neutral)\b", tail)
+        if last:
+            return last[-1]
+    # Otherwise return the LAST particle mention in the whole text
+    # (avoids matching "neutral" that the model echoes from the prompt early on)
+    last_all = re.findall(r"\b(ke|kan|neutral)\b", text)
+    if last_all:
+        return last_all[-1]
     return ""
 
 
