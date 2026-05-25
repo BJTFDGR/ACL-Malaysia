@@ -83,7 +83,7 @@ Typical examples of English particles include \textit{well}, \textit{like}, and 
 \begin{figure*}[t]
     \centering
     \includegraphics[width=0.9\textwidth]{latex/figure1.png}
-    \caption{Five-dimensional annotation schema for Malay discourse particle utterances. An utterance is evaluated by a native Malay speaker according to each of the five dimensions and the most appropriate attribute is assigned to the utterance capturing the speaker's intentions and the utterance's syntax. The linguistic theoretical basis for each attribute is available in the Appendix~\ref{tab:flattened-pragmatic-codebook}.}
+    \caption{Five-dimensional annotation schema for Malay discourse particle utterances. An utterance is evaluated by a native Malay speaker according to each of the five dimensions and the most appropriate attribute is assigned to the utterance capturing the speaker's intentions and the utterance's syntax. The linguistic theoretical basis for each attribute is available in the Appendix~\ref{tab:flattened-pragmatic-codebook}. Overall, the schema operationalizes pragmatic meaning as structured attributes that can be directly evaluated in LLM experiments.}
     \label{fig:details-of-annotations}
 \end{figure*}
 
@@ -215,6 +215,7 @@ However, it is worth noting that the aforementioned studies primarily used direc
 
 \caption{
 Distribution of Gold and Silver annotation splits across \textit{kan}, \textit{ke}, and neutral baseline utterances.
+Overall, the splits maintain a balanced coverage of particle and neutral cases for both adjudicated evaluation and broader analysis.
 }
 \label{fig:dataset-distribution}
 \end{figure}
@@ -330,7 +331,7 @@ Spatially close clusters of the attributes are expected to represent the same or
 \bottomrule
 \end{tabular}
 
-\caption{Evaluation tasks and conditions.}
+\caption{Evaluation tasks and conditions. Overall, the benchmark separates attribute prediction, pragmatic function prediction, and particle prediction to isolate where models succeed or fail.}
 \label{tab:evaluation_tasks}
 \end{table}
 
@@ -430,7 +431,7 @@ To minimize sampling variance, we set temperature to $0$ (greedy decoding) for a
         \bottomrule
     \end{tabular}%
     }
-    \caption{Attribute Prediction accuracy for English (EN) and Malay (MS) prompts. Position a}
+    \caption{Attribute Prediction accuracy for English (EN) and Malay (MS) prompts. Overall, models perform unevenly across attributes, with position being the easiest attribute and listener agreement remaining the most challenging.}
     \label{tab:task-1a-micro-attribute-en-ms}
 \end{table*}
 
@@ -525,7 +526,7 @@ To minimize sampling variance, we set temperature to $0$ (greedy decoding) for a
         \bottomrule
     \end{tabular}
 
-    \caption{Pragmatic Function prediction accuracy across models under two conditions: direct prompting (without context) and prompting with attributes. All scores are accuracy; Delta denotes the absolute improvement obtained by incorporating attribute information, computed as Attribute minus Direct Prompting.}
+    \caption{Pragmatic Function prediction accuracy across models under two conditions: direct prompting (without context) and prompting with attributes. All scores are accuracy; Delta denotes the absolute improvement obtained by incorporating attribute information, computed as Attribute minus Direct Prompting. Overall, providing attributes substantially improves pragmatic function prediction across all models.}
     \label{tab:task-1b-1c-macro-function-accuracy}
 \end{table}
 
@@ -559,7 +560,7 @@ To minimize sampling variance, we set temperature to $0$ (greedy decoding) for a
         \bottomrule
     \end{tabular}
 
-    \caption{Masked-slot particle prediction accuracy (ke, kan, or neutral) under four prompting conditions: direct prompting without context, attribute-only, pragmatic function-only, and combined attribute and pragmatic function context.}
+    \caption{Masked-slot particle prediction accuracy (ke, kan, or neutral) under four prompting conditions: direct prompting without context, attribute-only, pragmatic function-only, and combined attribute and pragmatic function context. Overall, the strongest performance comes from combining attribute and pragmatic function information.}
     \label{tab:task-2-generation-accuracy}
 \end{table}
 
@@ -664,7 +665,7 @@ This finding aligns with previous studies that find CoT is less effective in pra
     \end{tabular}%
     }
 
-    \caption{Pragmatic function classification accuracy across models under three prompting conditions: no auxiliary information (Direct Prompting), chain-of-thought prompting (CoT), and attribute-enhanced input (Attr.). Each model assigns one of seven pragmatic function labels to a sentence. Delta is computed as Attribute minus CoT.}
+    \caption{Pragmatic function classification accuracy across models under three prompting conditions: no auxiliary information (Direct Prompting), chain-of-thought prompting (CoT), and attribute-enhanced input (Attr.). Each model assigns one of seven pragmatic function labels to a sentence. Delta is computed as Attribute minus CoT. Overall, explicit attributes outperform chain-of-thought prompting, suggesting that structured pragmatic cues are more useful than elicited reasoning alone.}
     \label{tab:headline-macro-function-ablation}
 \end{table}
 
@@ -724,7 +725,7 @@ This finding aligns with previous studies that find CoT is less effective in pra
     \end{tabular}%
     }
 
-    \caption{Masked-slot particle prediction accuracy under two conditions: chain-of-thought with pragmatic function context (CoT \& Function) and joint attribute plus pragmatic function context (Attribute \& Function). Models predict ke, kan, or neutral. Delta is computed as Attribute \& Function minus CoT Function.}
+    \caption{Masked-slot particle prediction accuracy under two conditions: chain-of-thought with pragmatic function context (CoT \& Function) and joint attribute plus pragmatic function context (Attribute \& Function). Models predict ke, kan, or neutral. Delta is computed as Attribute \& Function minus CoT Function. Overall, adding attributes yields only a small average gain over CoT with function context, indicating that function information already captures much of the signal for particle choice.}
     \label{tab:headline-particle-generation-ablation}
 \end{table}
 %possessing less intensive reasoning-focused instruction tuning, suffers from ``attention hijacking'' in generative tasks, where local Malay syntactic probabilities overpower the prompt's abstract constraints.
@@ -805,7 +806,7 @@ This study concerns primarily textual data, with the absence of prosodic cues, w
         \textbf{Particle Position} & Front; Middle/End; N/A & \citet{tay2016discourse} \\
         \bottomrule
     \end{tabular}
-    \caption{Five attributes for annotating our Malay discourse particle utterances.}
+    \caption{Five attributes for annotating our Malay discourse particle utterances. Overall, these attributes provide a compact theory-grounded codebook for linking discourse particles to pragmatic interpretation.}
     \label{tab:flattened-pragmatic-codebook}
 \end{table*}
 \section{Flattened Codebook Definitions}
