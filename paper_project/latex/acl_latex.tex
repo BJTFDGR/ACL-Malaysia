@@ -8,6 +8,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{microtype}
 \usepackage{inconsolata}
+\usepackage{amssymb}
 
 \usepackage{graphicx}
 \usepackage{booktabs}
@@ -61,12 +62,14 @@
 \maketitle
 
 \begin{abstract}
-Discourse particles are a pragmatic phenomenon that humans use to convey emotions, intentions, and interpersonal meanings, making them important for endowing Large Language Models (LLMs) with more human-like communicative competence.
-However, existing studies lack a comprehensive understanding of LLMs’ capabilities in handling discourse particles and primarily focus on high-resource languages such as English. 
-In this paper, we (1) propose \textsc{MalayPrag}, a benchmark designed to systematically evaluate and analyze LLMs’ capabilities in handling discourse particles in colloquial Malay; (2) introduce a schema that provides a linguistically-grounded, unified framework for interpreting pragmatic functions of discourse particles. 
-Applying these two, we prompt off-the-shelf LLMs to perform discourse particle interpretation and generation tasks, enabling us to investigate how LLMs handle discourse particles through the lens of their pragmatic functions.
-Experimental results reveal substantial challenges for current LLMs, highlighting the need for structured scaffolding for improved pragmatic competence.
-\textit{Our benchmark can be accessed via the link https://anonymous.4open.science/r/MalayPrag-A285/README.md}
+Discourse particles, such as \textit{well} and \textit{kind of}, are crucial components that enable LLMs to "speak" more like humans. They are used to convey emotions, intentions, and interpersonal meanings.
+%, making them important for endowing Large Language Models (LLMs) with more human-like communicative competence.
+However, existing studies have not yet built a comprehensive understanding of LLMs’ capabilities in handling discourse particles. The limited number of research focuses primarily on high-resource languages such as English. 
+In this paper, we (1) propose \textsc{MalayPrag}, a benchmark designed to systematically evaluate and analyze LLMs’ capabilities in handling discourse particles in colloquial Malay; (2) introduce five attributes that provide a linguistically-grounded, unified framework for interpreting pragmatic functions of discourse particles. 
+Applying these two, we prompt ten off-the-shelf LLMs to perform three predication tasks. 
+%enabling us to investigate how LLMs handle discourse particles through the lens of their pragmatic functions.
+The experimental results reveal substantial challenges for current LLMs to accurately connect between discourse particles and their pragmatic functions in Malay. The provision of the five attributes designed in this study is found to significantly improve the connections,  highlighting the need for structured scaffolding for models' pragmatic competence.
+\textit{Our benchmark can be accessed via the link\footnote{https://anonymous.4open.science/r/MalayPrag-A285/README.md}}.
 \end{abstract}
 
 \section{Introduction}
@@ -112,9 +115,9 @@ We apply the dataset and attributes to two Malay discourse particles, \textit{ka
 
 
 The experimental results show that \textbf{(1)} LLMs exhibit substantial difficulty in interpreting the pragmatic functions of Malay discourse particles and \textbf{(2)} performance improves when the five attributes are provided (Figure~\ref{fig:details-of-annotations}). Accordingly, the contributions of this study are threefold:
-\begin{enumerate}[leftmargin=*]
+\begin{enumerate}[leftmargin=*, itemsep=0pt, topsep=0pt]
     \item \textit{MalayPrag: A Novel Low-Resource Benchmark.} We introduce a rigorously verified dataset for Colloquial Malay pragmatics, addressing the critical lack of Southeast Asian representation in LLM evaluation.
-    \item \textit{A Theory-Grounded, generalisable framework of five attributes for understanding discourse particle} We propose five attributes as a unified framework that can be generalised for LLMs to learn pragmatic functions of discourse particles in Southeast Asian languages. Note that \textit{kan} and \textit{ke} are also used in Indonesian. The attribute-based design also reduces annotator bias and standardizes subjective pragmatic interpretation for computational modeling.
+    \item \textit{A Theory-Grounded, generalisable framework of five attributes for understanding discourse particle.} We propose five attributes as a unified framework that can be generalised for LLMs to learn pragmatic functions of discourse particles in Southeast Asian languages. \textit{To the best of our knowledge, this is the first attribute framework that enables the unified modeling of pragmatic functions in real-world data.} Note that \textit{kan} and \textit{ke} are also used in Indonesian. The attribute-based design also reduces annotator bias and standardizes subjective pragmatic interpretation for computational modeling.
     \item \textit{A fine-grained and comprehensive understanding of LLMs' capability of handling discourse particles.} We provide a detailed comparison of how general-purpose and Southeast Asia-focused LLMs perform on Malay discourse particles. This allows us to identify not only whether models fail, but where they fail. Our results show that LLMs' pragmatic competence in low-resource Southeast Asian languages is uneven, attribute-sensitive, and can be improved by explicit pragmatic scaffolding.
 \end{enumerate}
 
@@ -229,6 +232,49 @@ We used regular expressions to flag Indonesian phrasing, foreign-language interf
 A total of 1{,}137 data was labeled by native Malay-speaking linguists trained in pragmatic analysis. The final dataset was bifurcated into a GOLD and SILVER split for different modelling needs. The GOLD dataset ($N=187$) consists of utterances independently annotated by three annotators, with disagreements resolved via majority voting or lead-author adjudication. This set was used as the ground-truth for LLM evaluation. The SILVER dataset ($N=950$) comprises utterances labeled only by a single trained annotator, and it was used for the extraction of pragmatic functions. Figure \ref{fig:dataset-distribution} illustrates the data split.
 
 %It provides the necessary statistical weight for K-Means intent induction clustering, actively leveraging the algorithm's inherent noise tolerance.
+\begin{comment}
+\begin{table*}[t]
+\centering
+\footnotesize
+%\small
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{6pt}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} p{0.30\textwidth} p{0.70\textwidth}}
+\toprule
+\textbf{Category} & \textbf{Task Description} \\
+\midrule
+
+\multirow{3}{*}{\textbf{Task 1} Attribute/Function Prediction}
+& (1a) Attribute prediction \\
+
+& (1b) Pragmatic function prediction \textbf{without} attribute provision \\
+
+& (1c) Pragmatic function prediction \textbf{with} attribute provision \\
+\midrule
+
+\multirow{4}{*}{\textbf{Task 2} Discourse Particle Predication}
+& (2a) Particle predication from raw data \\
+
+& (2b) Particle predication with attributes provided \\
+
+& (2c) Particle predication with pragmatic functions provided \\
+
+& (2d) Particle predication with both attributes and pragmatic functions provided \\
+\midrule
+
+\multirow{2}{*}{\textbf{Ablation Experiment}}
+& (3a) Pragmatic function prediction via CoT \\
+
+& (3b) Particle predication with pragmatic functions and CoT provided \\
+\bottomrule
+\end{tabular*}
+\label{tab:evaluation_tasks}
+\caption{Evaluation tasks}
+\end{table*}
+\end{comment}
+
+
 
 \subsection{Attribute annotation}
 Most existing discourse annotation schemes are tailored to English and high-resource languages, making direct porting ineffective for low-resource languages \citep{vargas2025discourse}. Furthermore, applying generic categories without explicit, well-documented definitions leads to subjective bias and high annotator disagreement \citep{crible2015unified}. Therefore, we develop our annotation schemes based on existing linguistic research of Southeast Asian discourse particles and commonly agreed empirical findings across languages. Details can be found in Appendix \ref{app:codebook}
@@ -239,66 +285,70 @@ Most existing discourse annotation schemes are tailored to English and high-reso
 To be specific, within \textit{Epistemic Stance}, there are three options: Certain, Uncertain, and Neutral. A \textit{Certain} classification denotes that the speaker holds full epistemic authority, presenting the proposition as factual or unquestionable, whereas \textit{Uncertain} reflects speculation, doubt, or an active hypothesis. For \textit{Listener Agreement}, \textit{Assumed Agreement} dictates that the proposition is framed as pre-existing common ground; the speaker expects the listener to simply align or concede, treating the utterance as a rhetorical check rather than a genuine inquiry. Conversely, \textit{Confirmation Seeking} indicates a genuine request for verification where the speaker actively leaves room for the listener to contest, correct, or reject the premise. In contrast, structurally objective variables such as \textit{Particle Position} (\textit{Front, Middle/End, N/A}) and \textit{Question Type} were strictly defined by their syntactic markers and require minimal interpretation.
 
 
-
-
-
 \subsection{Extracting pragmatic functions from attribute clustering}
 As emphasized above, we do not directly annotate pragmatic functions for LLMs to interpret, which has been evidenced to be ineffective in previous studies \citep{defelice2013classification}. Instead, we used the five attributes annotated to obtain pragmatic functions. Specifically, we cluster the annotated attributes using K-means on both GOLD ($N=187$) and SILVER ($N=950$) datasets (total $N=1{,}137$). The reason for both datasets to be involved in this process is to take into account both collective understanding of the discourse particles -- that are represented by the agreements in GOLD dataset -- and individual variations represented by the SILVER dataset. 
+
 
 %To uncover the latent, context-dependent macro-functions of the target discourse particles without imposing top-down English-centric biases, 
 %we employed an unsupervised intent induction pipeline. K-Means clustering was applied to the combined GOLD ($N=187$) and SILVER ($N=950$) datasets (total $N=1{,}137$) to maximize the statistical density of the vector space while leveraging the algorithm's natural noise tolerance. Utterances were vectorized using the [CS TEAM: INSERT EXACT EMBEDDING MODEL HERE, e.g., \texttt{paraphrase-multilingual-mpnet-base-v2}] embedding model to capture deep semantic and syntactic relationships.
 
 Spatially close clusters of the attributes are expected to represent the same or similar pragmatic functions of a discourse particle, while distanced clusters represent distinctive pragmatic functions. We should emphasise that the clustering results do not reveal the pragmatic functions automatically. Rather, following the K=16 clustering, human linguists conducted a qualitative review of the utterances within the 16 clusters to inductively assign discrete, overarching ``pragmatic function'' labels, thereby establishing a data-driven taxonomy for the subsequent evaluations of LLMs.
 
+
+
  To illustrate the correlations between pragmatic functions and clustering of five attributes, for example, the pragmatic function ''Information-seeking verification'' is often represented by the cluster that contains an uncertain epistemic stance, a confirmation-seeking listener agreement, neutral emotion, and an interrogative structure. This specific constellation of attributes indicates that the discourse particle (predominantly \textit{ke}) is functioning as a genuine request for clarification where the speaker actively leaves room for disagreement. Conversely, the ''Negative rhetorical challenge'' function emerges from a sharply contrasting attribute pattern: a certain epistemic stance, assumed listener agreement, a rhetorical question structure, and strong negative affect. In this context, the underlying attributes dictate that the particle functions not as an inquiry, but as a discourse device to criticize, mock, or forcefully evaluate a proposition. Appendix \ref{app:particle-functions} presents representative examples of these derived pragmatic functions.
 
 %The algorithm was explicitly constrained to an initial hyperparameter limit of $K=16$ distinct clusters. 
 %By mathematically grouping the utterances based on spatial proximity in the embedding space, the algorithm surfaced underlying structural patterns of particle usage. 
 
-\begin{table}[ht]
+
+\begin{table}[t]
 \centering
-\caption{Experiment tasks}
-\begin{tabular}{|p{3cm}|p{5cm}|}
-\hline
-\textbf{Task} & \textbf{Description} \\ \hline
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{2pt}
 
-\multirow{3}{*}{Task 1. Discourse Particle Interpretation}
-& (1a) Attribute prediction \\ \cline{2-2}
+\begin{tabular}{llcc}
+\toprule
+\textbf{Prediction} & \textbf{Input} & \textbf{Prompting} & \textbf{+ CoT} \\
+\midrule
 
-& (1b) Pragmatic function prediction without the provision of attributes \\ \cline{2-2}
+\shortstack[l]{\textbf{T1} Attribute}
+  & Raw data                    & \checkmark & \\
+\midrule
 
-& (1c) Pragmatic function prediction with the provision of attributes \\ \hline
+\multirow{2}{*}{\shortstack[l]{\textbf{T2} Pragmatic\\Function}}
+  & Raw data          & \checkmark & \checkmark \\
+  &  + Attributes             & \checkmark & \\
+\midrule
 
-\multirow{4}{*}{Task 2. Discourse Particle Generation}
-& (2a) Generation from raw data \\ \cline{2-2}
-
-& (2b) Generation with attributes provided \\ \cline{2-2}
-
-& (2c) Generation with pragmatic functions provided \\ \cline{2-2}
-
-& (2d) Generation with both attributes and pragmatic functions provided \\ \hline
-
-\multirow{2}{*}{Ablation experiment}
-& (3a) Pragmatic function prediction via CoT \\ \cline{2-2}
-
-& (3b) Generation with pragmatic functions and CoT provided \\ \hline
-
+\multirow{4}{*}{\shortstack[l]{\textbf{T3} Particle}}
+  & Raw data               & \checkmark & \\
+  &  + Attributes             & \checkmark & \\
+  & + Pragmatic functions    & \checkmark & \checkmark \\
+  & + Attr.\ + prag.\ func.  & \checkmark & \\
+\bottomrule
 \end{tabular}
-\label{tab:experiment_tasks}
+
+\caption{Evaluation tasks and conditions.}
+\label{tab:evaluation_tasks}
 \end{table}
 
 
+
 \subsection{Evaluation Tasks}
-To systematically evaluate LLMs' capability to handle the pragmatics of Malay discourse particles, we conduct two evaluation tasks, with an additional ablation experiment. 
+To systematically evaluate LLMs' capability to handle the pragmatics of Malay discourse particles, we conduct three evaluation tasks: attribute prediction, pragmatic function prediction, and discourse particle prediction. Table \ref{tab:evaluation_tasks} outlines each task and their conditions. 
 %The pipeline consists of two distinct task categories designed to isolate latent structural logic from raw context extraction.
 
-\paragraph{Task 1: Discourse Particle Interpretation.} 
+\paragraph{Task 1: Attribute Prediction.} 
 
 %Task 1 allows us to distinguish between two sources of model failure: attribute-level failure and pragmatic function-mapping failure. If a model performs poorly on Test 1a, it suggests difficulty recognizing local pragmatic cues such as epistemic stance or listener agreement. If performance improves substantially in Test 1c, this suggests that the model can use explicit pragmatic information once provided, but struggles to infer it independently from colloquial Malay input. If performance remains poor even with gold attributes, this suggests a deeper failure to map pragmatic features onto discourse-particle functions.
 
 %\textcolor{red}{Please do not use Task 1a to refer to attribute prediction, no reviewers can remember this. Also for other tasks, please use exactly their names like pragmatic function prediction w/o attributes. Keeping in mind that remembering how the pragmatic function can be predicted with or without attributes is already difficult for reviewers, they would be dead if we use encrypted language to refer to tasks.}
 
-This task evaluates whether LLMs can infer both micro-pragmatic attributes and higher-level pragmatic functions of discourse particles. It comprises three subtasks. In \textbf{(1a) Attribute Prediction}, the model predicts the five annotated attributes from an utterance, testing its ability to recognize pragmatic and structural attributes. In \textbf{(1b) Attribute-Unprovided Function Prediction}, the model predicts the overarching pragmatic function from the utterance alone. In \textbf{(1c) Attribute-Provided Function Prediction}, the model predicts the same function given both the utterance and its human-annotated attributes. Comparing (1b) and (1c) allows us to distinguish failures in inferring pragmatic cues from failures in mapping explicit cues to discourse-particle functions.
+This task evaluates whether LLMs can predict the five attributes from raw data. 
+
+\paragraph{Task 2: Pragmatic Function Prediction.} This task comprises three subtasks. In \textbf{(2a) Function prediction from raw data:} The model predicts predicts the overarching pragmatic function from the utterance alone. In \textbf{(2b) Function prediction via CoT:} The model predicts predicts pragmatic function given utterance and Chain-of-Thought (CoT) \citep{wei2022chain}. In \textbf{(2c) Function prediction via attributes:} The model predicts pragmatic functions given an utterance and its human-annotated attributes. Comparing the three subtasks allows us to confirm the effectiveness of attributes in bridging between discourse particles and their pragmatic functions, especially compared to CoT as a strong baseline.
 
 
 % This task assesses LLMs' interpretations of the attributes and pragmatic functions of the discourse particles.
@@ -309,11 +359,12 @@ This task evaluates whether LLMs can infer both micro-pragmatic attributes and h
 % If performance remains poor even with ground-truth attributes, this indicates a deeper limitation in mapping pragmatic features to discourse-particle functions.
 %and  Comparing Test 1b and Test 1c shows the effectiveness of our attributes in predicting pragmatic functions.
 
-\paragraph{Task 2: Discourse Particle Generation.} 
+\paragraph{Task 3: Discourse Particle Prediction.} 
 
-This task evaluates whether LLMs can select the appropriate particle, \textit{kan}, \textit{ke}, or neutral (no particle), for a masked utterance. While Task 1 tests interpretation from particle form to pragmatic meaning, Task 2 tests the reverse mapping from pragmatic context to linguistic form. This is non-trivial because the same propositional content may require different particles depending on whether the speaker assumes agreement, seeks confirmation, or presents a neutral statement.
-
-Task 2 includes four prompting conditions: \textbf{(2a) Unprovided}, using only the masked utterance; \textbf{(2b) Attribute-Provided}, adding human-annotated attributes; \textbf{(2c) Function-Provided}, adding the target pragmatic function; and \textbf{(2d) Attribute-and-Function-Provided}, adding both. Comparing these conditions tests whether explicit pragmatic scaffolding improves particle selection, distinguishing failures to infer pragmatic context from failures to map that context onto Malay particle forms.
+This task evaluates whether LLMs can select the appropriate particle, \textit{kan}, \textit{ke}, or neutral (no particle), for a masked utterance. 
+%While Task 1 tests interpretation from particle form to pragmatic meaning, Task 2 tests the reverse mapping from pragmatic context to linguistic form. This is non-trivial because the same propositional content may require different particles depending on whether the speaker assumes agreement, seeks confirmation, or presents a neutral statement.
+It includes five prompting conditions: \textbf{(3a) Particle prediction from raw data}, using only the masked utterance; \textbf{(3b) Attribute-provided prediction}, adding human-annotated attributes; \textbf{(3c) Function-provided prediction}, adding the target pragmatic function; \textbf{(3d) Particle prediction with attribute + function provided}, adding both; and \textbf{(3e) Particle prediction with CoT + function}, adding pragmatic functions with CoT prompts. Comparing these conditions tests whether explicit pragmatic scaffolding improves particle selection.
+%distinguishing failures to infer pragmatic context from failures to map that context onto Malay particle forms.
 
 % This task requires models to fill the discourse particle that has been masked in an utterance. 
 % This task evaluates whether LLMs can select an appropriate Malay discourse particle to realize a given pragmatic context. While Task 1 tests interpretation, Task 2 tests the reverse mapping from pragmatic meaning to linguistic form. This is important because particles such as kan and ke are not interchangeable surface markers: the same propositional content may require kan, ke, or no particle depending on whether the speaker assumes agreement, seeks verification, or presents a neutral statement. Successful generation therefore indicates that a model can connect pragmatic meaning to particle choice, while failure reveals whether it over-relies on surface interrogative form, defaults to frequent particles, or fails to distinguish confirmation-oriented meanings from interrogative ones.
@@ -322,22 +373,33 @@ Task 2 includes four prompting conditions: \textbf{(2a) Unprovided}, using only 
 % We have four sub-tasks:
 % \textbf{(2a) Unprovided Particle Generation} provides only the raw masked utterance for the models to fill the blank; \textbf{(2b) Attribute-provided Particle Generation} appends target human annotated attributes to the masked utterance; \textbf{(2c) Function-provided Particle Generation} appends a target pragmatic functions to assist LLMs to make the choice; and \textbf{(2d) Attribute \& Function-provided Particle Generation} is a combination of both (2b) and (2c). Comparing provided and unprovided settings allows us to test whether explicit pragmatic information helps models select the appropriate particle. If models improve under constrained prompting, this suggests that they can use explicit pragmatic cues but may not reliably infer them from raw utterance. If they do not improve, this suggests a deeper weakness in mapping pragmatic representations to Malay particle forms.
 
-\paragraph{Task 3: Chain of Thought (CoT) Baselines.} 
-We introduce two Chain-of-Thought (CoT) baselines to test whether model failures stem from insufficient explicit reasoning or from missing pragmatic cues \citep{wei2022chain}. CoT prompts require models to reason step-by-step before producing a final answer, allowing comparison with our attribute-based scaffolding.
-
-\textbf{(3a) CoT Attribute-Unprovided Function Prediction} mirrors \textbf{(1b) Attribute-Unprovided Function Prediction}: models predict the overarching pragmatic function from the raw utterance alone after step-by-step reasoning. We compare this with both \textbf{(1b) Attribute-Unprovided Function Prediction} and \textbf{(1c) Attribute-Provided Function Prediction} to test whether CoT can recover the cues captured by the attribute framework. \textbf{(3b) CoT Function-Provided Particle Generation} mirrors \textbf{(2c) Function-Provided Particle Generation}: models receive the masked utterance and target pragmatic function, then reason before selecting a particle. We compare this with \textbf{(2d) Attribute-and-Function-Provided Particle Generation} to test whether models can map pragmatic function to particle form without explicit attributes.
+%\paragraph{Ablation Experiment: Chain of Thought (CoT) Baselines.} 
+%We introduce Chain-of-Thought (CoT) \citep{wei2022chain} as a strong baseline to compare with our attribute-based approach in terms of effectiveness in predicting pragmatic functions and discourse particles.
+%model failures stem from insufficient explicit reasoning or from missing pragmatic cues \citep{wei2022chain}. CoT prompts require models to reason step-by-step before producing a final answer, allowing comparison with our attribute-based scaffolding.
+%\textbf{(3a) Pragmatic function prediction via CoT} predicts the overarching pragmatic function from the raw utterance alone after step-by-step reasoning. \textbf{(3b) Particle prediction with function + CoT provided} receives the masked utterance and target pragmatic function, then reason before selecting a particle. 
+%We compare this with \textbf{(2d) Attribute-and-Function-Provided Particle Generation} to test whether models can map pragmatic function to particle form without explicit attributes.
+%We compare this with both \textbf{(1b) Attribute-Unprovided Function Prediction} and \textbf{(1c) Attribute-Provided Function Prediction} to test whether CoT can recover the cues captured by the attribute framework. 
 
 % To rigorously validate whether the models' failure in pragmatic deduction stems from a fundamental deficit in cultural perception rather than a mere lack of reasoning effort, we introduce two Chain-of-Thought (CoT) baselines. CoT prompting forces the model to articulate intermediate reasoning steps before arriving at a final output, effectively maximizing its latent logical capacity \citep{wei2022chain}. There are two sub-tasks: 
 % (3a) CoT Attribute-unprovided Function Prediction mirrors (1b) Attribute-unprovided Function Prediction. Models are provided with the raw Colloquial Malay utterance and asked to predict the overarching pragmatic function. Crucially, the foundational attributes are withheld. Instead, the model is explicitly instructed to generate a step-by-step reasoning before outputting its final classification. By comparing this CoT baseline against both (1b) Attribute-unprovided and (1c) Attribute-provided Function Prediction, we isolate the exact nature of the LLM bottleneck: if CoT results in lower accuracy than when given our attribute framework, it supports that explicit structural scaffolding is required to compensate for a lack of internal cultural knowledge. (3b) CoT Function-provided Particle Generation mirrors (2c) Function-provided Particle Generation, serving as an ablation for Task 2. By comparing the results to (2d) Attribute \& Function-provided Particle Generation, we will be able to identify whether models can bridge social intent to syntactic form without being given the attributes.
 
 \section{Experimental Setting and Results}
-This section reports the experimental setting and empirical findings from the above three tasks: discourse particle interpretation, generation, and the CoT baselines. 
+This section reports the experimental settings and empirical findings for the tasks above.
 
-\subsection{Experimental Setting}
+\paragraph{Models.} We evaluate ten off-the-shelf LLMs that span varying parameter scales, training paradigms, and regional specialisation. Eight are general-purpose frontier models accessed via their official APIs: GPT-5 and GPT-5.4-mini (OpenAI), Claude Sonnet 4.6 and Claude Haiku 4.5 (Anthropic), Gemini 3.1 Pro and Gemini 3.1 Flash (Google), and DeepSeek-v4-Pro and DeepSeek-v4-Flash (DeepSeek). To examine whether regional training affects pragmatic competence in Malay, we additionally include two open-weight Southeast Asia-focused models from the SEA-LION family~\citep{ng2025sea,koh2025mitigating}: Llama-SEA-LION-70B and Gemma-SEA-LION-27B. 
 
-\textcolor{red}{GL: Bocheng, please complete this subsection.}
-We tested ten state-of-the-art language models across varying parameter sizes and training paradigms: GPT-5, GPT-5.4-mini, Claude Sonnet 4.6, Claude Haiku 4.5, Gemini 3.1 Pro, Gemini 3.1 Flash, DeepSeek-v4-Pro, DeepSeek-v4-Flash, Llama-SEA-LION-70B, and Gemma-SEA-LION-27B. To maintain strict scientific validity and prevent low inter-rater reliability from introducing label noise into evaluations, all tests were restricted exclusively to the fully adjudicated human GOLD dataset ($N=187$). 
-The used prompting templates are available in Appendix~\ref{app:prompt_templates}.
+\paragraph{Evaluation data.} All tasks are conducted on the benchmark \textsc{MalayPrag} ($N=187$), in which every utterance has been independently annotated by three trained native Malay linguists, with disagreements resolved through majority voting or lead-author adjudication. 
+
+\paragraph{Prompting and inference.} All tasks are run in a zero-shot setting, besides the CoT baselines in ablation experiments. 
+% For Attribute Prediction task, each utterance is prompted twice, once in English and once in Malay, in order to probe the native prompting penalty in low-resource meta-linguistic reasoning. All remaining tasks  use English instructions, since the goal is to test the model's pragmatic interpretation of the Malay utterance rather than its meta-linguistic comprehension. 
+To minimize sampling variance, we set temperature to $0$ (greedy decoding) for all models and constrain outputs to a single label from the closed set specified by each prompt template. The full prompting templates for every task are provided in Appendix~\ref{app:prompt_templates}.
+
+\paragraph{Evaluation metric.} Following prior work on pragmatic benchmarking~\citep{sravanthi2024pub,sheffield2025just}, we report classification accuracy against the benchmark \textsc{MalayPrag}. For attribute prediction Task, accuracy is computed per attribute and then averaged across the five attributes. For pragmatic function prediction tasks, accuracy is computed over the seven pragmatic-function labels; for particle prediction Tasks, accuracy is computed over the three particle choices (\textit{kan}, \textit{ke}, neutral). The corresponding random-chance baselines are approximately $33\%$ or $50\%$ for attribute prediction, $14.3\%$ for pragmatic-function prediction, and $33.3\%$ for particle generation.
+
+% \subsection{Experimental Setting}
+
+% \textcolor{red}{GL: Bocheng, please complete this subsection.}
+% We tested ten state-of-the-art language models across varying parameter sizes and training paradigms: GPT-5, GPT-5.4-mini, Claude Sonnet 4.6, Claude Haiku 4.5, Gemini 3.1 Pro, Gemini 3.1 Flash, DeepSeek-v4-Pro, DeepSeek-v4-Flash, Llama-SEA-LION-70B, and Gemma-SEA-LION-27B. To maintain strict scientific validity and prevent low inter-rater reliability from introducing label noise into evaluations, all tests were restricted exclusively to the fully adjudicated human GOLD dataset ($N=187$). 
 %\subsection{Pragmatic Function Discovery}
 %The unsupervised K-Means intent induction pipeline was initialized with a hyperparameter of $K=16$ distinct mathematical clusters. Following the spatial grouping of utterance embeddings, human linguists fluent in Colloquial Malay conducted a rigorous qualitative review of the sentences within each cluster to determine whether the mathematical boundaries correlated with observable linguistic patterns. Crucially, the qualitative analysis revealed that the algorithm did not cleanly partition the dataset based on overt surface forms; that is, it did not simply isolate all \textit{kan} instances from all \textit{ke} instances. Instead, the clusters formed cross-particle groupings driven by underlying pragmatic intentions and syntactic contexts, as demonstrated by the five attributes. Recognizing distinct pragmatic and semantic overlaps among the initial 16 mathematical partitions, the linguistic team inductively collapsed them into seven overarching qualitative pragmatic functions. Full descriptions of these pragmatic functions are provided in Appendix C.
 
@@ -368,171 +430,303 @@ The used prompting templates are available in Appendix~\ref{app:prompt_templates
         \bottomrule
     \end{tabular}%
     }
-    \caption{(1a) Attribute Prediction accuracy for English (EN) and Malay (MS) prompts.}
+    \caption{Attribute Prediction accuracy for English (EN) and Malay (MS) prompts. Position a}
     \label{tab:task-1a-micro-attribute-en-ms}
 \end{table*}
+
+
+
+
+
+% \begin{table}[t]
+%     \centering
+%     \footnotesize
+%     \setlength{\tabcolsep}{2pt}
+%     \resizebox{\columnwidth}{!}{%
+%     \begin{tabular}{lccc}
+%         \toprule
+%         \textbf{Model} & \textbf{(1b) None} & \textbf{(1c) Attribute} & \textbf{Delta (+/-)} \\
+%         \midrule
+%         GPT-5 & 0.300 & 0.529 & 0.230 \\
+%         GPT-5.4-mini & 0.294 & 0.503 & 0.209 \\
+%         Claude Sonnet 4.6 & 0.257 & 0.524 & 0.267 \\
+%         Claude Haiku 4.5 & 0.283 & 0.524 & 0.241 \\
+%         Gemini 3.1 Pro & 0.305 & 0.519 & 0.214 \\
+%         Gemini 3.1 Flash & 0.337 & 0.524 & 0.187 \\
+%         DeepSeek-v4-Pro & 0.316 & 0.588 & 0.273 \\
+%         DeepSeek-v4-Flash & 0.353 & 0.546 & 0.193 \\
+%         \midrule
+%         Llama-SEA-LION-70B & 0.123 & 0.401 & 0.278 \\
+%         Gemma-SEA-LION-27B & 0.230 & 0.588 & 0.358 \\
+%         \midrule
+%         \textbf{Average} & 0.280 & 0.525 & 0.245 \\
+%         \bottomrule
+%     \end{tabular}%
+%     }
+%     \caption{(1b) Attribute-unprovided and (1c) Attribute-provided Function Prediction accuracy. Delta is calculated as (1c) minus (1b).}
+%     \label{tab:task-1b-1c-macro-function-accuracy}
+% \end{table}
+
+% \begin{table}[t]
+%     \centering
+%     \tiny
+%     \setlength{\tabcolsep}{1.2pt}
+%     \resizebox{\columnwidth}{!}{%
+%     \begin{tabular}{lcccc}
+%         \toprule
+%         \textbf{Model} &
+%         \textbf{(2a) None} &
+%         \textbf{(2b) Attribute} &
+%         \textbf{(2c) Function} &
+%         \shortstack{\textbf{(2d) Attribute} \\ \textbf{\& Function}} \\
+%         \midrule
+%         GPT-5 & 0.513 & 0.690 & 0.674 & 0.690 \\
+%         GPT-5.4-mini & 0.385 & 0.604 & 0.497 & 0.690 \\
+%         Claude Sonnet 4.6 & 0.471 & 0.578 & 0.546 & 0.706 \\
+%         Claude Haiku 4.5 & 0.471 & 0.685 & 0.497 & 0.711 \\
+%         Gemini 3.1 Pro & 0.428 & 0.631 & 0.524 & 0.690 \\
+%         Gemini 3.1 Flash & 0.433 & 0.631 & 0.519 & 0.679 \\
+%         DeepSeek-v4-Pro & 0.476 & 0.685 & 0.562 & 0.754 \\
+%         DeepSeek-v4-Flash & 0.449 & 0.668 & 0.588 & 0.717 \\
+%         \midrule
+%         Llama-SEA-LION-70B & 0.332 & 0.471 & 0.417 & 0.711 \\
+%         Gemma-SEA-LION-27B & 0.337 & 0.503 & 0.487 & 0.562 \\
+%         \midrule
+%         \textbf{Average} & 0.430 & 0.615 & 0.531 & 0.691 \\
+%         \bottomrule
+%     \end{tabular}
+%     }
+%     \caption{The sentence contains a masked slot, and models choose \textit{ke}, \textit{kan}, or \textit{neutral}. The accuracy for (2a) Unprovided, (2b) Attribute-provided, (2c) Function-provided, and (2d) Attribute \& Function-provided prompting conditions.}
+%     \label{tab:task-2-generation-accuracy}
+% \end{table}
 
 \begin{table}[t]
     \centering
     \footnotesize
-    \setlength{\tabcolsep}{2pt}
-    \resizebox{\columnwidth}{!}{%
+    \renewcommand{\arraystretch}{1.15}
+    \setlength{\tabcolsep}{3pt}
     \begin{tabular}{lccc}
         \toprule
-        \textbf{Model} & \textbf{(1b) None} & \textbf{(1c) Attribute} & \textbf{Delta (+/-)} \\
+        \textbf{Model} & \shortstack{\textbf{Direct} \\ \textbf{Prompting}}  & \textbf{+ Attribute} & \textbf{Delta} \\
         \midrule
-        GPT-5 & 0.300 & 0.529 & 0.230 \\
-        GPT-5.4-mini & 0.294 & 0.503 & 0.209 \\
-        Claude Sonnet 4.6 & 0.257 & 0.524 & 0.267 \\
-        Claude Haiku 4.5 & 0.283 & 0.524 & 0.241 \\
-        Gemini 3.1 Pro & 0.305 & 0.519 & 0.214 \\
-        Gemini 3.1 Flash & 0.337 & 0.524 & 0.187 \\
-        DeepSeek-v4-Pro & 0.316 & 0.588 & 0.273 \\
-        DeepSeek-v4-Flash & 0.353 & 0.546 & 0.193 \\
+        GPT-5 & .300 & .529 & .230 \\
+        GPT-5.4-mini & .294 & .503 & .209 \\
+        Claude Sonnet 4.6 & .257 & .524 & .267 \\
+        Claude Haiku 4.5 & .283 & .524 & .241 \\
+        Gemini 3.1 Pro & .305 & .519 & .214 \\
+        Gemini 3.1 Flash & .337 & .524 & .187 \\
+        DeepSeek-v4-Pro & .316 & .588 & .273 \\
+        DeepSeek-v4-Flash & .353 & .546 & .193 \\
         \midrule
-        Llama-SEA-LION-70B & 0.123 & 0.401 & 0.278 \\
-        Gemma-SEA-LION-27B & 0.230 & 0.588 & 0.358 \\
+        Llama-SEA-LION-70B & .123 & .401 & .278 \\
+        Gemma-SEA-LION-27B & .230 & .588 & .358 \\
         \midrule
-        \textbf{Average} & 0.280 & 0.525 & 0.245 \\
+        \textbf{Average} & .280 & .525 & .245 \\
         \bottomrule
-    \end{tabular}%
-    }
-    \caption{(1b) Attribute-unprovided and (1c) Attribute-provided Function Prediction accuracy. Delta is calculated as (1c) minus (1b).}
+    \end{tabular}
+
+    \caption{Pragmatic Function prediction accuracy across models under two conditions: direct prompting (without context) and prompting with attributes. All scores are accuracy; Delta denotes the absolute improvement obtained by incorporating attribute information, computed as Attribute minus Direct Prompting.}
     \label{tab:task-1b-1c-macro-function-accuracy}
 \end{table}
 
 \begin{table}[t]
     \centering
-    \setlength{\tabcolsep}{1.2pt}
-    \resizebox{\columnwidth}{!}{%
+    \footnotesize
+    \renewcommand{\arraystretch}{1.15}
+    \setlength{\tabcolsep}{1pt}
+
     \begin{tabular}{lcccc}
         \toprule
         \textbf{Model} &
-        \textbf{(2a) None} &
-        \textbf{(2b) Attribute} &
-        \textbf{(2c) Function} &
-        \shortstack{\textbf{(2d) Attribute} \\ \textbf{\& Function}} \\
+        \shortstack{\textbf{Direct} \\ \textbf{\& Prompting}} &
+        \textbf{Attr.} &
+        \textbf{Func.} &
+        \shortstack{\textbf{Attr.} \\ \textbf{\& Func.}} \\
         \midrule
-        GPT-5 & 0.513 & 0.690 & 0.674 & 0.690 \\
-        GPT-5.4-mini & 0.385 & 0.604 & 0.497 & 0.690 \\
-        Claude Sonnet 4.6 & 0.471 & 0.578 & 0.546 & 0.706 \\
-        Claude Haiku 4.5 & 0.471 & 0.685 & 0.497 & 0.711 \\
-        Gemini 3.1 Pro & 0.428 & 0.631 & 0.524 & 0.690 \\
-        Gemini 3.1 Flash & 0.433 & 0.631 & 0.519 & 0.679 \\
-        DeepSeek-v4-Pro & 0.476 & 0.685 & 0.562 & 0.754 \\
-        DeepSeek-v4-Flash & 0.449 & 0.668 & 0.588 & 0.717 \\
+        GPT-5 & .513 & .690 & .674 & .690 \\
+        GPT-5.4-mini & .385 & .604 & .497 & .690 \\
+        Claude Sonnet 4.6 & .471 & .578 & .546 & .706 \\
+        Claude Haiku 4.5 & .471 & .685 & .497 & .711 \\
+        Gemini 3.1 Pro & .428 & .631 & .524 & .690 \\
+        Gemini 3.1 Flash & .433 & .631 & .519 & .679 \\
+        DeepSeek-v4-Pro & .476 & .685 & .562 & .754 \\
+        DeepSeek-v4-Flash & .449 & .668 & .588 & .717 \\
         \midrule
-        Llama-SEA-LION-70B & 0.332 & 0.471 & 0.417 & 0.711 \\
-        Gemma-SEA-LION-27B & 0.337 & 0.503 & 0.487 & 0.562 \\
+        Llama-SEA-LION-70B & .332 & .471 & .417 & .711 \\
+        Gemma-SEA-LION-27B & .337 & .503 & .487 & .562 \\
         \midrule
-        \textbf{Average} & 0.430 & 0.615 & 0.531 & 0.691 \\
+        \textbf{Average} & .430 & .615 & .531 & .691 \\
         \bottomrule
     \end{tabular}
-    }
-    \caption{The sentence contains a masked slot, and models choose \textit{ke}, \textit{kan}, or \textit{neutral}. The accuracy for (2a) Unprovided, (2b) Attribute-provided, (2c) Function-provided, and (2d) Attribute \& Function-provided prompting conditions.}
+
+    \caption{Masked-slot particle prediction accuracy (ke, kan, or neutral) under four prompting conditions: direct prompting without context, attribute-only, pragmatic function-only, and combined attribute and pragmatic function context.}
     \label{tab:task-2-generation-accuracy}
 \end{table}
 
 
-
-\subsection{Task 1: Discourse Particle Interpretation}
-\paragraph{(1a) Attribute Prediction.}
+\subsection{Task 1: Attribute Prediction}
 We use zero-shot English and Malay prompts, separately, to test whether the selected models can accurately predict the five attributes annotated, namely, \textit{Epistemic Stance}, \textit{Listener Agreement}, \textit{Emotion}, \textit{Question Type}, and \textit{Particle Position}. To reiterate, these five attributes underlie our identification of pragmatic functions (see Section 3.3). 
-As shown in Table \ref{tab:task-1a-micro-attribute-en-ms}, model performance on English (EN) prompts consistently outpaces performance on native Malay (MS) prompts across all models. The overall average for English prompts was 69.26\%, compared with 65.16\% for Malay prompts. The consistent deficient performance in Malay may be an indication of imbalanced data size and semantic distributions learned from the data. That is, current models may possess Malay vocabulary for processing the task, but the highly technical, meta-linguistic reasoning required to evaluate concepts such as ``epistemic stance'' is overwhelmingly concentrated in English data. 
+
+As shown in Table \ref{tab:task-1a-micro-attribute-en-ms}, \textbf{model performance on English (EN) prompts consistently outpaces performance on native Malay (MS) prompts across all models.} The overall average for English prompts was 69.26\%, compared with 65.16\% for Malay prompts. The consistent deficient performance in Malay may be an indication of imbalanced data size and semantic distributions learned during model training. That is, current models may possess Malay vocabulary for processing the task, but the highly technical, meta-linguistic reasoning required to evaluate concepts such as ``epistemic stance'' is overwhelmingly concentrated in English data. 
 %Consequently, forcing the model to conduct structural and pragmatic analysis in Malay likely bottlenecks its analytical capacity, relying on shallower neural pathways than those accessed via English meta-prompting.
 
 %This native prompting penalty appeared across almost all parameter sizes. 
-Among the discrete attributes, Particle Position achieved the highest accuracy (EN: 84.54\%, MS: 80.78\%), confirming that models can execute relatively objective structural and spatial parsing. Conversely, Listener Agreement yielded the poorest performance across the board (EN: 47.0\%, MS: 50.85\%), frequently operating at or below a random chance. Intriguingly, this finding is consistent with human annotators' perceptions of Listener Agreement: This attribute also elicited the highest degree of disagreement among our human annotators during the annotation process. Thus, we argue that the lower accuracy in models' predication of Listener Agreement reflects an inherent linguistic ambiguity. That is, in spoken Malay, assessing common knowledge and listener-oriented assumptions relies heavily on prosody, intonation, and shared conversational history ~\citep{tay2016discourse,wong2004particles}. In the text-only vacuum of social media, where these multi-modal and multi-turn cues are stripped away, modeling perception regarding the listener becomes more challenging for both human linguists and computational models.
+Among the attributes, Particle Position achieved the highest accuracy (EN: 84.54\%, MS: 80.78\%), confirming that models can execute relatively objective structural and spatial parsing. Conversely, Listener Agreement yielded the poorest performance across the board (EN: 47.0\%, MS: 50.85\%), frequently operating at or below a random chance. Intriguingly, this finding is consistent with human annotators' perceptions of Listener Agreement: This attribute also elicited the highest degree of disagreement among our human annotators during the annotation process. Thus, we argue that \textbf{the lower accuracy in models' predication of \textit{Listener Agreement} reflects an inherent linguistic ambiguity.} That is, in spoken Malay, assessing common knowledge and listener-oriented assumptions relies heavily on prosody, intonation, and shared conversational history ~\citep{tay2016discourse,wong2004particles}. In the text-only vacuum of social media, where these multi-modal and multi-turn cues are stripped away, modeling perception regarding the listener becomes more challenging for both human linguists and computational models.
 
 
-\paragraph{(1b) Attribute-unprovided and (1c) Attribute-provided Function Prediction.}
-As Table \ref{tab:task-1b-1c-macro-function-accuracy} displays, models in (1b) Attribute-unprovided Function Prediction struggle significantly to interpret the overarching qualitative pragmatic function from raw text, averaging only 27.96\% accuracy. This result is only slightly more accurate than random guessing. However, when scaffolded with the annotated attributes in (1c) Attribute-provided Function Prediction, model performance increased sharply: average accuracy rose to 52.46\%, producing an average diagnostic delta of +24.49\%. 
+\subsection{Task 2: Pragmatic Function Prediction}
+For the ease of identifying change in model performance, we first compare pragmatic functions predicted with and without attributes provided. Then, we compare the effectiveness of attributes to that of CoT in function prediction. 
 
-Models' deficient performance in (1b) demonstrates that pragmatics in low-resource languages cannot be reliably learned by LLMs from coarse, high-level labels of pragmatic functions alone. 
+As Table \ref{tab:task-1b-1c-macro-function-accuracy} displays, \textbf{the provision of attributes significantly improves models' accuracy in predicting pragmatic functions.} Models in (2a) (predicting pragmatic functions without attributes) struggle significantly to predict pragmatic functions, averaging only 27.96\% accuracy. This result is only slightly more accurate than random guessing. However, when scaffolded with the annotated attributes in (2c) (with attributes provided), model performance increased sharply: average accuracy rose to 52.46\%, producing an average diagnostic delta of +24.49\%. 
+
+%Models' deficient performance in (1b) demonstrates that pragmatics in low-resource languages cannot be reliably learned by LLMs from coarse, high-level labels of pragmatic functions alone. 
 %Left unassisted, models default to near-random statistical guessing, unable to organically perceive the invisible social cues embedded in Colloquial Malay.
-Our design of the five attributes is indeed highly effective in assisting models to process pragmatic functions, as indicated by the +24.49\% average accuracy spike in (1c).
+%Our design of the five attributes is indeed highly effective in assisting models to process pragmatic functions, as indicated by the +24.49\% average accuracy spike in (1c).
 %suggests that these models do possess the latent logical architecture required to map pragmatic attributes to a pragmatic function. In other words, they are not necessarily failing at reasoning; rather, they are failing at zero-shot cultural retrieval. This delta validates our theoretical framework: when complex, subjective pragmatics are explicitly grounded in structured, decomposed attributes, the LLM reasoning bottleneck is effectively bypassed.
 
-Moreover, we should note that, while global models such as GPT-5 and Claude Sonnet 4.6 saw reliable gains, Gemma-SEA-LION-27B exhibited the most extreme improvement, jumping from 22.99\% in (1b) to 58.82\% in (1c). With the provision of the attributes, Gemma-SEA-LION-27B even outperformed GPT-5 (52.94\%) and recorded the highest pragmatic function prediction score in the benchmark alongside DeepSeek-v4-Pro.
+Similarly, Table \ref{tab:headline-macro-function-ablation} shows that \textbf{the provision of attributes outperforms the incorporation of CoT in pragmatic function prediction.} Applying CoT yields an average accuracy of 32.4\%, which represents only a marginal improvement over the baseline prediction from raw data (27.9\%). The results remains drastically inferior to Attribute-provided Function Prediction performance (52.5\%), with our attribute framework presenting a significant delta of 20.1\%.
 
-\subsection{Task 2: Discourse Particle Generation}
-Task 2 contains four sub-tasks: (2a) Unprovided Particle Generation, the baseline task where LLMs make the choice of \textit{kan}, \textit{ke} or None purely from raw masked data, and two tasks with (2b) Attribute-provided or (2c) Function-provided Particle Generation, and finally a combination of both (2d) Attribute \& Function-provided Particle Generation. 
 
-As shown in Table \ref{tab:task-2-generation-accuracy}, in (2a) Unprovided Generation, models average 43.0\% accuracy, which is the lowest across the three tasks. 
+Interestingly, while global models such as GPT-5 and Claude Sonnet 4.6 saw reliable gains, Gemma-SEA-LION-27B exhibited the most extreme improvement, with delta over 30\%. With the provision of the attributes, Gemma-SEA-LION-27B even outperformed GPT-5 (52.94\%) and recorded the highest pragmatic function prediction score alongside DeepSeek-v4-Pro.
+
+\subsection{Task 3: Discourse Particle Prediction}
+Task 3 contains five sub-tasks. For the ease of comparison, we again divide them into two tables: Table \ref{tab:task-2-generation-accuracy} compares which of attributes or pragmatic functions is more effective in predicting discourse particles, while Table \ref{tab:headline-particle-generation-ablation} compares attributes to CoT.
+
+%(2a) Unprovided Particle Generation, the baseline task where LLMs make the choice of \textit{kan}, \textit{ke} or None purely from raw masked data, and two tasks with (2b) Attribute-provided or (2c) Function-provided Particle Generation, and finally a combination of both (2d) Attribute \& Function-provided Particle Generation. 
+
+As shown in Table \ref{tab:task-2-generation-accuracy}, when perdicting from raw data, models average 43.0\% accuracy, which is the lowest across the three tasks. 
 %When contextual constraints were introduced, performance improved, but the type of constraint affected the rate of success. 
-Providing pragmatic functions (2c) raised average accuracy to 53.1\%. However, providing models with the attributes (2b), instead of pragmatic functions, yielded an even higher accuracy, averaging 61.5\%. Providing both attributes and functions (2d) resulted in the highest average accuracy of 69.1\%. The findings corroborate our argument above that pragmatic functions alone are insufficient for LLMs to interpret discourse particles in low-resource languages. 
+Providing pragmatic functions (3c) raises average accuracy to 53.1\%. However, providing models with the attributes (3b), instead of pragmatic functions, yields an even higher accuracy, averaging 61.5\%. Providing both attributes and functions (2d) results in the highest average accuracy of 69.1\%. The findings corroborate our argument above that pragmatic functions alone are insufficient for LLMs to interpret discourse particles in low-resource languages. 
 
-In Task 2, the DeepSeek-v4-Pro and v4-Flash models were the top performers (75.4\% and 71.7\%, respectively). Overall performance also appeared to correlate positively with model parameter scale, with larger models generally achieving higher accuracy.
+Interestingly, \textbf{CoT becomes more effective in predicting discourse particles than in predicting pragmatic functions in Task 2.} As shown in Table \ref{tab:headline-particle-generation-ablation}, CoT is combined with pragmatic functions and compared to the combination of pragmatic function + attributes. It achieves similar accuracy, although attributes + functions still outperform by a marginal delta. 
 
-Noticeable outliers are the SEA-LION models that are trained specifically for Southeast Asian languages. Recall that Gemma-SEA-LION-27B improved the most in (1c) Attribute-provided Function Prediction. In the four tests in Task 2, however, both Llama and Gemma based SEA-LION models were much less accurate than models. This may be due to the gap in pre- and post-training of the models. As \citet{yu-etal-2026-pragmatic} finds, models' sensitivity to pragmatic cues increases consistently with model and data scale, and post-training further consolidates the gains of pragmatic knowledge. Global models receive more training in both stages than SEA-LION models. 
+This finding aligns with previous studies that find CoT is less effective in pragmatic reasoning tasks, but better at capturing semantic connections \cite{chen-wang-2025-pragmatic}. In other words, CoT performing strongly in predicting discourse particles may be because the discourse particles fall in the semantic distribution of CoT steps. Pragmatic functions, on the other hand, are usually the "unsaid" effects created by utterances, which CoT can hardly reason. In both Tasks 2 and 3, however, our design of attributes appears to be the strongest scaffolding for LLMs to achieve better prediction accuracy.
 
-However, SEA-LION models utilize specialized tokenizers relevant to Southeast Asian languages and are pre-trained on billions of such tokens \citep{ng2025sea,koh2025mitigating}. These efforts seem to have been paid off in the success of the smaller SEA-LION models in leveraging the five attributes and connecting them with pragmatic functions in Malay. In other words, regional LLMs, albeit falling short in model scale and post-training, may be equipped with latent cultural and pragmatic knowledge. By supplying explicit pragmatic scaffolding like our five attributes, the regional datasets can effectively transform raw lexical exposure into actionable, culturally accurate reasoning.
 
-\subsection{Task 3: Chain-of-Thought (CoT) Baselines}
-To isolate whether the models' failure in pragmatic deduction stems from a lack of reasoning effort or a fundamental deficit in cultural perception, we introduced Chain-of-Thought (CoT) prompting as a baseline. In (3a) CoT Function Prediction, applying CoT without providing the underlying sentence attributes yielded an average accuracy of 32.4\%. While this represents a marginal improvement over the (1b) Attribute-unprovided Function Prediction baseline (27.9\%), it remains drastically inferior to the (1c) Attribute-provided Function Prediction performance (52.5\%), with our attribute framework presenting a significant delta of 20.1\%. This stark contrast indicates that unassisted LLMs lack the foundational cultural knowledge required to deduce pragmatic intent. Prompting a model to reason step-by-step cannot overcome an initial failure in perception where the model cannot logically unpack cultural nuances that are absent from its active attention in the first place.
 
-Conversely, (3b) CoT Function-provided Particle Generation reveals a distinct operational paradigm. When models were provided the target pragmatic function and prompted with CoT prior to generating the masked particle, the average accuracy reached 68.9\%. This performance is statistically identical to the highly constrained (2d) Attribute \& Function-provided Particle Generation performance (69.1\%). These results demonstrate that in a generative context (where the target pragmatic function is explicitly defined for the model), CoT effectively connects social intent to syntactic forms. By generating intermediate reasoning tokens, the model successfully translates the overarching function into specific syntactic constraints, rendering the explicit provision of attributes redundant for active deployment.
+%\subsection{Task 3: Chain-of-Thought (CoT) Baselines}
+%To isolate whether the models' failure in pragmatic deduction stems from a lack of reasoning effort or a fundamental deficit in cultural perception, we introduced Chain-of-Thought (CoT) prompting as a baseline. In (3a) CoT Function Prediction, applying CoT without providing the underlying sentence attributes yielded an average accuracy of 32.4\%. While this represents a marginal improvement over the (1b) Attribute-unprovided Function Prediction baseline (27.9\%), it remains drastically inferior to the (1c) Attribute-provided Function Prediction performance (52.5\%), with our attribute framework presenting a significant delta of 20.1\%. This stark contrast indicates that unassisted LLMs lack the foundational cultural knowledge required to deduce pragmatic intent. Prompting a model to reason step-by-step cannot overcome an initial failure in perception where the model cannot logically unpack cultural nuances that are absent from its active attention in the first place.
+
+%Conversely, (3b) CoT Function-provided Particle Generation reveals a distinct operational paradigm. When models were provided the target pragmatic function and prompted with CoT prior to generating the masked particle, the average accuracy reached 68.9\%. This performance is statistically identical to the highly constrained (2d) Attribute \& Function-provided Particle Generation performance (69.1\%). These results demonstrate that in a generative context (where the target pragmatic function is explicitly defined for the model), CoT effectively connects social intent to syntactic forms. By generating intermediate reasoning tokens, the model successfully translates the overarching function into specific syntactic constraints, rendering the explicit provision of attributes redundant for active deployment.
+
+% \begin{table}[t]
+%     \centering
+%     \small
+%     %\setlength{\tabcolsep}{3pt}
+%     \resizebox{\columnwidth}{!}{%
+%     \begin{tabular}{lcccc}
+%         \toprule
+%         \textbf{Model} & \textbf{(1b) None} & \textbf{(3a) CoT} & \textbf{(1c) Attribute} & \textbf{Delta (+/-)} \\
+        
+%         \midrule
+%         GPT-5 & 0.300 & 0.396 & \textbf{0.529} & 0.133 \\
+%         GPT-5.4-mini & 0.294 & 0.316 & \textbf{0.503} & 0.187 \\
+%         Claude Sonnet 4.6 & 0.257 & 0.321 & \textbf{0.524} & 0.203 \\
+%         Claude Haiku 4.5 & 0.283 & 0.348 & \textbf{0.524} & 0.176 \\
+%         Gemini 3.1 Pro & 0.305 & 0.348 & \textbf{0.519} & 0.171 \\
+%         Gemini 3.1 Flash & 0.337 & 0.342 & \textbf{0.524} & 0.182 \\
+%         DeepSeek-v4-Pro & 0.316 & 0.326 & \textbf{0.588} & 0.262 \\
+%         DeepSeek-v4-Flash & 0.353 & 0.364 & \textbf{0.546} & 0.182 \\     
+%         \midrule
+%         Llama-SEA-LION-70B & 0.230 & 0.219 & \textbf{0.401} & 0.182 \\
+%         Gemma-SEA-LION-27B & 0.230 & 0.262 & \textbf{0.588} & 0.326\\
+%         \midrule
+%         \textbf{Average} & 0.280 & 0.324 & \textbf{0.525} & 0.201 \\
+%         \bottomrule
+%     \end{tabular}%
+%     }
+%     \caption{Models classify each sentence into one of seven Pragmatic Functions. (1c) Attribute-provided outperforms (3a) Chain of Thought for every model. Delta is calculated as (1c) minus (3a).}
+%     \label{tab:headline-macro-function-ablation}
+% \end{table}
 
 \begin{table}[t]
     \centering
-    \small
-    %\setlength{\tabcolsep}{3pt}
+    % \small
     \resizebox{\columnwidth}{!}{%
     \begin{tabular}{lcccc}
         \toprule
-        \textbf{Model} & \textbf{(1b) None} & \textbf{(3a) CoT} & \textbf{(1c) Attribute} & \textbf{Delta (+/-)} \\
-        
+        \textbf{Model} & \shortstack{\textbf{Direct} \\ \textbf{Prompting}}  & \textbf{CoT} & \textbf{Attr.} & \shortstack{\textbf{Delta} \\ \textbf{(+/-)}}  \\
         \midrule
-        GPT-5 & 0.300 & 0.396 & \textbf{0.529} & 0.133 \\
-        GPT-5.4-mini & 0.294 & 0.316 & \textbf{0.503} & 0.187 \\
-        Claude Sonnet 4.6 & 0.257 & 0.321 & \textbf{0.524} & 0.203 \\
-        Claude Haiku 4.5 & 0.283 & 0.348 & \textbf{0.524} & 0.176 \\
-        Gemini 3.1 Pro & 0.305 & 0.348 & \textbf{0.519} & 0.171 \\
-        Gemini 3.1 Flash & 0.337 & 0.342 & \textbf{0.524} & 0.182 \\
-        DeepSeek-v4-Pro & 0.316 & 0.326 & \textbf{0.588} & 0.262 \\
-        DeepSeek-v4-Flash & 0.353 & 0.364 & \textbf{0.546} & 0.182 \\     
+        GPT-5 & .300 & .396 & \textbf{.529} & .133 \\
+        GPT-5.4-mini & .294 & .316 & \textbf{.503} & .187 \\
+        Claude Sonnet 4.6 & .257 & .321 & \textbf{.524} & .267 \\
+        Claude Haiku 4.5 & .283 & .348 & \textbf{.524} & .241 \\
+        Gemini 3.1 Pro & .305 & .348 & \textbf{.519} & .214 \\
+        Gemini 3.1 Flash & .337 & .342 & \textbf{.524} & .187 \\
+        DeepSeek-v4-Pro & .316 & .326 & \textbf{.588} & .272 \\
+        DeepSeek-v4-Flash & .353 & .364 & \textbf{.546} & .193 \\
         \midrule
-        Llama-SEA-LION-70B & 0.230 & 0.219 & \textbf{0.401} & 0.182 \\
-        Gemma-SEA-LION-27B & 0.230 & 0.262 & \textbf{0.588} & 0.326\\
+        Llama-SEA-LION-70B & .230 & .219 & \textbf{.401} & .182 \\
+        Gemma-SEA-LION-27B & .230 & .262 & \textbf{.588} & .358 \\
         \midrule
-        \textbf{Average} & 0.280 & 0.324 & \textbf{0.525} & 0.201 \\
+        \textbf{Average} & .280 & .324 & \textbf{.525} & .201 \\
         \bottomrule
     \end{tabular}%
     }
-    \caption{Models classify each sentence into one of seven Pragmatic Functions. (1c) Attribute-provided outperforms (3a) Chain of Thought for every model. Delta is calculated as (1c) minus (3a).}
+
+    \caption{Pragmatic function classification accuracy across models under three prompting conditions: no auxiliary information (Direct Prompting), chain-of-thought prompting (CoT), and attribute-enhanced input (Attr.). Each model assigns one of seven pragmatic function labels to a sentence. Delta is computed as Attribute minus CoT.}
     \label{tab:headline-macro-function-ablation}
 \end{table}
+
+% \begin{table}[t]
+%     \centering
+%     \small
+%     %\setlength{\tabcolsep}{2pt}
+%     \resizebox{\columnwidth}{!}{%
+%     \begin{tabular}{lccc}
+%         \toprule
+%         \textbf{Model} & \shortstack{\textbf{(3b) CoT} \\ \textbf{Function}}  & \shortstack{\textbf{(2d) Attribute} \\ \textbf{\& Function}} & \textbf{Delta (+/-)} \\
+%         \midrule
+%         GPT-5 & 0.679 & \textbf{0.690} & 0.011 \\
+%         GPT-5.4-mini & 0.679 & \textbf{0.690} & 0.011 \\
+%         Claude Sonnet 4.6 & \textbf{0.743} & 0.706 & -0.037 \\
+%         Claude Haiku 4.5 & 0.679 & \textbf{0.711} & 0.032 \\
+%         Gemini 3.1 Pro & 0.674 & \textbf{0.690} & 0.016 \\
+%         Gemini 3.1 Flash & 0.674 & \textbf{0.679} & 0.005 \\
+%         DeepSeek-v4-Pro & 0.738 & \textbf{0.754} & 0.016 \\
+%         DeepSeek-v4-Flash & 0.706 & \textbf{0.717} & 0.011 \\ 
+%         \midrule
+%         Llama-SEA-LION-70B & 0.658 & \textbf{0.711} & 0.053 \\
+%         Gemma-SEA-LION-27B & \textbf{0.658} & 0.562 & -0.096 \\
+%         \midrule
+%         Average & 0.689 & \textbf{0.691} & 0.002 \\
+        
+%         \bottomrule
+%     \end{tabular}%
+%     }
+%     \caption{The sentence contains a masked slot, and models choose \textit{ke}, \textit{kan}, or \textit{neutral}. (2d) Attribute \& Function-provided resulted in better performance for eight of ten models. Delta is calculated as (2d) minus (3b).}
+%     \label{tab:headline-particle-generation-ablation}
+% \end{table}
+
 
 \begin{table}[t]
     \centering
     \small
-    %\setlength{\tabcolsep}{2pt}
     \resizebox{\columnwidth}{!}{%
     \begin{tabular}{lccc}
         \toprule
-        \textbf{Model} & \shortstack{\textbf{(3b) CoT} \\ \textbf{Function}}  & \shortstack{\textbf{(2d) Attribute} \\ \textbf{\& Function}} & \textbf{Delta (+/-)} \\
+        \textbf{Model} & \shortstack{\textbf{  CoT} \\ \textbf{\& Function}}  & \shortstack{\textbf{ Attribute} \\ \textbf{\& Function}} & \shortstack{\textbf{Delta} \\ \textbf{(+/-)}} \\
         \midrule
-        GPT-5 & 0.679 & \textbf{0.690} & 0.011 \\
-        GPT-5.4-mini & 0.679 & \textbf{0.690} & 0.011 \\
-        Claude Sonnet 4.6 & \textbf{0.743} & 0.706 & -0.037 \\
-        Claude Haiku 4.5 & 0.679 & \textbf{0.711} & 0.032 \\
-        Gemini 3.1 Pro & 0.674 & \textbf{0.690} & 0.016 \\
-        Gemini 3.1 Flash & 0.674 & \textbf{0.679} & 0.005 \\
-        DeepSeek-v4-Pro & 0.738 & \textbf{0.754} & 0.016 \\
-        DeepSeek-v4-Flash & 0.706 & \textbf{0.717} & 0.011 \\ 
+        GPT-5 & .679 & \textbf{.690} & .011 \\
+        GPT-5.4-mini & .679 & \textbf{.690} & .011 \\
+        Claude Sonnet 4.6 & \textbf{.743} & .706 & -.037 \\
+        Claude Haiku 4.5 & .679 & \textbf{.711} & .032 \\
+        Gemini 3.1 Pro & .674 & \textbf{.690} & .016 \\
+        Gemini 3.1 Flash & .674 & \textbf{.679} & .005 \\
+        DeepSeek-v4-Pro & .738 & \textbf{.754} & .016 \\
+        DeepSeek-v4-Flash & .706 & \textbf{.717} & .011 \\
         \midrule
-        Llama-SEA-LION-70B & 0.658 & \textbf{0.711} & 0.053 \\
-        Gemma-SEA-LION-27B & \textbf{0.658} & 0.562 & -0.096 \\
+        Llama-SEA-LION-70B & .658 & \textbf{.711} & .053 \\
+        Gemma-SEA-LION-27B & \textbf{.658} & .562 & -.096 \\
         \midrule
-        Average & 0.689 & \textbf{0.691} & 0.002 \\
-        
+        \textbf{Average} & .689 & \textbf{.691} & .002 \\
         \bottomrule
     \end{tabular}%
     }
-    \caption{The sentence contains a masked slot, and models choose \textit{ke}, \textit{kan}, or \textit{neutral}. (2d) Attribute \& Function-provided resulted in better performance for eight of ten models. Delta is calculated as (2d) minus (3b).}
+
+    \caption{Masked-slot particle prediction accuracy under two conditions: chain-of-thought with pragmatic function context (CoT \& Function) and joint attribute plus pragmatic function context (Attribute \& Function). Models predict ke, kan, or neutral. Delta is computed as Attribute \& Function minus CoT Function.}
     \label{tab:headline-particle-generation-ablation}
 \end{table}
-
 %possessing less intensive reasoning-focused instruction tuning, suffers from ``attention hijacking'' in generative tasks, where local Malay syntactic probabilities overpower the prompt's abstract constraints.
 
 \section{Discussion}
@@ -552,23 +746,34 @@ Conversely, (3b) CoT Function-provided Particle Generation reveals a distinct op
 
 %Conversely, Gemma-SEA-LION-27B achieved state-of-the-art performance when scaffolded in Test 1c (58.82\%). Because Test 1c is a discriminative task that removes the burden of zero-shot deduction, the model successfully leveraged its deep regional pre-training. Its extensive Southeast Asian multilingual exposure provided superior cultural and pragmatic transfer knowledge, allowing it to pattern-match the attributes to the correct Malay pragmatic function more accurately than global models such as GPT-5, which struggle with cross-cultural mapping despite their superior RLHF. These findings suggest that highly structured, theoretically grounded datasets are essential for aligning regional LLMs. By supplying the explicit pragmatic scaffolding that these models lack from instruction tuning, targeted datasets can effectively transform raw lexical exposure into actionable, culturally accurate reasoning.
 
-\paragraph{The Superiority of Attribute-Based Constraints.}
-The results of Task 2 further validate the necessity of flattened taxonomies. Models were significantly better at generating the correct particle when guided by discrete attributes (Test 2a: 61.46\%) than when guided by overarching pragmatic functions (Test 2b: 53.10\%). This suggests that broad pragmatic function labels remain too ambiguous for LLMs to reliably execute in low-resource generation. Breaking down social intent into constituent parts provides a more robust, mathematically distinct structure for models to follow.
+\paragraph{The Superiority of Attribute-Based Understanding of Discourse Particles.}
+Across different prediction tasks, attributes have consistently been effective in improving model performance on discourse particles. The findings corroborated previous linguistic insights into how they underlie the great variety of pragmatic functions \cite{wouk1998solidarity, stalnaker2002common, karkkainen2003epistemic, caffi1994pragmatics}. Considering that LLMs struggle to learn pragmatic functions directly from language data and the function annotations, the current five attributes as a framework have the potential to become the common "bridge" that connects LLMs' generation of discourse particles to recognition of their pragmatic functions, especially in low-resource, Southeast Asian languages. 
+%The results of Task 2 further validate the necessity of flattened taxonomies. Models were significantly better at generating the correct particle when guided by discrete attributes (Test 2a: 61.46\%) than when guided by overarching pragmatic functions (Test 2b: 53.10\%). This suggests that broad pragmatic function labels remain too ambiguous for LLMs to reliably execute in low-resource generation. Breaking down social intent into constituent parts provides a more robust, mathematically distinct structure for models to follow.
+
+\paragraph{Regional LLMs' paradox}
+Compared to other general-purpose LLMs, the SEA-LION models, which are trained specifically for Southeast Asian languages, are rather inconsistent in performance. Recall that Gemma-SEA-LION-27B improved the most in (2c) pragmatic function prediction with attributes provided. In Task 3, both Llama- and Gemma-based SEA-LION models are much less accurate than other models. We argue that the gap may lie in the pre- and post-training of the SEA-LION models. As \citet{yu-etal-2026-pragmatic} finds, models' sensitivity to pragmatic cues increases consistently with model and data scale, and post-training further consolidates the gains of pragmatic knowledge. Global models receive more training in both stages than SEA-LION models. 
+
+However, SEA-LION models utilize specialized tokenizers relevant to Southeast Asian languages and are pre-trained on billions of such tokens \citep{ng2025sea,koh2025mitigating}. These efforts seem to have paid off in the success of the smaller SEA-LION models in leveraging the five attributes and connecting them with pragmatic functions in Malay. In other words, regional LLMs, albeit falling short in model scale and post-training, may be equipped with latent cultural and pragmatic knowledge. By supplying explicit pragmatic scaffolding like our five attributes, the regional datasets can effectively transform raw lexical exposure into actionable, culturally accurate reasoning.
 
 \paragraph{Comparing with other Evaluations.}
-When comparing our findings to existing pragmatic evaluations conducted in English, a stark disparity emerges regarding the impact of model scale. Recent studies have demonstrated that models evaluated on English pragmatic tasks can achieve moderate to high baseline accuracies even with relatively small parameter counts in the single-digit billions \citep{sheffield2025just,ruis2023large}. In contrast, our evaluation utilized state-of-the-art frontier models with massive parameter scales, ranging from tens to hundreds of billions, yet these systems still exhibited severe performance degradation when tasked with unassisted pragmatic deduction in Colloquial Malay. This contrast empirically demonstrates that the current paradigm of simply scaling up parameters is insufficient to bridge the pragmatic competence gap in low-resource languages. While massive scale improves generalized structural reasoning, it cannot overcome the fundamental absence of deep, culturally grounded training data.
+When comparing our findings to existing pragmatic evaluations conducted in English, a stark disparity emerges regarding the impact of model scale. Recent studies have demonstrated that even smaller LLMs can achieve moderate to high baseline accuracy in English discourse particle prediction tasks \citep{sheffield2025just,ruis2023large}. In contrast, the state-of-the-art frontier models used in the current study still exhibited severe performance degradation in Colloquial Malay. The findings further emphasise the need for theoretically sound and computationally efficient methods, like our attribute design, to overcome the imbalance in the accessibility of language data.
+%This contrast empirically demonstrates that the current paradigm of simply scaling up parameters is insufficient to bridge the pragmatic competence gap in low-resource languages. While massive scale improves generalized structural reasoning, it cannot overcome the fundamental absence of deep, culturally grounded training data.
 
 \section{Conclusion and Future Work}
 %\textcolor{red}{this section is too long, we can just state the main conclusion.}
 %Current evaluations of LLM pragmatic competence suffer from a severe high-resource bias, falsely equating English semantic proficiency with universal contextual understanding. 
-In this paper, we introduced a rigorously verified Colloquial Malay benchmark that functions not merely as a dataset, but as a diagnostic probe. Our findings demonstrate that while state-of-the-art models possess the latent logical architecture to map pragmatic variables to social functions, they comprehensively fail to retrieve this cultural context zero-shot from low-resource syntax. Furthermore, we show that providing structured, attribute-level grounding drastically improves model performance, outperforming both unassisted parsing and function-level constraints. 
+In this paper, we introduced a new Colloquial Malay dataset, with five attributes designed as its evaluation metrics and for predicting discourse particles. %rigorously verified Colloquial Malay benchmark that functions not merely as a dataset, but as a diagnostic probe. 
+Our findings demonstrate that, without the attributes, even the state-of-the-art models fall seriously short in accurately predicting pragmatic functions of discourse particles. Providing the structured, attribute-level grounding drastically improves model performance, outperforming both zero-shot baselines and CoT as well as other conditions. 
+%while state-of-the-art models possess the latent logical architecture to map pragmatic variables to social functions, they comprehensively fail to retrieve this cultural context zero-shot from low-resource syntax. Furthermore, we show that providing structured, attribute-level grounding drastically improves model performance, outperforming both unassisted parsing and function-level constraints. 
 %Ultimately, this research highlights a critical architectural gap in current models: lexical exposure to a language does not guarantee pragmatic competence, necessitating culturally aware, attribute-provided evaluation frameworks to truly measure LLM social reasoning.
 
-Furthermore, this benchmark restricts its scope to \textit{kan} and \textit{ke}. Colloquial Malay, and the Southeast Asian linguistic landscape as a whole, is rich with highly polysemous particles such as \textit{kot} and \textit{eh} that remain unexplored in current LLM literature. Future work can expand this diagnostic framework to encompass a wider array of particles and investigate multi-turn conversational contexts. Finally, evaluating models strictly on text limits the analysis of discourse particles, which are heavily prosodic. Future multi-modal LLM benchmarks incorporating audio data will be critical to fully evaluating the pragmatic competence of these cultural markers.
+Although our work only showcased the design on \textit{kan} and \textit{ke} in Colloquial Malay, the Southeast Asian linguistic landscape as a whole is rich with highly polysemous particles. We encourage future work to make further expansion to encompass a wider array of particles and investigate multi-turn conversational contexts, using the attribute-based framework. 
+%Finally, evaluating models strictly on text limits the analysis of discourse particles, which are heavily prosodic. Future multi-modal LLM benchmarks incorporating audio data will be critical to fully evaluating the pragmatic competence of these cultural markers.
 
 \section*{Limitations}
-The main limitations of this study concern textual ambiguity, particle polysemy, and the absence of prosodic cues in social media data. These issues are discussed above and should be considered when interpreting the benchmark results.
-A primary limitation of this study is the inherent contextual confusion caused by polysemy in Colloquial Malay. The particle \textit{kan} is identical in form to a common verbal suffix, and \textit{ke} shares its form with a standard preposition and the same function as the English ``or''. Although this was filtered rigorously in our dataset, this morphological overlap continues to confuse models' attention mechanisms, as the models must constantly adjudicate between completely different grammatical functions for the same token. This underlying statistical confusion makes it exceptionally difficult for models to isolate pure pragmatic intent, a factor that inevitably affects the outcomes and upper-bound accuracy of these evaluations.
+This study concerns primarily textual data, with the absence of prosodic cues, which may play an important role in annotating the attributes. As much as discourse particles are frequently used in colloquial language, incorporating prosodic features may further enhance the consistency of attribute annotations and, more importantly, enable tests on multimodal LLMs. At the moment, the current study relied on prompting to evaluate LLMs' capability to interpret discourse particles. Whether other methods, such as fine-tuning, may further facilitate LLMs' acquisition of pragmatic functions over attributes and enhance their human-like discourse particle usage is yet to be explored. 
+%These issues are discussed above and should be considered when interpreting the benchmark results.
+%A primary limitation of this study is the inherent contextual confusion caused by polysemy in Colloquial Malay. The particle \textit{kan} is identical in form to a common verbal suffix, and \textit{ke} shares its form with a standard preposition and the same function as the English ``or''. Although this was filtered rigorously in our dataset, this morphological overlap continues to confuse models' attention mechanisms, as the models must constantly adjudicate between completely different grammatical functions for the same token. This underlying statistical confusion makes it exceptionally difficult for models to isolate pure pragmatic intent, a factor that inevitably affects the outcomes and upper-bound accuracy of these evaluations.
 
 
 
